@@ -493,3 +493,105 @@ textbook-discounts:
                        						<li>Follow <a href=\"http://www.elsevier.ca/Medicine\">this link</a> to search Elsevier's medical titles.</li>
                        						<li> Use the promotional code <strong><em>CFM</em></strong> for the 10% discount. PLEASE NOTE: The discount will not be applied until checking out through the third party distributor.</li>
                        					</ul>"
+#
+#End English Textbook Discounts
+#
+#
+#Begin French Textbook Discounts
+#
+- lang: "fr"
+  discount-title: "Wolters Kluwer/Lippincott Resources"
+  discount-sub-title: "Receive a 30% Discount on Wolters Kluwer/Lippincott Resources"
+  discount-img: "wolters-kluwer.png"
+  discount-need-reverification: ""
+  discount-description: "<p>Members of CFMS save 30% and receive FREE shipping on the full selection of resources from Wolters Kluwer/Lippincott. Choose from a variety of textbooks, review manuals loaded with Q&amp;A, flash cards, and more.</p>
+                         			<blockquote>
+                         				<h3><strong>Featuring:</strong></h3>
+                         				<div>
+                         					<ul>
+                         						<li><a href=\"http://www.lww.com/Product/9781451186888\">Essentials for the Canadian Medical Licensing Exam, 2nd. Ed</a></li>
+                         						<li>Prepare for success on the MCCQE Part I!  This concise resource provides an efficient and effective review of exactly what you need to know to perform at your best on the exam.</li>
+                         						<li>Written by students, residents, and faculty, it contains only the essential information required to meet the Medical Council of Canada’s Objectives for the Qualifying Examination, saving you valuable time and helping you focus your study.</li>
+                         						<li>Each chapter covers common clinical presentations, including detailed differential diagnoses, relevant physical examination characteristics and diagnostic tests, treatment and patient consultation techniques, and epidemiological information, as well as fundamental scientific principles.</li>
+                         					</ul>
+                         				</div>
+                         			</blockquote>
+                         			<p>Be sure to login to the member's section to see the discount code below. Visit <a href=\"http://www.lww.com\">www.lww.com</a>, select ANY product and use the discount code to save 30%!</p>"
+  discount-promotion: "<ul>
+                       						<li>Visit <a href=\"http://www.lww.com\">www.lww.com</a>, select ANY product and use the discount code: <strong>WZP22CFT</strong> to save 30%! Valid until Feb 28, 2017.</li>
+                       					</ul>"                      			
+- lang: "fr"
+  discount-title: "Toronto Notes"
+  discount-sub-title: "CFMS members can now purchase <i>Toronto Notes at a special discounted price!</i> CFMS and Toronto Notes are excited to offer members 10% off their purchase of the
+                       				<a href=\"http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html\">Toronto Notes eBook</a>, a regular price of $129.95."
+  discount-img: "toronto-notes-2016-cover.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p>For 32 years Toronto Notes has been the premiere Canadian reference resource for clerkship rotations and MCCQE preparation. Along with the flagship medical reference book, Toronto Notes produces a concise 'Clinical Handbook' for on-the-ward reference, and a suite of online resources including 
+                         				'ECG made simple', 'The Medical Imaging Atlas', and 'Functional Neuroanatomy.'</p>"
+  discount-promotion: "<p>To receive this exclusive 10% discount on the Toronto Notes eBook:</p>
+                       					<ol>
+                       						<li>Please Visit: <a href=\"http://torontonotes.uoftbookstore.com/Toronto-Notes-2016.html\">http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html</a></li>
+                       						<li>Add the 'eBook (PDF format)' to your cart ($129.95)</li>
+                       						<li>Use the discount code TN-2140-CFMS during checkout </li>
+                       					</ol>"     
+- lang: "fr"
+  discount-title: "Pharmacology You See"
+  discount-sub-title: "Pharmacology You See is a study aide designed to assist students with exam preparation."
+  discount-img: "PYS-cover.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p><strong>Pharmacology You See</strong> integrates information on therapeutics and addresses pharmacological topics that students generally find challenging. This aide highlights the most high yield information for the purpose of exam writing and organizes it into a visual presentation with full-colour
+                         				figures and adverse drug reaction icons.</p>
+                         			<blockquote>
+                         				<p>Therapeutics are organized into the following chapters:</p>
+                         				<ul>
+                         					<li>Pharmacology Basics</li>
+                         					<li>Antimicrobial Drugs</li>
+                         					<li>Cancer Chemotherapeutics</li>
+                         					<li>Cardiovascular Drugs</li>
+                         					<li>Central Nervous System Drugs</li>
+                         					<li>Endocrine Drugs</li>
+                         					<li>Gastrointestinal Drugs</li>
+                         					<li>Hematological Drugs</li>
+                         					<li>Immune Response Modifiers</li>
+                         					<li>Renal and Urological Drugs</li>
+                         					<li>Respiratory Drugs</li>
+                         				</ul>
+                         			</blockquote>
+                         			
+                         			<p><strong>Pharmacology You See</strong> is written by students in the Physician Scientist Training Program (PSTP) at the University of Cincinnati, USA and in the MD/PhD Program at the University of Toronto, Canada.</p>"
+  discount-promotion: "<ul>
+                       						<li>Visit <a href=\"http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html\">http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html</a></li>
+                       						<li>Please apply the following code to your order to obtain a <strong>10% discount: PYS-2016-CFMS</strong></li>
+                       					</ul>" 
+- lang: "fr"
+  discount-title: "Guide de poche « Drugs & Drugs » approuvé par la FEMC : version électronique gratuite"
+  discount-sub-title: ""
+  discount-img: "drugsanddrugs.jpg"
+  discount-need-reverification: ""
+  discount-description: "Les membres de la FEMC ont accès gratuitement aux versions en ligne et PDF de « Drugs & Drugs » de P. Hamilton et D. Hui. "
+  discount-promotion: "<ul>
+                       						<li>La version en ligne se trouve <a href=\"http://homer.med.ualberta.ca/clint/hirex.asp?FNOTIFY=1461@drugsdrugshirex\">ici.</a></li>
+                       						<li>La version PDF en ligne se trouve <a href=\"http://homer.med.ualberta.ca/drugsanddrugs/book/DandD4.pdf\">ici.</a></li>
+                       					</ul>"
+- lang: "fr"
+  discount-title: "Librairie de McGraw Hill"
+  discount-sub-title: ""
+  discount-img: ""
+  discount-need-reverification: ""
+  discount-description: "<p>Économisez sur les ressources de McGraw-Hill Medical!
+                            
+                            Les membres de la FEMC reçoivent un rabais de 25 &#37; sur des ouvrages médicaux choisis!</p>"
+  discount-promotion: "<ul>
+                       						<li>La librairie peut être consultée <a href=\"http://www.mheducation.ca/professional/microsite/cfms2017/\">ici.</a></li>
+                       						<li>Utilisez le code coupon CFMSPARTNER2017 pour la réduction de 25&#37;.</li>
+                       					</ul>"  
+- lang: "fr"
+  discount-title: "Réduction sur les livres Elsevier"
+  discount-sub-title: ""
+  discount-img: ""
+  discount-need-reverification: ""
+  discount-description: "<p>Les membres de la FEMC bénéficient d’une réduction de 10 &#37; sur TOUS les titres médicaux d’Elsevier!</p>"
+  discount-promotion: "<ul>
+                       						<li>Suivez <a href=\"http://www.elsevier.ca/Medicine\">ce lien </a> pour effectuer une recherche dans les titres médicaux d’Elsevier.</li>
+                       						<li> Utilisez le code de réduction <strong><em>CFM</em></strong> pour profiter de la réduction de 10 %. PRIÈRE DE NOTER : La réduction sera appliquée seulement lorsque vous passerez à la caisse du distributeur tiers.</li>
+                       					</ul>"
