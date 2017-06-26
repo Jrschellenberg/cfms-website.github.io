@@ -595,3 +595,58 @@ textbook-discounts:
                        						<li>Suivez <a href=\"http://www.elsevier.ca/Medicine\">ce lien </a> pour effectuer une recherche dans les titres médicaux d’Elsevier.</li>
                        						<li> Utilisez le code de réduction <strong><em>CFM</em></strong> pour profiter de la réduction de 10 %. PRIÈRE DE NOTER : La réduction sera appliquée seulement lorsque vous passerez à la caisse du distributeur tiers.</li>
                        					</ul>"
+#
+#End French Textbook Discounts
+#
+
+online-discounts:
+#
+#Begin English Online Discounts
+#
+- lang: "en"
+  discount-title: "UpToDate"
+  discount-sub-title: "Save up to 54% on UpToDate!"
+  discount-img: "uptodate.png"
+  discount-need-reverification: ""
+  discount-description: "			<p>With an individual subscription to UpToDate, you can:</p>
+                         			<ul>
+                         				<li>Get a broad overview of a condition or drill down to specific treatment recommendations</li>
+                         				<li>Review the epidemiology of a disease, along with how to diagnose and treat it</li>
+                         				<li>Increase your knowledge with access to more than 10,000 clinical topics covering 22 medical specialties</li>
+                         				<li>Answer clinical questions quickly from anywhere with our highly rated Mobile Apps</li>
+                         				<li>Be confident that your decisions are based on the best available evidence</li>
+                         			</ul>
+                         			<blockquote>
+                         				<h3><strong>Special Rates for CFMS Members</strong></h3>
+                         				<p>As a CFMS member, you can subscribe to UpToDate at these special rates!</p>
+                         				<ul>
+                         					<li>Get a one-year subscription for only $99 — that’s a 50% savings off the regular student rate.</li>
+                         					<li>Or, save even more and get a two-year subscription for only $169 — a savings of over $200 off the regular price of $369.*</li>
+                         				</ul>
+                         				<p><sup>*Applicable Taxes Apply</sup></p>
+                         			</blockquote>"
+  discount-promotion: ""
+- lang: "en"
+  discount-title: "3D4Medical - Complete Anatomy"
+  discount-sub-title: ""
+  discount-img: "Complete-Anatomuy_banner_canada.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p>The Canadian Federation of Medical Students is proud to announce our recent partnership with 3D4Medical to provide their Complete Anatomy app at a significant 20% discount.  We believe Complete Anatomy will be a valuable and innovative resource for all our membership moving forward.</p>"
+  discount-promotion: "<ul><li>Use your iPad Air, iPad Air 2, iPad Mini 4 or iPad Pro to access the Complete Anatomy Discount <a href=\"http://ca-application.3d4medical.com/discount/5hi0c/\">here</a></li></ul>"
+- lang: "en"
+  discount-title: "Canada Q Bank"
+  discount-sub-title: ""
+  discount-img: "cqb-logo.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p>Canada Q Bank, the World’s Most Preferred Portal for the Medical licensing exams of Canada and the only portal to offer high quality, high-yield test questions for MCCEE, MCCQE & USMLE on one platform. CanadaQBankTM has put in years of research & development to create an easy, intuitive & valuable portal that medical students and physicians can use to improve their performance. CanadaQBankTM is updated on a quarterly basis and made sure to include only high yield test questions that cover core concepts.</p>"
+  discount-promotion: "<ul><li>Please visit <a href=\"http://www.canadaqbank.com\">www.canadaqbank.com</a> to get more information and use the following institutional coupon code to obtain your 20% discount: <strong>CFMS20</strong></li></ul>"
+- lang: "en"
+  discount-title: "Skyscape PDA Software"
+  discount-sub-title: "Skyscape Medical References *Now available on the iPhone/iPod-Touch!"
+  discount-img: "skyscape.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p><strong>Skyscape</strong> is the leading provider of medical references for handhelds (PDAs) with over 100 titles including the 5 Minute Clinical Consult, Washington Manual, Stedman’s Dictionary, A2Z Drug, Drug Interaction Facts etc. Skyscape, in association with the CFMS, is pleased to extend <strong>an exclusive offer to the members of the CFMS.</strong></p>"
+  discount-promotion: "<ul><li>Access the Skyscape software discount <a href=\"http://www.skyscape.com/smartrain/smartraindb.aspx?data=P1uCiB4bjnovfJUnufM8dOmBL/yQbX3H5/VdqlT3QriQbsfjxAgpR1aXSHLa83tE&amp;WT.mc_id=29384\" target=\"_blank\" onclick=\"_gaq.push(['_trackEvent', 'Tracked Outbound Links', 'Click', 'Skyscape Software Discount']);\">here</a></li></ul>"
+#
+#End English Online Discounts
+#
