@@ -214,7 +214,7 @@ travel-discounts:
 #
 #Begin English Disability Discounts
 #
-disabiility-discounts:
+disability-discounts:
 - lang: "en"
   discount-title: "Kirkham &amp; Jack"
   discount-sub-title: "Your Disability Insurance Specialists"
