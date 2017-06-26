@@ -1,0 +1,37 @@
+{% for discount in selectedDiscounts %}
+{% if discount.lang == page.lang %}
+<h1><strong>{{ discount.discount-title }}</strong></h1>
+<hr>
+<p> the page language is {{ page.lang }}</p>
+{% if discount.discount-img != "" %}
+<img class="pic-right" src="/images/discount-images/{{ discount.discount-img }}">
+{% endif %}
+{% if discount.discount-sub-title != "" %}
+<p><strong>{{ discount.discount-sub-title }}</strong></p>
+{% endif %}
+{{ discount.discount-description }}
+<blockquote>
+    <h3><strong>Discount Details</strong></h3>
+    <div class="non-members">
+        <ul>
+            {% if page.lang =="en" %}
+            <li>Please login in order to access this discount.</li>
+            {% elsif page.lang =="fr" %}
+            <li>Veuillez vous connecter afin d'accéder à cette réduction.</li>
+            {% endif %}
+        </ul>
+    </div>
+    <div class="members-only">
+        {% if discount.discount-need-reverification == "true" %}
+        <h3>Sorry but this Discount still requires verification from Site Admin!</h3>
+        {% elsif discount.discount-need-reverification != "true" %}
+        {{ discount.discount-promotion }}
+        {% endif %}
+    </div>
+
+
+
+</blockquote>
+<br>
+{% endif %}
+{% endfor %}

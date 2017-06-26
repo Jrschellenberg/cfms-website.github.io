@@ -1,0 +1,33 @@
+---
+---
+
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/resources.css">
+</head>
+<body>
+{% include nav.html %}
+
+<!--Page Specific Formatting-->
+<script type="text/javascript">
+    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+    document.querySelector( "#resources" ).classList.toggle("active");
+</script>
+
+<div class="discounts content">
+    <div class="student-discounts-content">
+        <h1 id="page-title">{{ page.title }}</h1>
+        {{ content }}
+    </div>
+</div>
+<div>{% include footer.html %}</div>
+</body>
+</html>
