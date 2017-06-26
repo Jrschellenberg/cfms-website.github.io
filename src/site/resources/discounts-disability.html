@@ -1,59 +1,8 @@
 ---
 title: "Disability Insurance"
+layout: discounts
 ---
 
-<!DOCTYPE html>
+{% assign selectedDiscounts = site.data.discounts.disability-discounts %}
 
-
-<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
-<head>
-    {% include head.html %}
-
-    <!--Page Specific Stylesheet-->
-    <link rel="stylesheet" href="/stylesheets/resources.css">
-</head>
-<body>
-{% include nav.html %}
-
-<!--Page Specific Formatting-->
-<script type="text/javascript">
-    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
-    document.querySelector( "#resources" ).classList.toggle("active");
-</script>
-
-<div class="discounts content">
-    <!-- Displays the sidebar and emphasizes the active page -->
-    {% include sidebar-discounts.html %}
-    <script type="text/javascript">
-        document.querySelector( "#disability-discounts" ).classList.toggle("sidebar-active");
-    </script>
-    <div class="student-discounts-content" class="editable">
-        <h1 id="page-title">{{ page.title }}</h1>
-        <h1><strong>Kirkham &amp; Jack </strong></h1>
-        <hr>
-        <img class="pic-right" src="/images/discount-images/kirkham-jack-logo.gif">
-        <h3><strong>Your Disability Insurance Specialists</strong></h3>
-        <p>Working with the CFMS since 2002 to find the best disability insurance product for each student. Please contact us so we can help you find the best product for you.</p>
-        <p><a href="tel:877.278.3837" target="_blank" style="color: #1155cc;">877.278.3837</a> CFMS@Kirkhamandjack.ca</p>
-        <blockquote>
-            <h3><strong>Discount Details</strong></h3>
-            <div class="non-members">
-                <ul>
-                    <li>Please login in order to access this discount.</li>
-                </ul>
-            </div>
-            <div class="members-only">
-                <ul>
-                    <li>If you would like to speak to someone about this program in a bit more detail, Kirkham &amp; Jack will be happy to provide a consultation at no cost to you.
-                        They can be reached toll free at 877-278-3837 or electronically at <a href="mailto:cfms@kirkhmanadjack.ca">cfms@kirkhmanadjack.ca</a></li>
-                    <li>You can also contact Han Yan, CFMS VP Student Affairs, at <a href="mailto:vpservices@cfms.org">vpstudentaffairs@cfms.org</a> if you require any assistance.</li>
-                </ul>
-            </div>
-        </blockquote>
-        <br>
-    </div>
-</div>
-<div>{% include footer.html %}</div>
-</body>
-</html>
+{% include discount.html %}
