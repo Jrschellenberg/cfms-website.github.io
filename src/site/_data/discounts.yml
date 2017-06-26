@@ -647,6 +647,59 @@ online-discounts:
   discount-need-reverification: ""
   discount-description: "<p><strong>Skyscape</strong> is the leading provider of medical references for handhelds (PDAs) with over 100 titles including the 5 Minute Clinical Consult, Washington Manual, Stedman’s Dictionary, A2Z Drug, Drug Interaction Facts etc. Skyscape, in association with the CFMS, is pleased to extend <strong>an exclusive offer to the members of the CFMS.</strong></p>"
   discount-promotion: "<ul><li>Access the Skyscape software discount <a href=\"http://www.skyscape.com/smartrain/smartraindb.aspx?data=P1uCiB4bjnovfJUnufM8dOmBL/yQbX3H5/VdqlT3QriQbsfjxAgpR1aXSHLa83tE&amp;WT.mc_id=29384\" target=\"_blank\" onclick=\"_gaq.push(['_trackEvent', 'Tracked Outbound Links', 'Click', 'Skyscape Software Discount']);\">here</a></li></ul>"
+- lang: "en"
+  discount-title: "PEPID Clinical Rotation Companion"
+  discount-sub-title: ""
+  discount-img: "PEPID_CRC_image.png"
+  discount-need-reverification: ""
+  discount-description: "<p>CFMS and PEPID have partnered to bring you an exclusive 20% discount on PEPID Clinical Rotation Companion!
+                            
+                            PEPID Clinical Rotation Suite (CRC) is a complete proven reference tool & drug database for medical students on rotation. Loaded with key information from experienced practitioners, PEPID CRC provides answers to clinical questions.
+                            
+                            With step-by-step instructions for patient history and physical exam, admit and discharge orders, SOAP notes, special settings and more, PEPID CRC will be your \"peripheral brain.\" </p>"
+  discount-promotion: "<ul><li>Go to <a href=\"http://www.pepid.ca\">www.pepid.ca</a> and enter the code “CFMS” at checkout to receive your discount.</li></ul>"
+- lang: "en"
+  discount-title: "MDpocket"
+  discount-sub-title: ""
+  discount-img: "CanadianFederationMDpocket.png"
+  discount-need-reverification: ""
+  discount-description: "<p><strong>MDpocket</strong> specializes in medical reference guides, calipers, clipboards, and apps for all healthcare professionals. Our products are carried by all medical specialties and sub-specialties with an emphasis on educating students, residents, nurses and physicians. Our innovative products focus on improving efficiency and give you the tools you need to be successful. 
+                            
+                            WhiteCoat Clipboards, MDpocket Medical Reference Guides, and Pocket Penguin EKG Calipers are just some of the products we offer and customize for student groups, hospitals, residency programs and organizations. 
+                            
+                            Access our app (MyHospital) to connect and communicate with other peers and find phone numbers with one click dialing in the hospitals departments or floors you use everyday.</p>"
+  discount-promotion: "<ul><li>Please use coupon code: <strong>CAFEDMEM</strong> for an exclusive discount of <strong>15&#37;</strong> off your MDpocket.com purchase! You will need to be a MDpocket Registered User and have chosen the Canadian Federation Customer Group when registering.</li>
+  <li>If interested in bulk purchasing any MDpocket products please contact Katie Thomas at <strong>thomas@mdpocket.com</strong> and specify your association with the CFMS and get exclusive discounted pricing options!</li></ul>"
+- lang: "en"
+  discount-title: "OnExam"
+  discount-sub-title: ""
+  discount-img: "OnExam.png"
+  discount-need-reverification: ""
+  discount-description: "<p>OnExam is a clinical skills app written and edited by Northern Ontario School of Medicine (NOSM) medical students. This valuable resource is meant to be a reference guide for medical students and residents on clinical rotations in order to aid with eliciting patient histories and performing physical exams. This app also includes an Objective Structured Clinical Exam (OSCE) checklist section to test your knowledge. (Handy for a quick reference on rounds, consults, and before patient encounters.)
+                            
+                            Think of this app as access to an entire clinical examination textbook at your fingertips.</p>"
+  discount-promotion: "<ul><li>Available for free for apple and android devices or online at <a href=\"http://www.onexam.ca\">www.OnExam.ca</a></li></ul>"
+- lang: "en"
+  discount-title: "The Medical Post: Free Digital Edition Subscription"
+  discount-sub-title: "The Medical Post, the leading independent bi-weekly newspaper for Canadian physicians, is pleased to offer Canadian medical students a complementary subscription to its digital edition."
+  discount-img: "medical-post.jpg"
+  discount-need-reverification: "true"
+  discount-description: "<p>The Medical Post has been a trusted source for physicians for more than 45 years, and features news about the profession, clinical articles and practice management tips to help supplement your medical education.
+                            
+                            A link to each issue of the Medical Post will be delivered to your inbox, for reading on your desktop or tablet.</p>"
+  discount-promotion: "<ul><li>To get your free digital edition, click <a href=\"http://www.canadianhealthcarenetwork.ca/digitaledition\">here</a> and complete the short sign-up form.</li></ul>"
+- lang: "en"
+  discount-title: "mdBriefCase - Where more physicians go for the best in CME"
+  discount-sub-title: "As a leading online Continuing Medical Education (CME) provider in Canada, mdBriefCase has developed over 800 free multimedia, interactive, and accredited learning programs."
+  discount-img: "md-briefcase.jpg"
+  discount-need-reverification: ""
+  discount-description: "<blockquote><p>By joining mdBriefCase, you can:  </p>
+                            <ul><li>Earn up to 30 M1 credits that can be used in your first 5 year CME cycle</li>
+                            <li>Access website 24/7</li>
+                            <li>Be eligible for honoraria opportunities</li>
+                            <li>Participate in discussion forums with peers and potential mentors</li>
+                            <li>Meet other healthcare students</li></ul></blockquote>"
+  discount-promotion: "<ul><li>Join now for free! For more information visit <a href=\"http://www.mdbriefcase.com/\"> www.mdbriefcase.com </a></li></ul>"
 #
 #End English Online Discounts
 #

@@ -2,7 +2,6 @@
 {% if discount.lang == page.lang %}
 <h1><strong>{{ discount.discount-title }}</strong></h1>
 <hr>
-<p> the page language is {{ page.lang }}</p>
 {% if discount.discount-img != "" %}
 <img class="pic-right" src="/images/discount-images/{{ discount.discount-img }}">
 {% endif %}
@@ -11,7 +10,15 @@
 {% endif %}
 {{ discount.discount-description }}
 <blockquote>
-    <h3><strong>Discount Details</strong></h3>
+    <h3>
+        <strong>
+            {% if page.lang == "en" %}
+            Discount Details
+            {% elsif page.lang == "fr" %}
+            Détails de réduction
+            {% endif %}
+        </strong>
+    </h3>
     <div class="non-members">
         <ul>
             {% if page.lang =="en" %}
