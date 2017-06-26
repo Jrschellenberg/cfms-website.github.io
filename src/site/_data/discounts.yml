@@ -332,3 +332,164 @@ lasik-discounts:
 #
 #End French Lasik MD Vision Correction
 #
+
+
+textbook-discounts:
+#
+#Begin English Textbook Discounts
+#
+- lang: "en"
+  discount-title: "Wolters Kluwer/Lippincott Resources"
+  discount-sub-title: "Receive a 30% Discount on Wolters Kluwer/Lippincott Resources"
+  discount-img: "wolters-kluwer.png"
+  discount-need-reverification: ""
+  discount-description: "<p>Members of CFMS save 30% and receive FREE shipping on the full selection of resources from Wolters Kluwer/Lippincott. Choose from a variety of textbooks, review manuals loaded with Q&amp;A, flash cards, and more.</p>
+                         			<blockquote>
+                         				<h3><strong>Featuring:</strong></h3>
+                         				<div>
+                         					<ul>
+                         						<li><a href=\"http://www.lww.com/Product/9781451186888\">Essentials for the Canadian Medical Licensing Exam, 2nd. Ed</a></li>
+                         						<li>Prepare for success on the MCCQE Part I!  This concise resource provides an efficient and effective review of exactly what you need to know to perform at your best on the exam.</li>
+                         						<li>Written by students, residents, and faculty, it contains only the essential information required to meet the Medical Council of Canada’s Objectives for the Qualifying Examination, saving you valuable time and helping you focus your study.</li>
+                         						<li>Each chapter covers common clinical presentations, including detailed differential diagnoses, relevant physical examination characteristics and diagnostic tests, treatment and patient consultation techniques, and epidemiological information, as well as fundamental scientific principles.</li>
+                         					</ul>
+                         				</div>
+                         			</blockquote>
+                         			<p>Be sure to login to the member's section to see the discount code below. Visit <a href=\"http://www.lww.com\">www.lww.com</a>, select ANY product and use the discount code to save 30%!</p>"
+  discount-promotion: "<ul>
+                       						<li>Visit <a href=\"http://www.lww.com\">www.lww.com</a>, select ANY product and use the discount code: <strong>WZP22CFT</strong> to save 30%! Valid until Feb 28, 2017.</li>
+                       					</ul>"                      			
+- lang: "en"
+  discount-title: "Toronto Notes"
+  discount-sub-title: "CFMS members can now purchase <i>Toronto Notes at a special discounted price!</i> CFMS and Toronto Notes are excited to offer members 10% off their purchase of the
+                       				<a href=\"http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html\">Toronto Notes eBook</a>, a regular price of $129.95."
+  discount-img: "toronto-notes-2016-cover.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p>For 32 years Toronto Notes has been the premiere Canadian reference resource for clerkship rotations and MCCQE preparation. Along with the flagship medical reference book, Toronto Notes produces a concise 'Clinical Handbook' for on-the-ward reference, and a suite of online resources including 
+                         				'ECG made simple', 'The Medical Imaging Atlas', and 'Functional Neuroanatomy.'</p>"
+  discount-promotion: "<p>To receive this exclusive 10% discount on the Toronto Notes eBook:</p>
+                       					<ol>
+                       						<li>Please Visit: <a href=\"http://torontonotes.uoftbookstore.com/Toronto-Notes-2016.html\">http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html</a></li>
+                       						<li>Add the 'eBook (PDF format)' to your cart ($129.95)</li>
+                       						<li>Use the discount code TN-2140-CFMS during checkout </li>
+                       					</ol>"     
+- lang: "en"
+  discount-title: "Pharmacology You See"
+  discount-sub-title: "Pharmacology You See is a study aide designed to assist students with exam preparation."
+  discount-img: "PYS-cover.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p><strong>Pharmacology You See</strong> integrates information on therapeutics and addresses pharmacological topics that students generally find challenging. This aide highlights the most high yield information for the purpose of exam writing and organizes it into a visual presentation with full-colour
+                         				figures and adverse drug reaction icons.</p>
+                         			<blockquote>
+                         				<p>Therapeutics are organized into the following chapters:</p>
+                         				<ul>
+                         					<li>Pharmacology Basics</li>
+                         					<li>Antimicrobial Drugs</li>
+                         					<li>Cancer Chemotherapeutics</li>
+                         					<li>Cardiovascular Drugs</li>
+                         					<li>Central Nervous System Drugs</li>
+                         					<li>Endocrine Drugs</li>
+                         					<li>Gastrointestinal Drugs</li>
+                         					<li>Hematological Drugs</li>
+                         					<li>Immune Response Modifiers</li>
+                         					<li>Renal and Urological Drugs</li>
+                         					<li>Respiratory Drugs</li>
+                         				</ul>
+                         			</blockquote>
+                         			
+                         			<p><strong>Pharmacology You See</strong> is written by students in the Physician Scientist Training Program (PSTP) at the University of Cincinnati, USA and in the MD/PhD Program at the University of Toronto, Canada.</p>"
+  discount-promotion: "<ul>
+                       						<li>Visit <a href=\"http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html\">http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html</a></li>
+                       						<li>Please apply the following code to your order to obtain a <strong>10% discount: PYS-2016-CFMS</strong></li>
+                       					</ul>" 
+- lang: "en"
+  discount-title: "'Drugs &amp; Drugs' Pocket Guide: Free Electronic Version"
+  discount-sub-title: ""
+  discount-img: "drugsanddrugs.jpg"
+  discount-need-reverification: ""
+  discount-description: "<p>The <strong>third edition of Drugs &amp; Drugs</strong> is a pocket guide that provides a comprehensive review of what students need to know about commonly prescribed medications in a practical, 
+                         				concise and organized manner.</p>
+                         			<blockquote>
+                         				<ul>
+                         					<li>Covers over 100 different classes of medications</li>
+                         					<li>1-2 page concise synopsis of each medication class</li>
+                         					<li>To-the-point review of mechanism of action, pharmacokinetics, indications/contraindications, and adverse effects</li>
+                         					<li>Highlights of fundamental principles, pearls and pitfalls of drug use</li>
+                         					<li>Canadian trade names and content</li>
+                         				</ul>
+                         			</blockquote>
+                         			
+                         			<p>CFMS members receive free access to the online and PDF versions of P. Hamilton &amp; D. Hui's 'Drugs &amp; Drugs', courtesy of the University of Alberta's Department of Medicine.</p>"
+  discount-promotion: "<ul>
+                       						<li>The online version can be found <a href=\"http://homer.med.ualberta.ca/clint/hirex.asp?FNOTIFY=1461@drugsdrugshirex\">here.</a></li>
+                       						<li>The online PDF can be found <a href=\"http://homer.med.ualberta.ca/drugsanddrugs/book/DandD4.pdf\">here.</a></li>
+                       					</ul>"
+- lang: "en"
+  discount-title: "McGraw-Hill Bookstore"
+  discount-sub-title: ""
+  discount-img: ""
+  discount-need-reverification: ""
+  discount-description: "<p>McGraw-Hill is proud to partner with the Canadian Federation of Medical Students and offer its members a
+                         			 <strong>25&#37; Discount</strong> and <strong>FREE SHIPPING within Canada</strong> on select McGraw-Hill medical titles! Search over 500 applicable titles at
+                         				<a href=\"http://mheducation.ca\">www.mheducation.ca</a>, including the popular series <i>Case Files</i>
+                         			 and <i>First Aid,</i> as well as <i>Harrison’s Principles of Internal Medicine!</i></p>
+                         			<p><strong>The landmark guide to internal medicine has been updated and streamlined for today's students.</strong></p>
+                         			<p>Through six decades, no resource has matched the authority, esteemed scholarship, and scientific rigor of Harrison's Principles of Internal Medicine. Capturing the countless advances and developments across the full span of medicine, the new 19th edition of Harrison's provides a complete update of essential content related to disease pathogenesis, clinical trials, current diagnostic methods and imaging approaches,
+                         				evidence-based practice guidelines, and established and newly approved treatment methods.</p>
+                         			
+                         			<blockquote>
+                         			<p>Here are just a few of the outstanding features of the new Nineteenth Edition:</p>
+                         			<ul>
+                         				<li><strong>Presented in two volumes:</strong> Volume 1 is devoted to foundational principles, cardinal manifestations of disease and approach to differential diagnosis; Volume 2 covers disease pathogenesis and treatment</li>
+                         				<li><strong>NEW chapters on important topics</strong> such as Men's Health, The Impact of Global Warming on Infectious Diseases, Fatigue, and many more</li>
+                         				<li><strong>Critical updates in management and therapeutics</strong> in Hepatitis, Coronary Artery Disease, Ebola Virus Disease, Multiple Sclerosis, Diabetes, Hypertension, Deep Vein Thrombosis and Pulmonary Embolism, Acute and Chronic Kidney Disease, Inflammatory Bowel Disease, Lipoprotein Disorders, HIV and AIDS, and more</li>
+                         				<li><strong>Increased number of the popular Harrison's clinical algorithms</strong> clinically relevant radiographic examples spanning hundreds of diseases; clinical-pathological images in full color; crystal clear, full color drawings and illustrations and helpful tables and summary lists that make clinical application of the content faster than ever</li>
+                         				<li><strong>Access to outstanding multi-media resources</strong>  including practical videos demonstrating essential bedside procedures, physical examination techniques, endoscopic findings, cardiovascular findings, and more</li>
+                         			</ul>
+                         			</blockquote>"
+  discount-promotion: "<ul>
+                       						<li>The bookstore can be accessed <a href=\"http://www.mheducation.ca/professional/microsite/cfms2017/\">here</a></li>
+                       						<li>Use the coupon code CFMSPARTNER2017 for the 25&#37; discount.</li>
+                       					</ul>"  
+- lang: "en"
+  discount-title: "Elsevier Book Discounts"
+  discount-sub-title: "CFMS members receive 10&#37; off ALL Elsevier medical titles!"
+  discount-img: ""
+  discount-need-reverification: ""
+  discount-description: "<h3><strong>Fundamental Clinical Situations, 4th Ed.</strong></h3>
+                         			<p>Written by med students, for med students, Fundamental Clinical Situations is a handbook designed as a comprehensive prep review for the OSCE's.
+                         				Designed to be used by teams, it includes over 68 scenarios, complete with evaluation checklists and questions and answers. The scenarios range from common to 
+                         				special procedures. The book also provides the reader with criteria to enable them to self-assess interpersonal skills with patients.</p>
+                         			
+                         			<h3><strong>OSCE and Clinical Skills Handbook, 2nd Ed.</strong></h3>
+                         			<p>Developed to be a unique study guide for medical students preparing for their OSCE examinations. It summarizes important history and physical examination skills and is a practical review for all level of medical students. The book is organized by major body systems, 
+                         				and is designed to facilitate both individual and group study. It also includes samples OSCE scenarios and checklists</p>
+                         			<blockquote>
+                         				<ul>
+                         					<li>Emphasis on basic clinical skills facilitates learning by junior medical students.</li>
+                         					<li>Question and answer format suitable to a variety of learning levels facilitates the learning of basic skills for junior medical students and helps senior medical students develop an approach to clinical symptomatology.</li>
+                         					<li>Important points are presented in an easy-to-read bulleted list format.</li>
+                         					<li>Sample OSCE Scenarios and Sample Checklists provide accurate and realistic simulations of the OSCE exam format for students.</li>
+                         					<li>The OSCE Checklist Template enables students to construct their own sample checklists using cases from the book and helps them develop an approach to a variety of clinical scenarios.</li>
+                         					<li>A sample in-depth OSCE case provides an opportunity for practice.</li>
+                         					<li>The body systems approach and tabbing system provide fast and easy access to the content.</li>
+                         					
+                         				</ul>
+                         			</blockquote>
+                         			
+                         			<h3><strong>Textbook of Medical Physiology, 11th Ed.</strong></h3>
+                         			<p>Physiology's classic text continues to uphold its rich tradition—presenting key physiology concepts in a remarkably clear and engaging manner. Guyton & Hall's Textbook of Medical Physiology covers all of the major systems in the human body, while emphasizing system interaction, homeostasis, and pathophysiology. This very readable, easy-to-follow, and thoroughly updated,
+                         				11th Edition features a new full-color layout, short chapters, clinical vignettes, and shaded summary tables that allow for easy comprehension of the material.</p>
+                         			<blockquote>
+                         				<ul>
+                         					<li>Presents short, easy-to-read chapters in keeping with the Guyton and Hall tradition.</li>
+                         					<li>Provides shaded summary tables for easy reference.</li>
+                         					<li>Includes clinical vignettes, which allow readers to see core concepts applied to real-life situations.</li>
+                         					<li>Offers specific discussions of pathophysiology in most clinical areas of medicine.</li>
+                         					<li>Ensures a strong grasp of physiology concepts through well-illustrated discussions of the most essential principles.</li>
+                         				</ul>
+                         			</blockquote>"
+  discount-promotion: "<ul>
+                       						<li>Follow <a href=\"http://www.elsevier.ca/Medicine\">this link</a> to search Elsevier's medical titles.</li>
+                       						<li> Use the promotional code <strong><em>CFM</em></strong> for the 10% discount. PLEASE NOTE: The discount will not be applied until checking out through the third party distributor.</li>
+                       					</ul>"
