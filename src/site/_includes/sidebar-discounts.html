@@ -1,14 +1,18 @@
 <div id="sidebar">
 	<div id="scroll">
-		<span id="sidebar-title">Discounts</span>
+		{% for sideObject in site.data.translations.sidebar-discounts %}
+		{% if sideObject.lang == page.lang %}
+		<span id="sidebar-title">{{sideObject.sidebar-title_1}}</span>
 		<ul>
-			<li><a id="travel-discounts" href="discounts-travel.html">Travel and Accommodations</a></li>
-			<li><a id="disability-discounts" href="discounts-disability.html">Disability Insurance</a></li>
-			<li><a id="textbook-discounts" href="discounts-textbooks.html">Textbooks</a></li>
-			<li><a id="online-discounts" href="discounts-online.html">Online Resources</a></li>
-			<li><a id="lasik-discount" href="discounts-lasik.html">LASIK MD Vision Correction</a></li>
+			<li><a id="travel-discounts" href="discounts-travel.html">{{ sideObject.travel-and-accommodations }}</a></li>
+			<li><a id="disability-discounts" href="discounts-disability.html">{{ sideObject.disability-insurance }}</a></li>
+			<li><a id="textbook-discounts" href="discounts-textbooks.html">{{ sideObject.textbooks }}</a></li>
+			<li><a id="online-discounts" href="discounts-online.html">{{ sideObject.online-resources }}</a></li>
+			<li><a id="lasik-discount" href="discounts-lasik.html">{{ sideObject.lasik }}</a></li>
 			<!--<li><a id="textbook-discounts" href="textbook-discounts.html">UpToDate Discount</a></li>
 			<li><a id="textbook-discounts" href="textbook-discounts.html">Disability Insurance</a></li> -->
 		</ul>
+		{% endif %}
+		{% endfor %}
 	</div>
 </div>

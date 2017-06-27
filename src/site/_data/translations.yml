@@ -267,3 +267,20 @@ sidebar-advocacy:
   lobby-day: "Journée de plaidoirie"
   position-papers: "Exposés de position"
   toolkit: "Trousse-à-outils pour plaidoirie"
+  
+#Sidebar Discounts
+sidebar-discounts:
+- lang: "en"
+  sidebar-title_1: "Discounts"
+  travel-and-accommodations: "Travel and Accommodations"
+  disability-insurance: "Disability Insuarance"
+  textbooks: "Textbooks"
+  online-resources: "Online Resources"
+  lasik: "LASIK MD Vision Correction"
+- lang: "fr"
+  sidebar-title_1: "Réductions"
+  travel-and-accommodations: "Réductions sur les Voyages"
+  disability-insurance: "Assurance Invalidité"
+  textbooks: "Réductions sur les Manuels"
+  online-resources: "Rabais sur les ressources électroniques Médicales"
+  lasik: "Correction de la vision LASIK MD"
