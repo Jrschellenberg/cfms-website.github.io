@@ -4,11 +4,11 @@
 		{% if sideObject.lang == page.lang %}
 		<span id="sidebar-title">{{sideObject.sidebar-title_1}}</span>
 		<ul>
-			<li><a id="travel-discounts" href="discounts-travel.html">{{ sideObject.travel-and-accommodations }}</a></li>
-			<li><a id="disability-discounts" href="discounts-disability.html">{{ sideObject.disability-insurance }}</a></li>
-			<li><a id="textbook-discounts" href="discounts-textbooks.html">{{ sideObject.textbooks }}</a></li>
-			<li><a id="online-discounts" href="discounts-online.html">{{ sideObject.online-resources }}</a></li>
-			<li><a id="lasik-discount" href="discounts-lasik.html">{{ sideObject.lasik }}</a></li>
+			<li><a id="{{ site.data.discounts.travel-id }}" href="discounts-travel.html">{{ sideObject.travel-and-accommodations }}</a></li>
+			<li><a id="{{ site.data.discounts.disability-id }}" href="discounts-disability.html">{{ sideObject.disability-insurance }}</a></li>
+			<li><a id="{{ site.data.discounts.textbook-id }}" href="discounts-textbooks.html">{{ sideObject.textbooks }}</a></li>
+			<li><a id="{{ site.data.discounts.online-id }}" href="discounts-online.html">{{ sideObject.online-resources }}</a></li>
+			<li><a id="{{ site.data.discounts.lasik-id }}" href="discounts-lasik.html">{{ sideObject.lasik }}</a></li>
 			<!--<li><a id="textbook-discounts" href="textbook-discounts.html">UpToDate Discount</a></li>
 			<li><a id="textbook-discounts" href="textbook-discounts.html">Disability Insurance</a></li> -->
 		</ul>

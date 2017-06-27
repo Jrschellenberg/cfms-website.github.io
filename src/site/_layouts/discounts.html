@@ -1,6 +1,7 @@
 ---
 ---
 
+{% assign pageId = site.data.discounts[page.discount-id] %}
 
 <!DOCTYPE html>
 
@@ -14,21 +15,24 @@
     <link rel="stylesheet" href="/stylesheets/resources.css">
 </head>
 <body>
-{% include nav.html %}
-
-<!--Page Specific Formatting-->
-<script type="text/javascript">
-    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
-    document.querySelector( "#resources" ).classList.toggle("active");
-</script>
-
-<div class="discounts content">
-    {% include sidebar-discounts.html %}
-    <div class="student-discounts-content">
-        <h1 id="page-title">{{ page.title }}</h1>
-        {{ content }}
+    {% include nav.html %}
+    
+    <!--Page Specific Formatting-->
+    <script type="text/javascript">
+        document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+        document.querySelector( "#resources" ).classList.toggle("active");
+    </script>
+    
+    <div class="discounts content">
+        {% include sidebar-discounts.html %}
+        <script type="text/javascript">
+            document.querySelector( "#{{ pageId }}" ).classList.toggle("sidebar-active");
+        </script>
+        <div class="student-discounts-content">
+            <h1 id="page-title">{{ page.title }}</h1>
+            {{ content }}
+        </div>
     </div>
-</div>
-<div>{% include footer.html %}</div>
+    <div>{% include footer.html %}</div>
 </body>
 </html>
