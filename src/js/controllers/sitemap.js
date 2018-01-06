@@ -1,7 +1,6 @@
 
 export default class SitemapController {
 	constructor(){
-		this.table;
 		this.process();
 	}
 	
