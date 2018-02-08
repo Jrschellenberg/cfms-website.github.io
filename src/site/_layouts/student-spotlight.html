@@ -1,6 +1,6 @@
 ---
 ---
-
+{% capture html %}
 <!DOCTYPE html>
 
 <!--[if IE 8 ]>
@@ -34,3 +34,4 @@
     {% include footer.html %}
 </div>
 </body>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

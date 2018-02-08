@@ -5,7 +5,7 @@ sitemap:
   changefreq: yearly
   role: VP Student Affairs
 ---
-
+{% capture html %}
 <!DOCTYPE html>
 
 
@@ -254,3 +254,5 @@ sitemap:
 	{% include footer.html %}
 </body>
 </html>
+
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

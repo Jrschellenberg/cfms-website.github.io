@@ -1,3 +1,4 @@
+{% capture html %}
 <div id="sidebar">
 	<div id="scroll">
 	    {% for sideObject in site.data.translations.sidebar-who-we-are %}
@@ -29,3 +30,4 @@
 		{% endfor %}
 	</div>
 </div>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

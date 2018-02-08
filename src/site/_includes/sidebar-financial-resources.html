@@ -1,3 +1,4 @@
+{% capture html %}
 {% for sidebar in site.data.translations.financial_resources %}
 	{% if sidebar.lang == page.lang %}
 		<div id="sidebar">
@@ -37,3 +38,4 @@
 		</div>
 	{% endif %}
 {% endfor %}
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

@@ -1,6 +1,6 @@
 ---
 ---
-
+{% capture html %}
 <!DOCTYPE html>
 {% assign hideLangToggle = true %}
 {% assign sortedEn = (site.news | sort: 'date') | reverse %}
@@ -71,4 +71,5 @@
 	{% include footer.html %}
 </body>
 </html>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
 

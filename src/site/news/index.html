@@ -5,6 +5,7 @@ sitemap:
   changefreq: weekly
   role: VP Communications
 ---
+{% capture html %}
 {% assign sorted = (site.news | sort: 'date') | reverse %}
 {% assign spotlightSorted = (site.student-spotlight | sort: 'priority') | reverse %}
 
@@ -103,3 +104,4 @@ sitemap:
 	{% include footer.html %}
 </body>
 </html>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

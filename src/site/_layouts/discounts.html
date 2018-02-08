@@ -1,6 +1,6 @@
 ---
 ---
-
+{% capture html %}
 {% assign pageId = site.data.discounts[page.discount-id] %}
 
 <!DOCTYPE html>
@@ -36,3 +36,4 @@
     <div>{% include footer.html %}</div>
 </body>
 </html>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

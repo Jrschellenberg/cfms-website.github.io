@@ -1,3 +1,4 @@
+{% capture html %}
 {% for nav in site.data.translations.nav %}
 	{% if nav.lang == page.lang %}
 		<div id="top-padding"></div>
@@ -58,3 +59,4 @@
 		</div>
 	{% endif %}
 {% endfor %}
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

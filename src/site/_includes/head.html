@@ -1,3 +1,4 @@
+{% capture html %}
 <!--Metadata-->
 <meta charset="utf-8">
 <title>Canadian Federation of Medical Students</title>
@@ -69,4 +70,6 @@
 <style>
     /* Ensure elements load hidden before ScrollReveal runs */
     .animate { visibility: hidden; }
-</style> 
+</style>
+
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

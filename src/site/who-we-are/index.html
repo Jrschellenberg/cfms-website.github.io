@@ -5,7 +5,7 @@ sitemap:
   changefreq: monthly
   role: VP Communications
 ---
-
+{% capture html %}
 <!DOCTYPE html>
 
 
@@ -420,3 +420,4 @@ sitemap:
 	</div>
 	{% include footer.html %}
 </body>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

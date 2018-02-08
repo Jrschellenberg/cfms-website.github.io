@@ -1,6 +1,6 @@
 ---
 ---
-
+{% capture html %}
 <!DOCTYPE html>
 {% assign hideLangToggle = true %}
 
@@ -41,4 +41,5 @@
 {% include footer.html %}
 </body>
 </html>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
 
