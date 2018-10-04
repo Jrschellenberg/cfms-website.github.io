@@ -1,0 +1,63 @@
+---
+title: International Exchanges
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Global Health
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+    <link rel="stylesheet" href="/stylesheets/who-we-are.css" />
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#what-we-do" ).classList.toggle("active");
+	</script>
+
+	<div class="content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-global-health.html %}
+		<script type="text/javascript">
+			document.querySelector( "#heart" ).classList.toggle("sidebar-active");
+		</script>
+		<div class="editable" id="side-content" id="meeting-body">
+			<h1 id="page-title">Health and Environment Adaptive Response Task Force</h1>
+			<p>The Health and Environment Adaptive Response Task force (HEART) is a group within the Canadian Federation of Medical Students (CFMS) that was established in 2016 to help integrate communication and advocacy among Canadian medical students regarding current issues in environmental health and climate change. This is through events to raise awareness, and the development of core curricular competencies that address the main environmental issues to be included in the medical school curriculum across Canada.</p>
+			<p>2017-18 HEART members: Finola Hackett (University of Alberta), Blake Hollett Power (Memorial University), Itai Malkin (University of Ottawa), Julia Sawatzky (University of Alberta)</p>
+			<p><span style="font-weight:bold">Curricular Competencies</span></p>
+			<p>The following steps have been taken since the creation of HEART to meet our goal of environmental health curriculum incorporation:</p>
+			<p>Steps 1 & 2 – completed. Steps 3 through 7 are ongoing now.</p>
+			<p><img width="700" height="auto" src="/images/page-images/heart/heart1.png"></p>
+			<p>Our goal: the proposed climate change and environmental health educational competencies to be incorporated into Canadian medical schools’ curricula by 2020.</p>
+			<p>Read more about HEART's curricular competencies initiative <a href="https://www.cfms.org/what-we-do/global-health/heart-competencies.html">here</a></p>
+
+			<p><span style="font-weight:bold">Awareness Initiatives</span></p>
+			<p>HEART has had great success thus far with events and contests that are intended to increase the knowledge and awareness of medical students towards environmental issues.</p>
+			<ul>
+				<li>- Our <i><ins>Earth Day Photo Contest</ins></i> is an annual contest that allows students to submit photos they’ve taken that show what a sustainable and healthy environment means to them. This has been taking place for the past 2 years. The 2018 photo contest received 63 high-quality and varied entries from across the country.</li>
+				<p style="margin-bottom: 0px;"><img src="/images/page-images/heart/heart3.png"></a></p>
+				<p class="picture-legend">2018 Earth Day Photo Contest Winner: Midnight Sun, submitted by Candace Nayman, University of Ottawa</p>
+				<li>- Our <i><ins>Earth Week Activity Challenge</ins></i>, a contest, new in 2018, in which medical students upload photos to social media (Facebook, Twitter or Instagram) of them taking environmentally conscious actions that would promote a reduction in their ecological footprint (e.g. riding a bike, recycling, using a reusable coffee thermos). This increases student participation with HEART and helps them further understand the connection between their environment and the health of their community. The University of Saskatchewan medical school won the inaugural Earth Week Activity Challenge.</li>
+			</ul>
+			<div style="width:720px;height:405px;text-align:center;" ><object width="720" height="405" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2Fshow&amp;page_show_back_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2F&amp;user_id=154668598@N02&amp;set_id=72157697509876945" /> <param name="allowFullScreen" value="true" /> <param name="src" value="https://www.flickr.com/apps/slideshow/show.swf?v=71649" /> <embed width="720" height="405" type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=71649" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2Fshow&amp;page_show_back_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2F&amp;user_id=154668598@N02&amp;set_id=72157697509876945" allowFullScreen="true" /> </object><br /></div>
+
+		</div>
+	</div>
+	{% include footer.html %}
+</body>
