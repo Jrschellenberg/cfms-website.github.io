@@ -146,7 +146,11 @@ sitemap:
 				<span style="opacity:0.5">:</span>
 			</h1>
 			<div id="sponsor-logo">
-				<a href="https://mdm.ca/"><img src="/images/mdfm_en_fr.jpg"></img></a>
+				{% if page.lang == "en" %}
+                    <a href="https://mdm.ca/"><img src="/images/MDFM_EN.jpg"/></a>
+				{% else %}
+                    <a href="https://mdm.ca/"><img src="/images/MDFM_FR.jpg"/></a>
+				{% endif %}
 			</div>
 		</div>
 	</div>
