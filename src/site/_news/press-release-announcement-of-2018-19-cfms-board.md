@@ -1,61 +1,39 @@
 ---
-title: 'PRESS RELEASE: Announcement of the 2018-19 CFMS Board'
-date: 2018-09-24 05:00:00
+title: 'PRESS RELEASE: CFMS at the International Conference Physician Health'
+date: 2018-10-15 01:30:00
 description: The CFMS welcomes the new 2018-19 Board!
 lang: en
 ---
 
 **FOR IMMEDIATE RELEASE**
 
-**Montreal, QC&nbsp; September 24, 2018** - The Canadian Federation of Medical Students (CFMS) is proud to announce the election of the 2018-19 Board of Directors by the membership at our 41st Annual General Meeting (AGM).
+CFMS at the International Conference Physician Health
 
-CFMS congratulates all candidates who stood for nomination.&nbsp;
+Toronto, ON October 13th, 2018​​ - The Canadian Federation of Medical Students (CFMS) is very excited to have had the opportunity to attend and present at the International Conference of Physician Health (ICPH) this past week in Toronto.
 
-The composition of the 2018-19 CFMS Board is:
+Sponsored by the CMA, 25 students leaders from across Canada, including many CFMS members kicked things off with the CMA wellness ambassador pre-conference workshop day on Wednesday October 10th. It was a powerful day of fulsome discussion and collaboration. A major highlight for all participants was the advocacy training componen. We look forward to staying connected with the CMA and the Wellness Ambassadors moving forward.
 
-**Past-president & Board Chair:** Dr. Henry Annan, Dalhousie University
+Thursday the main conference kicked off with an excellent plenary by Dr. Anthony Suchman, which included all 500+ participants singing “Kumbaya”. Dr, Suchman emphasized the need for systems-level change in medicine. The rest of the day was filled with excellent workshops and small-group presentations which we took many important learnings from.
 
-**President:** Captain Stephanie Smith, Cumming School of Medicine - University of Calgary
+On Friday we had the opportunity to present our innovative work on the development and implementation of the National Wellness Program to a full audience! Our work was very well received and we received awesome feedback and built additional collaborations that will help us further the program. There was also a panel discussion on implementing wellness as a competency in medical education, highlighted by Dr. Debbie Cohen, who gave an impassioned talk highlighting the key of focusing on culture through prioritizing the values of respect, compassion, appreciation and positive emotions.
 
-**Vice-President Communications:** Victoria Januszkiewicz, Memorial University Newfoundland
+The conference drew to a close on Saturday with an international panel discussing challenges to systems change. Our CMA president, Dr. Gigi Osler laid out her vision for creating a more positive culture in medicine which included medical training programs that were held to accreditation standards around health and wellness and breaking down all barriers for physician access to health and wellness supports. Her leadership and advocacy on this front is truly inspiring.
 
-**Vice-President Finance:&nbsp;**Odell Tan, University of Saskatchewan
+ICPH 2018 was an inspiring gathering of leaders in physician wellness. As an organization we gained much knowledge, positive experiences and future collaborations through being a part of the conference. Now to roll up our sleeves and continue to work on building our National Wellness Program; prioritizing further development in our pillars of advocacy, awareness, personal development & resilience and programming. We look forward also to developing
 
-**Director of Education:** Maylynn Ding, Michael G. DeGroote School of Medicine - McMaster University
-
-**Director of Global Health:** Michelle Quaye, Schulich School of Medicine - Western University
-
-**Director of Government Affairs:** Yipeng Ge, University of Ottawa
-
-**Director of Student Affairs:** Victor Do, University of Alberta
-
-**Western Regional Directors: &nbsp;**
-
-Wendy Wang, Cumming School of Medicine - University of Calgary
-
-Fatemeh Bakhtiari, Max Rady College of Medicine - University of Manitoba
-
-**Ontario Regional Directors:**
-
-Debbie Grace, Michael G. DeGroote School of Medicine - McMaster University
-
-Rishi Sharma, Michael G. DeGroote School of Medicine - McMaster University
-
-**Quebec Regional Director:**&nbsp;Adel Arezki, McGill University
-
-**Atlantic Regional Director:&nbsp;**Dax Bourcier, le Centre de Formation Medicale du Nouveau-Brunswick&nbsp;
+further collaboration with the CMA and Resident Doctors of Canada on wellness initiatives. This work is about you; its about building a positive health-promoting learning and working environment for us and future students.
 
 **QUOTATIONS FROM THE CFMS BOARD OF DIRECTORS:**
 
-“The CFMS 2018-19 is a diverse representative board comprised of directors from coast-to-coast. I’m looking forward to leading the board as we continue to advance the priorities of medical students and the objectives of our Strategic plan.”&nbsp;
+“ The CFMS is excited to continue working with the Canadian Medical Association and Resident Doctors of Canada to build a continuum of health promoting learning and working environments for students, residents and staff physicians. It is our hope that together we will turn our takeaways from ICPH to continue working on creating a new, more positive, health promoting culture in medicine.”
 
-*Dr. Henry Annan, Past-president & Board Chair*
+*- Victor Do, Director of Student Affairs and Executive Vice President*
 
-“Congratulations to the new Board of the CFMS. I am excited about working with such a driven and passionate group of medical student leaders as we advance the CFMS in the areas of advocacy for student engagement, building collaborations & communications, and changing Canadian medical education culture.”
+“ ICPH was an amazing gathering of passionate leaders who are committed to creating change and promoting wellness. We hope to turn our newfound collaborations, numerous conversations and renewed passion into continued efforts to develop our National Wellness Program and much more.”
 
-*Stephanie Smith, CFMS President*
+*- Stephanie Smith, CFMS President*
 
-**Acknowledgement:** The 2018-19 Board Photos were done by Bethany Wilkes, a medical student at McGill University.
+**See the CMA statement on physician health [H](https://www.cma.ca/Assets/assets-library/document/en/advocacy/physician-health-wellness-stat ement-e.pdf?hootPostID=a6a927497f2f25c8a4fbe30eec4ee480)[ERE.](__notset__)**
 
 > **ABOUT THE CFMS:**
 >
@@ -84,8 +62,8 @@ Rishi Sharma, Michael G. DeGroote School of Medicine - McMaster University
 > Cell: 1-506-461-4683
 >
 >
-> [PDF Of Press Release: Announcement of 2018-19 CFMS Board](/CFMS 2018-19 Board PR Announcement Final.pdf)
+> PDF Of Press Release: CFMS at the International Conference Physician Health
 
 &nbsp;
 
-![](/uploads/cfms-8227.jpg)
+![](/uploads/unnamed-3.jpg)
