@@ -7,9 +7,7 @@ lang: en
 
 **FOR IMMEDIATE RELEASE**
 
-CFMS at the International Conference Physician Health
-
-Toronto, ON October 13th, 2018​​ - The Canadian Federation of Medical Students (CFMS) is very excited to have had the opportunity to attend and present at the International Conference of Physician Health (ICPH) this past week in Toronto.
+**Toronto, ON October 13th, 2018​​** - The Canadian Federation of Medical Students (CFMS) is very excited to have had the opportunity to attend and present at the International Conference of Physician Health (ICPH) this past week in Toronto.
 
 Sponsored by the CMA, 25 students leaders from across Canada, including many CFMS members kicked things off with the CMA wellness ambassador pre-conference workshop day on Wednesday October 10th. It was a powerful day of fulsome discussion and collaboration. A major highlight for all participants was the advocacy training componen. We look forward to staying connected with the CMA and the Wellness Ambassadors moving forward.
 
@@ -62,7 +60,7 @@ further collaboration with the CMA and Resident Doctors of Canada on wellness in
 > Cell: 1-506-461-4683
 >
 >
-> PDF Of Press Release: CFMS at the International Conference Physician Health
+> [PDF Of Press Release: CFMS at the International Conference Physician Health](/Press Release Announcement ICPH f_u-2.pdf)
 
 &nbsp;
 
