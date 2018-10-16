@@ -1,5 +1,5 @@
 ---
-title: 'PRESS RELEASE: CFMS at the International Conference Physician Health'
+title: 'PRESS RELEASE: CFMS at the International Conference of Physician Health'
 date: 2018-10-16 01:30:00
 description: >-
   The CFMS presents at and attends the International Conference of Physician
