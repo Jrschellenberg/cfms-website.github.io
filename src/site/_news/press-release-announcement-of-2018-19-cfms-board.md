@@ -1,6 +1,6 @@
 ---
 title: 'PRESS RELEASE: CFMS at the International Conference Physician Health'
-date: 2018-10-15 01:30:00
+date: 2018-10-16 01:30:00
 description: The CFMS welcomes the new 2018-19 Board!
 lang: en
 ---
@@ -42,7 +42,7 @@ further collaboration with the CMA and Resident Doctors of Canada on wellness in
 > [www.cfms.org](www.cfms.org)
 >
 >
-> Follow us on Twitter, Facebook and Instagram: @CFMSFEMC&nbsp;
+> Follow us on Twitter, Facebook and Instagram: @CFMSFEMC 
 >
 >
 > FOR MORE INFORMATION:
@@ -62,6 +62,6 @@ further collaboration with the CMA and Resident Doctors of Canada on wellness in
 >
 > [PDF Of Press Release: CFMS at the International Conference Physician Health](/Press Release Announcement ICPH f_u-2.pdf)
 
-&nbsp;
+ 
 
 ![](/uploads/unnamed-3.jpg)
