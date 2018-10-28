@@ -9,6 +9,8 @@ description: >-
 lang: en
 ---
 
+![](blob:https://app.cloudcannon.com/942f6b39-bd63-4261-992a-9be1c2a123a5)
+
 The&nbsp;[International Federation of Medical Students’ Associations (IFMSA)](https://ifmsa.org/)&nbsp;connects and engages with a network of 1.3 million medical students from 124 national member organizations in 116 countries around the globe.
 
 The IFMSA General Assemblies are among the biggest youth-led events around the world, attended by over 800 medical students. These meetings hope to inspire the next generation of future physicians to become leaders and advocates through exchange of ideas, networking, and learning from the various programming sessions.
