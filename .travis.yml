@@ -8,7 +8,7 @@ before_script:
 before_install:
   - npm install -g npm@latest
 install:
-  - nvm install node v10.12.0
+  - nvm install 10.12.0
   - nvm alias default node
   - gem install github-pages
   - gem install jekyll-paginate
