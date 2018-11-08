@@ -1,0 +1,79 @@
+---
+title: MD Leadership Awards
+sitemap:
+  priority: 0.3
+  changefreq: yearly
+  role: VP Student Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+	{% include head.html %}
+
+	<!--Page Specific Stylesheet-->
+	<link rel="stylesheet" href="/stylesheets/resources.css" />
+</head>
+<body>
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#resources" ).classList.toggle("active");
+	</script>
+
+	<div class="finances-banner-outer">
+		<div class="content finances-banner-inner" style="background-color:#69A99F;">
+			<img src="{{site.root}}/images/banners/MedEd-Counsel-Campaign-Banner-e.jpg" />
+		</div>
+	</div>
+	<div class="finances content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-financial-resources.html %}
+		<script type="text/javascript">
+			document.querySelector( "#leadership-awards" ).classList.toggle("sidebar-active");
+		</script>
+		<div class="student-finances-content">
+			<h1 class="editable" id="page-title">Leadership Awards</h1>
+   			<a class="editable" id="finances-side-image" href="https://mdm.ca/"><img class="right" style="max-width:25%" src="/images/resource-logos/mdfm-logo.svg" /></a>
+
+			<p class="editable">The CFMS and MD Financial Management want to recognize some of the passionate, dedicated and caring medical student leaders across Canada who have made innovative contributions to their schools and communities.</p>
+			<p class="editable">In recognition of their achievements, one student from each of the 15 member schools of the Canadian Federation of Medical Students (CFMS) will receive a Medical Student Leadership Award. This award consists of:</p>
+			<ol class="editable">
+				<li>A certificate of recognition</li>
+				<li>A cash prize of $2000</li>
+				<li>Subsidized travel to the awards reception at the CFMS Spring General Meeting in Halifax on April 27-29<sup>th</sup>, 2018</li>
+			</ol>
+			
+			{% if site.enable_leadership_awards %}
+			<div>
+				<blockquote class="editable">
+					<h4><strong>Apply to the 2019 CFMS &ndash; MD Financial Management Leadership Awards</strong></h4>
+					<ul class="non-members">
+						<li><a class="login-modal cc-active" href="" onclick="return false;">Login</a> to the CFMS website in order to apply.</li>
+					</ul>
+					<div id="application-instructions-button" class="button members-only"><a href="md-leadership-awards-instructions.html">See Instructions</a></div>
+				</blockquote>
+			</div>
+			{% else %}
+			<div>
+				<blockquote>
+					<h4><strong>{{ site.md_awards_closed_header }}</strong></h4>
+					<ul>
+						<li>{{ site.md_awards_closed_caption }}</li>
+					</ul>
+				</blockquote>
+			</div>
+			{% endif %}
+			<div class="addendum">
+				<p>MD Financial Management provides financial products and services, the MD Family of Funds and investment counselling services through the MD Group of Companies. For a detailed list of these companies, visit <a href="http://md.cma.ca/">md.cma.ca</a></p>
+				
+			</div>
+		</div>
+	</div>
+	<div>{% include footer.html %}</div>
+</body>
