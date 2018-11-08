@@ -1,0 +1,132 @@
+---
+title: "Social/Relationship Wellness"
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Student Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+
+<!-- Google Tag Manager -->
+
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+    <link rel="stylesheet" href="/stylesheets/who-we-are.css" />
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+{% include nav.html %}
+
+<!--Page Specific Formatting-->
+<script type="text/javascript">
+    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+    document.querySelector( "#what-we-do" ).classList.toggle("active");
+</script>
+
+<div class="content">
+    <!-- Displays the sidebar and emphasizes the active page -->
+    {% include sidebar-student-affairs.html %}
+    <script type="text/javascript">
+        document.querySelector( "#social-relationship-wellness" ).classList.toggle("sidebar-active");
+    </script>
+    
+    <div id="side-content" id="meeting-body">
+        <h1 id="page-title">{{ page.title }}</h1>
+        <!--
+        <div class="editable">
+            <div id="shortcut-links">
+                <div id="scroll">
+                    <h4>Jump to:</h4>
+                    <div class="bullets-wellness">
+                        <ul>
+                            <li>
+                                <a href="#apps-and-podcasts">Physical Health Apps and Podcasts</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#apps">Apps</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#podcasts">Podcasts</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#youtube">YouTube</a>
+                            </li>
+                            <li>
+                                <a href="#medical-school-initatives">Medical School Physical Health Initiatives</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#mcgill">McGill University</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#memorial">Memorial University</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#ottawa">University of Ottawa</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#manitoba">University of Manitoba</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#ubc">University of British Columbia</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#dalhousie">Dalhousie University</a>
+                            </li>
+                            <li>
+                                <a href="#tips">Medical Students to Medical Students: Tips for each other!</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#iuliia-povieriena">Iuliia Povieriena, Class of 2018</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#ryan-densmore">Ryan Densmore, Class of 2021</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#michelle-moody">Michelle Moody, Class of 2019</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <h2 id="apps-and-podcasts"><strong> Apps and Podcasts</strong></h2>
+        <hr />
+        <h3 id="podcasts"><strong>Podcasts </strong></h3>
+        <p>
+            <strong>1. Love is Like a Plant</strong> - Michelle Moody, MUN Class of 2019<br>
+            <br>
+            <img src="/images/lwi-images/social-relationship-wellness/week-1/plants.png">
+        </p>
+
+        <p>
+            <strong>2. Love and Radio</strong> - Christine Audi, McGill Class of 2019<br>
+            Mostly non-fiction stories often presented in personal interviews either focusing on a single story or related to a theme. You hear “interviews with an eclectic range of subjects, from the seedy to the sublime. Get inside the mind of a rogue taxidermist. Find out what it’s like to experience a stroke firsthand. Or spend time with an artist who gives away her life savings every night”. Very interesting!
+            <br>
+            <img src="/images/lwi-images/social-relationship-wellness/week-1/lr.png">
+        </p>
+
+        <p>
+            <strong>3. Heavyweight</strong> - Christine Audi, McGill Class of 2019<br>
+            The host helps friends confront an event (often with friends in the past) in their past that they are still dwelling on. This is done in a comedic manner. 
+            <br>
+            <img src="/images/lwi-images/social-relationship-wellness/week-1/heavyweight.png">
+        </p>
+
+        <h3 id="apps"><strong>Apps </strong></h3>
+        <p>
+            <strong>3. Marco Polo</strong> - Sophia Miao, Dalhousie Class of 2021<br>
+            Marco Polo is a unique app that allows you to send video messages to your friends, either as one-to-one conversations or group messages. Watch and respond in real time, or whenever it’s convenient. It also has a hands-free feature. Unlike Snapchat, these videos don’t disappear, so you can watch them over and over again. This app uses Wi-Fi or data, so it’s great for chatting with friends and family all around the world.
+        </p>
+    </div>
+</div>
+{% include footer.html %}
+</body>

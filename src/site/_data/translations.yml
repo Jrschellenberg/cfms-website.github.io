@@ -69,8 +69,6 @@ financial_resources:
     preparing_residency: Preparing for Residency
     preparing_residency_url: 'https://mdm.ca/physician-life-stages/students/preparing-for-residency/'
     # studying_abroad: Studying Abroad
-    studying_abroad_url: >-
-      https://mdm.ca/physician-life-stages/students/resources-for-studying-abroad/
     client_testimonials: Client Testimonials
     client_testimonials_url: 'https://mdm.ca/about-md/testimonials/'
     meeting-minutes: Meeting Minutes
@@ -81,29 +79,16 @@ financial_resources:
     student_finances: Les finances des étudiants
     student_finances_url: student-finances.html
     md_leadership_awards: Prix de leadership FEMC-MD
-    md_leadership_awards_url: /fr/resources/md-leadership-awards.html
     md_leadership_awards_instructions: Comment appliquer
-    md_leadership_awards_instructions_url: /fr/resources/md-leadership-awards-instructions.html
     md_leadership_awards_apply: Soumettre l'application
-    md_leadership_awards_apply_url: /fr/resources/md-leadership-awards-application.html
     md_leadership_awards_prev_winners: Previous Recipients
-    md_leadership_awards_prev_winners_url: /fr/resources/md-leadership-awards-prev-winners.html
     md_travel_awards: Bourses de voyage MD
-    md_travel_awards_url: /fr/resources/md-travel-awards.html
+    md_travel_awards_url: /resources/md-travel-awards.html
     managing_debt: Gérer vos dettes
-    managing_debt_url: >-
-      https://mdm.ca/fr/%c3%a9tapes-de-carri%c3%a8re/etudiants-en-medecine/gerer-vos-dettes
     paying_med_school: Payer vos études en médecine
-    paying_med_school_url: >-
-      https://mdm.ca/fr/%C3%A9tapes-de-carri%C3%A8re/etudiants-en-medecine/payer-vos-etudes-en-medecine
     preparing_residency: Vous préparer à la résidence
-    preparing_residency_url: >-
-      https://mdm.ca/fr/%c3%a9tapes-de-carri%c3%a8re/etudiants-en-medecine/vous-preparer-a-la-residence
     # studying_abroad: Étudier à l’étranger
-    studying_abroad_url: >-
-      https://mdm.ca/fr/%C3%A9tapes-de-carri%C3%A8re/etudiants-en-medecine/des-ressources-pour-etudier-a-l-etranger
     client_testimonials: Témoignages de vos collègues
-    client_testimonials_url: 'https://mdm.ca/fr/au-sujet-de-md/temoignages'
     meeting-minutes: Comptes rendus des réunions
 latest_tweets_en: Latest tweets
 latest_tweets_fr: Derniers tweets
@@ -271,6 +256,7 @@ sidebar-student-affairs:
     mental-wellness-spotlight: Mental Wellness
     financial-wellness: Financial Wellness
     physical-wellness: Physical Wellness
+    social-relationship-wellness: Social/Relationship Wellness
   - lang: fr
     sidebar-title_1: Affaires étudiantes
     overview: Aperçu
@@ -293,6 +279,7 @@ sidebar-student-affairs:
     mental-wellness-spotlight: Mental Wellness
     financial-wellness: Financial Wellness
     physical-wellness: Physical Wellness
+    social-relationship-wellness: Social/Relationship Wellness
 sidebar-communications:
   - lang: en
     sidebar-title_1: Communications
