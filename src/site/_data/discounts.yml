@@ -6,24 +6,19 @@ travel-id: travel-discounts
 wellness-id: wellness-discounts
 travel-discounts:
   - lang: en
-    discount-title: 'WestJet Discount: January 12, 2018 – April 10, 2018'
+    discount-title: 'WestJet Discount: January 5, 2019 – February 7, 2019'
     discount-sub-title:
     discount-img: westjet.png
     discount-need-reverification:
     discount-description: >-
       <p>The CFMS is proud to present the WestJet Discount!</p> <p>CFMS members
-      are eligible for <strong>10% off <em>Econo</em> and 15% off <em>Plus
-      </em>base fares* </strong>for travel <strong><em>Canada
-      wide</em>.</strong></p> <p>To take advantage of this offer, you will need
-      the discount codes listed below. If you have questions about how to
+      are eligible for <strong>10% off <em>all fare classes(basic excluded)* for guests travelling </em><strong><em>Canada
+      wide</em>.</strong></p> <p>To take advantage of this offer, you will need the discount code listed. Please visit <a href="https://www.westjet.com/conventions">www.westjet.com/conventions</a> to make a booking online. If you have questions about how to
       complete a booking with your discount codes, please check out WestJet's <a
       href="https://www.westjet.com/en-ca/about-us/contact-us/faqs/discount-codes"
       target="_blank">frequently asked questions</a>.</p> <p>As in previous
       years, the CFMS is pleased to offer the WestJet discount during the CaRMS
-      period.</p> <p>In addition, new for 2018 we are pleased to extend this
-      discount until April 10<sup>th</sup> for medical student travel within
-      Canada for visiting electives.</p> <p>Please be sure to use the correct
-      coupon code for your travel dates.</p> <p>&nbsp;</p>
+      period.</p> <p>&nbsp;</p>
       <p><strong>Changes/cancellations</strong></p> <p>You can change or cancel
       reservations within 24 hours of booking at no charge. Further changes or
       cancellations can be made up to 2 hours prior to the flight; please note
@@ -77,12 +72,9 @@ travel-discounts:
       to any event city at any time and for any reason without notice or
       liability.</p>
     discount-promotion: >-
-      <p><strong>Spring General Meeting - Halifax</strong></p>
-      <p><strong><em>Travel from:</em></strong> <strong>April 20, 2018 to May 10, 2018</strong></p>
-      <p><strong>AGM - Montreal</strong></p>
-      <p><strong><em>Travel from:</em></strong> <strong>September 14 – 30, 2018</strong></p>
-      <p><em>Coupon code:</em> <strong>M7ASOWL</strong></p>
-      <p><em>Promo code:</em> <strong>WNR82</strong></p>
+      <p><strong><em>Travel from:</em></strong> <strong>January 5, 2019 to February 7, 2019</strong></p>
+      <p><em>Coupon code:</em> <strong>4M3D9OQ</strong></p>
+      <p><em>Promo code:</em> <strong>WCC92</strong></p>
   - lang: en
     discount-title: CFMS Choice Hotels Discount
     discount-sub-title: Save up to 20% off regular room rates with Choice Hotels!
