@@ -1,5 +1,5 @@
 ---
-title: 'Call for Applications: CFMS-MD Financial Leadership Awards (Due Jan. 18)'
+title: 'Call for Applications: CFMS-MD Financial Leadership Awards (Due January 18)'
 date: 2018-11-19 00:00:00
 description: The CFMS-MD Leadership Awards are now open for online application!
 lang: en
@@ -17,8 +17,6 @@ A cash prize of $2000
 
 Subsidized travel to the awards reception at the CFMS Spring General Meeting in Niagara Falls on April 11-13th, 2019
 
-More information and the application are available&nbsp;[here](https://www.cfms.org/resources/md-leadership-awards.html). You will need to log in with your CFMS account.
+More information and the application are available [here](https://www.cfms.org/resources/md-leadership-awards.html). You will need to log in with your CFMS account.
 
 The applications require a CV, personal letter, reference letters and letter of good standing from your institution. Applications are due January 18th 2019 at 11:59pm EST.
-
-&nbsp;
