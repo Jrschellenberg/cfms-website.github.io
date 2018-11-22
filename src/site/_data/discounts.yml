@@ -12,7 +12,7 @@ travel-discounts:
     discount-need-reverification:
     discount-description: >-
       <p>The CFMS is proud to present the WestJet Discount!</p> <p>CFMS members
-      are eligible for <strong>10% off <em>all fare classes(basic excluded)* for guests travelling </em><strong><em>Canada
+      are eligible for <strong>10% off <em>all fare classes(basic excluded)* for guests travelling </em><em>Canada
       wide</em>.</strong></p> <p>To take advantage of this offer, you will need the discount code listed. Please visit <a href="https://www.westjet.com/conventions">www.westjet.com/conventions</a> to make a booking online. If you have questions about how to
       complete a booking with your discount codes, please check out WestJet's <a
       href="https://www.westjet.com/en-ca/about-us/contact-us/faqs/discount-codes"
