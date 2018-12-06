@@ -13,6 +13,6 @@ Please submit written articles of up to 800 words (reflection, opinion/editorial
 
 We are also seeking submissions for our cover art. You have the license to be creative through drawing, painting, digital art, photography, or any medium of your choosing. Ideally, the design for this year’s cover art will in some way include medical technology as a focus.
 
-Submissions of all kinds can be sent to Connor Brenna, our Annual Review editor, at&nbsp;[annualreview@cfms.org](mailto:annualreview@cfms.org). Submissions are due by January 18, 2019.&nbsp;
+Submissions of all kinds can be sent to Connor Brenna, our Annual Review editor, at&nbsp;[annualreview@cfms.org](mailto:contributor@cfms.org). Submissions are due by January 18, 2019.&nbsp;
 
 &nbsp;
