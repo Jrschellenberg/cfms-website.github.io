@@ -1,5 +1,5 @@
 ---
-title: 'Call for Submissions: 2019 CFMS Annual Review'
+title: 'Call for Submissions: 2019 CFMS Annual Review (Due January 18)'
 date: 2018-12-04 01:30:00
 description: 2018 CFMS Annual Review. Submissions due January 18th/2019.
 lang: en
