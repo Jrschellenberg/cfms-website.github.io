@@ -1,5 +1,7 @@
 ---
-title: 'Call for Applications: CFMS-MD Financial Day of Action Travel Awards'
+title: >-
+  Call for Applications: CFMS-MD Financial Day of Action Travel Awards (Due
+  December 30)
 date: 2018-12-09 07:30:00
 description: >-
   Interested in attending the CFMS 2019 National Day of Action? Apply for
