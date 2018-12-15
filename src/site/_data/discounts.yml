@@ -6,6 +6,18 @@ travel-id: travel-discounts
 wellness-id: wellness-discounts
 travel-discounts:
   - lang: en
+    discount-title: Air Canada Discount for CaRMS Season - January 3, 2019 to February 15, 2019
+    discount-sub-title: Save up to 15% off flights!
+    discount-img: aircanada.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>CFMS in partnership with the FMEQ has secured a discount on flights
+      with Air Canada during the Carms Interview Period from January 3rd to February 15th.
+      CFMS members will benefit from 10% off standard fares and 15% off Flex (and up) fares.</p>
+    discount-promotion: >-
+      <p><strong><em>Travel from:</em></strong> <strong>January 3, 2019 to February 15, 2019</strong></p>
+      <p><em>Promo code:</em> <strong>824BVRJ1</strong></p>
+  - lang: en
     discount-title: 'WestJet Discount: January 5, 2019 – February 7, 2019'
     discount-sub-title:
     discount-img: westjet.png
@@ -250,18 +262,18 @@ lasik-discounts:
     discount-img:
     discount-need-reverification:
     discount-description: >-
-      <p>LASIK MD is Canada’s only national provider of laser vision correction, with more than 30 clinics located across the country. We offer a full range of vision correction procedures best suited for every pair of eyes—including procedures for patients with up-close reading vision loss. Our dedicated team of eye care professionals will assist you at every step of the process and address any questions you may have along the way.</p> 
-      <p><strong>CFMS member benefits at LASIK MD include:</strong></span> </p> 
-      <blockquote> 
+      <p>LASIK MD is Canada’s only national provider of laser vision correction, with more than 30 clinics located across the country. We offer a full range of vision correction procedures best suited for every pair of eyes—including procedures for patients with up-close reading vision loss. Our dedicated team of eye care professionals will assist you at every step of the process and address any questions you may have along the way.</p>
+      <p><strong>CFMS member benefits at LASIK MD include:</strong></span> </p>
+      <blockquote>
       <ul>
         <li><strong>FREE consultation with no obligation</strong></span> </li>
         <li><strong>Exceptional flat-rate pricing</strong></span> </li>
         <li><strong>Complimentary Vision Enhancement Plan</strong></span> </li>
-      </ul> 
+      </ul>
       <p style="text-align:
       center;">&nbsp;</p> <p style="text-align: center;"><span style="font-size:
       8pt;">*CFMS does not endorse the products or services offered by its
-      corporate partners and organizations.</span></p> 
+      corporate partners and organizations.</span></p>
       </blockquote>
     discount-promotion: >-
       <p>Visit <a href='lasik-membership-card.html' target='_blank'>Here</a> To
@@ -918,4 +930,4 @@ online-discounts:
       <ul><li>Abonnez-vous gratuitement dès aujourd’hui! Pour de plus amples
       informations, visitez <a href="http://www.mdbriefcase.com/">
       www.mdbriefcase.com </a></li></ul>
-wellness-discounts: 
+wellness-discounts:
