@@ -257,6 +257,7 @@ sidebar-student-affairs:
     financial-wellness: Financial Wellness
     physical-wellness: Physical Wellness
     social-relationship-wellness: Social/Relationship Wellness
+    restaurants-activities-wellness: Restaurants/Activities
   - lang: fr
     sidebar-title_1: Affaires étudiantes
     overview: Aperçu
@@ -280,6 +281,7 @@ sidebar-student-affairs:
     financial-wellness: Financial Wellness
     physical-wellness: Physical Wellness
     social-relationship-wellness: Social/Relationship Wellness
+    restaurants-activities-wellness: Restaurants/Activities
 sidebar-communications:
   - lang: en
     sidebar-title_1: Communications
