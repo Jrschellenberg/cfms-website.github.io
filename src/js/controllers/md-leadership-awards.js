@@ -39,7 +39,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 						 //    controller.loadPrevFile(refPath, 'reference-1', application.val().reference1);
 					    // if (application.child('reference2').exists())
 						 //    controller.loadPrevFile(refPath, 'reference-2', application.val().reference2);
-					
+
 					    var beforeSubmissionElements = document.getElementsByClassName('before-submission'), i;
 					    for (var i = 0; i < beforeSubmissionElements.length; i++)
 						    beforeSubmissionElements[i].style.display = 'block';
@@ -57,12 +57,12 @@ class LeadershipAwardUserController extends FirebaseConnection {
 					    afterSubmissionElements[i].style.display = 'none';
 			    }
 		    });
-	    } 
+	    }
 	    else{
     		console.log("You need to be signed in, sorry");
 	    }
-        
-    } //End process() 
+
+    } //End process()
 	activateFileUploadSupport(){
     if(this.auth.user) {
 	    //File upload support
@@ -75,7 +75,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
     	console.log("user is not signed in, error!");
     }
 	}
-	
+
   submitApplication(){
 		if(this.auth.user) {
 			var controller = this;
@@ -86,7 +86,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 					vex.dialog.alert('<h3><strong>Enter an Email Address</strong></h3><p>Please enter an email address.</p>');
 					return;
 				}
-				
+
 				//CMA Membership verification
 				var cmaMembershipID = document.getElementById('cma-membership').value;
 				if (cmaMembershipID.length !== 6 || !controller.isInt(cmaMembershipID)) {
@@ -106,21 +106,21 @@ class LeadershipAwardUserController extends FirebaseConnection {
 						vex.dialog.alert('<h3><strong>Missing Supporting Document</strong></h3><p>You are missing a supporting document.</p>');
 						return;
 					}
-					
+
 					//Twitter Handle sanitization
 					var twitterHandle = document.getElementById('twitter-handle').value;
 					if (twitterHandle.charAt(0) !== '@')
 						twitterHandle = '@' + twitterHandle;
 					if (twitterHandle.length === 1 && twitterHandle.charAt(0) === '@')
 						twitterHandle = '';
-					
+
 					//Meeting Attendance conversion to yes/no.
 					var meetingAttendance = document.getElementById('attend-cfms-meeting').value;
 					if (meetingAttendance.charAt(0) === 'Y')
 						meetingAttendance = "Yes";
 					else
 						meetingAttendance = "No";
-					
+
 					//Saves the submission data into the database
 					controller.firebase.database().ref(refPath).update({
 						submitted: true,
@@ -132,7 +132,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 						twitterHandle: twitterHandle,
 						meetingAttendance: meetingAttendance,
 						dateSubmitted: controller.getTimeEST(),
-                        linkCompleteApplication: document.getElementById('complete-application-link').childNodes[0].href,
+                        // linkCompleteApplication: document.getElementById('complete-application-link').childNodes[0].href,
 						// linkPersonalStatement: document.getElementById('personal-statement-link').childNodes[0].href,
 						// linkCurriculumVitae: document.getElementById('curriculum-vitae-link').childNodes[0].href,
 						// linkLetterGoodStanding: document.getElementById('letter-good-standing-link').childNodes[0].href,
@@ -144,7 +144,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 					//Loads the submission fields
 					controller.loadSubmission();
 				}); //End firebase call.
-			} //End submitApplication 
+			} //End submitApplication
 		}
 		else{
 			console.log("user not signed in, it errored in submitapplication");
@@ -226,7 +226,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 			// 	// File doesn't exist
 			// });
 		});
-		
+
 		//Hides the submission form and displays the application
 		var beforeSubmissionElements = document.getElementsByClassName('before-submission'), i;
 		for (var i = 0; i < beforeSubmissionElements.length; i ++)
@@ -235,7 +235,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 		for (var i = 0; i < afterSubmissionElements.length; i ++)
 			afterSubmissionElements[i].style.display = 'block';
 	} //End loadSubmission
-	
+
 	loadPrevFile (refPath, id, fileName){
 		console.log(refPath);
 		console.log("hitting loadPrevFile");
@@ -245,7 +245,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 		var input = document.getElementById(id);
 		var label = input.nextElementSibling;
 		label.querySelector( 'span' ).innerHTML = fileName;
-		
+
 		//Set the URL to display by the button
 		storageRef.child(refPath + '/' + id + '/' + fileName).getDownloadURL().then(function(url) {
 			console.log("found prev file!");
@@ -268,17 +268,17 @@ class LeadershipAwardUserController extends FirebaseConnection {
 		}
 		return true;
 	} //end isInt
-	
+
 	getTimeEST(){
 		//EST
-		let offset = -4.0; //Changed this to -4, when offset = 1 = greenwich time therefore since Est is -5, 1-5 = -4 
+		let offset = -4.0; //Changed this to -4, when offset = 1 = greenwich time therefore since Est is -5, 1-5 = -4
 		//OR if that doesn't make since EST is 4 hours behind UTC time not 5, therefore -4
 		let clientDate = new Date();
 		let utc = clientDate.getTime() + (clientDate.getTimezoneOffset() * 60000);
 		let serverDate = new Date(utc + (3600000*offset));
 		return (serverDate.toLocaleString());
 	}
-	
+
 	handleFileSelect(evt) {
 		console.log("handle file select event firing!!");
 		//Uncomment this when ready for testing!
@@ -290,7 +290,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 		var metadata = {
 			'contentType': file.type
 		};
-		
+
 		//Deletes the previous version of file, if it exists
 		//--------------------------------------------
 		var refPath = 'leadership-award/' + window.config.leadership_award_year +'/' + this.auth.userId;
@@ -322,7 +322,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 				// 		controller.deleteFile (deletePath + snapshot.val().reference2);
 				// 	break;
 			}
-			
+
 			//Add the new version of the file
 			//--------------------------------------------
 		}).then (function() {
@@ -338,7 +338,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 				// [END onfailure]
 			});
 			// [END oncomplete]
-			
+
 			//Copies filenames of uploaded files onto database
 			//--------------------------------------------
 		}).then (function(){
@@ -396,7 +396,7 @@ class LeadershipAwardAdminController extends FirebaseConnection {
         this.auth = authenticationService;
         this.process();
     }
-    
+
     process() {
         //Confirm that present user is an admin.
         if (!this.auth.user.isAdmin) return console.log("Error: Must be an admin to view this resource.");
