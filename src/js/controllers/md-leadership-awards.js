@@ -132,7 +132,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 						twitterHandle: twitterHandle,
 						meetingAttendance: meetingAttendance,
 						dateSubmitted: controller.getTimeEST(),
-                        // linkCompleteApplication: document.getElementById('complete-application-link').childNodes[0].href,
+                        linkCompleteApplication: document.getElementById('complete-application-link').childNodes[0].href,
 						// linkPersonalStatement: document.getElementById('personal-statement-link').childNodes[0].href,
 						// linkCurriculumVitae: document.getElementById('curriculum-vitae-link').childNodes[0].href,
 						// linkLetterGoodStanding: document.getElementById('letter-good-standing-link').childNodes[0].href,
