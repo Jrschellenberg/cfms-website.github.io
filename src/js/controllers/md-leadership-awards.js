@@ -88,11 +88,11 @@ class LeadershipAwardUserController extends FirebaseConnection {
 				}
 
 				//CMA Membership verification
-				var cmaMembershipID = document.getElementById('cma-membership').value;
-				if (cmaMembershipID.length !== 6 || !controller.isInt(cmaMembershipID)) {
-					vex.dialog.alert('<h3><strong>Invalid CMA Membership ID</strong></h3><p>Your CMA Membership ID should be a 6 digit number.</p>');
-					return;
-				}
+				// var cmaMembershipID = document.getElementById('cma-membership').value;
+				// if (cmaMembershipID.length !== 6 || !controller.isInt(cmaMembershipID)) {
+				// 	vex.dialog.alert('<h3><strong>Invalid CMA Membership ID</strong></h3><p>Your CMA Membership ID should be a 6 digit number.</p>');
+				// 	return;
+				// }
 				//Ensures that every necessary file is present
 				var refPath = 'leadership-award/' + window.config.leadership_award_year +'/' + controller.auth.userId;
 				controller.firebase.database().ref(refPath).once('value').then(function (snapshot) {
@@ -128,7 +128,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 						medicalSchool: document.getElementById('account-school').textContent,
 						graduationYear: document.getElementById('account-grad-year').textContent,
 						emailAddress: emailAddress,
-						cmaMembershipID: cmaMembershipID,
+						// cmaMembershipID: cmaMembershipID,
 						twitterHandle: twitterHandle,
 						meetingAttendance: meetingAttendance,
 						dateSubmitted: controller.getTimeEST(),
@@ -183,7 +183,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 				accountEmail = snapshot.val().emailAddress;
 			submittedEmail.textContent = snapshot.val().emailAddress = accountEmail;
 			submittedEmail.href = 'mailto:' + accountEmail;
-			document.getElementById('submitted-cma-id').textContent = snapshot.val().cmaMembershipID;
+			// document.getElementById('submitted-cma-id').textContent = snapshot.val().cmaMembershipID;
 			var twitterHandle = snapshot.val().twitterHandle;
 			if (twitterHandle === '')
 				document.getElementById('submitted-twitter-handle').textContent = 'Not given';
@@ -260,14 +260,14 @@ class LeadershipAwardUserController extends FirebaseConnection {
 	setFileLink (id, url){
 		document.getElementById(id+'-link').innerHTML = '<a href="' +  url + '" target="_blank">View File</a>';
 	}
-	isInt (cmaMembershipID){
-		for (var i = 0; i < cmaMembershipID.length; i++){
-			var currentChar = cmaMembershipID.charAt(i);
-			if (currentChar < '0' || currentChar > '9')
-				return false;
-		}
-		return true;
-	} //end isInt
+	// isInt (cmaMembershipID){
+	// 	for (var i = 0; i < cmaMembershipID.length; i++){
+	// 		var currentChar = cmaMembershipID.charAt(i);
+	// 		if (currentChar < '0' || currentChar > '9')
+	// 			return false;
+	// 	}
+	// 	return true;
+	// } //end isInt
 
 	getTimeEST(){
 		//EST
@@ -421,8 +421,8 @@ class LeadershipAwardAdminController extends FirebaseConnection {
                     applicationsHTML += submission.val().graduationYear + '</div>';
                     applicationsHTML += '<label>Email Address</label><div class="review-text-field">';
                     applicationsHTML += submission.val().emailAddress + '</div>';
-                    applicationsHTML += '<label>CMA Membership ID</label><div class="review-text-field">';
-                    applicationsHTML += submission.val().cmaMembershipID + '</div>';
+                    // applicationsHTML += '<label>CMA Membership ID</label><div class="review-text-field">';
+                    // applicationsHTML += submission.val().cmaMembershipID + '</div>';
                     applicationsHTML += '<label>Twitter Handle</label><div class="review-text-field">';
                     var twitterHandle = submission.val().twitterHandle;
                     if (twitterHandle === '')
