@@ -15,7 +15,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
     	if(this.auth.user) { //Is this user logged in?
 		    var controller = this;
 		    //Have they even saved any files?
-		    var refPath = 'leadership-award/' + window.config.leadership_award_year + '/' + controller.auth.userId;
+		    var refPath = 'leadership-award/' + '2018-2019' + '/' + controller.auth.userId;
 		    controller.firebase.database().ref(refPath).once('value').then((snapshot) => {
 			    //If they have, load information.
 			    if (snapshot.exists()) {
@@ -94,7 +94,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 				// 	return;
 				// }
 				//Ensures that every necessary file is present
-				var refPath = 'leadership-award/' + window.config.leadership_award_year +'/' + controller.auth.userId;
+				var refPath = 'leadership-award/' + '2018-2019' +'/' + controller.auth.userId;
 				controller.firebase.database().ref(refPath).once('value').then(function (snapshot) {
 					if (!snapshot.child('completeApplication').exists()
 						// !snapshot.child('personalStatement').exists()
@@ -171,7 +171,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
         document.getElementById('submitted-school').textContent = snapshot.val().medicalSchool;
         document.getElementById('submitted-grad-year').textContent = snapshot.val().graduationYear;
 		//Loads other submitted data
-		refPath = 'leadership-award/' + window.config.leadership_award_year + '/' + this.auth.userId;
+		refPath = 'leadership-award/' + '2018-2019' + '/' + this.auth.userId;
 		controller.firebase.database().ref(refPath).once('value').then(function(snapshot) {
 			if (!snapshot.child('submitted').exists())
 				return;
@@ -293,7 +293,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 
 		//Deletes the previous version of file, if it exists
 		//--------------------------------------------
-		var refPath = 'leadership-award/' + window.config.leadership_award_year +'/' + this.auth.userId;
+		var refPath = 'leadership-award/' + '2018-2019' +'/' + this.auth.userId;
 		controller.firebase.database().ref(refPath).once('value').then(function(snapshot) {
 			var deletePath = refPath + '/' + evt.target.id + '/';
 			switch(evt.target.id) {
@@ -328,7 +328,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 		}).then (function() {
 			// Push to child path.
 			// [START oncomplete]
-			refPath = 'leadership-award/' + window.config.leadership_award_year + '/' + controller.auth.userId + '/' + evt.target.id;
+			refPath = 'leadership-award/' + '2018-2019' + '/' + controller.auth.userId + '/' + evt.target.id;
 			storageRef.child(refPath + '/' + file.name).put(file, metadata).then(function(snapshot) {
 				var url = snapshot.metadata.downloadURLs[0];
 				controller.setFileLink (evt.target.id, url);
@@ -342,7 +342,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 			//Copies filenames of uploaded files onto database
 			//--------------------------------------------
 		}).then (function(){
-			refPath = 'leadership-award/' + window.config.leadership_award_year + '/' + controller.auth.userId;
+			refPath = 'leadership-award/' + '2018-2019' + '/' + controller.auth.userId;
 			switch(evt.target.id) {
                 case 'complete-application':
                 	controller.firebase.database().ref(refPath).update({
@@ -402,7 +402,7 @@ class LeadershipAwardAdminController extends FirebaseConnection {
         if (!this.auth.user.isAdmin) return console.log("Error: Must be an admin to view this resource.");
 
         //Iterates through each submitted application
-        var query = this.firebase.database().ref('leadership-award/' + window.config.leadership_award_year).orderByKey();
+        var query = this.firebase.database().ref('leadership-award/' + '2018-2019').orderByKey();
         //[!- START QUERY]
         query.once("value").then((snapshot) => {
             var applicationsHTML = '';
