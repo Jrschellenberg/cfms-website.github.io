@@ -334,6 +334,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 				controller.setFileLink (evt.target.id, url);
 			}).catch(function(error) {
 				// [START onfailure]
+                console.log('failing');
 				vex.dialog.alert('<h3><strong>Upload failed</strong></h3><p>' + error + '</p>');
 				// [END onfailure]
 			});
