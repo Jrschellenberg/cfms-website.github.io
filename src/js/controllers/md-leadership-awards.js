@@ -331,7 +331,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 			refPath = 'leadership-award/' + '2018-2019' + '/' + controller.auth.userId + '/' + evt.target.id;
 			storageRef.child(refPath + '/' + file.name).put(file, metadata).then(function(snapshot) {
 				var url = snapshot.metadata.downloadURLs[0];
-				controller.setFileLink (evt.target.id, url);
+				controller.setFileLink(evt.target.id, url);
 			}).catch(function(error) {
 				// [START onfailure]
                 console.log('failing');

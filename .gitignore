@@ -10,6 +10,7 @@ coverage/
 serve/
 .idea/
 package-lock\.json
+yarn.lock
 Gemfile.lock
 src/site/images/resource-logos/Thumbs\.db
 .snyk
