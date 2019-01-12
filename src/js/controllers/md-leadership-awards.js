@@ -66,7 +66,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 	activateFileUploadSupport(){
     if(this.auth.user) {
 	    //File upload support
-	    var fileUploaders = document.getElementsByClassName('awardApplicationUpload'), i;
+	    let fileUploaders = document.getElementsByClassName('awardApplicationUpload');
 	    for (var i = 0; i < fileUploaders.length; i++) {
 		    fileUploaders[i].addEventListener('change', this.handleFileSelect.bind(this), false);
 	    }
@@ -297,10 +297,10 @@ class LeadershipAwardUserController extends FirebaseConnection {
 		controller.firebase.database().ref(refPath).once('value').then(function(snapshot) {
 			var deletePath = refPath + '/' + evt.target.id + '/';
 			switch(evt.target.id) {
-                case 'complete-application':
-                	if (snapshot.child('completeApplication').exists())
-                		controller.deleteFile (deletePath + snapshot.val().completeApplication);
-                	break;
+				case 'complete-application':
+					if (snapshot.child('completeApplication').exists())
+						controller.deleteFile (deletePath + snapshot.val().completeApplication);
+					break;
 				// case 'personal-statement':
 				// 	if (snapshot.child('personalStatement').exists())
 				// 		controller.deleteFile (deletePath + snapshot.val().personalStatement);
@@ -329,27 +329,41 @@ class LeadershipAwardUserController extends FirebaseConnection {
 			// Push to child path.
 			// [START oncomplete]
 			refPath = 'leadership-award/' + '2018-2019' + '/' + controller.auth.userId + '/' + evt.target.id;
-			storageRef.child(refPath + '/' + file.name).put(file, metadata).then(function(snapshot) {
-				var url = snapshot.metadata.downloadURLs[0];
-				controller.setFileLink(evt.target.id, url);
-			}).catch(function(error) {
-				// [START onfailure]
-                console.log('failing');
-				vex.dialog.alert('<h3><strong>Upload failed</strong></h3><p>' + error + '</p>');
-				// [END onfailure]
-			});
-			// [END oncomplete]
+			let uploadTask = storageRef.child(refPath + '/' + file.name).put(file, metadata);
 
+			// Listen for state changes, errors, and completion of the upload.
+			uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
+				function(snapshot) {
+					// Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+					var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+					console.log('Upload is ' + progress + '% done');
+					switch (snapshot.state) {
+						case firebase.storage.TaskState.PAUSED: // or 'paused'
+							console.log('Upload is paused');
+							break;
+						case firebase.storage.TaskState.RUNNING: // or 'running'
+							console.log('Upload is running');
+							break;
+					}
+				}, function(error) {
+					console.log(error);
+					vex.dialog.alert('<h3><strong>Upload failed</strong></h3><p>' + error.code + '</p>');
+				}, function() {
+					// Upload completed successfully, now we can get the download URL
+					uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+						controller.setFileLink(evt.target.id, downloadURL);
+					});
+				})
 			//Copies filenames of uploaded files onto database
 			//--------------------------------------------
-		}).then (function(){
+		}).then(function(){
 			refPath = 'leadership-award/' + '2018-2019' + '/' + controller.auth.userId;
 			switch(evt.target.id) {
-                case 'complete-application':
-                	controller.firebase.database().ref(refPath).update({
-                		completeApplication:file.name
-                	})
-                	break;
+				case 'complete-application':
+					controller.firebase.database().ref(refPath).update({
+						completeApplication:file.name
+					});
+					break;
 				// case 'personal-statement':
 				// 	controller.firebase.database().ref(refPath).update({
 				// 		personalStatement:file.name
@@ -378,6 +392,7 @@ class LeadershipAwardUserController extends FirebaseConnection {
 			}
 		});
 	} //End handle fileSelect
+
 	/**
 	 * Deletes files with a given path
 	 */
