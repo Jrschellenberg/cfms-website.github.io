@@ -355,29 +355,6 @@ textbook-discounts:
       product and use the discount code: <strong>WZP22JFT</strong> to save 30%!
       Valid until 1 April 2019..</li> </ul>
   - lang: en
-    discount-title: Toronto Notes
-    discount-sub-title: >-
-      CFMS members can now purchase <i>Toronto Notes at a special discounted
-      price!</i> CFMS and Toronto Notes are excited to offer members 10% off
-      their purchase of the <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html">Toronto
-      Notes eBook</a>, a regular price of $129.95.
-    discount-img: toronto-notes-2016-cover.jpg
-    discount-need-reverification:
-    discount-description: >-
-      <p>For 32 years Toronto Notes has been the premiere Canadian reference
-      resource for clerkship rotations and MCCQE preparation. Along with the
-      flagship medical reference book, Toronto Notes produces a concise
-      'Clinical Handbook' for on-the-ward reference, and a suite of online
-      resources including  'ECG made simple', 'The Medical Imaging Atlas', and
-      'Functional Neuroanatomy.'</p>
-    discount-promotion: >-
-      <p>To receive this exclusive 10% discount on the Toronto Notes eBook:</p>
-      <ol> <li>Please Visit: <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2016.html">http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html</a></li>
-      <li>Add the 'eBook (PDF format)' to your cart ($129.95)</li> <li>Use the
-      discount code TN-2140-CFMS during checkout </li> </ol>
-  - lang: en
     discount-title: Pharmacology You See
     discount-sub-title: >-
       Pharmacology You See is a study aide designed to assist students with exam
@@ -405,30 +382,6 @@ textbook-discounts:
       href="http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html">http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html</a></li>
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2016-CFMS</strong></li> </ul>
-  - lang: en
-    discount-title: '''Drugs &amp; Drugs'' Pocket Guide: Free Electronic Version'
-    discount-sub-title:
-    discount-img: drugsanddrugs.jpg
-    discount-need-reverification:
-    discount-description: >-
-      <p>The <strong>third edition of Drugs &amp; Drugs</strong> is a pocket
-      guide that provides a comprehensive review of what students need to know
-      about commonly prescribed medications in a practical,  concise and
-      organized manner.</p> <blockquote> <ul> <li>Covers over 100 different
-      classes of medications</li> <li>1-2 page concise synopsis of each
-      medication class</li> <li>To-the-point review of mechanism of action,
-      pharmacokinetics, indications/contraindications, and adverse effects</li>
-      <li>Highlights of fundamental principles, pearls and pitfalls of drug
-      use</li> <li>Canadian trade names and content</li> </ul>
-      </blockquote><p>CFMS members receive free access to the online and PDF
-      versions of P. Hamilton &amp; D. Hui's 'Drugs &amp; Drugs', courtesy of
-      the University of Alberta's Department of Medicine.</p>
-    discount-promotion: >-
-      <ul> <li>The online version can be found <a
-      href="http://homer.med.ualberta.ca/clint/hirex.asp?FNOTIFY=1461@drugsdrugshirex">here.</a></li>
-      <li>The online PDF can be found <a
-      href="http://homer.med.ualberta.ca/drugsanddrugs/book/DandD4.pdf">here.</a></li>
-      </ul>
   - lang: en
     discount-title: McGraw-Hill Bookstore
     discount-sub-title:
@@ -507,29 +460,6 @@ textbook-discounts:
       product and use the discount code: <strong>WZP22JFT</strong> to save 30%!
       Valid until Feb 28, 2018.</li> </ul>
   - lang: fr
-    discount-title: Toronto Notes
-    discount-sub-title: >-
-      CFMS members can now purchase <i>Toronto Notes at a special discounted
-      price!</i> CFMS and Toronto Notes are excited to offer members 10% off
-      their purchase of the <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html">Toronto
-      Notes eBook</a>, a regular price of $129.95.
-    discount-img: toronto-notes-2016-cover.jpg
-    discount-need-reverification:
-    discount-description: >-
-      <p>For 32 years Toronto Notes has been the premiere Canadian reference
-      resource for clerkship rotations and MCCQE preparation. Along with the
-      flagship medical reference book, Toronto Notes produces a concise
-      'Clinical Handbook' for on-the-ward reference, and a suite of online
-      resources including  'ECG made simple', 'The Medical Imaging Atlas', and
-      'Functional Neuroanatomy.'</p>
-    discount-promotion: >-
-      <p>To receive this exclusive 10% discount on the Toronto Notes eBook:</p>
-      <ol> <li>Please Visit: <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2016.html">http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html</a></li>
-      <li>Add the 'eBook (PDF format)' to your cart ($129.95)</li> <li>Use the
-      discount code TN-2140-CFMS during checkout </li> </ol>
-  - lang: fr
     discount-title: Pharmacology You See
     discount-sub-title: >-
       Pharmacology You See is a study aide designed to assist students with exam
@@ -557,22 +487,6 @@ textbook-discounts:
       href="http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html">http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html</a></li>
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2016-CFMS</strong></li> </ul>
-  - lang: fr
-    discount-title: >-
-      Guide de poche « Drugs & Drugs » approuvé par la FEMC : version
-      électronique gratuite
-    discount-sub-title:
-    discount-img: drugsanddrugs.jpg
-    discount-need-reverification:
-    discount-description: >-
-      Les membres de la FEMC ont accès gratuitement aux versions en ligne et PDF
-      de « Drugs & Drugs » de P. Hamilton et D. Hui.
-    discount-promotion: >-
-      <ul> <li>La version en ligne se trouve <a
-      href="http://homer.med.ualberta.ca/clint/hirex.asp?FNOTIFY=1461@drugsdrugshirex">ici.</a></li>
-      <li>La version PDF en ligne se trouve <a
-      href="http://homer.med.ualberta.ca/drugsanddrugs/book/DandD4.pdf">ici.</a></li>
-      </ul>
   - lang: fr
     discount-title: Librairie de McGraw Hill
     discount-sub-title:
