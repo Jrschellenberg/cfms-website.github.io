@@ -1,0 +1,70 @@
+---
+title: "Residency Interview Resources"
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Student Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+{% include nav.html %}
+
+<!--Page Specific Formatting-->
+<script type="text/javascript">
+    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+    document.querySelector( "#what-we-do" ).classList.toggle("active");
+</script>
+
+<div class="content">
+    <!-- Displays the sidebar and emphasizes the active page -->
+    {% include sidebar-student-affairs.html %}
+    <script type="text/javascript">
+        document.querySelector( "#residency-interview" ).classList.toggle("sidebar-active");
+    </script>
+        
+    <div id="side-content">
+        <h1 id="page-title">{{ page.title }}</h1>
+        <div class="editable">
+        <p>One of the most exciting and stressful periods for all of us is during the residency interview tours. We’ve put together some resources on this page to help you with prep. The CFMS is always continually working on resource development with partner organizations and we will continue to post information.</p>
+        <h3>CaRMS Website</h3>
+        <p>CaRMS website has a lot of important information that can help you with your preparation. We’d like to especially highlight this page which outlines applicant rights, interview guidelines and some examples of inappropriate questions. Click <a href="https://www.carms.ca/match/r-1-main-residency-match/faculty-ugme/file-review-interviews-r1-ug/interview-guidelines-r1-ug/">here</a> to view the CARMS interview guidelines.</p>
+        <p>It is important to be aware of these. While the percentage of applicants who report having been asked an inappropriate questions has decreased over the past few years, the latest data from CaRMS still shows that over 8% of students were asked an inappropriate question such as one listed in the link.</p>
+        <p>Taking a look at each of the program specific pages on the CaRMS website is also recommended for your interview prep at each specific site as they include information on their specific interview format, rules and regulations to be aware of and what they are looking for in a candidate for their program.</p>
+        <h3>CFMS Resources</h3>
+        <ol>
+            <li><a href="https://www.cfms.org/what-we-do/education/cfms-matchbook.html">Match Book</a>: The Match Book is a joint initiative of the CFMS and CaRMS designed to educate medical students about the Match and assist with career planning.</li>
+            <li><a href="https://www.cfms.org/resources/couples-match-app/">Couples Match Application</a>: The CaRMS Couple Match App is a tool to assist learners participating in the Couples Matching process to develop their rank order</li>
+            <li><a href="https://www.cfms.org/what-we-do/education/residency-match.html">CFMS Unmatched Student Network/peer mentorship</a></li>
+        </ol>
+        <h3>Interview Preparation</h3>
+        <ol>
+            <li><a href="https://www.cma.ca">CMA Mock Interview</a>: CMA hosts mock CARMS interview</li>
+            <li><a href="https://students.usask.ca/jobs/guides/interview-questions.php">U Sask Sample CARMS interview questions</a></li>
+            <li><a href="https://md.utoronto.ca/sites/default/files/OHPSA%20-%20CARMS%20Residency%20Interviews%20Tips%201.PDF">U of Toronto</a>: Useful PDF with Tips & Sample question</li>
+            <li><a href="http://residentdoctors.ca/wp-content/uploads/2015/10/Six-tips-for-acing-the-residency-interview.pdf">General Tips, RDoC interview</a></li>
+            <li><a href="https://canadiem.org/">Canadiem</a>: Has blog posts on tips and other resources you may find useful</li>
+            <li><a href="https://www.aamc.org/cim/residency/application/interviewing/">AAMC</a>: provides tips for residency interview for US applicants which is translatable to CARMS interview</li>
+            <li><a href="https://www.aamc.org/download/77936/data/residencyquestions.pdf">AAMC</a>: Great tip on how to ask questions during interview</li>
+            <li><a href="https://www.amazon.ca/Medical-School-Interview-preparation-Empowering/dp/0615353916">The Medical School Interview: From preparation to thank you notes: Empowering advice to help you succeed - A Free e-book</a></li>
+            <li><a href="https://residentdoctors.ca/resources/resident-profiles/">Check out the RDoC Residency Profiles</a></li>
+        </ol>
+        <blockquote>
+            <p>For further suggestions on content please feel free to contact our Director of Student Affairs: <a href="mailto:studentsaffairs@cfms.org">studentsaffairs@cfms.org</a></p>
+        </blockquote>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+</body>

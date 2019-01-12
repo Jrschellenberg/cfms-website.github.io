@@ -258,6 +258,7 @@ sidebar-student-affairs:
     physical-wellness: Physical Wellness
     social-relationship-wellness: Social/Relationship Wellness
     restaurants-activities-wellness: Restaurants/Activities
+    residency-interview: Residency Interviews
   - lang: fr
     sidebar-title_1: Affaires étudiantes
     overview: Aperçu
@@ -282,6 +283,7 @@ sidebar-student-affairs:
     physical-wellness: Physical Wellness
     social-relationship-wellness: Social/Relationship Wellness
     restaurants-activities-wellness: Restaurants/Activities
+    residency-interview: Residency Interviews
 sidebar-communications:
   - lang: en
     sidebar-title_1: Communications
