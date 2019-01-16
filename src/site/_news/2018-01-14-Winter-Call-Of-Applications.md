@@ -19,7 +19,7 @@ This application cycle includes the following positions:
 
 If you have any questions don't hesitate to reach out to Debbie [ontario@cfms.org](ontario@cfms.org) or Wendy [western@cfms.org](western@cfms.org).
 
---
+–
 
 Appel &agrave; candidatures du Comit&eacute; de Nomination de la FEMC pour l'hiver 2019
 
@@ -31,6 +31,8 @@ Cet hiver, l’appel &agrave; candidatures sera ouvert du 7 janvier au 4 f&eacut
 
 POUR SE PR&Eacute;SENTER : remplissez&nbsp;[ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLSeP1P7u2IgfkJwqeHfvVo_NzMj8Wdi5olS8wzDSOuyDK2XmAA/viewform)&nbsp;et envoyez votre CV &agrave; &lt;administrative@cfms.org&gt; en faisant un cc &agrave; &lt;office@cfms.org&gt; et &lt;ontario@cfms.org&gt;. Le message doit avoir comme objet : &laquo; Comit&eacute; de la FEMC : Pr&eacute;nom Nom &raquo;, et doit &ecirc;tre re&ccedil;u au plus tard le 4 f&eacute;vrier &agrave; 23h59 HNE. Veuillez vous assurer que vos r&eacute;ponses et votre CV NE MENTIONNENT PAS votre nom, votre universit&eacute; ou votre ville (o&ugrave; vous &eacute;tudiez) et qu’ils soient envoy&eacute;s sous format WORD. Pour les publications et/ou conf&eacute;rences, veuillez retirer la liste compl&egrave;te des auteurs. Les demandes qui ne suivent pas ces directives ne seront pas prises en consid&eacute;ration. Veuillez remplir ce formulaire &agrave; nouveau pour chaque poste auquel vous vous pr&eacute;sentez.&nbsp;
 
-La description des postes se trouve ici : &nbsp;https://docs.google.com/spreadsheets/d/1VeaKhZ6n0\_oS-MdjwYAftGdJISR8RHkfH9mS754XpMU/edit?usp=sharing&nbsp;
+La description des postes se trouve ici : https://docs.google.com/spreadsheets/d/1VeaKhZ6n0\_oS-MdjwYAftGdJISR8RHkfH9mS754XpMU/edit?usp=sharing&nbsp;
 
 Si vous avez des questions, n’h&eacute;sitez pas &agrave; contacter ontario@cfms.org ou western@cfms.org.
+
+![](/uploads/winter-call-2.jpeg)![](/uploads/winter-call-french-1.png)
