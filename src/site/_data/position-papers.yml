@@ -12,6 +12,94 @@ position-papers:
       - tag:
         tag-name: Discussion Paper
     paper-collection:
+      - section: 'Recently Passed at SGM 2018 - Halifax, NS'
+        papers:
+          - paper-name: CFMS Policy Statement on Solitary Confinement and Health Delivery
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Policy Statement on Solitary Confinement and Health Delivery.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Health Equity
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Immigrants Refugees and Asylum Seekers
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Immigrants Refugees and Asylum Seekers.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Health Equity
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Learner Privacy in Canadian Medical Education
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Learner Privacy in Canadian Medical Education.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Medical Education
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Responding to Canada’s Opioid Crisis
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Responding to Canada’s Opioid Crisis.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Public Health
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Recreation Cannabis Legalization
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Recreation Cannabis Legalization.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Public Health
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+      - section: 'Recently Passed at AGM 2018 - Montreal, QC'
+        papers:
+          - paper-name: CFMS Position Paper on Responding to Medical Student Suicide
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Responding to Medical Student Suicide.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Medical Student Affairs
+              - tag: AGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
       - section: 'Recently Passed at AGM 2017 - Ottawa, ON'
         papers:
           - paper-name: Curricular Advocacy
@@ -1002,6 +1090,94 @@ position-papers:
       - tag:
         tag-name: En cours
     paper-collection:
+      - section: 'Adopté à la reoncontre générale 2018 - Halifax, NS'
+        papers:
+          - paper-name: CFMS Policy Statement on Solitary Confinement and Health Delivery
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Policy Statement on Solitary Confinement and Health Delivery.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Health Equity
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Immigrants Refugees and Asylum Seekers
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Immigrants Refugees and Asylum Seekers.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Health Equity
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Learner Privacy in Canadian Medical Education
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Learner Privacy in Canadian Medical Education.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Medical Education
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Responding to Canada’s Opioid Crisis
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Responding to Canada’s Opioid Crisis.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Public Health
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+          - paper-name: CFMS Position Paper on Recreation Cannabis Legalization
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Recreation Cannabis Legalization.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Public Health
+              - tag: SGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
+      - section: 'Adopté à l'AG 2018 - Montreal, QC'
+        papers:
+          - paper-name: CFMS Position Paper on Responding to Medical Student Suicide
+            paper-publish-date: '2019'
+            paper-link: /files/position-papers/2019 CFMS Position Paper on Responding to Medical Student Suicide.pdf
+            paper-summary: Summary coming soon
+            paper-status: Status coming soon
+            paper-tags:
+              - tag: Medical Student Affairs
+              - tag: AGM 2018
+            paper-contacts:
+              - name: David Wiercigroch
+                email: nohp@cfms.org
+            paper-nohps:
+              - name: NOHP
+                email: nohp@cfms.org
       - section: 'Adopté à l’AG 2017 - Ottawa, ON'
         papers:
           - paper-name: Curricular Advocacy
