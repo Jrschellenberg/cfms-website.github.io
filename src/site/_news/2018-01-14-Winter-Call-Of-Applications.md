@@ -19,6 +19,8 @@ This application cycle includes the following positions:
 3. CFMS Matchbook Committee
 4. National Blood Drive Chair
 5. Communiqu&eacute; Editor
+6. CACMS Rep Jr.
+7. CMHF (Canadian Medical Hall of Fame)
 
 Full list and description of positions are available here:&nbsp;
 
