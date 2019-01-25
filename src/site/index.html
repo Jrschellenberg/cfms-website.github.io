@@ -73,31 +73,6 @@ sitemap:
 		</div>
 	{% endif %}
 
-	<div id="featured-links">
-		<h1>
-			{% if page.lang == "en" %}
-				{{ site.data.translations.whats_new_en }}
-			{% else %}
-				{{ site.data.translations.whats_new_fr }}
-			{% endif %}
-		</h1>
-		<div class="flex-wrapper">
-			{% for link in site.data.home.featured_links %}
-				<a href="{{ link.url }}">
-					{% if page.lang == "en" %}
-						<div class="featured-link" style="background: url(/{{ link.image_url_en }}) no-repeat center center; background-size:cover">
-						</div>
-						<div class="featured-link-text">{{ link.text_en }}</div>
-					{% else %}
-						<div class="featured-link" style="background: url(/{{ link.image_url_fr }}) no-repeat center center; background-size:cover">
-						</div>
-						<div class="featured-link-text">{{ link.text_fr }}</div>
-					{% endif %}
-				</a>
-			{% endfor %}
-		</div>
-	</div>
-
 
 	<div id="featured-links">
 		<h1>
@@ -124,7 +99,7 @@ sitemap:
 			{% endfor %}
 		</div>
 	</div>
-	
+
 
 	<!-- Displays the homepage banner -->
 	{% for text in site.data.home.banner_text %}

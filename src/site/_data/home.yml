@@ -24,7 +24,7 @@ news_text_fr: >-
   Il manque quelque chose à notre nouveau site? Visitez l'ancien à <a
   href='http://www.old.cfms.org'>www.old.cfms.org</a>!
 news_text_url:
-featured_links_en:
+featured_links:
   - url: /meetings/agm-2018-montreal.html
     image_url_en: images/home-link-thumbs/cfms-agm-montreal-2018.png
     image_url_fr: images/home-link-thumbs/cfms-agm-montreal-2018.png
