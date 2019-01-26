@@ -84,19 +84,19 @@ sitemap:
 		</h1>
 		<div class="flex-wrapper">
 			{% if page.lang == "en" %}
-				{% for link in site.data.home.featured_links_en %}
-					<a href="{{ link.url_en }}">
-					<div class="featured-link" style="background: url(/{{ link.image_url_en }}) no-repeat center center; background-size:cover">
+				{% for link_en in site.data.home.featured_links_en %}
+					<a href="{{ link_en.url_en }}">
+					<div class="featured-link" style="background: url(/{{ link_en.image_url_en }}) no-repeat center center; background-size:cover">
 					</div>
-					<div class="featured-link-text">{{ link.text_en }}</div>
+					<div class="featured-link-text">{{ link_en.text_en }}</div>
 					</a>
 				{% endfor %}
 			{% else %}
-				{% for link in site.data.home.featured_links_fr %}
-					<a href="{{ link.url_fr }}">
-					<div class="featured-link" style="background: url(/{{ link.image_url_fr }}) no-repeat center center; background-size:cover">
+				{% for link_fr in site.data.home.featured_links_fr %}
+					<a href="{{ link_fr.url_fr }}">
+					<div class="featured-link" style="background: url(/{{ link_fr.image_url_fr }}) no-repeat center center; background-size:cover">
 					</div>
-					<div class="featured-link-text">{{ link.text_fr }}</div>
+					<div class="featured-link-text">{{ link_fr.text_fr }}</div>
 					</a>
 				{% endfor %}
 			{% endif %}
