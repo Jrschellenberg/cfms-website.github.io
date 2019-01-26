@@ -73,7 +73,6 @@ sitemap:
 		</div>
 	{% endif %}
 
-
 	<div id="featured-links">
 		<h1>
 			{% if page.lang == "en" %}
@@ -85,12 +84,12 @@ sitemap:
 		<div class="flex-wrapper">
 			{% for link in site.data.home.featured_links %}
 					{% if page.lang == "en" %}
-						<a href="{{ link.url }}">
+						<a href="{{ link.url_en }}">
 							<div class="featured-link" style="background: url(/{{ link.image_url_en }}) no-repeat center center; background-size:cover">
 							</div>
 							<div class="featured-link-text">{{ link.text_en }}</div>
 					{% else %}
-						<a href="/fr/{{ link.url }}">
+						<a href="{{ link.url_fr }}">
 							<div class="featured-link" style="background: url(/{{ link.image_url_fr }}) no-repeat center center; background-size:cover">
 							</div>
 							<div class="featured-link-text">{{ link.text_fr }}</div>
@@ -99,7 +98,6 @@ sitemap:
 			{% endfor %}
 		</div>
 	</div>
-
 
 	<!-- Displays the homepage banner -->
 	{% for text in site.data.home.banner_text %}
