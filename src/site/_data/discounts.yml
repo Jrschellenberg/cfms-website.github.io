@@ -6,6 +6,13 @@ travel-id: travel-discounts
 wellness-id: wellness-discounts
 travel-discounts:
   - lang: en
+    discount-title:
+    discount-sub-title:
+    discount-img:
+    discount-need-reverification:
+    discount description: >-
+      <p><img src="/images/discount-images/cfms_ad.jpg"></p>
+  - lang: en
     discount-title: Air Canada Discount for CaRMS Season - January 3, 2019 to February 15, 2019
     discount-sub-title: Save up to 15% off flights!
     discount-img: aircanada.png
