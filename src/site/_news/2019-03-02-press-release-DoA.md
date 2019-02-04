@@ -7,6 +7,7 @@ description: >-
 lang: en
 ---
 
+
 OTTAWA, Monday, February 4, 2019 - Over 70 medical students from across Canada are on Parliament Hill today to meet with Members of Parliament and policy advisors to discuss concrete actions to improve seniors care and healthy aging in Canada. 
 
 The Canadian Federation of Medical Students (CFMS) believes that every Canadian deserves to age with dignity, with access to necessary supports and appropriate resources and care. The CFMS calls upon all Members of Parliament to:
