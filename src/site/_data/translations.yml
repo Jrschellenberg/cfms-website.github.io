@@ -217,7 +217,6 @@ sidebar-education:
     reports: Reports
     motp: MOTP Surge 2018
     research-ethics: Research Ethics
-    research-highlights: Research Highlights
   - lang: fr
     sidebar-title_1: Éducation
     overview: Aperçu
@@ -233,7 +232,6 @@ sidebar-education:
     reports: Rapports
     motp: MOTP Surge 2018
     research-ethics: Research Ethics
-    research-highlights: Research Highlights
 sidebar-student-affairs:
   - lang: en
     sidebar-title_1: Student Affairs
