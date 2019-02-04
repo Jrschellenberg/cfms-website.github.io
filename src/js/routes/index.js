@@ -20,7 +20,6 @@ import CarmsInterview from './carms-interview';
 import Electives from './electives';
 import SiteMap from './sitemap';
 import Snapvocacy from './snapvocacy';
-import ResearchHighlights from './research-highlights';
 import EditProfile from './edit-profile';
 
 export default class Router extends Middleware {
