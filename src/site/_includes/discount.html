@@ -1,10 +1,9 @@
-
 {% for discount in selectedDiscounts %}
 {% if discount.lang == page.lang %}
 <h1><strong>{{ discount.discount-title }}</strong></h1>
 <hr>
 {% if discount.discount-img2 != "" %}
-<img class="pic-right" src="/images/discount-images/{{ discount.discount-img2 }}">
+<img src="/images/discount-images/{{ discount.discount-img2 }}">
 {% endif %}
 {% if discount.discount-img != "" %}
 <img class="pic-right" src="/images/discount-images/{{ discount.discount-img }}">
