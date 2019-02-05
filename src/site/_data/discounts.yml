@@ -18,7 +18,7 @@ travel-discounts:
       <p><strong><em>Travel from:</em></strong> <strong>January 3, 2019 to February 15, 2019</strong></p>
       <p><em>Promo code:</em> <strong>824BVRJ1</strong></p>
   - lang: en
-    discount-title: 'WestJet Discount: January 5, 2019 – February 7, 2019'
+    discount-title: 'WestJet Discount: January 5, 2019 – April 10, 2019'
     discount-sub-title:
     discount-img: westjet.png
     discount-need-reverification:
@@ -28,9 +28,7 @@ travel-discounts:
       wide</em>.</strong></p> <p>To take advantage of this offer, you will need the discount code listed. Please visit <a href="https://www.westjet.com/conventions">www.westjet.com/conventions</a> to make a booking online. If you have questions about how to
       complete a booking with your discount codes, please check out WestJet's <a
       href="https://www.westjet.com/en-ca/about-us/contact-us/faqs/discount-codes"
-      target="_blank">frequently asked questions</a>.</p> <p>As in previous
-      years, the CFMS is pleased to offer the WestJet discount during the CaRMS
-      period.</p> <p>&nbsp;</p>
+      target="_blank">frequently asked questions</a>.</p> <p>New this year, Westjet will be extending the discount until Spring 2019!</p> <p>&nbsp;</p>
       <p><strong>Changes/cancellations</strong></p> <p>You can change or cancel
       reservations within 24 hours of booking at no charge. Further changes or
       cancellations can be made up to 2 hours prior to the flight; please note
@@ -91,6 +89,7 @@ travel-discounts:
     discount-title: CFMS Choice Hotels Discount
     discount-sub-title: Save up to 20% off regular room rates with Choice Hotels!
     discount-img: choice-hotels.png
+    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
       <p>Choice Hotels is Canada's largest hotel franchisor with ten great
@@ -332,13 +331,13 @@ textbook-discounts:
     discount-img: PYS-cover.jpg
     discount-need-reverification:
     discount-description: >-
-      <p><strong>Pharmacology You See</strong> highlights the most high yield 
+      <p><strong>Pharmacology You See</strong> highlights the most high yield
       information for the purpose of exam writing using full colour figures
       and descriptive adverse drug reaction icons.</p> <blockquote>
       <p>Featuring:</p> <ul>
       <li>Pharmacology Basics</li> <li>Antimicrobials</li> <li>Autonomic Nervous
-      System</li> <li>Cancer</li> <li>Cardiovascular</li> <li>Central Nervous System</li> 
-      <li>Endocrine</li> <li>Gastrointestinal</li> <li>Hematological</li> <li>Immunological</li> 
+      System</li> <li>Cancer</li> <li>Cardiovascular</li> <li>Central Nervous System</li>
+      <li>Endocrine</li> <li>Gastrointestinal</li> <li>Hematological</li> <li>Immunological</li>
       <li>Renal</li> <li>Urological</li> <li>Obstetrics/Gynecological</li> <li>Respiratory</li></ul>
       </blockquote><!--<p><strong>Pharmacology You See</strong> is written by
       students in the Physician Scientist Training Program (PSTP) at the
@@ -349,53 +348,53 @@ textbook-discounts:
       href="https://uoftbookstore.com/shop_product_detail.asp?catalog_group_id=MTMxXFwgNjE&catalog_group_name=TWVkaWNhbFxcIE1lZGljYWwgUmVmZXJlbmNl&catalog_id=979&catalog_name=TWVkaWNhbCBCb29rcyAmIEFjY2Vzc29yaWVz&pf_id=420843&product_name=UGhhcm1hY29sb2d5IFlvdSBTZWU&type=3&target=shop_product_list.asp">UofT Bookstore - textbook</a></li>
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2019-CFMS</strong></li> </ul>
-  - lang: en
-    discount-title: McGraw-Hill Bookstore
-    discount-sub-title:
-    discount-img:
-    discount-need-reverification:
-    discount-description: >-
-      <p>McGraw-Hill is proud to partner with the Canadian Federation of Medical
-      Students and offer its members a <strong>25&#37; Discount</strong> and
-      <strong>FREE SHIPPING within Canada</strong> on select McGraw-Hill medical
-      titles! Search over 500 applicable titles at <a
-      href="http://mheducation.ca">www.mheducation.ca</a>, including the popular
-      series <i>Case Files</i> and <i>First Aid,</i> as well as <i>Harrison’s
-      Principles of Internal Medicine!</i></p> <p><strong>The landmark guide to
-      internal medicine has been updated and streamlined for today's
-      students.</strong></p> <p>Through six decades, no resource has matched the
-      authority, esteemed scholarship, and scientific rigor of Harrison's
-      Principles of Internal Medicine. Capturing the countless advances and
-      developments across the full span of medicine, the new 19th edition of
-      Harrison's provides a complete update of essential content related to
-      disease pathogenesis, clinical trials, current diagnostic methods and
-      imaging approaches, evidence-based practice guidelines, and established
-      and newly approved treatment methods.</p><blockquote> <p>Here are just a
-      few of the outstanding features of the new Nineteenth Edition:</p> <ul>
-      <li><strong>Presented in two volumes:</strong> Volume 1 is devoted to
-      foundational principles, cardinal manifestations of disease and approach
-      to differential diagnosis; Volume 2 covers disease pathogenesis and
-      treatment</li> <li><strong>NEW chapters on important topics</strong> such
-      as Men's Health, The Impact of Global Warming on Infectious Diseases,
-      Fatigue, and many more</li> <li><strong>Critical updates in management and
-      therapeutics</strong> in Hepatitis, Coronary Artery Disease, Ebola Virus
-      Disease, Multiple Sclerosis, Diabetes, Hypertension, Deep Vein Thrombosis
-      and Pulmonary Embolism, Acute and Chronic Kidney Disease, Inflammatory
-      Bowel Disease, Lipoprotein Disorders, HIV and AIDS, and more</li>
-      <li><strong>Increased number of the popular Harrison's clinical
-      algorithms</strong> clinically relevant radiographic examples spanning
-      hundreds of diseases; clinical-pathological images in full color; crystal
-      clear, full color drawings and illustrations and helpful tables and
-      summary lists that make clinical application of the content faster than
-      ever</li> <li><strong>Access to outstanding multi-media
-      resources</strong>  including practical videos demonstrating essential
-      bedside procedures, physical examination techniques, endoscopic findings,
-      cardiovascular findings, and more</li> </ul> </blockquote>
-    discount-promotion: >-
-      <ul> <li>The bookstore can be accessed <a
-      href="http://www.mheducation.ca/professional/microsite/cfms2017/">here</a></li>
-      <li>Use the coupon code CFMSPARTNER2017 for the 25&#37; discount.</li>
-      </ul>
+  # - lang: en
+  #   discount-title: McGraw-Hill Bookstore
+  #   discount-sub-title:
+  #   discount-img:
+  #   discount-need-reverification:
+  #   discount-description: >-
+  #     <p>McGraw-Hill is proud to partner with the Canadian Federation of Medical
+  #     Students and offer its members a <strong>25&#37; Discount</strong> and
+  #     <strong>FREE SHIPPING within Canada</strong> on select McGraw-Hill medical
+  #     titles! Search over 500 applicable titles at <a
+  #     href="http://mheducation.ca">www.mheducation.ca</a>, including the popular
+  #     series <i>Case Files</i> and <i>First Aid,</i> as well as <i>Harrison’s
+  #     Principles of Internal Medicine!</i></p> <p><strong>The landmark guide to
+  #     internal medicine has been updated and streamlined for today's
+  #     students.</strong></p> <p>Through six decades, no resource has matched the
+  #     authority, esteemed scholarship, and scientific rigor of Harrison's
+  #     Principles of Internal Medicine. Capturing the countless advances and
+  #     developments across the full span of medicine, the new 19th edition of
+  #     Harrison's provides a complete update of essential content related to
+  #     disease pathogenesis, clinical trials, current diagnostic methods and
+  #     imaging approaches, evidence-based practice guidelines, and established
+  #     and newly approved treatment methods.</p><blockquote> <p>Here are just a
+  #     few of the outstanding features of the new Nineteenth Edition:</p> <ul>
+  #     <li><strong>Presented in two volumes:</strong> Volume 1 is devoted to
+  #     foundational principles, cardinal manifestations of disease and approach
+  #     to differential diagnosis; Volume 2 covers disease pathogenesis and
+  #     treatment</li> <li><strong>NEW chapters on important topics</strong> such
+  #     as Men's Health, The Impact of Global Warming on Infectious Diseases,
+  #     Fatigue, and many more</li> <li><strong>Critical updates in management and
+  #     therapeutics</strong> in Hepatitis, Coronary Artery Disease, Ebola Virus
+  #     Disease, Multiple Sclerosis, Diabetes, Hypertension, Deep Vein Thrombosis
+  #     and Pulmonary Embolism, Acute and Chronic Kidney Disease, Inflammatory
+  #     Bowel Disease, Lipoprotein Disorders, HIV and AIDS, and more</li>
+  #     <li><strong>Increased number of the popular Harrison's clinical
+  #     algorithms</strong> clinically relevant radiographic examples spanning
+  #     hundreds of diseases; clinical-pathological images in full color; crystal
+  #     clear, full color drawings and illustrations and helpful tables and
+  #     summary lists that make clinical application of the content faster than
+  #     ever</li> <li><strong>Access to outstanding multi-media
+  #     resources</strong>  including practical videos demonstrating essential
+  #     bedside procedures, physical examination techniques, endoscopic findings,
+  #     cardiovascular findings, and more</li> </ul> </blockquote>
+  #   discount-promotion: >-
+  #     <ul> <li>The bookstore can be accessed <a
+  #     href="http://www.mheducation.ca/professional/microsite/cfms2017/">here</a></li>
+  #     <li>Use the coupon code CFMSPARTNER2017 for the 25&#37; discount.</li>
+  #     </ul>
   - lang: fr
     discount-title: Wolters Kluwer/Lippincott Resources
     discount-sub-title: Receive a 30% Discount on Wolters Kluwer/Lippincott Resources
