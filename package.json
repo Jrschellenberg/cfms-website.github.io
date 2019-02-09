@@ -8,7 +8,6 @@
     "lint:staged": "lint-staged",
     "clean": "shx rm -rf serve/",
     "scaffold": "npm run clean && shx mkdir -p serve/js && shx mkdir -p serve/stylesheets",
-    "webpack": "webpack -w",
     "build": "npm run scaffold && cross-env NODE_ENV=production webpack -p --progress && bundle exec jekyll build --source src/site --destination serve",
     "build:debug": "npm run scaffold && webpack --progress -d --verbose && bundle exec jekyll build -t",
     "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"bgBlue.bold,bgRed.bold,bgCyan.bold\" \"webpack -w\" \"bundle exec jekyll build --watch --incremental --drafts --source src/site --destination serve \" \"browser-sync --port 4000 start -s serve -f serve --extensions html\""
@@ -67,7 +66,7 @@
     "sass-loader": "^7.1.0",
     "shx": "^0.3.2",
     "style-loader": "^0.23.1",
-    "uglifyjs-webpack-plugin": "^2.1.1",
+    "terser-webpack-plugin": "^1.2.2",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2"
   },

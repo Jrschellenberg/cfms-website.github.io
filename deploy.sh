@@ -7,7 +7,7 @@ TARGET_BRANCH="master"
 function doCompile {
   #Renaming gemfile for build 
   mv Gemfile notGemfile
-  gulp buildProd
+  npm run build
   #renaming gemfile back after build completes to avoid errors
   mv notGemfile Gemfile
 }

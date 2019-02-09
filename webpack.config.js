@@ -5,7 +5,7 @@ const imageminMozjpeg = require('imagemin-mozjpeg');
 
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 const isDebug = process.env.NODE_ENV !== 'production';
@@ -18,6 +18,26 @@ module.exports = {
     // BMSPolyfills: './polyfills/polyfills.js', // IF YOU REQUIRE POLYFILLS, uncomment and gt file location for more information
     bundle: './src/js/app.js',
     cssHotReload: './src/sass/entry.js'
+  },
+  
+  optimization: {
+    minimizer: [
+      ...(isDebug ? [] : [
+        // Minimize all JavaScript output of chunks
+        // https://webpack.js.org/plugins/uglifyjs-webpack-plugin/
+        new TerserPlugin({
+          cache: true,
+          parallel: true,
+          sourceMap: true // set to true if you want JS source maps
+        })
+      ]),
+      
+      ...(isDebug ? [] : [
+        // Minimize all Css output of chunks
+        // https://github.com/NMFR/optimize-css-assets-webpack-plugin
+        new OptimizeCSSAssetsPlugin({})
+      ]),
+    ]
   },
   
   
@@ -111,25 +131,7 @@ module.exports = {
   //   }),
   // ],
   
-  optimization: {
-    minimizer: [
-      ...(isDebug ? [] : [
-        // Minimize all JavaScript output of chunks
-        // https://webpack.js.org/plugins/uglifyjs-webpack-plugin/
-        new UglifyJsPlugin({
-          cache: true,
-          parallel: true,
-          sourceMap: true // set to true if you want JS source maps
-        })
-      ]),
-      
-      ...(isDebug ? [] : [
-        // Minimize all Css output of chunks
-        // https://github.com/NMFR/optimize-css-assets-webpack-plugin
-        new OptimizeCSSAssetsPlugin({})
-      ]),
-    ]
-  },
+
   
   devtool: isDebug ? 'inline-source-map' : false,
   
