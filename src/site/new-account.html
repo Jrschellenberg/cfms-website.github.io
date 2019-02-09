@@ -1,72 +1,142 @@
 ---
 title: Create a New Account
 sitemap:
-  priority: 0.2
-  changefreq: yearly
-  role: National IT Officer
+priority: 0.2
+changefreq: yearly
+role: National IT Officer
 ---
 
 <!DOCTYPE html>
 
 
-<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9"> <![endif]-->
 <head>
-	{% include head.html %}
+    {% include head.html %}
 
-	<!--Page Specific Stylesheet-->
-	<link rel="stylesheet" href="/stylesheets/home.css" />
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/home.css"/>
 </head>
 <body>
-	{% include nav.html %}
-	
-	<!--Page Specific Formatting-->
-	<script type="text/javascript">
-		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
-	</script>
+{% include nav.html %}
 
-	<div id="new-account-top" class="content">
-		<div id="new-account-left">
-			<h1 class="editable" id="page-title">Why create a CFMS account?</h1>
-			<div class="editable">
-			<blockquote>
-				<h3><strong>Did you use the old CFMS website?</strong></h3>
-				<ul>
-					<li>Unfortunately, users of the old CFMS website (<a href="http://www.old.cfms.org">www.old.cfms.org</a>) will need to create a new account.</li>
-					<li>The website <strong>Authentication Code</strong> is unchanged.</li>
-				</ul>
+<!--Page Specific Formatting-->
+<script type="text/javascript">
+    document.querySelector("#logo-invert").classList.toggle("hidden");
+</script>
 
-			</blockquote>
-			<p>As a medical student in one of the member schools in the CFMS, you are automatically eligible to create a CFMS account. By creating an account, you get access to an extensive list of member services and resources. Benefits include:</p>
-			<div id="new-account-benefits">
-				<ul>
-					<li><strong>Student Discounts</strong>
-						<p>Exclusive discounts are available for Hotels, Textbooks, UpToDate&copy;, Disability Insurance, and even LASIK MD Laser Vision Correction. For a full list of discounts, click <a href="/what-we-do/student-affairs/discounts.html">here</a>.</p>
-					</li>
-					<li><strong>Access to CFMS Electives and Interview Databases</strong>
-						<p>The CFMS maintains anonymous databases of external elective reviews and residency interview reviews. Great for planning electives or preparing for your CaRMS interviews.</p>
-					</li>
-					<li><strong>Exclusive Access to Awards &amp; Grants</strong>
-						<p>As a member of the CFMS, you are eligible to apply for the annual CFMS - MD Financial Management Leadership Awards. One award is given each year to a student from each member school. To find out more, click <a href="/resources/md_leadership_awards.html">here</a>.</p>
-						<p>The CFMS also issues grants to fund medical student-initiated projects around the country, with a maximum funding amount of $3000.</p>
-					</li>
-					<li><strong>Access to the CFMS Match Book</strong>
-						<p>The Match Book is a joint initiative of the CFMS and CaRMS designed to educate medical students about the Match and assist with career planning. Read more about the matchbook <a href="/what-we-do/education/cfms-matchbook.html">here</a>.</p>
-					</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-		<div class="editable" id="new-account-right"><blockquote id="new-account-pane"><h3><strong>Create an account</strong>:</h3><label>Medical School</label><div class="select"><select id="account-medical-school"><option value="University of British Columbia">University of British Columbia</option><option value="University of Alberta">University of Alberta</option><option value="University of Calgary">University of Calgary</option><option value="University of Saskatchewan">University of Saskatchewan</option><option value="University of Manitoba">University of Manitoba</option><option value="Northern Ontario School of Medicine">Northern Ontario School of Medicine</option><option value="Western University">Western University</option><option value="McMaster University">McMaster University</option><option value="University of Toronto">University of Toronto</option><option value="Queen's University">Queen's University</option><option value="University of Ottawa">University of Ottawa</option><option value="McGill University">McGill University</option><option value="Dalhousie University">Dalhousie University</option><option value="Université de Moncton Campus">Universit&eacute; de Moncton Campus</option><option value="Memorial University of Newfoundland">Memorial University of Newfoundland</option><option value="Université Laval">Universit&eacute; Laval</option> </select><div class="select_arrow">&nbsp;</div></div> <label>Year of Graduation</label><div class="select"><!-- Add up to 7 years for those poor MD/PhDs --><select id="account-graduation-year"><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option> </select><div class="select_arrow">&nbsp;</div></div> <label>School Email Address</label><div class="input"><input id="account-email" type="email" placeholder="Enter your email" name="email" /></div> <label>First Name</label><div class="input"><input id="account-first-name" type="text" placeholder="" name="first_name" /></div> <label>Last Name</label><div class="input"><input id="account-last-name" type="text" placeholder="" name="last_name" /></div> <label>Authentication Code <span><a id="authentication-info-modal" style="font-size:1.2em; border-bottom:none; opacity:0.7" class="cc-active" href="" onclick="return false;"><i class="fa fa-question-circle" aria-hidden="true"></i></a></span></label><div class="input"><input type="text" id="account-authentication-code" placeholder="" name="code" /></div> <label>Enter your Password</label><div class="input"><input id="account-password-first" type="password" ng-model="password_first" placeholder="" name="password_first" /></div> <label>Confirm your Password</label><div class="input"><input id="account-password-second" type="password" ng-model="password_second" placeholder="" name="password_second" /></div><div class="button" style="margin-top:10px;"><a id="signup-button" style="cursor:pointer"> <strong>Create your account</strong> </a></div></blockquote></div>
-		</div>
-	
+<div id="new-account-top" class="content">
+    <div id="new-account-left">
+        <h1 class="editable" id="page-title">Why create a CFMS account?</h1>
+        <div class="editable">
+            <blockquote>
+                <h3><strong>Did you use the old CFMS website?</strong></h3>
+                <ul>
+                    <li>Unfortunately, users of the old CFMS website (<a
+                            href="http://www.old.cfms.org">www.old.cfms.org</a>) will need to create a new account.
+                    </li>
+                    <li>The website <strong>Authentication Code</strong> is unchanged.</li>
+                </ul>
 
-	{% include footer.html %}
+            </blockquote>
+            <p>As a medical student in one of the member schools in the CFMS, you are automatically eligible to create a
+                CFMS account. By creating an account, you get access to an extensive list of member services and
+                resources. Benefits include:</p>
+            <div id="new-account-benefits">
+                <ul>
+                    <li><strong>Student Discounts</strong>
+                        <p>Exclusive discounts are available for Hotels, Textbooks, UpToDate&copy;, Disability
+                            Insurance, and even LASIK MD Laser Vision Correction. For a full list of discounts, click <a
+                                    href="/what-we-do/student-affairs/discounts.html">here</a>.</p>
+                    </li>
+                    <li><strong>Access to CFMS Electives and Interview Databases</strong>
+                        <p>The CFMS maintains anonymous databases of external elective reviews and residency interview
+                            reviews. Great for planning electives or preparing for your CaRMS interviews.</p>
+                    </li>
+                    <li><strong>Exclusive Access to Awards &amp; Grants</strong>
+                        <p>As a member of the CFMS, you are eligible to apply for the annual CFMS - MD Financial
+                            Management Leadership Awards. One award is given each year to a student from each member
+                            school. To find out more, click <a href="/resources/md_leadership_awards.html">here</a>.</p>
+                        <p>The CFMS also issues grants to fund medical student-initiated projects around the country,
+                            with a maximum funding amount of $3000.</p>
+                    </li>
+                    <li><strong>Access to the CFMS Match Book</strong>
+                        <p>The Match Book is a joint initiative of the CFMS and CaRMS designed to educate medical
+                            students about the Match and assist with career planning. Read more about the matchbook <a
+                                    href="/what-we-do/education/cfms-matchbook.html">here</a>.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="editable" id="new-account-right">
+        <blockquote id="new-account-pane"><h3><strong>Create an account</strong>:</h3><label>Medical School</label>
+            <div class="select"><select id="account-medical-school">
+                <option value="University of British Columbia">University of British Columbia</option>
+                <option value="University of Alberta">University of Alberta</option>
+                <option value="University of Calgary">University of Calgary</option>
+                <option value="University of Saskatchewan">University of Saskatchewan</option>
+                <option value="University of Manitoba">University of Manitoba</option>
+                <option value="Northern Ontario School of Medicine">Northern Ontario School of Medicine</option>
+                <option value="Western University">Western University</option>
+                <option value="McMaster University">McMaster University</option>
+                <option value="University of Toronto">University of Toronto</option>
+                <option value="Queen's University">Queen's University</option>
+                <option value="University of Ottawa">University of Ottawa</option>
+                <option value="McGill University">McGill University</option>
+                <option value="Dalhousie University">Dalhousie University</option>
+                <option value="Université de Moncton Campus">Universit&eacute; de Moncton Campus</option>
+                <option value="Memorial University of Newfoundland">Memorial University of Newfoundland</option>
+                <option value="Université Laval">Universit&eacute; Laval</option>
+            </select>
+                <div class="select_arrow">&nbsp;</div>
+            </div>
+            <label>Year of Graduation</label>
+            <div class="select"><!-- Add up to 7 years for those poor MD/PhDs --><select id="account-graduation-year">
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+                <div class="select_arrow">&nbsp;</div>
+            </div>
+            <label>School Email Address</label>
+            <div class="input"><input id="account-email" type="email" placeholder="Enter your email" name="email"/>
+            </div>
+            <label>First Name</label>
+            <div class="input"><input id="account-first-name" type="text" placeholder="" name="first_name"/></div>
+            <label>Last Name</label>
+            <div class="input"><input id="account-last-name" type="text" placeholder="" name="last_name"/></div>
+            <label>Authentication Code <span><a id="authentication-info-modal"
+                                                style="font-size:1.2em; border-bottom:none; opacity:0.7"
+                                                class="cc-active" href="" onclick="return false;"><i
+                    class="fa fa-question-circle" aria-hidden="true"></i></a></span></label>
+            <div class="input"><input type="text" id="account-authentication-code" placeholder="" name="code"/></div>
+            <label>Enter your Password</label>
+            <div class="input"><input id="account-password-first" type="password" ng-model="password_first"
+                                      placeholder="" name="password_first"/></div>
+            <label>Confirm your Password</label>
+            <div class="input"><input id="account-password-second" type="password" ng-model="password_second"
+                                      placeholder="" name="password_second"/></div>
+            <div class="button" style="margin-top:10px;"><a id="signup-button" style="cursor:pointer"> <strong>Create
+                your account</strong> </a></div>
+        </blockquote>
+    </div>
+</div>
+
+
+{% include footer.html %}
 </body>
 <script>
-//Authentication Info Modal
-$('#authentication-info-modal').click(function(){
-    vex.dialog.alert("<h3><strong>What is your Authentication Code?</strong></h3><p>To make sure that you are actually a medical student at one of our member schools, we distribute an <strong>authentication code</strong> to our membership. You can either find this code:<p><ol><li>In our CFMS welcome letter, which is in most medical school admissions package.</li><li>By contacting the <a href='/who-we-are/cfms-representatives.html'>CFMS representatives</a> at your school.</li></ol>");
+    //Authentication Info Modal
+    $('#authentication-info-modal').click(function () {
+        vex.dialog.alert("<h3><strong>What is your Authentication Code?</strong></h3><p>To make sure that you are actually a medical student at one of our member schools, we distribute an <strong>authentication code</strong> to our membership. You can either find this code:<p><ol><li>In our CFMS welcome letter, which is in most medical school admissions package.</li><li>By contacting the <a href='/who-we-are/cfms-representatives.html'>CFMS representatives</a> at your school.</li></ol>");
 
-});
+    });
 </script>

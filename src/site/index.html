@@ -73,6 +73,7 @@ sitemap:
 		</div>
 	{% endif %}
 
+
 	<div id="featured-links">
 		<h1>
 			{% if page.lang == "en" %}
@@ -82,21 +83,26 @@ sitemap:
 			{% endif %}
 		</h1>
 		<div class="flex-wrapper">
-			{% for link in site.data.home.featured_links %}
-				<a href="{{ link.url }}">
-					{% if page.lang == "en" %}
-						<div class="featured-link" style="background: url(/{{ link.image_url_en }}) no-repeat center center; background-size:cover">
-						</div>
-						<div class="featured-link-text">{{ link.text_en }}</div>
-					{% else %}
-						<div class="featured-link" style="background: url(/{{ link.image_url_fr }}) no-repeat center center; background-size:cover">
-						</div>
-						<div class="featured-link-text">{{ link.text_fr }}</div>
-					{% endif %}
-				</a>
-			{% endfor %}
+			{% if page.lang == "en" %}
+				{% for link_en in site.data.home.featured_links_en %}
+					<a href="{{ link_en.url_en }}">
+					<div class="featured-link" style="background: url(/{{ link_en.image_url_en }}) no-repeat center center; background-size:cover">
+					</div>
+					<div class="featured-link-text">{{ link_en.text_en }}</div>
+					</a>
+				{% endfor %}
+			{% else %}
+				{% for link_fr in site.data.home.featured_links_fr %}
+					<a href="{{ link_fr.url_fr }}">
+					<div class="featured-link" style="background: url(/{{ link_fr.image_url_fr }}) no-repeat center center; background-size:cover">
+					</div>
+					<div class="featured-link-text">{{ link_fr.text_fr }}</div>
+					</a>
+				{% endfor %}
+			{% endif %}
 		</div>
 	</div>
+
 
 	<!-- Displays the homepage banner -->
 	{% for text in site.data.home.banner_text %}
@@ -123,7 +129,7 @@ sitemap:
 				<span id="more-news-button" class="button"><a href="news/archives/">See All Articles</a></span>
 			</h1>
 			<div id="recent-news-list">
-				{% assign sorted = (site.news | sort: 'date') | reverse %}
+				{% assign sorted = site.news | sort: 'date' | reverse %}
 				
 				{% for post in sorted limit:5 %}
 				{% unless post.categories contains "fr" %}
@@ -146,7 +152,11 @@ sitemap:
 				<span style="opacity:0.5">:</span>
 			</h1>
 			<div id="sponsor-logo">
-				<a href="https://mdm.ca/"><img src="/images/mdfm_en_fr.jpg"></img></a>
+				{% if page.lang == "en" %}
+                    <a href="https://mdm.ca/"><img src="/images/MDFM_EN.jpg"/></a>
+				{% else %}
+                    <a href="https://mdm.ca/"><img src="/images/MDFM_FR.jpg"/></a>
+				{% endif %}
 			</div>
 		</div>
 	</div>

@@ -8,7 +8,9 @@ export default class AuthenticationController {
     }
 
     bindListeners() {
-        document.getElementById('login-button').addEventListener('click', this.toggleSignIn.bind(this), false);
+        for (let modal of document.getElementsByClassName('login-modal')) {
+            modal.addEventListener('click', this.toggleSignIn.bind(this), false);
+        }
     }
 
     toggleSignIn(evt) {

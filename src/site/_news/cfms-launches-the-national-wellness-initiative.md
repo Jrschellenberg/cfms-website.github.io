@@ -1,22 +1,30 @@
 ---
-title: CFMS Launches the National Wellness Initiative
-date: 2018-01-22 00:00:00
+title: CFMS launches the National Wellness Program
+date: 2018-04-27 00:00:00
 description: >-
-  The CFMS is excited to launch the National Wellness Initiative (NWI), a
-  three-fold component of our efforts to improve medical student wellbeing!
+  The CFMS is excited to launch the National Wellness Program; our comprehensive
+  approach to supporting student wellness and working with programs to promote
+  wellness, through Advocacy, Programming, Awareness and Resiliency and Personal
+  Development
 lang: en
 ---
 
-![](/images/lwi-images/national-wellness-initiative.png)
+![](/images/lwi-images/national-wellness-program.png)
 
-To find out more about the National Wellness Initiative and receive a monthly newsletter update please sign-up [here](https://goo.gl/forms/ZOe3W1rlchZ6yjiO2)
+The CFMS is very excited to launch the National Wellness Program (NWP); our comprehensive approach to supporting student wellness and working with programs to promote wellness. This will be an evidenced-based approach, informed by wellness survey data. The national wellness program has 4 major threads: **Advocacy, Programming, Awareness and Resiliency and Personal Development**
 
-The CFMS is excited to launch the National Wellness Initiative (NWI), a three-fold component of our efforts to improve medical student wellbeing! The NWI includes:
+**Advocacy:** We support **Health Promoting Learning Environments**. In order to thrive, medical students need supportive and inclusive learning environments which not only support them in times of crises but promotes an overall healthy lifestyle. Toxic situations contribute significantly to student burnout. We have launched new student mistreatment and students with disabilities portfolios. We support efforts for bold **Culture Change**. Healthcare and learning environments as a whole must lead the values we preach. Medicine must confront issues of #MeToo, racial discrimination, inter and intra-professional bullying.
 
-1) **The CFMS Wellness Challenge:** Running from Jan. 22-Feb. 18, the theme of this year’s Wellness Challenge is “Small Steps: Accessible Wellness”. With challenge options that are do-able for even the busiest clerk, it’s a great way to start off the year on a healthy note and have a chance to win some great prizes. More information (including registration link) found [here](https://www.cfms.org/news/2018/01/22/cfms-wellness-challenge-2018-small-steps-accessible-wellness.html)
+**Programming:** Every January, the CFMS starts the year off with our **wellness challenge**, a month long, fun kick-off event. We have 4 weekly themes and a balance of group and individual techniques. We have now launched the **Longitudinal Wellness Challenge (LWI)**, which has 5 major themes (nutrition, mental, financial, physical and social/relationships). We focus on each theme for 2 months where we have mini-challenges, highlight school innovations, promote fellow student gems and more.
 
-**2) [The Longitudinal Wellness Initiative (LWI)](https://www.cfms.org/what-we-do/student-affairs/longitudinal-wellness-initiative.html):**This year, as part of our new wellness strategy, we will be launching the Longitudinal Wellness Initiative (LWI), where we will be further developing each of our Wellness Challenge weekly themes in two-month intervals from March-Dec. 2018. In preparation, we are still seeking committee members to help develop this new project. If you are interested in contributing, please contact Iuliia Povieriena at [ipovi049@uottawa.ca](javascript:void(location.href='mailto:'+String.fromCharCode(105,112,111,118,105,48,52,57,64,117,111,116,116,97,119,97,46,99,97))). More information about the LWI committee responsibilities can be found [here](http://bit.ly/2CSaKwJ).
+**Awareness:** All learners face significant challenges during their medical journeys. We need to continue to raise awareness about the significant health challenges. Our **student wellness spotlights** highlight the journeys of students in different areas of wellness. We also will be undertaking a host of **themed campaigns** to further educate and most importantly inspire students and faculties.
 
-3) **[Wellness Spotlight Profiles](https://www.cfms.org/what-we-do/student-affairs/wellness-spotlight-profiles.html):**In parallel with the LWI, CFMS will be adding regular profiles of member medical students and how they are managing and traveling along their own wellness journeys during medical school in the areas of Nutrition, Mental Wellness, Physical Wellness, and Relationships/Social Wellness. If you would like to be featured or would like to nominate a medical school colleague, please email Michelle Moody at [mam524@mun.ca](javascript:void(location.href='mailto:'+String.fromCharCode(109,97,109,53,50,52,64,109,117,110,46,99,97))).
+**Resiliency and Personal Development:** Pursuing a career in medicine is a challenging endeavour. The fourth arm of the NWP acknowledges the need to support student development.  We prioritize working with UG and SA offices in the development and implementation of **longitudinal wellness curriculums**. Resilience and coping skills are crucial to a long-term positive student experience which prepares trainees for success in their medical careers. We are also promoting the novel **Simulated Training for Resilience in Various Environments (STRIVE)** program, which will simulate difficult situations as an opportunity for students to develop applicable skills.
 
-**4) [Safe Spaces: Let's Get Real](https://www.cfms.org/what-we-do/student-affairs/safe-space.html):** Let's Get Real We are excited to launch this new student health discussion platform as part of the National Wellness Initiative to address concerns raised by many medical students. “Safe Spaces: Let’s Get Real” is an opportunity for medical students across the country to discuss a wide range of issues around medical student health and wellness including mental health and burnout, student suicide, learner mistreatment, sexual harassment and bullying and any other topics that are on your mind. These discussions, hosted by CFMS, are for you the students and we hope the positive dialogue will also help inform some of our programming and advocacy work as well. We will be using an anonymous hosting platform to support openness and diversity of opinions and discussion. Sessions will run bi-monthly and we will host two 1.5 hour long sessions on each designated evening which will evolve around a few topics each time. We hope the discussions will serve as an opportunity for students to connect and share ideas and experiences. Please consider joining us for our first session which will be announced shortly.
+Underlying all of this work will be a strong commitment to evaluation and metrics for continuing quality improvement.
+
+The CFMS is committed to supporting our members and working with MedSocs to ensure a collaborative, coordinated process in making significant advancements in health-promoting learning environments.We look forward to working with medical education and health professional stakeholders to chart a better course for medical trainees in the future.
+
+Victor Do, National Wellness Program File Lead
+
+Stephanie Smith, Vice President Student Affairs

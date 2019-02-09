@@ -1,0 +1,67 @@
+---
+title: Governance Structure
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Communications
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+	{% include head.html %}
+
+	<!--Page Specific Stylesheet-->
+	<link rel="stylesheet" href="/stylesheets/who-we-are.css" />
+	<link rel="stylesheet" href="/stylesheets/litetooltip.css" />
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#who-we-are" ).classList.toggle("active");
+	</script>
+
+	<div class="content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-who-we-are.html %} 
+		<script type="text/javascript">
+		           document.querySelector( "#governance-structure" ).classList.toggle("sidebar-active");
+		</script>
+		<div id="governance-structure-content">
+			<h1 class="editable" id="page-title">Governance Structure</h1>
+			<div class="editable">
+				<h2><strong>This is a Test</strong></h2>
+				<div class="litetooltip-hotspot-wrapper" style="max-width: 908px">
+					<div class="litetooltip-hotspot-container" style="padding-bottom: 96.36563876651982%">
+						<img data-height="875" data-width="908" src="/uploads/governance-test.png">
+						<div class="hotspot" data-backcolor="#000000" data-delay="0" data-hotspot-bgcolor="transparent" data-hotspot-blink="false" data-hotspot-bordercolor="transparent" data-hotspot-borderradius="30" data-hotspot-x="38.43612334801762" data-hotspot-y="12.22857142857143" data-issticky="true" data-location="top" data-margin="5" data-opacity="1" data-padding="10" data-template="template" data-templatename="" data-textalign="left" data-textcolor="#ffffff" data-trigger="hover" data-width="0" id="hotspot_1537260408460" style="top: 12.22857142857143%; left: 38.43612334801762%; width: 22.136563876651984%; height: 8.799999999999999%; background: transparent; border: 1px solid transparent; border-radius: 30px; opacity: 0.8">
+							<div class="data-container">
+								This is the test on the first header 1-2-1-2 test
+							</div>
+						</div>
+						<div class="hotspot" data-backcolor="#000000" data-delay="0" data-hotspot-bgcolor="transparent" data-hotspot-blink="false" data-hotspot-bordercolor="transparent" data-hotspot-borderradius="40" data-hotspot-x="38.43612334801762" data-hotspot-y="63.88571428571429" data-issticky="true" data-location="top" data-margin="5" data-opacity="0.9" data-padding="10" data-template="template" data-templatename="" data-textalign="left" data-textcolor="#ffffff" data-trigger="click" data-width="0" id="hotspot_1537260488556" style="top: 63.88571428571429%; left: 38.43612334801762%; width: 22.136563876651984%; height: 8%; background: transparent; border: 1px solid transparent; border-radius: 40px; opacity: 0.8">
+							<div class="data-container">
+								Now I am testing the bottom part of the picture 1-2-1-2 i hope this is working well too!!
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+
+	{% include footer.html %}
+	<script type="text/javascript" src="../js/jquery-1.9.0.js"></script>
+	<script type="text/javascript" src="../js/jquery-scrolltofixed-min.js"></script>
+	<script type="text/javascript" src="../js/litetooltip.js">
+		$('.litetooltip-hotspot-wrapper .hotspot').each(function () { 
+		    $(this).LiteTooltip({ title: $(this).find('.data-container').html() });
+		 });
+	</script>
+</body>

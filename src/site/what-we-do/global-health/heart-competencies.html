@@ -1,0 +1,61 @@
+---
+title: Competencies
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Global Health
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+    <link rel="stylesheet" href="/stylesheets/who-we-are.css" />
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+	{% include nav.html %}
+
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#what-we-do" ).classList.toggle("active");
+	</script>
+
+	<div class="content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-global-health.html %}
+		<script type="text/javascript">
+			document.querySelector( "#heart-competencies" ).classList.toggle("sidebar-active");
+		</script>
+		<div class="editable" id="side-content" id="meeting-body">
+			<h1 id="page-title">Climate Change and Environmental Health Competencies</h1>
+
+			<p>Climate change is inextricably linked to public health. See these excellent resources from <a href="http://www.who.int/globalchange/en/">WHO</a>, the <a href="http://www.climateandhealthalliance.org/">Global Climate & Health Alliance</a>, and <a href="http://www.lancetcountdown.org/">The Lancet</a>.</p>
+            <p>HEART has been working since its creation to incorporate learning of the crucial links between climate and environmental changes and health in medical curricula, through the creation of a set of core competencies for integration in education nationwide.​ HEART’s aim is to create and incorporate an environmental health curriculum into all Canadian medical schools’ curricula by 2020.</p>
+
+            <p>The following steps have been taken since the creation of HEART to meet this goal: Steps 1 & 2 – completed. Steps 3 through 6 – ongoing.</p>
+            <p><img width="700" height="auto" src="/images/page-images/heart/heart1.png"></p>
+
+			<p>Below is the list of curricular competencies HEART has developed, along with interactive activities and curricular adaptations to give examples of learning sessions for each competency.</p>
+			<p><img src="/images/page-images/heart/heart2.png"></p>
+
+            <p>We have received feedback from environmental health and medical education experts regarding these competencies, and updates are being continuously made to ensure adequacy for curricular implementation. Experts who have given feedback so far are:</p>
+			<ul style="list-style-type:circle">
+				<li>Dr. Courtney Howard, CAPE: Board President, Canadian Association of Physicians for the Environment</li>
+				<li>Dr. Laura Muldoon, University of Ottawa: Public Health, Prevention and Population Health</li>
+				<li>Dr. Jim Talbot, University of Alberta: School of Public Health and Faculty of Medicine</li>
+				<li>Dr. Atanu Sarkar, Memorial University: Community Health and Humanities</li>
+			</ul>
+		</div>
+	</div>
+	{% include footer.html %}
+</body>

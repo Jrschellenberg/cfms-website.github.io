@@ -1,0 +1,67 @@
+---
+title: "Research Ethics"
+sitemap:
+priority: 0.6
+changefreq: monthly
+role: VP Education
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]>
+<html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css">
+    <link rel="stylesheet" href="/stylesheets/cards.css"/>
+</head>
+<body>
+{% include nav.html %}
+
+<div class="content">
+    <!-- Displays the sidebar and emphasizes the active page -->
+    {% include sidebar-education.html %}
+    <script type="text/javascript">
+        document.querySelector("#research-ethics").classList.toggle("sidebar-active");
+    </script>
+    <!--Page Specific Formatting-->
+    <script type="text/javascript">
+        document.querySelector("#logo-invert").classList.toggle("hidden");
+        document.querySelector("#what-we-do").classList.toggle("active");
+    </script>
+
+    <div id="side-content" class="editable">
+        <h1 id="page-title">{{ page.title }}</h1>
+
+        <blockquote>
+            <h2>Research Ethics in Canada</h2>
+            <p>The CFMS Research Portfolio has complied a template pertaining to the research ethics review process.
+                While not comprehensive, this template provides students with an overview of the typical elements
+                examined in a review of ethical considerations for research involving humans. Further, students who wish
+                to conduct a research project in affiliation with the CFMS are asked to complete this form and submit it
+                to the CFMS Board as part of their request.</p>
+            <p>
+                <a href="/files/education-infographics/CFMS Research Approval Form.docx"><strong>Download Template Form</strong></a>.
+            </p>
+            <ul class="cards">
+                <li class="cards__item full-card">
+                    <div class="card">
+                        <a download="/files/education-infographics/CFMS Research Ethics InfoGraphic.pdf" title="accreditation"
+                           href="/files/education-infographics/CFMS Research Ethics InfoGraphic.pdf"><img
+                                alt="Download Research Ethics Infographic"
+                                src="/files/education-infographics/CFMS Research Ethics InfoGraphic.png"/>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </blockquote>
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>

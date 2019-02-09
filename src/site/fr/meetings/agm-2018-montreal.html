@@ -1,0 +1,106 @@
+---
+title: 2018 CFMS Annual General Meeting
+cost: 200
+id: AGM2018
+sitemap:
+  priority: 0.4
+  changefreq: never
+  role: VP Communications
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+	{% include head.html %}
+
+	<!--Page Specific Stylesheet-->
+	<link rel="stylesheet" href="/stylesheets/meetings.css" />
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#meetings" ).classList.toggle("active");
+	</script>
+
+	<!-- Header -->
+	<div id="top-meeting" style="background: url(/images/meeting-images/montreal.jpg) no-repeat center 25%; background-size:cover">
+		<div id="top-group">
+			<div class="content">
+				<div class="editable" id="top-meeting-name">{{ page.title }}</div>
+				<div class="editable" id="top-meeting-info">Montreal, Quebec / April 27&ndash;28, 2018</div>
+			</div>
+		</div>
+	</div>
+	<div id="meeting-details" class="content">
+		<div class="editable" id="meeting-aside">
+			<h2 id="aside-title"><strong>Event details<i class="fa fa-star-o"></i></strong></h2>
+			<div class="icon"><i class="fa fa-map-marker"></i></div>
+			<ul>
+				<li><b>LOCATION</b><br />TBA</li>
+			</ul>
+			<div class="icon"><i class="fa fa-clock-o"></i></div>
+			<ul>
+				<li><b>DATE</b><br />September 21-23, 2018</li>
+			</ul>
+			<div class="icon"><i class="fa fa-briefcase what-to-bring"></i></div>
+			<ul>
+				<li><b>WHAT TO BRING</b><br />Dress Code: Business attire for meetings, fancy casual for social events.</li>
+			</ul>
+			<div class="icon"><i class="fa fa-envelope-o mail"></i></div>
+			<div id="emails">
+				<ul>
+					<li><b>QUESTIONS?</b><br />Email <a style="border-bottom:1px solid #EAEAEA" href="mailto:office@cfms.org">office@cfms.org</a></li>
+				</ul>
+			</div>
+			<div id="shortcut-links">
+				<div id="scroll" style="z-index: 1000;">
+					<h2>Jump to<span style="opacity:0.5">:</span></h2>
+					<ul>
+						<li><a href="#introduction">Introduction</a></li>
+					</ul>
+				</div>
+				<div>&nbsp;</div>
+			</div>
+		</div>
+		<div id="meeting-body">
+			<p><img src="/images/meeting-images/montreal-agm-2018.png" />
+			</p><h2 class="editable" id="introduction">
+				<strong>What is the Annual General Meeting?</strong>
+			</h2>
+			<p class="editable">The Annual General Meeting (AGM) is an opportunity for Canadian medical students to get together and discuss important issues pertaining to medical education, advocacy, global health, wellness, and more. Join the conversation, get involved — we want to hear from you!
+			</p>
+			<h2 id="registration-info"><strong>Registration information</strong></h2>
+			<blockquote>
+				<h4><strong>How can I register? (Deadline: 11:59 PM EST on August 24, 2018)</strong></h4>
+				<ul>
+					<li>Registration is <b>CLOSED</b>.</li>
+					<li>Please direct any registration inquiries to <a href="mailto:office@cfms.org">office@cfms.org</a>.</li>
+				</ul>
+				<h5><strong>Pay your fees online</strong></h5>
+				<div class="members-only">
+					<form id="payment-form" payment-id="{{ page.id }}" action="/#" method="POST">
+						<script src="https://payform.beanstream.com/payform/beanstream_payform.js" data-image="https://cfms.org/images/cfms-logo.svg" data-name="CFMS" data-description="{{ page.title }} - Registration" data-amount="{{ page.cost }}" data-currency="cad" data-billingaddress="false" data-submitform="false" data-primarycolor="#BB0A21">
+						</script>
+					</form>
+					<p>
+						By clicking this button you are agreeing to our <strong><a href="/payment-policies.html" target="_blank">payment policies</a></strong>.
+					</p>
+				</div>
+				<div class="non-members">
+					<p>Registration is only available to members. Please login to proceed.</p>
+				</div>
+			</blockquote>
+		</div>
+	</div>
+<p></p>
+<!-- ------------------------------------------- -->
+		
+	
+	{% include footer.html %}
+</body>

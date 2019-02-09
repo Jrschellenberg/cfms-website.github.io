@@ -12,6 +12,16 @@ sitemap:
 <!--[if IE 8 ]> <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]> <html class="ie9"> <![endif]-->
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77140171-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-77140171-1');
+</script>
 	{% include head.html %}
 
 	<!--Page Specific Stylesheet-->
@@ -37,10 +47,10 @@ sitemap:
 			<div id="matchbook-right">
 				<blockquote id="latest-issue">
 					<h3><strong>Latest Version:</strong></h3>					
-					<div id="latest-issue-pic"><img src="/files/matchbook/matchbook2017-2018.jpg"></div>
-					<h5><strong>Matchbook 2017-2018</strong></h5>
+					<div id="latest-issue-pic"><img src="/files/matchbook/matchbook2018-2019.jpg"></div>
+					<h5><strong>Matchbook 2018-2019</strong></h5>
 					<div class="button members-only">
-						<a href="/files/matchbook/matchbook2017-2018.pdf">
+						<a onClick="ga('send', 'event', 'Download', 'Matchbook 2018-2019');" href="/files/matchbook/matchbook2018-2019.pdf">
 							<strong>Download</strong>
 						</a>
 					</div>
@@ -53,13 +63,14 @@ sitemap:
 			</div>
 			<p>The Match Book is a joint initiative of the CFMS and CaRMS designed to educate medical students about the Match and assist with career planning. For complete information on the CaRMS Match, visit the <a href="https://www.carms.ca/en/">CaRMS website</a>.</p>
 			<h2><strong>What's in the Matchbook?</strong></h2>
-			<p>The Match Book, created in 2008 and currently at its 8th edition, intends to (1) provide an introduction to the Canadian residency match process, (2) present an overview of the major steps involved, and (3) aid Canadian medical students' at various stages of training in planning their strategy for matching in their preferred programs.</p>
+			<p>The Match Book, created in 2008 and currently at its 11th edition, intends to (1) provide an introduction to the Canadian residency match process, (2) present an overview of the major steps involved, and (3) aid Canadian medical students' at various stages of training in planning their strategy for matching in their preferred programs.</p>
 			<h2><strong>Old Matchbooks</strong></h2>
 			<ul class='members-only'>
-				<li><a href="/files/matchbook/matchbook2016-2017.pdf">CFMS Match Book 2016-2017</a></li>
-				<li><a href="/files/matchbook/matchbook2015-2016.pdf">CFMS Match Book 2015-2016</a></li>
-				<li><a href="/files/matchbook/matchbook2014-2015.pdf">CFMS Match Book 2014-2015</a></li>
-				<li><a href="/files/matchbook/matchbook2013-2014.pdf">CFMS Match Book 2013-2014</a></li>
+				<li><a target="_blank" href="/files/matchbook/matchbook2017-2018.pdf" onClick="ga('send', 'event', 'Download', 'Matchbook 2017-2018');">CFMS Match Book 2017-2018</a></li>
+				<li><a target="_blank" href="/files/matchbook/matchbook2016-2017.pdf" onClick="ga('send', 'event', 'Download', 'Matchbook 2016-2017');">CFMS Match Book 2016-2017</a></li>
+				<li onClick="ga('send', 'event', 'Download', 'Matchbook 2015-2016');"><a target="_blank" href="/files/matchbook/matchbook2015-2016.pdf">CFMS Match Book 2015-2016</a></li>
+				<li onClick="ga('send', 'event', 'Download', 'Matchbook 2014-2015');"><a target="_blank" href="/files/matchbook/matchbook2014-2015.pdf">CFMS Match Book 2014-2015</a></li>
+				<li onClick="ga('send', 'event', 'Download', 'Matchbook 2013-2014');"><a target="_blank" href="/files/matchbook/matchbook2013-2014.pdf">CFMS Match Book 2013-2014</a></li>
 			</ul>
 			<ul class='non-members'>
 				<li>To access these files, please log in.</li>

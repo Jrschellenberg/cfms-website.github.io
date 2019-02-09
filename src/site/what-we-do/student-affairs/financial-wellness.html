@@ -1,0 +1,78 @@
+---
+title: Financial Wellness
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Student Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+	{% include head.html %}
+
+	<!--Page Specific Stylesheet-->
+	<link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#what-we-do" ).classList.toggle("active");
+	</script>
+
+	<div class="content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-student-affairs.html %}
+		<script type="text/javascript">
+			document.querySelector( "#financial-wellness" ).classList.toggle("sidebar-active");
+		</script>
+		<div class="editable" id="side-content">
+			<h1 id="page-title">Financial Wellness: CFMS Longitudinal Wellness Initiative</h1>
+			<p>Medical school is challenging from a financial perspective given the high cost of tuition, living, electives etc. A secure financial situation is very important for wellness during medical training and that’s why our focus for July and August is on financial wellness.</p>
+			<p>Here are some things you can do to help with your financial health throughout medical school.</p>
+			<p><strong>Meet with a financial advisor and have a financial plan</strong></p>
+			<p>While there is great variation in the financial situation students are in entering medical school, many students don’t have much in the way of financial wealth as we enter our training programs. Meeting with a financial advisor is still very important as they can help you with overall longer-term financial planning even if you don’t have a lot of assets to your name just yet.</p>
+			<p>Having a strong financial plan that meets your needs, while having the goal of minimizing your debt when you graduate is to everyone’s advantage.</p>
+			<p>Financial plans are also important in helping you determine what types of and how much financial assistance to apply for. Scholarships and bursaries applications are important source of funding to apply to. Hopefully, your student affairs offices will have lots of information on those for you to utilize!</p>
+			<p>Government student loans (both provincial and federal) are another source to tap into. Check with your provinces secondary education departments for local details!</p>
+			<p>There are many options for medical student lines of credit as well. Speaking with a financial advisor and considering your financial goals are very important in deciding whether or not to obtain a line of credit and further which option (because there are many) to choose.</p>
+			<p><strong>Be in the driver seat with you financial health:</strong></p>
+			<p>Establish a monthly budget that takes into consideration all of your core living expenses as well as the additional fees that come with medical training. Having a budget laid out often surprises us as we realize opportunities for savings and/or re-allocation. It takes time, yes, but budgeting is an important habit to get into, both for now and in the future as you practice.</p>
+			<p><strong>Protect your biggest asset!, yourself! Have the proper insurance:</strong></p>
+			<p>Having the proper life, disability and other insurance policies are essential. Your future earning potential as a resident and practicing physician is an important asset.</p>
+			<p>Disability insurance is often offered to students for free or at highly discounted rates depending on your local PTMA and other offerings. While it may seem that you will “never need it” and “it’s just another set of forms to fill out”, the medical profession is a challenging one and not uncommonly work-related incidents result in practitioner disability that affects their medical practice. The type of insurance plan that is best for you varies depending on your unique circumstances but learning about the options and getting a policy early could be one of the better decisions you make.</p>
+			<p><strong>Tap Into the available Support Resources</strong></p>
+			<p>Your school’s student affairs office often has an abundance of resources to help students find the right supports and expertise regarding their financial health. As mentioned earlier, meeting with a financial advisor who knows and understands professional students and their unique situation is important in helping close any knowledge gaps you may have. For the financial wellness months the CFMS will have some videos and other resources to help support you, further we are advocating and working with stakeholders on strong financial literacy curricula to be available to all undergraduate medical trainees.</p>
+			<p>We are looking for additional resources, if you’ve come across resources that you think would be great for other students please let us know!</p>
+			<h3>Videos</h3>
+			<p>We want to highlight 4 short, informative videos that MD financial has put together addressing some common themes around finance for medical students. They may serve as an additional resource to help address some common questions.</p>
+			<p><strong>Common Questions regarding student finances:</strong></p>
+			<p>A few of the common questions that medical students have when they meet with a financial advisor are explored, including “will I ever be able to pay off all that debt?”</p>
+			<iframe width="700" height="394" src="https://www.youtube.com/embed/hjKXuscnKE8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<p><br><strong>Student Loans vs Lines of Credit:</strong><p>
+			<p>A quick breakdown of differences between student loans and lines of credit including the benefits of each option.</p>
+			<iframe width="700" height="394" src="https://www.youtube.com/embed/g-CQstaTE3o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br>
+			<p><br><strong>Borrowing: How interest rates work</strong></p>
+			<p>On the importance of understanding how changes in interest rates affect your ability to pay back different loans and further the variability between LOC’s, federal and provincial student loans</p>
+			<iframe width="700" height="394" src="https://www.youtube.com/embed/1vI2B7vHaNo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br>
+			<p><br><strong>Why budgets?</strong></p>
+			<p>On the importance of budgeting and why all medical students should have a budget as a “financial roadmap” to help keep us on track!</p>
+			<iframe width="700" height="394" src="https://www.youtube.com/embed/f-of3LpGGLA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br>
+			<p>As with all financial resources these are merely resources and do not replace the counsel of a financial advisor and additional resources which you utilize for financial planning.</p>
+			<p>Please let us know if you have any feedback regarding these videos! You can reach out to Victor Do; western@cfms.org and Lauren Griggs, VP Finance <a href="mailto:vpfinance@cfms.org">vpfinance@cfms.org</a></p>
+
+
+
+		</div>
+	</div>
+	{% include footer.html %}
+</body>

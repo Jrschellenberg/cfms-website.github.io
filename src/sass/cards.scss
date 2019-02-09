@@ -33,6 +33,10 @@ img {
   }
 }
 
+.full-card {
+  width: 100% !important;
+}
+
 .offset__card {
   @media(min-width: 40rem) {
     margin-left: 25%;
@@ -83,6 +87,7 @@ img {
     }
   }
 }
+
 
 // .card__title {
 //   color: $gray-dark;

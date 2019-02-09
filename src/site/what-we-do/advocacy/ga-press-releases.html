@@ -1,0 +1,55 @@
+---
+title: Advocacy
+sitemap:
+  priority: 0.7
+  changefreq: monthly
+  role: VP Government Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+	{% include head.html %}
+
+	<!--Page Specific Stylesheet-->
+	<link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+	<link rel="stylesheet" href="/stylesheets/news.css">
+
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#what-we-do" ).classList.toggle("active");
+	</script>
+
+	<div class="content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-advocacy.html %}
+		<script type="text/javascript">
+			document.querySelector( "#ga-press-releases" ).classList.toggle("sidebar-active");
+		</script>
+
+		<div class="editable" id="side-content">
+			<h1 id="page-title">Government Affairs Press Releases</h1>
+
+			<div id="news-ga-columns">
+				<div id="older-news" class="column">
+					<div class="news-home-list">
+							<div class="news-date">APRIL 26, 2018</div>
+							<li>
+								<div class="news-link"><a href="https://www.cfms.org/news/2018/04/26/press-release-federal-budget-2018-includes-key-announcements-on-cfms-advocacy-areas-including-indigenous-health-opioids-cannabis-pharmacare-and-health-research.html">Federal Budget 2018 includes key announcements on CFMS advocacy areas, including Indigenous health, opioids, cannabis, Pharmacare, and health research</a></div>
+								<div class="news-desc">The Canadian Federation of Medical Students (CFMS) is hopeful yet critical of the Federal Government’s 2018 Budget. The Budget included key announcements on issues that have been priority advocacy areas for the CFMS for the past four years</div>
+							</li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% include footer.html %}
+</body>

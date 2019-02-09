@@ -1,0 +1,54 @@
+---
+title: Graphics
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Government Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]>
+<html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css"/>
+    <link rel="stylesheet" href="/stylesheets/cards.css" />
+
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+{% include nav.html %}
+
+<!--Page Specific Formatting-->
+<script type="text/javascript">
+  document.querySelector("#logo-invert").classList.toggle("hidden");
+  document.querySelector("#what-we-do").classList.toggle("active");
+</script>
+
+<div class="content">
+    <!-- Displays the sidebar and emphasizes the active page -->
+    {% include sidebar-communications.html %}
+    <script type="text/javascript">
+      document.querySelector("#external-documents").classList.toggle("sidebar-active");
+    </script>
+    <div id="side-content" class="editable">
+        <h1 id="page-title">Documents Extenres</h1>
+        <!--<p></p>-->
+
+      <ul class="cards">
+        <li class="cards__item">
+          <div class="card"><a href="/files/external-documents/FMC-Evolution du role du medecin-Mai 2018_FRE.pdf"><img class="card__image" src="/images/page-images/external-documents/FMC-Evolution du role du medecin-Mai 2018_FRE.jpeg" style = "height:413px;" /> </a></div>
+        </li>
+      </ul>
+
+
+
+    </div>
+</div>
+{% include footer.html %}
+</body>

@@ -26,6 +26,8 @@
     <div class="discounts content">
         {% include sidebar-discounts.html %}
         <script type="text/javascript">
+            console.log("Discount id is {{ page.discount-id  }}");
+            console.log('Discount text is {{ site.data.discounts[page.discount-id] }}');
             document.querySelector( "#{{ pageId }}" ).classList.toggle("sidebar-active");
         </script>
         <div class="student-discounts-content">

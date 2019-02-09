@@ -22,9 +22,10 @@ nav:
     meetings: Meetings
     members: Members
     news: News
-    human-of-medicine: Humans of Medicine
+    # human-of-medicine: Humans of Medicine
     login: Login
     logout: Logout
+    elections: Elections
   - lang: fr
     acronym: FEMC
     title: Fédération des étudiants<br>et des étudiantes en<br>médecine du Canada
@@ -40,9 +41,10 @@ nav:
     meetings: Réunions
     members: Membres
     news: Nouvelles
-    human-of-medicine: Humains de la Médecine
+    # human-of-medicine: Humains de la Médecine
     login: Se connecter
     logout: Se déconnecter
+    elections: Elections
 financial_resources:
   - lang: en
     student_services: Services for Students
@@ -67,8 +69,6 @@ financial_resources:
     preparing_residency: Preparing for Residency
     preparing_residency_url: 'https://mdm.ca/physician-life-stages/students/preparing-for-residency/'
     # studying_abroad: Studying Abroad
-    studying_abroad_url: >-
-      https://mdm.ca/physician-life-stages/students/resources-for-studying-abroad/
     client_testimonials: Client Testimonials
     client_testimonials_url: 'https://mdm.ca/about-md/testimonials/'
     meeting-minutes: Meeting Minutes
@@ -79,29 +79,16 @@ financial_resources:
     student_finances: Les finances des étudiants
     student_finances_url: student-finances.html
     md_leadership_awards: Prix de leadership FEMC-MD
-    md_leadership_awards_url: /fr/resources/md-leadership-awards.html
     md_leadership_awards_instructions: Comment appliquer
-    md_leadership_awards_instructions_url: /fr/resources/md-leadership-awards-instructions.html
     md_leadership_awards_apply: Soumettre l'application
-    md_leadership_awards_apply_url: /fr/resources/md-leadership-awards-application.html
     md_leadership_awards_prev_winners: Previous Recipients
-    md_leadership_awards_prev_winners_url: /fr/resources/md-leadership-awards-prev-winners.html
     md_travel_awards: Bourses de voyage MD
-    md_travel_awards_url: /fr/resources/md-travel-awards.html
+    md_travel_awards_url: /resources/md-travel-awards.html
     managing_debt: Gérer vos dettes
-    managing_debt_url: >-
-      https://mdm.ca/fr/%c3%a9tapes-de-carri%c3%a8re/etudiants-en-medecine/gerer-vos-dettes
     paying_med_school: Payer vos études en médecine
-    paying_med_school_url: >-
-      https://mdm.ca/fr/%C3%A9tapes-de-carri%C3%A8re/etudiants-en-medecine/payer-vos-etudes-en-medecine
     preparing_residency: Vous préparer à la résidence
-    preparing_residency_url: >-
-      https://mdm.ca/fr/%c3%a9tapes-de-carri%c3%a8re/etudiants-en-medecine/vous-preparer-a-la-residence
     # studying_abroad: Étudier à l’étranger
-    studying_abroad_url: >-
-      https://mdm.ca/fr/%C3%A9tapes-de-carri%C3%A8re/etudiants-en-medecine/des-ressources-pour-etudier-a-l-etranger
     client_testimonials: Témoignages de vos collègues
-    client_testimonials_url: 'https://mdm.ca/fr/au-sujet-de-md/temoignages'
     meeting-minutes: Comptes rendus des réunions
 latest_tweets_en: Latest tweets
 latest_tweets_fr: Derniers tweets
@@ -154,6 +141,8 @@ sidebar-global-health:
     advocacy-toolkit: Advocacy Toolkit
     indigenous-health: Indigenous Health
     heart: HEART
+    snapvocacy: Snapvocacy
+    heart-competencies: HEART Competencies
   - lang: fr
     sidebar-title_1: Santé globale
     overview: Aperçu
@@ -170,6 +159,8 @@ sidebar-global-health:
     advocacy-toolkit: Trousse-à-outils pour plaidoirie
     indigenous-health: Santé autochtone
     heart: HEART
+    snapvocacy: Snapvocacy
+    heart-competencies: HEART Competencies
 sidebar-who-we-are:
   - lang: en
     sidebar-title_1: Who We Are
@@ -189,6 +180,8 @@ sidebar-who-we-are:
     organizational-timeline: Organizational Timeline
     photo-gallery: Photo Gallery
     student-spotlight: Student Spotlight
+    overview: Overview
+    elections: Elections
   - lang: fr
     sidebar-title_1: Qui sommes-nous?
     executives-officers: Conseil exécutif et directeurs
@@ -207,6 +200,7 @@ sidebar-who-we-are:
     organizational-timeline: Chronologie Organisationnelle
     photo-gallery: Galerie de photos
     student-spotlight: Projecteur étudiant
+    elections: Elections
 sidebar-education:
   - lang: en
     sidebar-title_1: Education
@@ -221,7 +215,8 @@ sidebar-education:
     student-run-clinics-toolkit: Student Run Clinics Toolkit
     lmcc-prep-link: LMCC Preparation Resources
     reports: Reports
-    motp: MOTP
+    motp: MOTP Surge 2018
+    research-ethics: Research Ethics
   - lang: fr
     sidebar-title_1: Éducation
     overview: Aperçu
@@ -235,7 +230,8 @@ sidebar-education:
     student-run-clinics-toolkit: Trousse-à-outils pour cliniques dirigées par étudiants
     lmcc-prep-link: Ressources préparatoires pour LCMC
     reports: Rapports
-    motp: MOTP
+    motp: MOTP Surge 2018
+    research-ethics: Research Ethics
 sidebar-student-affairs:
   - lang: en
     sidebar-title_1: Student Affairs
@@ -248,7 +244,7 @@ sidebar-student-affairs:
     wellness: Wellness
     discounts: Student Discounts
     resident-profiles: Resident Profiles
-    national-wellness-initiative: National Wellness Initiative
+    national-wellness-initiative: National Wellness Program
     longitudinal-wellness-initiative: Longitudinal Wellness Initiative
     wellness-spotlight-profiles: Wellness Spotlight profiles
     nutrition-wellness: Nutrition Wellness
@@ -256,6 +252,13 @@ sidebar-student-affairs:
     quick-tips: Quick Tips
     safe-space: Safe Space
     national-contests: National Contests
+    mental-wellness: Mental Wellness
+    mental-wellness-spotlight: Mental Wellness
+    financial-wellness: Financial Wellness
+    physical-wellness: Physical Wellness
+    social-relationship-wellness: Social/Relationship Wellness
+    restaurants-activities-wellness: Restaurants/Activities
+    residency-interview: Residency Interviews
   - lang: fr
     sidebar-title_1: Affaires étudiantes
     overview: Aperçu
@@ -266,7 +269,7 @@ sidebar-student-affairs:
     sidebar-title_2: Ressources
     wellness: Bien-être
     discounts: Rabais étudiants
-    national-wellness-initiative: National Wellness Initiative
+    national-wellness-initiative: National Wellness Program
     longitudinal-wellness-initiative: Longitudinal Wellness Initiative
     wellness-spotlight-profiles: Wellness Spotlight profiles
     nutrition-wellness: Nutrition Wellness
@@ -274,6 +277,13 @@ sidebar-student-affairs:
     quick-tips: Quick Tips
     safe-space: Safe Space
     national-contests: National Contests
+    mental-wellness: Mental Wellness
+    mental-wellness-spotlight: Mental Wellness
+    financial-wellness: Financial Wellness
+    physical-wellness: Physical Wellness
+    social-relationship-wellness: Social/Relationship Wellness
+    restaurants-activities-wellness: Restaurants/Activities
+    residency-interview: Residency Interviews
 sidebar-communications:
   - lang: en
     sidebar-title_1: Communications
@@ -282,9 +292,11 @@ sidebar-communications:
     sidebar-title_2: Resources
     press-releases: Press Releases
     cfms-in-the-news: CFMS in the News
-    communiques: Communiques
-    graphics: Graphics
-    quarter-reports: Quarter Reports
+    # communiques: Communiques
+    # graphics: Graphics
+    quarter-reports: Board Reports
+    bilingualism-committee: Bilingualism Committee
+    external-documents: External Documents
   - lang: fr
     sidebar-title_1: Communications
     overview: Aperçu
@@ -292,9 +304,11 @@ sidebar-communications:
     sidebar-title_2: Ressources
     press-releases: Communiqués de Presse
     cfms-in-the-news: FEMC dans les Nouvelles
-    communiques: Communiques
-    graphics: Graphique
-    quarter-reports: Quarter Reports
+    # communiques: Communiques
+    # graphics: Graphique
+    quarter-reports: Board Reports
+    bilingualism-committee: Bilingualism Committee
+    external-documents: Documents Externes
 sidebar-advocacy:
   - lang: en
     sidebar-title_1: Advocacy
@@ -307,7 +321,8 @@ sidebar-advocacy:
     day-of-action: Day of Action
     task-forces: Task Forces
     research-committee: Research Committee
-    advocacy-tracker: Advocacy Tracker
+    # advocacy-tracker: Advocacy Tracker
+    ga-press-releases: Press Releases
   - lang: fr
     sidebar-title_1: Plaidoirie
     overview: Aperçu
@@ -319,7 +334,8 @@ sidebar-advocacy:
     day-of-action: Journée d'action
     task-forces: Task Forces
     research-committee: Comité de recherche
-    advocacy-tracker: Advocacy Tracker
+    # advocacy-tracker: Advocacy Tracker
+    ga-press-releases: Press Releases
 sidebar-discounts:
   - lang: en
     sidebar-title_1: Discounts
@@ -330,6 +346,7 @@ sidebar-discounts:
     wellness-discounts: Wellness Discounts
     lasik: LASIK MD Vision Correction
     discounts-tax: Tax Services 
+    medskl: MEDSKL QBank Access
   - lang: fr
     sidebar-title_1: Réductions
     travel-and-accommodations: Réductions sur les Voyages
@@ -339,15 +356,15 @@ sidebar-discounts:
     lasik: Correction de la vision LASIK MD
     wellness-discounts: Wellness Discounts
     discounts-tax: Tax Services 
-
+    medskl: MEDSKL QBank Access
 sidebar-databases:
   - lang: en
     sidebar-title_1: Databases
-    accommodations: Accommodations
-    interviews: Residency Interview Database
-    electives: Electives Database
+    # accommodations: Accommodations
+    interviews: Residency Interview Preparation
+    # electives: Electives Database
   - lang: fr
     sidebar-title_1: Base de données
-    accommodations: Hébergement
-    interviews: Entrevue de Carmes
-    electives: Electives Database
+    # accommodations: Hébergement
+    interviews: Residency Interview Preparation
+    # electives: Electives Database

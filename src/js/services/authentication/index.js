@@ -74,10 +74,15 @@ export default class AuthenticationService {
     static isTokenExpired(token) {
         const jwt = jwtLib.decode(token);
         if (jwt.exp < Date.now() / 1000) {
-            console.log('Old shitty token');
             return true;
         }
         return false;
+    }
+
+    updateUserMetadata(metadata) {
+        let user = JSON.parse(localStorage.getItem('profile'));
+        user.user_metadata = metadata;
+        localStorage.setItem('profile', JSON.stringify(user));
     }
 
     dispatchUser() {

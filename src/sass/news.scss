@@ -267,6 +267,32 @@ $link-padding: 30px;
 	}
 }
 
+
+/* #Government Affairs Press Releases Section
+––––––––––––––––––––––––––––––––––––––––*/
+
+#news-ga-columns {
+	@extend .content;
+	padding-top:5px;
+	padding-bottom:10px;
+	display:flex;
+	padding-left:0px;
+	.column {
+		h1 {
+			font-weight:bold;
+			font-size:24px;
+			padding-bottom:7px;
+			border-bottom:2px solid $brighter;
+			margin-bottom:15px;
+		}
+	}
+}
+
+
+
+
+
+
 /* #News Archive Styling
 ––––––––––––––––––––––––––––––––––––––––*/
 

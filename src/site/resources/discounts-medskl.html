@@ -1,0 +1,111 @@
+---
+title: "Online Resource Discounts"
+sitemap:
+  priority: 0.3
+  changefreq: yearly
+  role: VP Student Affairs
+---
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+	{% include head.html %}
+
+	<!--Page Specific Stylesheet-->
+	<link rel="stylesheet" href="/stylesheets/resources.css">
+	<!-- CodeMirror -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css" />
+
+	<!-- Firepad -->
+	<link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css" />
+	<script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+</head>
+<body>
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#resources" ).classList.toggle("active");
+	</script>
+
+	<div class="discounts content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-discounts.html %}
+		<script type="text/javascript">
+			document.querySelector( "#medskl" ).classList.toggle("sidebar-active");
+		</script>
+		<div class="student-discounts-content" class="editable">
+			<h1 id="page-title">medskl.com Offer</h1>
+			<h1><strong>Free Question Bank Access!</strong></h1>
+			<hr>
+			<img class="pic-right" src="/images/discount-images/medskl-logo.png">
+			<p><a href="https://medskl.com" target="_blank">medskl.com</a> has been designed for medical school students and practicing physicians to learn and review the fundamentals of clinical medicine. medskl.com’s library of content comes from over 200 of the best medical school professors from around the world, and they undergo an editorial peer-review process. Their brief but in-depth video modules cover the spectrum of clinical presentations.</p>
+			<p>medskl.com’s mission is to make medical education more effective and accessible whether you are studying for exams or earning CME credits. The core educational modules at medskl.com are always free. However, accessing the practice questions associated with their modules requires a paid subscription.</p>
+			<p><strong>CFMS is excited to be collaborating with medskl.com to provide the CFMS member students with free access to their practice question bank!</strong></p>
+
+			<div class="non-members">
+			<blockquote>
+				<h3><strong>Discount Details</strong></h3>
+					<ul>
+						<li>Please login in order to access this discount.</li>
+					</ul>
+			</blockquote>
+			</div>
+
+			<div class="members-only">
+				<h1><strong>Free Access Information</strong></h1>
+				<p><strong>Important Notes:</strong></p>
+				<ol>
+					<li>You have to register for the medskl.com account using your medical school email address to gain the free access to the question bank</li>
+					<li>The free access to the question bank available through the link below only works if you click on the link from this page.</li>
+				</ol>
+
+				<p><strong>Option 1:</strong> If you <strong>do not have</strong> a medskl.com account with your medical school email address</p>
+				<ol>
+					<li><a href="https://medskl.com/group/join/cfms2018" target="_blank">Click here</a> to go to the CFMS Program free access offer page</li>
+					<li>Enter your medical school email address and click on “Join”</li>
+					<li>Check your email for the verification email from “service@medskl.com”</li>
+					<li>Click on the “Complete your signup” link in the email</li>
+					<li>Fill in the information requested and click on “Continue”</li>
+					<li>You will see a confirmation page stating that you have joined the CFMS Program</li>
+				</ol>
+
+				<p><strong>Option 2:</strong> If you <strong>already have</strong> a medskl.com account with your medical school email address</p>
+				<ol>
+					<li>Log into your medskl.com account (“Login” button is at the top-right of the <a href="https://medskl.com/" target="_blank">Home Page</a>)</li>
+					<li><a href="https://medskl.com/group/join/cfms2018" target="_blank">Click here</a> to go to the CFMS Program free access offer page</li>
+					<li>You will see a confirmation page stating that you have joined the CFMS Program </li>
+				</ol>
+
+				<p><strong>Accessing the Question Bank:</strong></p>
+				<ol>
+					<li>Log into your medskl.com account with which you have joined the CFMS Program</li>
+					<li>Go to the module that you want to take the practice quiz on (all listed on <a href="https://medskl.com/course" target="_blank">Courses Page</a>)</li>
+					<li>If you have successfully joined the CFMS Program, you will see the “Quiz” tab circled below</li>
+					<li>Click on “Start Quiz” to access the Question Bank specific to the module</li>
+					<li>You can see a summary of the viewed module and quizzes on your <a href="https://medskl.com/member" target="_blank">Account Dashboard</a></li>
+				</ol>
+				<p><img src="/images/discount-images/medskl-anemia.png"></p>
+			</div>
+
+
+
+
+		</div>
+	</div>
+	<div>{% include footer.html %}</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

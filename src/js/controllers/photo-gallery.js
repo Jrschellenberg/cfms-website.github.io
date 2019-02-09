@@ -1,8 +1,8 @@
 
 //This import order matters, don't change it or app could break.
-import Helper from './dependencies/blueimp-helper';
-import PhotoSwipe from './dependencies/blueimp-gallery';
-import Fullscreen from './dependencies/blueimp-gallery-fullscreen';
+// import './dependencies/blueimp-helper';
+// import './dependencies/blueimp-gallery';
+// import './dependencies/blueimp-gallery-fullscreen';
 
 export default class PhotoGalleryController{
 	constructor() {

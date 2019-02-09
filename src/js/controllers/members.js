@@ -6,15 +6,18 @@ export default class MembersController {
 
     process() {
         if (this.auth.user) {
-            let profile = this.auth.user;
-            var firstName = profile.given_name;
-            var lastName = profile.family_name;
-            document.getElementById('account-name').textContent = firstName + ' ' + lastName;
-            document.getElementById('account-school').textContent = profile.user_metadata.medical_school;
-            document.getElementById('account-grad-year').textContent = profile.user_metadata.graduation_year;
-            var accountEmail = document.getElementById('account-email');
-            accountEmail.textContent = profile.email;
-            accountEmail.href = 'mailto:' + profile.email;
+            this.profile = this.auth.user;
+            this.firstName = this.profile.given_name;
+            this.lastName = this.profile.family_name;
+            this.school = this.profile.user_metadata.medical_school;
+            this.grad = this.profile.user_metadata.graduation_year;
+            document.getElementById('account-name').textContent = this.firstName + ' ' + this.lastName;
+            document.getElementById('account-school').textContent = this.school;
+            document.getElementById('account-grad-year').textContent = this.grad;
+            let accountEmail = document.getElementById('account-email');
+            this.email = this.profile.email;
+            accountEmail.textContent = this.email;
+            accountEmail.href = 'mailto:' + this.email;
         }
         else {
             document.getElementById('account-name').textContent = '';

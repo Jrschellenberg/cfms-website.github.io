@@ -36,7 +36,7 @@ The 2nd annual HEART Earth Day Photo Contest will run **April 9-23, 2018.**
 
 Simply **submit a photo (or photos) that show what the importance of a healthy environment means to you.**
 
-Photos may be submitted to Finola Hackett ([finola@ualberta.ca](javascript:void(location.href='mailto:'+String.fromCharCode(102,105,110,111,108,97,64,117,97,108,98,101,114,116,97,46,99,97)))) between April 9-23, 2018. Please include a one-line caption for each submission. Winners and prizes will also be announced at the CFMS SGM, April 27-28 2018.
+Photos may be submitted to Finola Hackett ([finola@ualberta.ca](javascript:void(location.href='mailto:'+String.fromCharCode(102,105,110,111,108,97,64,117,97,108,98,101,114,116,97,46,99,97)))) between April 9-23, 2018. All photo submissions must have been taken by the medical student submitting. Please include a one-line caption for each submission. Winners and prizes will also be announced at the CFMS SGM, April 27-28 2018.
 
 **Last year's Earth Day Photo Contest winner:**
 

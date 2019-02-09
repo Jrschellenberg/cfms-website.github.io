@@ -1,0 +1,330 @@
+---
+title: "Physical Wellness"
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Student Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+
+<!-- Google Tag Manager -->
+
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+    <link rel="stylesheet" href="/stylesheets/who-we-are.css" />
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+{% include nav.html %}
+
+<!--Page Specific Formatting-->
+<script type="text/javascript">
+    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+    document.querySelector( "#what-we-do" ).classList.toggle("active");
+</script>
+
+<div class="content">
+    <!-- Displays the sidebar and emphasizes the active page -->
+    {% include sidebar-student-affairs.html %}
+    <script type="text/javascript">
+        document.querySelector( "#physical-wellness" ).classList.toggle("sidebar-active");
+    </script>
+    
+    <div id="side-content" id="meeting-body">
+        <h1 id="page-title">{{ page.title }}</h1>
+        
+        <div class="editable">
+            <div id="shortcut-links">
+                <div id="scroll">
+                    <h4>Jump to:</h4>
+                    <div class="bullets-wellness">
+                        <ul>
+                            <li>
+                                <a href="#apps-and-podcasts">Physical Health Apps and Podcasts</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#apps">Apps</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#podcasts">Podcasts</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#youtube">YouTube</a>
+                            </li>
+                            <li>
+                                <a href="#medical-school-initatives">Medical School Physical Health Initiatives</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#mcgill">McGill University</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#memorial">Memorial University</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#ottawa">University of Ottawa</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#manitoba">University of Manitoba</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#ubc">University of British Columbia</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#dalhousie">Dalhousie University</a>
+                            </li>
+                            <li>
+                                <a href="#tips">Medical Students to Medical Students: Tips for each other!</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#iuliia-povieriena">Iuliia Povieriena, Class of 2018</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#ryan-densmore">Ryan Densmore, Class of 2021</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#michelle-moody">Michelle Moody, Class of 2019</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h2 id="apps-and-podcasts"><strong>Physical Health Apps and Podcasts</strong></h2>
+        <hr />
+        <h3 id="apps"><strong>Apps </strong></h3>
+        <p>
+            <strong>1. Couch to 10k Running Trainer</strong> - Christine Audi, McGill Class of 2019<br>
+            This is an awesome that can help you improve your running fitness with a targeted goal. It helps you achieve a goal of 5k or 10k over multiple weeks. You don’t have to be experienced! It starts with running and walking intervals, and the running intervals get longer with time.
+            <br>
+            This is also great as the weather’s getting warmer, and this would allow you to get outdoors and get a good dose of vitamin D!
+            <br>
+            <img src="/images/lwi-images/physical-wellness/week-1/10k-running-trainer.png">
+        </p>
+
+        <p>
+            <strong>2. Carrot</strong> - Sophia Miao, Dalhousie Class of 2021<br>
+            This is a rewards app and it’s a great way to keep track of your steps every day while earning points. You can also learn about nutrition and physical health by filling out quick health surveys in the app. Funded by the Government of Canada, it partners with Heart & Stroke, Diabetes Canada, and YMCA to give you Aeroplan Points, Cineplex Scene Points, Petro Points, RBC Rewards, and more.
+            <br>
+            *Note: Carrot is currently only available in BC, ON, and NL.
+            <img src="/images/lwi-images/physical-wellness/week-1/carrot.png">
+        </p>
+
+        <p>
+            <strong>3. Charity Miles</strong> - Michelle Moody, Memorial University Class of 2019<br>
+            <img src="/images/lwi-images/physical-wellness/week-1/charity-miles.png" class="paragraph-picture" style="
+                width: 150px;
+                height: auto;
+            ">
+            A fun twist on your typical app that counts your steps -- this app measures your distance and allows you to earn money for charities (10 cents per mile for cyclists, 25 cents per mile for walkers and runners). There are over 40 different charities to choose from that you would like your money to go to, including Habitat for Humanity, etc. The app has raised over 2.5 million dollars for charities to date!
+        </p>
+
+        <p>
+            <strong>4. AllTrails </strong> - Michelle Moody, Memorial University Class of 2019<br>
+            <img src="/images/lwi-images/physical-wellness/week-1/alltrails.png" class="paragraph-picture" style="
+                width: 100px;
+                height: auto;
+            ">
+            Great choice for all the outdoors lovers out there! The app helps hikers, runners, and bikers discover the best trails around the world. Get access to over 50,000 hiking trails and mountain bike routes, from national parks to your neighborhood! Be prepared to explore remote locations by downloading maps for offline use.
+        </p>
+
+        <p>
+            <strong>5. Health </strong> - Brandon Lam, University of Ottawa Class of 2020<br>
+            <img src="/images/lwi-images/physical-wellness/week-3/health.jpg" class="paragraph-picture" style="
+                width: 100px;
+                height: auto;
+            ">
+            This app is already installed onto your iphone so you don’t have to install it yourself! This great app keeps track of activities such as walking, running, distance, and sleep! You can customize the app to record whatever you want! The information is easy to view and understand. All you have to do to use the app is just to keep it on you! 
+        </p>
+
+        <p>
+            <strong>6. MyFitnessPal </strong> - Brandon Lam, University of Ottawa Class of 2020<br>
+            This would have to be the best app to keep track of your diet! They have all the nutritional info of literally every type of food from anywhere (Supermarkets, restaurants, fast food, etc)! All you have to do is just type in what you are eating and the app will fill in everything for you.
+            <img src="/images/lwi-images/physical-wellness/week-3/myfitnesspal.jpg">
+        </p>
+
+        <p>
+            <img src="/images/lwi-images/physical-wellness/week-3/headspace.jpg" class="paragraph-picture" style="
+                width: 200px;
+                height: auto;
+            ">
+            <strong>7. Headspace </strong> - Brandon Lam, University of Ottawa Class of 2020<br>
+            This is a great app to practice meditation and mindfulness. They have mediation sessions that ranges from 5 minutes to an hour! This is a great way to sharpen your mind! Great physical health includes having a sharp mind! 
+        </p>
+
+        <h3 id="podcasts"><strong>Podcasts </strong></h3>
+        <p>
+            <strong>1. Rich Roll</strong> - Ryan Densmore, Dalhousie Class of 2021<br>
+            Really great for hearing from everyday people and to help remind you what you are capable of!
+            <img src="/images/lwi-images/physical-wellness/week-2/rich-roll.png">
+        </p>
+
+        <p>
+            <strong>2. The BodyLove Project </strong> - Michelle Moody, MUN Class of 2019<br>
+            A wonderful podcast that focuses on body love and positivity while discussing physical health and fitness, as well as other aspects of health. This podcast reminds us that fitness is can be present in every body, regardless of size or shape.
+            <img src="/images/lwi-images/physical-wellness/week-2/bodylove.png">
+        </p>
+
+        <p>
+            <strong>3. Marathon Training Academy</strong> - Michelle Moody, MUN Class of 2019<br>
+            A podcast that speaks to me on a spiritual level about how physical health and activity affects every other
+            aspect of your life and health. Major motivation to get moving!
+            <img src="/images/lwi-images/physical-wellness/week-2/marathon.png">
+        </p>
+        <p>
+            <strong>4. Move Your DNA</strong> - Michelle Moody, MUN Class of 2019<br>
+            A podcast that speaks to me on a spiritual level about how physical health and activity affects every other aspect of your life and health. Major motivation to get moving!
+            <img src="/images/lwi-images/physical-wellness/week-4/dna.png">
+        </p>
+        <p>
+            <img src="/images/lwi-images/physical-wellness/week-4/hurdle.png" class="paragraph-picture" style="
+                width: 200px;
+                height: auto;
+                padding-left: 15px;
+            ">
+            <strong>5. Hurdle </strong> - Michelle Moody, MUN Class of 2019<br>
+            Most of us and struggled with a waxing and waning relationship with fitness over the years. The Hurdle Podcast addresses the unavoidable mental and physical hurdles that everyone who exercises faces at some point in the journey. This is the podcast of choice if need some motivation!
+        </p>
+
+        <h3 id="youtube"><strong>Youtube</strong></h3>
+        <p>
+            <strong>1. Blogilates</strong> - Emily King, Memorial University Class of 2020<br>
+            This youtube channel is famous for “Pop Pilates” - literally pilates combined with your favourite pop songs. This channel has lots of quick workouts that you can do with little or no equipment.
+        </p>
+        <p>
+            <strong>2. Yoga with Adriene </strong> - Emily King, Memorial University Class of 2020<br>
+            This youtube channel has a wide variety of yoga videos that can suit anyone’s taste. I especially like it because you can do them in the comfort of your own living room. There are short 10 minute videos, but she also has full videos that take you through a full workout. Her voice is so soothing and I find that this channel is also good for mental health and relaxation.
+        </p>
+        <p>
+            <strong>3. FitnessBlender</strong> - Brandon Lam, University of Ottawa Class of 2020<br>
+            This youtube channel has hundreds of videos that cater to any type of workout and time constraints. Whether you want cardiovascular, weight training, or a quick 5 min workout, they have it all!
+        </p>
+
+        <h2 id="medical-school-initatives"><strong>Medical School Physical Health Initiatives</strong></h2>
+        <hr />         
+        <!--MCGILL -->
+        <h3 id="mcgill"><strong>McGill University</strong></h3>
+        <p>
+            <i>McGill Spin Bike Gardens: </i>Spin Bike Gardens (SBG) is aimed to improve wellbeing, and mental health at McGill by helping to integrate exercise in the daily lives of students, and by providing means to exercise within study and learning spaces. These spots are located throughout campus near study spaces, and notable near the Osler Library, the medical school library. These spaces offer the opportunity to exercise by taking a short spin break if you are in need of a study break or if you have some time in between classes. These spaces are equipped with silent spin breaks and are surrounded by lots of plants and meditative art making this a very calm and soothing environment shown to be beneficial for mental health.
+            <img src="/images/lwi-images/physical-wellness/week-1/spin-bike-gardens.png">
+            <br>
+            <i>Exercise is Medicine:</i> McGill's Exercise Is Medicine Club (EIMC) aims to empower students to use exercise to improve their wellbeing and mental health. It organizes several different workouts and training sessions for students throughout the year, like circuit training, boot camps and crossfit sessions. These events are also located at different gym and studios around the Montreal community in order to expose our students to the variety of health services offered across the city.
+            <br><br>
+            <i>Free summer gym memberships for medical students:</i> Though this isn’t exactly a student initiative, it is important for McGill medical students to know that they get the benefit of a free summer gym membership at the McGill Gym. This encourages physical activity for our medical students, and hopefully helps instill good habits that will remain after summer ends.
+        </p>
+
+        <!--Memorial University -->
+        <h3 id="memorial"><strong>Memorial University</strong></h3>
+        <p>
+            <i>Exercise Is Medicine: </i>Exercise Is Medicine is a student-run interest group at Memorial University that seeks to promote exercise as a means of achieving and maintaining health. This year, the team at Memorial has developed exercise “power hours”. The students set up stations in a lecture theatre during lunch hour. Everyone simply rotates through all of the stations that target different muscles. All students are welcome to attend and get moving.
+        </p>
+
+        <!--University of Ottawa -->
+        <h3 id="ottawa"><strong>University of Ottawa</strong></h3>
+        <p>
+            <i>Wellness Committee Exercise Program: </i>The Wellness Committee Exercise Program is a weekly exercise program led by the Body Chairs of the Student Wellness Committee. The goal of the program is to provide students with the opportunity to partake in physical activity to de-stress and keep healthy throughout the busy school year. Each week, student leaders lead various circuit training workouts, dance sessions (e.g. Bhangra lessons, Zumba, etc.), and outdoor runs. 
+            <br><br>
+            <i>Yogalates: </i>The Faculty of Medicine Wellness program hosts yoga-pilates sessions twice a week during lunch times for students and staff. This combination of yoga and pilates provides both physical and mental benefits such as mind and body awareness, strength, stamina, and flexibility.
+            <br><br>
+            <i>Miscellaneous Activities: </i>The Student Wellness Committee hosts different physical activities throughout the year for students from all classes. These activities help students destress and also facilitate interactions between the different MD classes so students can get to know each other better and broaden their social network. For example, during the cold winter months, we facilitated groups to skate on the Rideau Canal, play Archery Tag, and go rock climbing/bouldering. We also collaborate with the VP Athletics representative of our student council to host larger events, such as a sports day, where students can form teams and compete in a sports competition. 
+        </p>
+
+        <!--University of Manitoba -->
+        <h3 id="manitoba"><strong>University of Manitoba</strong></h3>
+        <p>
+            <i>Fitness and Recreation: </i>Medical students enrolled at the U of M may activate their Recreation Services Student Membership with the Joe Doupe Recreation Centre at the Bannatyne campus as well as the Active Living Centre at the Fort Garry Campus. The Joe Doupe Recreation Centre is a recently renovated facility which includes a fitness centre, multi-use gymnasium, indoor track, multi-use studio, locker, and shower facilities. Students can also register for fitness plus classes and intramural sports with their classmates and friends for sports like dodgeball, soccer, volleyball and basketball!
+            <br><br>
+            <i>Athletic Representatives: </i>Each class year has two elected students that act as the athletic representatives of their year. They work to organize class specific physically active events in order to encourage physical activity and class participation. Some of the events organized thus far include hiking trips, soccer matches in the park, and attending football and hockey games as a group as well!
+        </p>
+
+        <!--University of British Columbia -->
+        <h3 id="ubc"><strong>University of British Columbia</strong></h3>
+        <p>
+            <i>Spartacus: </i>The mandate of the Spartacus Club is to promote fitness and well-being, and to incorporate regular exercise into the busy medical student schedule.
+            <br><br>
+            <i>MedSweat </i>hosts weekly HIIT workouts for all levels, with two teams running for first year students and second year students. We promote healthy living by encouraging getting outside and active.
+            <br><br>
+            <i>Med Yoga Club </i>aims to enhance the wellness of all 4 years of UBC medical students by offering weekly yoga classes at the MSAC. A variety of teachers participate and organize sequences that incorporate multiple styles of yoga including hatha, ashtanga and yin. Yoga blocks and mats are provided for an enhanced practice and extra challenge. Semi-annual workshops are held to promote stress management and offer additional postures to practitioners.
+            <br><br>
+            <i>Exercise is Medicine </i>on Campus at UBC (EIMC UBC) is an initiative aimed at encouraging exercise in clinical practice and fostering early inter-professional relationships. UBC medical students across all four sites will have the opportunity to collaborate with medical faculty, health care professionals, and students in other fields (eg. physiotherapy, nursing, kinesiology) to create physical activity opportunities and events promoting exercise as a means to preventing and managing chronic disease.
+            <br>
+            Health care is a team-based endeavour and inter-professional collaboration is essential to optimize patient outcomes. This club additionally aims to encourage medical students to begin building inter-professional relationships. EIMC UBC will equip students with the education (eg.medical evidence supporting the benefits of exercise) and tools to prescribe physical activity both in the short term (eg.through community events) and the long term (eg.through future clinical practice). We want to collaborate with Doctors of BC to promote existing events (eg.Walk with your Doc) as well as host new events for students (eg.a motivational interviewing workshop accessible by all sites illustrating how motivational interviewing can be used to elicit positive behaviour change). EIMC UBC strives to provide multiple exposures and experiences for students to learn how to incorporate and emphasize the importance of physical activity in the future of medical care.
+            <br><br>
+            <i>Med Climbing Club </i>is an interest group seeking to connect fellow climbers across all years of medicine, as well as host events for those looking to learn more about the sport. Throughout the year, the UBC climbing club hosts a number of events, ranging from informal meet-ups at local climbing gyms or outdoor climbing spots, to outdoor climbing trips and teaching sessions.
+            <br><br>
+            <i>Ultimate </i>is a self-officiated non-contact sport. Through this fun sport, students will not only find themselves bonding with one another, but also they will be practicing crucial qualities of a competent doctor, such as integrity, leadership, teamwork, and communication. In order to promote such a community, UBC Med Ultimate holds  skills development clinics so students new to the sport can learn new skills and experience the sport.
+        </p>
+
+        <!--Dalhousie University-->
+        <h3 id="dalhousie"><strong>Dalhousie University</strong></h3>
+        <p>
+            Dalhousie has two Sports and Wellness Reps (one at each campus) who organize various wellness initiatives, including:
+            <br><br>
+            <i>Intramurals: </i>a large variety of sports are available to sign up for in the fall and winter semesters. These are put on through Dalhousie intramurals at the Halifax campus. Each league plays one night a week for the undergrad semesters. There are also drop-in intramurals with no commitment required and different sports offered week to week. At the SJ campus, a variety of intramural sports run twice a week at the UNBSJ gym, with no commitment required.
+            <br><br>
+            <i>Med Games: </i>Each year, Dalhousie sends a convoy of students to participate in the annual Med Games hosted in Quebec.
+            <br><br>
+            <i>Wellness Week: </i>As a part of the annual Dalhousie Wellness Week (every March), various physical activities are offered. This year, we had a Bubble Soccer night, a yoga class, a ping-pong tournament and curling night, in addition to other various wellness activities. 
+            <br><br>
+            <i>Med/Law Cup: </i>A yearly tradition. The Medical society and Law society of Dalhousie University organize a play-off series against each other in 4-5 sports over the course of a weekend in February.
+            <br><br>
+            <i>Med Olympics: </i>At the end of the academic year, all four Med classes get together to compete against each other in a variety of sports for a full day of activities.
+            <br><br>
+            <i>Blue Nose: </i>Each year, the DMSS (Dal Med student society) sponsors one individual to compete in the annual local Blue Nose marathon. This year, $500 was split between 3 teams entering the relay marathon (a full marathon split between a team of 7 people).
+            <br><br>
+            <i>Golf tournaments: </i>Several golf tournaments are hosted by Dalhousie Medical school across the Maritime provinces each year. The tournaments are typically a best ball format, which helps encourage participation of first-time golfers. Registration fees are typically donated to a local charity or covered by the DMSS.
+            <br><br>
+            <i>Interest groups: </i>There are many physical activity related Interest groups offered at Dalhousie. Wilderness Medicine has hikes throughout the year and an annual camping trip. Table Tennis has two official tournaments a year with many more informal challenges and matches throughout the year. Ski and Snowboard organize trips to our local ski hills. Running clubs including Doctors NS kids run club, in which medical students go to elementary schools to run with children. 
+            <br><br>
+            <i>Exercise is Medicine: </i>The Exercise is Medicine interest group offers an Interprofessional Education (IPE) course with the help of physicians, the school physiotherapy, and school of kinesiology. The focus is on 3 aspects: Education for students on importance of exercise prescription in place of commonly prescribed medications, patient encounters (have patients with heart disease/diabetes/stroke etc. come in and discuss how exercise has impacted their health and rehabilitation), and simulated patient experiences where students practice counselling patients on the benefits of physical activity. We also put on an Exercise Prescription Workshop usually in the Winter semester. The interest group also organizes bi-annual gym crawls (visiting 4-5 different gyms/yoga studios/crossfit gyms etc. around the city). 
+            <br><br>
+            <i>Walk with a Future Doc: </i>Exercise is Medicine has also started a chapter of Walk With a Future Doc in Halifax this year <a href="https://walkwithadoc.org/our-locations/halifax-ns/">https://walkwithadoc.org/our-locations/halifax-ns/</a>. We love this initiative as it helps bring together the students and community members for some physical activity and great conversations about healthy living and health promotion.  
+        </p>
+
+
+        <!--Medical Students to Medical Students -->
+        <h2 id="tips"><strong>Medical Students to Medical Students: Tips for each other!</strong></h2>
+        <hr />         
+        <!--Iuliia Povieriena -->
+        <h3 id="iuliia-povieriena"><strong>Iuliia Povieriena, Class of 2018</strong></h3>
+        <p>
+            When I was moving from one apartment to another I decided to change a mattress and while researching on the topic I came across a really interesting website on sleep that had some information on napping. I wish I found it earlier and have used the tips and insights they provide on sleep. I hope this will be useful to my fellow colleagues especially for clerkship when sleep becomes a precious resource. 
+            <a href="https://sleepfoundation.org/sleep-topics/napping"><img src="/images/lwi-images/physical-wellness/week-1/national-sleep-foundation.png"></a>
+            <br>
+            <br>
+            <img src="/images/lwi-images/physical-wellness/week-1/workouts.png" class="paragraph-picture" style="
+                width: 200px;
+                height: auto;
+            ">
+            There is a ton of blogs and resources that exist on workouts and some are more advanced or time consuming than others. I came across this article that has a 10 minute morning routine in bed that I can use before a day in a clinic. Another useful video is on  a quick stretch routine at the desk for the days when you study for exams or spend a lot of time typing up consult notes. 
+        </p>
+
+        <!--Ryan Densmore -->
+        <h3 id="ryan-densmore"><strong>Ryan Densmore, Dalhousie University Class of 2021</strong></h3>
+        <p>
+            Anything is better than nothing! If you don’t have time/motivation/money to go to the gym, that’s okay, we all have our obstacles. If you take 30-seconds to do 5 push-ups or jumping jacks, that’s still better than doing nothing, because if you do even a little something when you originally wanted to do nothing, that’s a win for you :)! Do your best to set realistic physical activity goals for yourself that you know you can achieve. It is much better for your self-esteem and motivation to get 3 days of exercise a week 95% of the time than to try and get 4 days of exercise a week and be disappointed when reaching it only 70% of the time. 
+        </p>
+
+        <!--Michelle Moody -->
+        <h3 id="michelle-moody"><strong>Michelle Moody, Memorial University, Class of 2019</strong></h3>
+        <p>
+            <img src="/images/lwi-images/physical-wellness/week-3/strong.jpg" class="paragraph-picture" style="
+                width: 200px;
+                height: auto;
+            ">
+            Physical activity energizes you in a way that nothing else does. When I get into a rut with exercising, I’m more tired, less energetic, I need more coffee to get through the day, and I stress-eat unhealthy food. When I focus that energy into something productive, like going for a jog, a walk, a hike, or doing some yoga, I feel more relaxed, energized, and able to focus on studying or other work. Every time I get back into my routine, I marvel at how unwell I felt when I wasn’t exercising, and I didn’t even realize it. Exercise truly is the best medicine.
+        </p>
+
+
+    </div>
+</div>
+{% include footer.html %}
+</body>

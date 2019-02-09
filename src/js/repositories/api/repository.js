@@ -10,7 +10,7 @@ export default class ApiRepository {
         let accessToken = localStorage.getItem('accessToken');
         if (!accessToken) return console.log('Error: no access token found.');
         var options = {
-            uri: `https://cfms.us.webtask.io/devapi/${this.endpoint}/${uid}`,
+            uri: `https://cfms.us.webtask.io/api/${this.endpoint}/${uid}`,
             headers: {
                 'Authorization': `Bearer ${accessToken}`
             }

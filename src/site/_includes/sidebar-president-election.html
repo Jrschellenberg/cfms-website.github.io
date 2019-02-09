@@ -1,0 +1,17 @@
+<div id="sidebar">
+	<div id="scroll">
+	    {% for sideObject in site.data.translations.sidebar-president-election %}
+		{% if sideObject.lang == page.lang %}
+		<span id="sidebar-title">{{ sidebar.sidebar-title_1 }}</span>
+		<ul>
+			<li><a id="overview" href=".">{{ sidebar.overview }}</a></li>
+		</ul>
+		<span id="sidebar-title">{{ sidebar.sidebar-title_2 }}</span>
+		<ul>
+			<li><a id="yipeng-ge" href="yipeng-ge.html">{{ sidebar.yipeng-ge }}</a></li>
+			<li><a id="stephanie-smith" href="stephanie-smith.html">{{ sidebar.stephanie-smith }}</a></li>
+		</ul>
+		{% endif %}
+		{% endfor %}
+	</div>
+</div>

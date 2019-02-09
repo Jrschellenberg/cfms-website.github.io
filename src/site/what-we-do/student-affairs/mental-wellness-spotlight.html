@@ -1,0 +1,60 @@
+---
+title: "Mental Wellness Spotlight"
+sitemap:
+  priority: 0.6
+  changefreq: monthly
+  role: VP Student Affairs
+---
+
+<!DOCTYPE html>
+
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+</head>
+<body ng-app="authApp" ng-controller="AuthController">
+{% include nav.html %}
+
+<!--Page Specific Formatting-->
+<script type="text/javascript">
+    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+    document.querySelector( "#what-we-do" ).classList.toggle("active");
+</script>
+
+<div class="content">
+    <!-- Displays the sidebar and emphasizes the active page -->
+    {% include sidebar-student-affairs.html %}
+    <script type="text/javascript">
+        document.querySelector( "#mental-wellness-spotlight" ).classList.toggle("sidebar-active");
+    </script>
+    
+    <div id="side-content">
+        <h1 id="page-title">{{ page.title }}</h1>
+
+        <div class="editable">
+            <div class="executive">
+                <div class="exec-pic"><img height="400" src="/images/lwi-images/mental-wellness-spotlight/jennifer-jeans.png" width="300"></div>
+                <div class="exec-info">
+                    <ul>
+                        <li class="exec-name"><span>Jennifer Jeans</span></li>
+                        <li class="exec-desc">
+                            <span class="editable">“Wellness. It’s the new buzzword in medicine. The hot topic. We’re all talking about the “well-rounded physician” and the importance of “work-life balance”. What does it even mean?<br><br>They keep telling us that wellness is about sleeping enough, and eating the right foods, and exercising so many hours a week. It’s about being “mindful” and enjoying life while still being an astute student of medicine and a contributing member of society. It’s the ideal. It’s the person we’re all striving to be, and the person that none of us feel capable of being. We all feel like imposters. We all envy each other’s seemingly perfect lives while simultaneously working our butts off to maintain the appearance that we have it together.<br><br>Through it all, “wellness” has just become another benchmark that we can’t achieve. It is almost like a bonus, reserved for the elite who have their lives together, and can afford to set aside some extra time for self-care. Wellness has become a few extra items on the to-do list: 1) meal prep 2) go to spin class 3) don’t eat an entire pizza today…<br><br>And what gives me the credentials to talk about wellness? I’m just another struggling medical student, trying to figure out how to balance it all. I certainly don’t have any answers. If anything, I only have more questions. But I have learned a lot through trial and error.<br><br>I have come to realize that the “ideal” of wellness doesn’t really exist. It’s not some lifestyle that you can just try out. You can’t just wake up one day and decide to eat salads and join the gym. It won’t work. It doesn’t work. I’ve tried it (and failed) so many times. And heartbreakingly, yoga just isn’t for everyone.<br><br>My advice would be: Stop striving for the ideal. Stop counting calories and counting steps. Zoom out, and try to figure out what wellness is for you. Make it a priority. Pay attention to the things that make you happy. Here’s the important part - I don’t mean the fleeting happiness that you get from binge-watching Buffy the Vampire Slayer, or drinking a bottle of wine. That hollow happiness can quickly devolve into guilt and shame and regret. It’s illusory. I’m talking about a more complex happiness; the kind of happiness that is steadily cultivated from accomplishment and personal growth. Follow your passions, and DO NOT let medical school overshadow the things that bring you joy. Revolt. Refuse. Rebel. Prioritize your happiness above all else. And if it starts to fade (when it starts to fade)…. when you start to become overwhelmed – you need to stop. And reassess. Because wellness is a choice, and a chore.<br><br>You have to figure out what wellness is for you.<br>And it might be the hardest thing you ever do.”<br><br>Jennifer Jeans<br>Memorial University<br>Class of 2029</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+{% include footer.html %}
+</body>
+

@@ -12,14 +12,18 @@ sitemap:
 <!--[if IE 8 ]> <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]> <html class="ie9"> <![endif]-->
 <head>
-	{% include head.html %}
+    {% include head.html %}
 
-	<!--Page Specific Stylesheet-->
-	<link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+    <link rel="stylesheet" href="/stylesheets/who-we-are.css" />
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 </head>
 <body ng-app="authApp" ng-controller="AuthController">
 	{% include nav.html %}
-	
+
 	<!--Page Specific Formatting-->
 	<script type="text/javascript">
 		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
@@ -32,44 +36,51 @@ sitemap:
 		<script type="text/javascript">
 			document.querySelector( "#heart" ).classList.toggle("sidebar-active");
 		</script>
-		<div class="editable" id="side-content">
+		<div class="editable" id="side-content" id="meeting-body">
 			<h1 id="page-title">Health and Environment Adaptive Response Task Force</h1>
-			<p class="present-before-paste">The Health and Environment Adaptive Response Task Force (HEART) was created in 2016, in part to address the CFMS mission of connecting medical students with their societies and other health organizations advancing healthy public policy. The CFMS is in a unique position to facilitate discussion on issues of environment and health, including climate change, both internally and externally. The CFMS can also promote excellence in medical education regarding climate change and health as well as mobilizing the medical student voice on these issues.</p>
-			<p class="present-before-paste">HEART is specifically tasked with, but not limited to, the following responsibilities:</p>
-			<ol style="list-style-type: lower-alpha;">
-				<li>Informing medical students and their educational institutions of the role of health systems in climate change, both as a positive mitigator and a contributor</li>
-				<li>In partnership with CFMS general members, the HEART should advocate for public policy, which mitigates environmental health risks in an equitable and evidence-based strategy</li>
-				<li>Advises CFMS on organizational best practices to minimize environmental impact</li>
-			</ol>
-			<h2><img src="/uploads/earth-day-1.png" height="1687" width="1687" /></h2>
-			<h2>#EnviroMed Earth Week Challenge</h2>
-			<p class="present-before-paste">Did you know Earth Day is coming up on April 22? CFMS&rsquo; Health and Environmental Adaptive Response Task force (HEART) is planning the <strong>#EnviroMed Earth Week Challenge!</strong></p>
-			<p class="present-before-paste"><strong><em>When</em></strong>: April 16-22, 2018<br /><strong><em>What</em></strong>: take as many environmentally conscious actions as possible in the week leading up to Earth Day - the student/school with the highest participation will win prizes and be announced at the CFMS SGM<br /><strong><em>Why</em></strong>: raise awareness among Canadian medical students of the inter-connection between the health of people and our environment, and promote tangible actions to reduce our ecological footprint<br /><strong><em>How</em></strong>: take a picture or screenshot of yourself taking an action and tag it #EnviroMed and @CFMSFEMC on Facebook, Twitter, or Instagram</p>
-			<p class="present-before-paste">Action ideas:</p>
-			<ul>
-				<li>Take public transit</li>
-				<li>Walk or bike to work/school</li>
-				<li>Eat a vegetarian meal</li>
-				<li>Plant a tree, garden, or compost</li>
-				<li>Hang up laundry to dry</li>
-				<li>Use reusable coffee mug, Tupperware, or grocery bag</li>
-				<li>Watch/discuss an environmental documentary</li>
-				<li>Write/call your MP/MPP/MLA about an environmental issue</li>
-				<li>Talk to a family member/friend/roommate about climate change or another environmental issue that interests you</li>
-				<li>And many more&hellip;.your creativity is the only limit!</li>
+
+      <p>The Health and Environment Adaptive Response Task force (HEART) is a group within the Canadian Federation of Medical Students (CFMS) that was established in 2016 to help integrate communication and advocacy among Canadian medical students regarding current issues in environmental health and climate change. This is through events to raise awareness, and the development of core curricular competencies that address the main environmental issues to be included in the medical school curriculum across Canada.</p>
+			<p>2018-19 HEART Committee members: Finola Hackett (University of Alberta), Sasha Létourneau (Queen’s University), Arianne Cohen (University of Toronto), George Kitching (University of Western Ontario), Jessica Benady-Chorney (McGill University), Kelsey MacQueen (University of Calgary), Tiffany Got (University of Toronto) , Natalya O’Neill (University of Toronto)</p>
+
+      <h2>Current HEART Initiatives</h2>
+      <p><span style="font-weight:bold">1. Curricular Competencies</span></p>
+			<p>Climate change is inextricably linked to public health. HEART has been working since its creation to incorporate learning of the crucial links between climate and environmental changes and health in medical curricula, through the creation of a set of core competencies for integration in education nationwide. ​HEART’s aim is to create and incorporate an environmental health curriculum into all Canadian medical schools’ curricula by 2020.</p>
+			<p>Read more about HEART's curricular competencies initiative on the <a href="https://www.cfms.org/what-we-do/global-health/heart-competencies.html">Curricular Competencies Page</a></p>
+
+      <p><span style="font-weight:bold">2. HEART Network</span></p>
+      <p>The HEART Network consists of Environmental Sustainability / Climate Change Officers / Environmental Interest Group leads, in addition to any other interested Canadian medical students. They will collaborate with the core HEART Committee on local environmental health & sustainability initiatives. This may include:</p>
+      <ul style="list-style-type:circle">
+        <li>Assessing the status of climate change, environment and health related curricular and extra-curricular educational initiatives at their school</li>
+        <li>Working with local experts and faculty members to advocate for integration of the HEART national core competencies into the curriculum.</li>
+        <li>Organizing local awareness events/initiatives on environment and health, and participating in national initiatives (e.g. HEART Earth Week Initiative)</li>
+      </ul>
+      <p>All members of the HEART Network will be invited on an open basis to join HEART Skype/teleconference meetings held by the HEART Committee (note: these meetings are entirely optional for members of the Network). The HEART Committee will send out updates to the HEART Network via email between meetings.</p>
+      <p>If you are interested in becoming part of this national network, please fill out this ​<a href=​"https://docs.google.com/forms/d/e/1FAIpQLSfZ8StsbAvLhk67sRTxS0YK1U4d69uEMjmozTsLXfDljVlfqg/viewform?usp=sf_link">Form</a></p>
+
+			<p><span style="font-weight:bold">3. Awareness Initiatives</span></p>
+			<p>HEART has had great success thus far with events and contests that are intended to increase the knowledge and awareness of medical students towards environmental issues.</p>
+			<ul style="list-style-type:circle">
+				<li>- Our <i><ins>Earth Day Photo Contest</ins></i> is an annual contest that allows students to submit photos they’ve taken that show what a sustainable and healthy environment means to them. This has been taking place for the past 2 years. The 2018 photo contest received 63 high-quality and varied entries from across the country.</li>
+				<p style="margin-bottom: 0px;"><img src="/images/page-images/heart/heart3.png"></a></p>
+				<p class="picture-legend">2018 Earth Day Photo Contest Winner: Midnight Sun, submitted by Candace Nayman, University of Ottawa</p>
+				<li>- Our <i><ins>Earth Week Activity Challenge</ins></i>, a contest, new in 2018, in which medical students upload photos to social media (Facebook, Twitter or Instagram) of them taking environmentally conscious actions that would promote a reduction in their ecological footprint (e.g. riding a bike, recycling, using a reusable coffee thermos). This increases student participation with HEART and helps them further understand the connection between their environment and the health of their community. The University of Saskatchewan medical school won the inaugural Earth Week Activity Challenge.</li>
 			</ul>
-			<p class="present-before-paste">More ideas <a href="https://www.green18.org/the-green-18">here</a>.</p>
-			<h2>Earth Day Photo Contest</h2>
-			<p class="present-before-paste">The 2nd annual HEART <strong>Earth Day Photo Contest will run April 9-23, 2018.</strong></p>
-			<p class="present-before-paste">Simply submit a photo (or photos) that show what the importance of a healthy environment means to you.</p>
-			<p class="present-before-paste">Photos may be submitted to Finola Hackett (<a href="javascript:void(location.href='mailto:'+String.fromCharCode(102,105,110,111,108,97,64,117,97,108,98,101,114,116,97,46,99,97))">finola@ualberta.ca</a>) between April 9-23, 2018. Please include a one-line caption for each submission. Winners and prizes will also be announced at the CFMS SGM, April 27-28 2018.</p>
-			<p class="present-before-paste"><strong>Last year's Earth Day Photo Contest winner:</strong></p>
-			<p class="present-before-paste"><img src="/uploads/1-nelson-lakes-national-park-nz-1.jpg" height="2848" width="4272" /></p>
-			<blockquote>
-				<p class="present-before-paste"><em>Duckface (Lake Rotoiti, Nelson Lakes National Park, New Zealand).</em></p>
-				<p class="present-before-paste">"For me, environmental health involves exploring and embracing the world around me. It means taking every opportunity to be outside, to take in the beauty of this crazy blue planet, and to see our influence upon it (both good and bad). It also entails doing my utmost to have a positive impact on the health of our world - from recycling, to finding ways to offset my carbon footprint, to resource stewardship."</p>
-				<p class="present-before-paste">-Kayla Sliskovic, University of Toronto</p>
-			</blockquote>
+			<!-- <div style="width:720px;height:405px;text-align:center;" ><object width="720" height="405" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2Fshow&amp;page_show_back_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2F&amp;user_id=154668598@N02&amp;set_id=72157697509876945" /> <param name="allowFullScreen" value="true" /> <param name="src" value="https://www.flickr.com/apps/slideshow/show.swf?v=71649" /> <embed width="720" height="405" type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=71649" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2Fshow&amp;page_show_back_url=%2Fphotos%2F154668598%40N02%2Falbums%2F72157697509876945%2F&amp;user_id=154668598@N02&amp;set_id=72157697509876945" allowFullScreen="true" /> </object><br /></div> -->
+
+      <p><span style="font-weight:bold">4. Monthly Newsletters</span></p>
+      <p>Each month, the HEART committee puts together a newsletter to inform Canadian medical students about our activities and initiatives and various other news and updates related to climate change and health, including links to research in this area, winning photos from last year’s photo contest, tips on how you can practice “Green” medicine and lots of other interesting updates!</p>
+      <p>To see our past newsletters, ​<a href=​"https://drive.google.com/drive/folders/1urTmh52cj4yacBohNmRYwlL5KN6AWS7w?usp=sharing​">here</a></p>
+
+      <p><span style="font-weight:bold">Relevant and Useful Links</span></p>
+      <p>The HEART Network consists of Environmental Sustainability / Climate Change Officers / Environmental Interest Group leads, in addition to any other interested Canadian medical students. They will collaborate with the core HEART Committee on local environmental health & sustainability initiatives. This may include:</p>
+      <ul style="list-style-type:circle">
+        <li>Canadian Association of Physicians for the Environment: ​https://cape.ca</li>
+        <li>CMAJ article on CMA’s divestment from fossil fuels: http://www.cmaj.ca/content/187/14/E425</li>
+        <li>WHO Climate change home page: ​http://www.cmaj.ca/content/187/14/E425</li>
+        <li>Lancet Countdown: Tracking the Connections between public health and climate change: ​http://www.lancetcountdown.org</li>
+        <li>The Global Climate and Health Alliance: http://www.climateandhealthalliance.org</li>
+      </ul>
+
 		</div>
 	</div>
 	{% include footer.html %}

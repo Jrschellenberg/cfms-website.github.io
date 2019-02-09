@@ -4,104 +4,76 @@ sitemap:
   priority: 0.3
   changefreq: yearly
   role: VP Student Affairs
----!DOCTYPE html>
+---
+
+DOCTYPE html>
 
 
-<!--[if IE 8 ]>
-<html class="ie8"> <![endif]-->
-<!--[if IE 9 ]>
-<html class="ie9"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
 <head>
-    {% include head.html %}
+	{% include head.html %}
 
-    <!--Page Specific Stylesheet-->
-    <link rel="stylesheet" href="/stylesheets/resources.css" />
+	<!--Page Specific Stylesheet-->
+	<link rel="stylesheet" href="/stylesheets/resources.css" />
 </head>
 <body>
-{% include nav.html %}
+	{% include nav.html %}
+	
+	<!--Page Specific Formatting-->
+	<script type="text/javascript">
+		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
+		document.querySelector( "#resources" ).classList.toggle("active");
+	</script>
 
-<!--Page Specific Formatting-->
-<script type="text/javascript">
-	document.querySelector("#logo-invert").classList.toggle("hidden");
-	document.querySelector("#resources").classList.toggle("active");
-</script>
-
-<div class="finances-banner-outer">
-    <div class="content finances-banner-inner" style="background-color:#69A99F;">
-        <img src="{{site.root}}/images/banners/MedEd-Counsel-Campaign-Banner-e.jpg" />
-    </div>
-</div>
-<div class="finances content editable">
-  <!--base32-c9gq6t9k68pp6eb7e4v78ebb6rw70utrccwpmdkmdrvpay3b6xhpgv9pcnvp4rb5f1uk6c3mc8w68vbp6rt6acbbchj6mcv1enm70rtnegv70rv26mvk2uvbcdhppw34cduk6e33c9gpacbne5jp6x3jcdhqaw9rewtp2thndtnp2x326dhqexkbcxw3jutpdnuk6ckmetkkcx3q6cv6arhncnm6wdkdcctq2dk3e9r3cy9kc5j3gwhjent6pcb5chn6pdk3cwpp4rbkcmtk4-base32-->
-  <div id="sidebar">
-    <div id="scroll">
-      <div class="admin-only"><span id="sidebar-title">Selection Committee</span>
-        <ul>
-          <li><a id="review-applicants" href="md-leadership-awards-view-applications.html">View Applications</a></li>
-        </ul>
-      </div><span id="sidebar-title">Services aux &eacute;tudiants</span>
-      <div class="members-only">
-        <ul>
-          <li><a id="travel-awards-instructions" style="padding-left:15px;" href="/fr/resources/md-leadership-awards-instructions.html">Comment appliquer</a></li>
-          <li><a id="leadership-awards-apply-now" style="padding-left:15px;" href="/fr/resources/md-leadership-awards-application.html">Soumettre l'application</a></li>
-        </ul>
-      </div>
-      <ul>
-        <li><a id="finances" href="student-finances.html">Les finances des &eacute;tudiants</a></li>
-        <li><a id="leadership-awards" href="/fr/resources/md-leadership-awards.html">Prix de leadership FEMC-MD</a></li>
-        <!--base32-c9gq6t9k68pp6eb7e4v78ebb6rw70utrccwq8dkmcxrp6wkb6thpwx9pdnvk2whq61u70w3m65q68e3p6rt6acbbcdw6muvaennpgrv4enr38x3b6nj78x9pdnhk6wk5e9vq0e3r6dm3cx37e5jqaxk26tkq4ckne9nk2tb4d9nkcrv75nh62wv56ct0-base32-->
-        <!--base32-c9gq6t9k68pp6eb7e4v78ebb6rw70utrcctq8dkmegvp2tb2egv7gv9pcnupgtv5dtm36e34etj68c3p6wu7gctj6rupgw37ennpgdk8etrp6t9k6gv6wx1k6hw64uk375t70dk4c9pkcwkq6xjqgctmcdpq4w9rchnk2thhdmv3gx32e9j6wwhqcnw6prhpdtn6pukr6dgkctvq6cv7axhncgrqcw9gexnpudtnewtkgtb2d8v74x1q71hq8vb3cxuq2ck4dcup6eb86rv74xk5chhqcuv7ehh3gt1gerv7exv8e5hqgukh71hpgv9p6nr6ptb46dpp6e3p6djqcrhr6rwqew9renv62dkeewvkgt3b65jqgxhpcdu64tb5cxv36rvr6ct68rvne5kqecv76wrpgdhme9v36t3mddrk0t9kdnhkjvhpc5u36t1pehq3etb3c8u66rvne5hqecbacnw6wutrehh36t9he9nk0y3pc8v6wukh6hvk6u33dtuq0d3mc8u6au3e6wt68cvhcnm6mw1rcdh6wdkmenrp6rttd8v7gx9kcxj78vb5d1m3ec3m65q6adbje0t7gxkd6rrpeuvaennpedkmenr38x3p6gv6wvhq61w7cwhpchq6ptbmetm6ac3m6thqacvh6tq7edtgchnp2rvmdmtk0rk269hkax3gc5hq8uhdc9gq6t9k68-base32-->
-        <li><a id="travel-awards" class="cc-active sidebar-active" href="/fr/resources/md-travel-awards.html">Bourses de voyage MD</a></li>
-      </ul> <span id="sidebar-title">Conseils financiers:</span>
-      <ul>
-        <li><a id="preclerkship" target="_blank" href="https://mdm.ca/fr/%c3%a9tapes-de-carri%c3%a8re/etudiants-en-medecine/gerer-vos-dettes">G&eacute;rer vos dettes</a></li>
-        <li><a id="clerkship" target="_blank" href="https://mdm.ca/fr/%C3%A9tapes-de-carri%C3%A8re/etudiants-en-medecine/payer-vos-etudes-en-medecine">Payer vos &eacute;tudes en m&eacute;decine</a></li>
-        <li><a id="electives" target="_blank" href="https://mdm.ca/fr/%c3%a9tapes-de-carri%c3%a8re/etudiants-en-medecine/vous-preparer-a-la-residence">Vous pr&eacute;parer &agrave; la r&eacute;sidence</a></li>
-        <li><a id="residency" target="_blank" href="https://mdm.ca/fr/%C3%A9tapes-de-carri%C3%A8re/etudiants-en-medecine/des-ressources-pour-etudier-a-l-etranger">&Eacute;tudier &agrave; l&rsquo;&eacute;tranger</a></li>
-      </ul> <span id="sidebar-title"><a class="cc-active" href="">T&eacute;moignages</a></span>
-      <ul>
-        <li><a id="testimonials" target="_blank" href="https://mdm.ca/fr/au-sujet-de-md/temoignages">T&eacute;moignages de vos coll&egrave;gues</a></li>
-      </ul>
-    </div>
-  </div>
-  <script type="text/javascript">
-    document.querySelector("#travel-awards").classList.toggle("sidebar-active");
-  </script>
-  <div class="student-finances-content">
-    <h1 id="page-title">Les bourses de voyage</h1><a id="finances-side-image" href="https://mdm.ca/"><img class="right" style="max-width:25%" src="/images/MDFM.svg" /></a>
-    <p>La FEMC et Gestion financi&egrave;re MD mettent des fonds de c&ocirc;t&eacute; annuellement afin de fournir une assistance financi&egrave;re pour des &eacute;tudiants en medicine membres de la FEMC qui souhaiteraient assister &agrave; nos Assembl&eacute;es g&eacute;n&eacute;rales (AG).</p>
-    <p>Cette initiative aide des membres non &eacute;lus &agrave; assister &agrave; des rencontres de la FEMC dans le but d&rsquo;accro&icirc;tre leur connaissance de la structure et des multiples fonctions de notre organisation en plus d&rsquo;augmenter l&rsquo;int&eacute;r&ecirc;t de nos membres &agrave; participer &agrave; nos activit&eacute;s. Le processus d&rsquo;application est comp&eacute;titif et la FEMC re&ccedil;oit souvent beaucoup plus d&rsquo;applications que le nombre de places qu&rsquo;elle peut financer. Les candidats sont s&eacute;lectionn&eacute;s au m&eacute;rite de leur application &eacute;crite telle qu&rsquo;&eacute;valu&eacute;e par un comit&eacute; de selection.</p>
-    <p><strong>Nouveaut&eacute; de cette ann&eacute;e: </strong>les financements de voyage seront distribu&eacute;s par r&eacute;gion afin de garantir une repr&eacute;sentation plus &eacute;gale des &eacute;tudiants(es) &agrave; travers le pays. 8 financements de voyage seront allou&eacute;s pour chaque assembl&eacute; g&eacute;n&eacute;rale: 2 pour la r&eacute;gion de l'Ouest, 1 pour la r&eacute;gion de l'Atlantique, 3 pour les r&eacute;gions du Qu&eacute;bec + de l'Ontario et 2 seront sans r&eacute;gions assign&eacute;es.</p>
-    <p>Les bourses de voyage s'ouvriront un(1) mois avant chaque &eacute;v&eacute;nement. S'il vous pla&icirc;t, v&eacute;rifiez plus tard pour plus de d&eacute;tails.</p>
-    <!--<p>Un appel à candidatures sera envoyé chaque année pendant les périodes suivantes:</p>
-                  <blockquote>
-                      <ui>
-                          <li>AG annuelle FEMC:</li>
-                          <li>Journée de Lobbying FEMC:</li>
-                          <li>AG du printemps FEMC:</li>
-                      </ui>
-                  </blockquote>
-                  <p>Revenez consulter cette page durant ces périodes afin d'avoir plus d’information concernant les
-                      applications.</p>-->
-    <!--
-                  <p>Pour tous les details au sujet du processus d’application, veuillez vous référer au <a href="/files/updates/SGM2017 Application form_FRA.docx">document suivant</a>. La date limite pour soumettre une application est le <b>20 février 2017</b>. Celles-ci devraient être envoyées par courriel à Lucy Luo, Représentante regional du Québec, à <a href="mailto:quebec@cfms.org">quebec@cfms.org</a>.</p>
-                          -->
-    <blockquote>
-      <h4><strong>Appliquer pour le Financement de voyage</strong></h4>
-      <ul>
-        <li>Les candidatures sont <strong>OUVERTES</strong>. Appliquez&nbsp; <a href="/uploads/SGM2018 Application form_FRA.docx">ici</a>.&nbsp;</li>
-        <!-- Uncomment to open up registration information link 
-                      <li>Date d'échéance: <strong>le 20 février 2017 à 23:59.</strong>.</li>
-            
-                      <div class="button"><strong><a href="http://www.cfms.org/files/meetings/sgm-2017/cfms-travel-awards/SGM2017 Application form_ENG.doc">Application Form (ENG)</a></strong></div>
-                      <div class="button"><strong><a href="http://www.cfms.org/files/meetings/sgm-2017/cfms-travel-awards/SGM2017 Application form_FRA.docx">Application Form (FRA)</a></strong></div>
-                      -->
-      </ul>
-    </blockquote>
-    <div class="addendum">
-      <p>MD Financial Management provides financial products and services, the MD Family of Funds and investment counselling services through the MD Group of Companies. For a detailed list of these companies, visit <a href="http://md.cma.ca/">md.cma.ca</a></p>
-    </div>
-  </div>
-</div>
-<div>{% include footer.html %}</div>
+	<div class="finances-banner-outer">
+		<div class="content finances-banner-inner" style="background-color:#00305B;">
+			<img src="{{site.root}}/images/banners/MedEd-Counsel-Campaign-Banner-e.jpg" />
+		</div>
+	</div>
+	<div class="finances content">
+		<!-- Displays the sidebar and emphasizes the active page -->
+		{% include sidebar-financial-resources.html %}
+		<script type="text/javascript">
+			document.querySelector( "#travel-awards" ).classList.toggle("sidebar-active");
+		</script>
+		<div class="student-finances-content editable">
+		  <h1 id="page-title">MD Travel Awards</h1>
+		  <p><a id="finances-side-image" href="https://mdm.ca/"><img class="right" style="max-width:25%" src="/images/resource-logos/mdfm-logo.svg" /></a></p>
+		  <p>Each year the CFMS and MD Financial Management set aside funds to provide financial assistance for CFMS member medical students who wish to attend our Annual Meetings</p>
+		  <p>This initiative supports non-elected members to attend CFMS meetings with the goals of fostering greater member awareness of CFMS structure and function, promoting increased interest in the CFMS and facilitating increased participation in CFMS activities. The application process is competitive and the CFMS routinely receives a far greater number of applications than the number of funded spots available. Applicants are selected based solely on the merits of their written application as judged by a selection committee.</p>
+		  <p><strong>New: </strong>Travel Awards will be distributed by region to ensure a more equal student representation across the country. There are 8 awards for each meeting, 2 for the Western region, 1 for the Atlantic region, 3 for the Quebec + Ontario regions, and 2 Wildcard awards.</p>
+		  <p>Travel awards will open 1 month prior to each event. Please check back for details.</p>
+		  <!--<p>A call for applications will be sent out annually during the following time periods:</p>
+		  		  								    <blockquote>
+		  		  								        <ul>
+		  		  								            <li>CFMS AGM: </li>
+		  		  								            <li>CFMS Lobby Day: </li>
+		  		  								            <li>CFMS SGM: </li>
+		  		  								        </ul>
+		  		  								    </blockquote>
+		    
+		  		  								    <p>Please check back during these time periods for additional application information.</p>-->
+		  <!--
+		  		  									<p>For full application details please see the <a href="/files/updates/SGM2017 Application form_ENG.doc">attached document</a>. Applications are due by <b>February 20, 2017</b> and should be emailed to Lucy Luo, Quebec Regional Representative, at <a href="mailto:quebec@cfms.org">quebec@cfms.org</a>.</p>
+		  		  						  -->
+		  <blockquote>
+		    <h4><strong>Apply for Travel Funding</strong></h4>
+		    <ul>
+		      <li>Applications for Travel Funding are <strong>OPEN. Apply <a data-cms-editor-link-style="undefined" href="https://docs.google.com/forms/d/e/1FAIpQLSdiO3-NmBM20c6TZUKaUpQ8tfSuiE1Pvfnu2lohyKmJbA7akw/viewform?usp=sf_link">HERE.</a></strong></li>
+		      <!--base32-c9gq6t9k68pp6eb7e4v78ebb6rw70w1pcnh3et9mervkgtb2c8v74xtq61uqcdb5dnu70tb4ddpp8wkp6rv7grhrchq6gw1rewwq2rtnd8v6exbb6nj78v9kcdj6pvb371u70dkretr3ct38e5jqax3acdj70wb1cdu6mtbde9rk0wkmdnjqex3bcdu36rhpd1nk6ckrc9m3ccbq6xhqcebg6tm78ctpehh6wdk3etr3gt9kd8v7gtvg6tw6pcb3chn3eck4ddkp6t3d6tjq4xkacnw6wutregtk4t9td8v3cy38e1j6wxtpcxuq8w34ehq3ec34ddrp6ebbe1gqcuve6tt7adhre9m6wrv7e9rk0xttcxk32xhpenu64vb4ehq70ckt75nkcy3adct7auv8cdj6mw1mcgrq0t9tetnpat1k6djpgvhp6tuk6vhpehm72d3rd1pp6u38e5hp8xhhcrrqcdkne9v3gt1te8v6ay9hd1jk0xhkd9w78w3565n3cd346ctpccbm6djp6ctkchj78dk1exnpmt9hcxr62wkb64v78xkhcdj6gvb661vq0tv4ehm6axvme0v7grkdchq6gw1pexnpervrd8v70xv26djqgxbb6tj36wk5d1q70dkt6dgkcx3be5hq4utq6tu7adtrchm6utbmd0tkgt3bcnjkjwkb61wk6vb571v3cdkrd1r3ecbqdcv7cebgcnm7aw9jcdnq4dtne4tpat32drv66xhqc5uqcu33dtv72e3neht6aebp6tpq8cb7cnm74w31f0tkgt33ertpmxb8e5hqgxkb69vk2w9p6nq6prvq6cukcrvme0w7gcve6tj6gw9me9m70dkjenr70t38e1hpwu1pcxu3ju35cxv6ptvjert6atvp6xkqaxk86rwqcutjennk6tb8e1npax326hhkjx1pc5hk6w1pehr72e3nehrkcvkh6tkp8u3acnw7ccv1chnk6tb7e8t7awkb65jp8ukb6thpebb2c5tpactj-base32-->
+		      <!-- Uncomment to open up registration information link  
+		  		  											<li>Applications are due by <strong>11:59pm February 20th, 2017.</strong>.</li> 
+					
+		  		  											<div class="button"><strong><a href="http://www.cfms.org/files/meetings/sgm-2017/cfms-travel-awards/SGM2017 Application form_ENG.doc">Application Form (ENG)</a></strong></div>
+		  		  											<div class="button"><strong><a href="http://www.cfms.org/files/meetings/sgm-2017/cfms-travel-awards/SGM2017 Application form_FRA.docx">Application Form (FRA)</a></strong></div>
+		  		  											    -->
+		    </ul>
+		  </blockquote>
+		  <div class="addendum">
+		    <p>MD Financial Management provides financial products and services, the MD Family of Funds and investment counselling services through the MD Group of Companies. For a detailed list of these companies, visit <a href="http://md.ca/">md.ca</a></p>
+		  </div>
+		</div>
+	</div>
+	<div>{% include footer.html %}</div>
 </body>

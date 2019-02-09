@@ -210,7 +210,7 @@ label {
 	letter-spacing: 0.1em;
 	line-height:1.2em;
 }
-.select, .input {
+.select, .input, input {
 	position: relative;
 	display: inline-block;
 	width: 100%;
@@ -218,7 +218,7 @@ label {
 	margin-top:1px;
 }
 
-.select select, .input input {
+.select select, .input input, input {
 	box-sizing: border-box; 
 	font-family:$sans-serif-font-stack;
 	font-size:15px;
@@ -349,7 +349,7 @@ label {
 	font-family:$sans-serif-font-stack;
 
 }
-.ps, .pp, .nt, .ip {
+.ps, .pp, .dp, .nt, .ip {
 	@extend .file-format;
 }
 .ps {
@@ -357,6 +357,9 @@ label {
 }
 .pp {
 	background-color: $vp-gov-affairs-color;
+}
+.dp {
+	background-color: #AE73F2;
 }
 .nt {
 	background-color: $darker

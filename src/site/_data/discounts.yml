@@ -6,24 +6,29 @@ travel-id: travel-discounts
 wellness-id: wellness-discounts
 travel-discounts:
   - lang: en
-    discount-title: 'WestJet Discount: January 12, 2018 – April 10, 2018'
+    discount-title: Air Canada Discount for CaRMS Season - January 3, 2019 to February 15, 2019
+    discount-sub-title: Save up to 15% off flights!
+    discount-img: aircanada.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>CFMS in partnership with the FMEQ has secured a discount on flights
+      with Air Canada during the Carms Interview Period from January 3rd to February 15th.
+      CFMS members will benefit from 10% off standard fares and 15% off Flex (and up) fares.</p>
+    discount-promotion: >-
+      <p><strong><em>Travel from:</em></strong> <strong>January 3, 2019 to February 15, 2019</strong></p>
+      <p><em>Promo code:</em> <strong>824BVRJ1</strong></p>
+  - lang: en
+    discount-title: 'WestJet Discount: January 5, 2019 – April 10, 2019'
     discount-sub-title:
     discount-img: westjet.png
     discount-need-reverification:
     discount-description: >-
       <p>The CFMS is proud to present the WestJet Discount!</p> <p>CFMS members
-      are eligible for <strong>10% off <em>Econo</em> and 15% off <em>Plus
-      </em>base fares* </strong>for travel <strong><em>Canada
-      wide</em>.</strong></p> <p>To take advantage of this offer, you will need
-      the discount codes listed below. If you have questions about how to
+      are eligible for <strong>10% off <em>all fare classes(basic excluded)* for guests travelling </em><em>Canada
+      wide</em>.</strong></p> <p>To take advantage of this offer, you will need the discount code listed. Please visit <a href="https://www.westjet.com/conventions">www.westjet.com/conventions</a> to make a booking online. If you have questions about how to
       complete a booking with your discount codes, please check out WestJet's <a
       href="https://www.westjet.com/en-ca/about-us/contact-us/faqs/discount-codes"
-      target="_blank">frequently asked questions</a>.</p> <p>As in previous
-      years, the CFMS is pleased to offer the WestJet discount during the CaRMS
-      period.</p> <p>In addition, new for 2018 we are pleased to extend this
-      discount until April 10<sup>th</sup> for medical student travel within
-      Canada for visiting electives.</p> <p>Please be sure to use the correct
-      coupon code for your travel dates.</p> <p>&nbsp;</p>
+      target="_blank">frequently asked questions</a>.</p> <p>New this year, Westjet will be extending the discount until Spring 2019!</p> <p>&nbsp;</p>
       <p><strong>Changes/cancellations</strong></p> <p>You can change or cancel
       reservations within 24 hours of booking at no charge. Further changes or
       cancellations can be made up to 2 hours prior to the flight; please note
@@ -77,16 +82,14 @@ travel-discounts:
       to any event city at any time and for any reason without notice or
       liability.</p>
     discount-promotion: >-
-      <p><strong>Spring General Meeting - Halifax</strong></p>
-      <p><strong><em>Travel from:</em></strong> <strong>April 20, 2018 to May 10, 2018</strong></p>
-      <p><strong>AGM - Montreal</strong></p>
-      <p><strong><em>Travel from:</em></strong> <strong>September 14 – 30, 2018</strong></p>
-      <p><em>Coupon code:</em> <strong>M7ASOWL</strong></p>
-      <p><em>Promo code:</em> <strong>WNR82</strong></p>
+      <p><strong><em>Travel from:</em></strong> <strong>January 5, 2019 to February 7, 2019</strong></p>
+      <p><em>Coupon code:</em> <strong>4M3D9OQ</strong></p>
+      <p><em>Promo code:</em> <strong>WCC92</strong></p>
   - lang: en
     discount-title: CFMS Choice Hotels Discount
     discount-sub-title: Save up to 20% off regular room rates with Choice Hotels!
     discount-img: choice-hotels.png
+    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
       <p>Choice Hotels is Canada's largest hotel franchisor with ten great
@@ -98,23 +101,8 @@ travel-discounts:
       Collection&copy; in Canada. Plus, CFMS Members can save with discounted
       rates at participating hotels worldwide.
     discount-promotion: >-
-      <h5><strong>ONLINE</strong></h5> <ol> <li>Visit <a
-      href="https://travel.localhospitality.com/cfms/travel-cfms.html">this
-      website</a>.</li> <li>A 'Welcome' screen will appear and display all rate
-      programs shown.</li> <li>In the reservation menu on the left hand corner,
-      choose your destination, dates, and the number of guests.</li> <li>Click
-      'Continue'</li> <li>Your discounted rates will display in red</li> </ol>
-      <h5><strong>TELEPHONE</strong></h5> <ol> <li>Call 800-4CHOICE
-      (800-424-6423) and quote ID# <strong>00063566</strong> and you'll be
-      recognized as our preferred client.</li> </ol> <h5><strong>MOBILE
-      DEVICES</strong></h5> <ol> <li>Download our mobile application onto your
-      iPhone, iPad, or Android phone from <a
-      href="http://www.choicehotels.com/en/mobile">http://www.choicehotels.com/en/mobile</a>,
-      or alternatively visit our mobile site at <a
-      href="http://m.choicehotels.com">http://m.choicehotels.com</a>.</li>
-      <li>Choose 'Special Rate' from the 'Select Rate Plan' drop-down menu and
-      type in your corporate ID# <strong>00063566</strong></li> <li>Follow the
-      online booking instructions online</li> </ol>
+      <b>Instructions for Booking:</b> <a href="/uploads/CFMS_Booking with Choice Hotels 2019.pdf">
+      CFMS_Booking with Choice Hotels 2019.pdf</a>
   - lang: en
     discount-title: CFMS Travel Discounts with Local Hospitality
     discount-sub-title:
@@ -192,23 +180,8 @@ travel-discounts:
       des Étudiantes en Médecine du Canada pourront aussi bénéficier de rabais
       dans les hôtels participants à l'échelle mondiale.
     discount-promotion: >-
-      <h5><strong>ONLINE</strong></h5> <ol> <li>Visit <a
-      href="http://www.choicehotels.ca/cfms">www.choicehotels.ca/cfms</a>.</li>
-      <li>A 'Welcome' screen will appear and display all rate programs
-      shown.</li> <li>In the reservation menu on the left hand corner, choose
-      your destination, dates, and the number of guests.</li> <li>Click
-      'Continue'</li> <li>Your discounted rates will display in red</li> </ol>
-      <h5><strong>TELEPHONE</strong></h5> <ol> <li>Call 800-4CHOICE
-      (800-424-6423) and quote ID# <strong>00063566</strong> and you'll be
-      recognized as our preferred client.</li> </ol> <h5><strong>MOBILE
-      DEVICES</strong></h5> <ol> <li>Download our mobile application onto your
-      iPhone, iPad, or Android phone from <a
-      href="http://www.choicehotels.com/en/mobile">http://www.choicehotels.com/en/mobile</a>,
-      or alternatively visit our mobile site at <a
-      href="http://m.choicehotels.com">http://m.choicehotels.com</a>.</li>
-      <li>Choose 'Special Rate' from the 'Select Rate Plan' drop-down menu and
-      type in your corporate ID# <strong>00063566</strong></li> <li>Follow the
-      online booking instructions online</li> </ol>
+      <b>Instructions:</b> <a href="/uploads/FEMC_Resérvations Choice Hotels 2019.pdf">
+      FEMC_Resérvations Choice Hotels 2019.pdf</a>
   - lang: fr
     discount-title: CFMS Travel Discounts with Local Hospitality
     discount-sub-title:
@@ -256,20 +229,21 @@ lasik-discounts:
     discount-title: Laser Vision Correction Discount at LASIK MD
     discount-sub-title:
     discount-img:
+    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
-      <p>LASIK MD is Canada’s only national provider of laser vision correction, with more than 30 clinics located across the country. We offer a full range of vision correction procedures best suited for every pair of eyes—including procedures for patients with up-close reading vision loss. Our dedicated team of eye care professionals will assist you at every step of the process and address any questions you may have along the way.</p> 
-      <p><strong>CFMS member benefits at LASIK MD include:</strong></span> </p> 
-      <blockquote> 
+      <p>LASIK MD is Canada’s only national provider of laser vision correction, with more than 30 clinics located across the country. We offer a full range of vision correction procedures best suited for every pair of eyes—including procedures for patients with up-close reading vision loss. Our dedicated team of eye care professionals will assist you at every step of the process and address any questions you may have along the way.</p>
+      <p><strong>CFMS member benefits at LASIK MD include:</strong></span> </p>
+      <blockquote>
       <ul>
         <li><strong>FREE consultation with no obligation</strong></span> </li>
         <li><strong>Exceptional flat-rate pricing</strong></span> </li>
         <li><strong>Complimentary Vision Enhancement Plan</strong></span> </li>
-      </ul> 
+      </ul>
       <p style="text-align:
       center;">&nbsp;</p> <p style="text-align: center;"><span style="font-size:
       8pt;">*CFMS does not endorse the products or services offered by its
-      corporate partners and organizations.</span></p> 
+      corporate partners and organizations.</span></p>
       </blockquote>
     discount-promotion: >-
       <p>Visit <a href='lasik-membership-card.html' target='_blank'>Here</a> To
@@ -324,6 +298,7 @@ textbook-discounts:
     discount-title: Wolters Kluwer/Lippincott Resources
     discount-sub-title: Receive a 30% Discount on Wolters Kluwer/Lippincott Resources
     discount-img: wolters-kluwer.png
+    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
       <p>Members of CFMS save 30% and receive FREE shipping on the full
@@ -349,129 +324,79 @@ textbook-discounts:
     discount-promotion: >-
       <ul> <li>Visit <a href="http://www.lww.com">www.lww.com</a>, select ANY
       product and use the discount code: <strong>WZP22JFT</strong> to save 30%!
-      Valid until Feb 28, 2018.</li> </ul>
-  - lang: en
-    discount-title: Toronto Notes
-    discount-sub-title: >-
-      CFMS members can now purchase <i>Toronto Notes at a special discounted
-      price!</i> CFMS and Toronto Notes are excited to offer members 10% off
-      their purchase of the <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html">Toronto
-      Notes eBook</a>, a regular price of $129.95.
-    discount-img: toronto-notes-2016-cover.jpg
-    discount-need-reverification:
-    discount-description: >-
-      <p>For 32 years Toronto Notes has been the premiere Canadian reference
-      resource for clerkship rotations and MCCQE preparation. Along with the
-      flagship medical reference book, Toronto Notes produces a concise
-      'Clinical Handbook' for on-the-ward reference, and a suite of online
-      resources including  'ECG made simple', 'The Medical Imaging Atlas', and
-      'Functional Neuroanatomy.'</p>
-    discount-promotion: >-
-      <p>To receive this exclusive 10% discount on the Toronto Notes eBook:</p>
-      <ol> <li>Please Visit: <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2016.html">http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html</a></li>
-      <li>Add the 'eBook (PDF format)' to your cart ($129.95)</li> <li>Use the
-      discount code TN-2140-CFMS during checkout </li> </ol>
+      Valid until 1 April 2019..</li> </ul>
   - lang: en
     discount-title: Pharmacology You See
     discount-sub-title: >-
-      Pharmacology You See is a study aide designed to assist students with exam
+      Pharmacology You See is a study aid designed to assist students with exam
       preparation.
     discount-img: PYS-cover.jpg
     discount-need-reverification:
     discount-description: >-
-      <p><strong>Pharmacology You See</strong> integrates information on
-      therapeutics and addresses pharmacological topics that students generally
-      find challenging. This aide highlights the most high yield information for
-      the purpose of exam writing and organizes it into a visual presentation
-      with full-colour figures and adverse drug reaction icons.</p> <blockquote>
-      <p>Therapeutics are organized into the following chapters:</p> <ul>
-      <li>Pharmacology Basics</li> <li>Antimicrobial Drugs</li> <li>Cancer
-      Chemotherapeutics</li> <li>Cardiovascular Drugs</li> <li>Central Nervous
-      System Drugs</li> <li>Endocrine Drugs</li> <li>Gastrointestinal Drugs</li>
-      <li>Hematological Drugs</li> <li>Immune Response Modifiers</li> <li>Renal
-      and Urological Drugs</li> <li>Respiratory Drugs</li> </ul>
-      </blockquote><p><strong>Pharmacology You See</strong> is written by
+      <p><strong>Pharmacology You See</strong> highlights the most high yield
+      information for the purpose of exam writing using full colour figures
+      and descriptive adverse drug reaction icons.</p> <blockquote>
+      <p>Featuring:</p> <ul>
+      <li>Pharmacology Basics</li> <li>Antimicrobials</li> <li>Autonomic Nervous
+      System</li> <li>Cancer</li> <li>Cardiovascular</li> <li>Central Nervous System</li>
+      <li>Endocrine</li> <li>Gastrointestinal</li> <li>Hematological</li> <li>Immunological</li>
+      <li>Renal</li> <li>Urological</li> <li>Obstetrics/Gynecological</li> <li>Respiratory</li></ul>
+      </blockquote><!--<p><strong>Pharmacology You See</strong> is written by
       students in the Physician Scientist Training Program (PSTP) at the
       University of Cincinnati, USA and in the MD/PhD Program at the University
-      of Toronto, Canada.</p>
+      of Toronto, Canada.</p>-->
     discount-promotion: >-
       <ul> <li>Visit <a
-      href="http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html">http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html</a></li>
+      href="https://uoftbookstore.com/shop_product_detail.asp?catalog_group_id=MTMxXFwgNjE&catalog_group_name=TWVkaWNhbFxcIE1lZGljYWwgUmVmZXJlbmNl&catalog_id=979&catalog_name=TWVkaWNhbCBCb29rcyAmIEFjY2Vzc29yaWVz&pf_id=420843&product_name=UGhhcm1hY29sb2d5IFlvdSBTZWU&type=3&target=shop_product_list.asp">UofT Bookstore - textbook</a></li>
       <li>Please apply the following code to your order to obtain a <strong>10%
-      discount: PYS-2016-CFMS</strong></li> </ul>
-  - lang: en
-    discount-title: '''Drugs &amp; Drugs'' Pocket Guide: Free Electronic Version'
-    discount-sub-title:
-    discount-img: drugsanddrugs.jpg
-    discount-need-reverification:
-    discount-description: >-
-      <p>The <strong>third edition of Drugs &amp; Drugs</strong> is a pocket
-      guide that provides a comprehensive review of what students need to know
-      about commonly prescribed medications in a practical,  concise and
-      organized manner.</p> <blockquote> <ul> <li>Covers over 100 different
-      classes of medications</li> <li>1-2 page concise synopsis of each
-      medication class</li> <li>To-the-point review of mechanism of action,
-      pharmacokinetics, indications/contraindications, and adverse effects</li>
-      <li>Highlights of fundamental principles, pearls and pitfalls of drug
-      use</li> <li>Canadian trade names and content</li> </ul>
-      </blockquote><p>CFMS members receive free access to the online and PDF
-      versions of P. Hamilton &amp; D. Hui's 'Drugs &amp; Drugs', courtesy of
-      the University of Alberta's Department of Medicine.</p>
-    discount-promotion: >-
-      <ul> <li>The online version can be found <a
-      href="http://homer.med.ualberta.ca/clint/hirex.asp?FNOTIFY=1461@drugsdrugshirex">here.</a></li>
-      <li>The online PDF can be found <a
-      href="http://homer.med.ualberta.ca/drugsanddrugs/book/DandD4.pdf">here.</a></li>
-      </ul>
-  - lang: en
-    discount-title: McGraw-Hill Bookstore
-    discount-sub-title:
-    discount-img:
-    discount-need-reverification:
-    discount-description: >-
-      <p>McGraw-Hill is proud to partner with the Canadian Federation of Medical
-      Students and offer its members a <strong>25&#37; Discount</strong> and
-      <strong>FREE SHIPPING within Canada</strong> on select McGraw-Hill medical
-      titles! Search over 500 applicable titles at <a
-      href="http://mheducation.ca">www.mheducation.ca</a>, including the popular
-      series <i>Case Files</i> and <i>First Aid,</i> as well as <i>Harrison’s
-      Principles of Internal Medicine!</i></p> <p><strong>The landmark guide to
-      internal medicine has been updated and streamlined for today's
-      students.</strong></p> <p>Through six decades, no resource has matched the
-      authority, esteemed scholarship, and scientific rigor of Harrison's
-      Principles of Internal Medicine. Capturing the countless advances and
-      developments across the full span of medicine, the new 19th edition of
-      Harrison's provides a complete update of essential content related to
-      disease pathogenesis, clinical trials, current diagnostic methods and
-      imaging approaches, evidence-based practice guidelines, and established
-      and newly approved treatment methods.</p><blockquote> <p>Here are just a
-      few of the outstanding features of the new Nineteenth Edition:</p> <ul>
-      <li><strong>Presented in two volumes:</strong> Volume 1 is devoted to
-      foundational principles, cardinal manifestations of disease and approach
-      to differential diagnosis; Volume 2 covers disease pathogenesis and
-      treatment</li> <li><strong>NEW chapters on important topics</strong> such
-      as Men's Health, The Impact of Global Warming on Infectious Diseases,
-      Fatigue, and many more</li> <li><strong>Critical updates in management and
-      therapeutics</strong> in Hepatitis, Coronary Artery Disease, Ebola Virus
-      Disease, Multiple Sclerosis, Diabetes, Hypertension, Deep Vein Thrombosis
-      and Pulmonary Embolism, Acute and Chronic Kidney Disease, Inflammatory
-      Bowel Disease, Lipoprotein Disorders, HIV and AIDS, and more</li>
-      <li><strong>Increased number of the popular Harrison's clinical
-      algorithms</strong> clinically relevant radiographic examples spanning
-      hundreds of diseases; clinical-pathological images in full color; crystal
-      clear, full color drawings and illustrations and helpful tables and
-      summary lists that make clinical application of the content faster than
-      ever</li> <li><strong>Access to outstanding multi-media
-      resources</strong>  including practical videos demonstrating essential
-      bedside procedures, physical examination techniques, endoscopic findings,
-      cardiovascular findings, and more</li> </ul> </blockquote>
-    discount-promotion: >-
-      <ul> <li>The bookstore can be accessed <a
-      href="http://www.mheducation.ca/professional/microsite/cfms2017/">here</a></li>
-      <li>Use the coupon code CFMSPARTNER2017 for the 25&#37; discount.</li>
-      </ul>
+      discount: PYS-2019-CFMS</strong></li> </ul>
+  # - lang: en
+  #   discount-title: McGraw-Hill Bookstore
+  #   discount-sub-title:
+  #   discount-img:
+  #   discount-need-reverification:
+  #   discount-description: >-
+  #     <p>McGraw-Hill is proud to partner with the Canadian Federation of Medical
+  #     Students and offer its members a <strong>25&#37; Discount</strong> and
+  #     <strong>FREE SHIPPING within Canada</strong> on select McGraw-Hill medical
+  #     titles! Search over 500 applicable titles at <a
+  #     href="http://mheducation.ca">www.mheducation.ca</a>, including the popular
+  #     series <i>Case Files</i> and <i>First Aid,</i> as well as <i>Harrison’s
+  #     Principles of Internal Medicine!</i></p> <p><strong>The landmark guide to
+  #     internal medicine has been updated and streamlined for today's
+  #     students.</strong></p> <p>Through six decades, no resource has matched the
+  #     authority, esteemed scholarship, and scientific rigor of Harrison's
+  #     Principles of Internal Medicine. Capturing the countless advances and
+  #     developments across the full span of medicine, the new 19th edition of
+  #     Harrison's provides a complete update of essential content related to
+  #     disease pathogenesis, clinical trials, current diagnostic methods and
+  #     imaging approaches, evidence-based practice guidelines, and established
+  #     and newly approved treatment methods.</p><blockquote> <p>Here are just a
+  #     few of the outstanding features of the new Nineteenth Edition:</p> <ul>
+  #     <li><strong>Presented in two volumes:</strong> Volume 1 is devoted to
+  #     foundational principles, cardinal manifestations of disease and approach
+  #     to differential diagnosis; Volume 2 covers disease pathogenesis and
+  #     treatment</li> <li><strong>NEW chapters on important topics</strong> such
+  #     as Men's Health, The Impact of Global Warming on Infectious Diseases,
+  #     Fatigue, and many more</li> <li><strong>Critical updates in management and
+  #     therapeutics</strong> in Hepatitis, Coronary Artery Disease, Ebola Virus
+  #     Disease, Multiple Sclerosis, Diabetes, Hypertension, Deep Vein Thrombosis
+  #     and Pulmonary Embolism, Acute and Chronic Kidney Disease, Inflammatory
+  #     Bowel Disease, Lipoprotein Disorders, HIV and AIDS, and more</li>
+  #     <li><strong>Increased number of the popular Harrison's clinical
+  #     algorithms</strong> clinically relevant radiographic examples spanning
+  #     hundreds of diseases; clinical-pathological images in full color; crystal
+  #     clear, full color drawings and illustrations and helpful tables and
+  #     summary lists that make clinical application of the content faster than
+  #     ever</li> <li><strong>Access to outstanding multi-media
+  #     resources</strong>  including practical videos demonstrating essential
+  #     bedside procedures, physical examination techniques, endoscopic findings,
+  #     cardiovascular findings, and more</li> </ul> </blockquote>
+  #   discount-promotion: >-
+  #     <ul> <li>The bookstore can be accessed <a
+  #     href="http://www.mheducation.ca/professional/microsite/cfms2017/">here</a></li>
+  #     <li>Use the coupon code CFMSPARTNER2017 for the 25&#37; discount.</li>
+  #     </ul>
   - lang: fr
     discount-title: Wolters Kluwer/Lippincott Resources
     discount-sub-title: Receive a 30% Discount on Wolters Kluwer/Lippincott Resources
@@ -503,29 +428,6 @@ textbook-discounts:
       product and use the discount code: <strong>WZP22JFT</strong> to save 30%!
       Valid until Feb 28, 2018.</li> </ul>
   - lang: fr
-    discount-title: Toronto Notes
-    discount-sub-title: >-
-      CFMS members can now purchase <i>Toronto Notes at a special discounted
-      price!</i> CFMS and Toronto Notes are excited to offer members 10% off
-      their purchase of the <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html">Toronto
-      Notes eBook</a>, a regular price of $129.95.
-    discount-img: toronto-notes-2016-cover.jpg
-    discount-need-reverification:
-    discount-description: >-
-      <p>For 32 years Toronto Notes has been the premiere Canadian reference
-      resource for clerkship rotations and MCCQE preparation. Along with the
-      flagship medical reference book, Toronto Notes produces a concise
-      'Clinical Handbook' for on-the-ward reference, and a suite of online
-      resources including  'ECG made simple', 'The Medical Imaging Atlas', and
-      'Functional Neuroanatomy.'</p>
-    discount-promotion: >-
-      <p>To receive this exclusive 10% discount on the Toronto Notes eBook:</p>
-      <ol> <li>Please Visit: <a
-      href="http://torontonotes.uoftbookstore.com/Toronto-Notes-2016.html">http://torontonotes.uoftbookstore.com/Toronto-Notes-2015.html</a></li>
-      <li>Add the 'eBook (PDF format)' to your cart ($129.95)</li> <li>Use the
-      discount code TN-2140-CFMS during checkout </li> </ol>
-  - lang: fr
     discount-title: Pharmacology You See
     discount-sub-title: >-
       Pharmacology You See is a study aide designed to assist students with exam
@@ -553,22 +455,6 @@ textbook-discounts:
       href="http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html">http://torontonotes.uoftbookstore.com/PHARMACOLOGY-YOU-SEE.html</a></li>
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2016-CFMS</strong></li> </ul>
-  - lang: fr
-    discount-title: >-
-      Guide de poche « Drugs & Drugs » approuvé par la FEMC : version
-      électronique gratuite
-    discount-sub-title:
-    discount-img: drugsanddrugs.jpg
-    discount-need-reverification:
-    discount-description: >-
-      Les membres de la FEMC ont accès gratuitement aux versions en ligne et PDF
-      de « Drugs & Drugs » de P. Hamilton et D. Hui.
-    discount-promotion: >-
-      <ul> <li>La version en ligne se trouve <a
-      href="http://homer.med.ualberta.ca/clint/hirex.asp?FNOTIFY=1461@drugsdrugshirex">ici.</a></li>
-      <li>La version PDF en ligne se trouve <a
-      href="http://homer.med.ualberta.ca/drugsanddrugs/book/DandD4.pdf">ici.</a></li>
-      </ul>
   - lang: fr
     discount-title: Librairie de McGraw Hill
     discount-sub-title:
@@ -926,4 +812,4 @@ online-discounts:
       <ul><li>Abonnez-vous gratuitement dès aujourd’hui! Pour de plus amples
       informations, visitez <a href="http://www.mdbriefcase.com/">
       www.mdbriefcase.com </a></li></ul>
-wellness-discounts: 
+wellness-discounts:
