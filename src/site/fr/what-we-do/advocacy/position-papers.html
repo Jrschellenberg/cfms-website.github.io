@@ -125,7 +125,8 @@ sitemap:
                         {% for tags in papers.paper-tags %}
                             {% if forloop.first %}
                                 {% if tags.tag != "null" and tags.tag != "" %}
-                                    {% assign myArray = myArray | append: {{tags.tag | upcase}} %} 
+                                    {% assign appendTag = tags.tag | upcase %}
+                                    {% assign myArray = myArray | append: appendTag %} 
                                 {% endif %}
                                 {% if tags.tag == "null" or tags.tag == "" %}
                                     {% assign myArray = myArray | append: 'NT' %}
@@ -134,7 +135,8 @@ sitemap:
                             {% unless forloop.first %}
                                 {% assign myArray = myArray | append: ', ' %}
                                 {% if tags.tag != "null" and tags.tag != "" %}
-                                    {% assign myArray = myArray | append: {{tags.tag | upcase}} %}
+                                    {% assign appendTag = tags.tag | upcase %}
+                                    {% assign myArray = myArray | append: appendTag %}
                                 {% endif %}
                                 {% if tags.tag == "null" or tags.tag == "" %}
                                     {% assign myArray = myArray | append: 'NT' %}

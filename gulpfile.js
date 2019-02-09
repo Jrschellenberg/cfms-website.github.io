@@ -30,7 +30,8 @@ var jekyllLogger = (buffer) => {
 };
 
 gulp.task('jekyll', () => {
-  var jekyll = child.exec('jekyll build --watch --incremental --drafts --quiet --source ' + sitePath + ' --destination ' + servePath);
+  console.log(`jekyll build --watch --incremental --drafts --quiet --source ${sitePath} --destination ${servePath}`);
+  var jekyll = child.exec('jekyll build --watch --incremental --drafts --source ' + sitePath + ' --destination ' + servePath);
 
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
@@ -38,7 +39,7 @@ gulp.task('jekyll', () => {
 
 
 gulp.task('buildJekyll', ['buildSass', 'buildJs'], () => {
-  jekyllLogger(child.execSync('jekyll build --quiet --source ' + sitePath + ' --destination ' + servePath));
+  jekyllLogger(child.execSync('jekyll build --source ' + sitePath + ' --destination ' + servePath));
   return process.exit(0);
 });
 
