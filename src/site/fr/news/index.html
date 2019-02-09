@@ -5,10 +5,10 @@ sitemap:
   changefreq: weekly
   role: VP Communications
 ---
-{% assign sorted = (site.french-news | sort: 'date') | reverse %}
+{% assign sorted = site.french-news | sort: 'date' | reverse %}
 
-{% assign years = ((site.cfms-in-the-news | map: "year") | uniq) | sort | reverse %}
-{% assign cfmsInNewsSorted = (site.cfms-in-the-news | sort: 'date') | reverse %}
+{% assign years = site.cfms-in-the-news | map: "year" | uniq | sort | reverse %}
+{% assign cfmsInNewsSorted = site.cfms-in-the-news | sort: 'date' | reverse %}
 
 <!DOCTYPE html>
 

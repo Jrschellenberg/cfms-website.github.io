@@ -5,8 +5,8 @@ sitemap:
   changefreq: monthly
   role: VP Communications
 ---
-{% assign years = ((site.cfms-in-the-news | map: "year") | uniq) | sort | reverse %}
-{% assign sorted = (site.cfms-in-the-news | sort: 'date') | reverse %}
+{% assign years = site.cfms-in-the-news | map: "year" | uniq | sort | reverse %}
+{% assign sorted = site.cfms-in-the-news | sort: 'date' | reverse %}
 
 
 <!DOCTYPE html>

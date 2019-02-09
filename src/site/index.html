@@ -129,7 +129,7 @@ sitemap:
 				<span id="more-news-button" class="button"><a href="news/archives/">See All Articles</a></span>
 			</h1>
 			<div id="recent-news-list">
-				{% assign sorted = (site.news | sort: 'date') | reverse %}
+				{% assign sorted = site.news | sort: 'date' | reverse %}
 				
 				{% for post in sorted limit:5 %}
 				{% unless post.categories contains "fr" %}

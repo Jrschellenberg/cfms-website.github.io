@@ -88,11 +88,11 @@ input.valid {
 
 
 td.details-control {
-	background: url('../images/databases/details_open.png') no-repeat center center;
+	background: url('../site/images/databases/details_open.png') no-repeat center center;
 	cursor: pointer;
 }
 tr.shown td.details-control {
-	background: url('../images/databases/details_close.png') no-repeat center center;
+	background: url('../site/images/databases/details_close.png') no-repeat center center;
 }
 
 .iconCollection{
@@ -103,7 +103,7 @@ tr.shown td.details-control {
 	height: 16px;
 	margin-right: 5px;
 	vertical-align: middle;
-	background-image: url('../images/icons.png');
+	background-image: url('../site/images/icons.png');
 	background-repeat: no-repeat;
 }
 .iconThumbUp{

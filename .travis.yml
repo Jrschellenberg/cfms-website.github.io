@@ -4,11 +4,11 @@ sudo: false
 rvm:
   - 2.5
 before_script:
-  - npm install -g gulp
+
 before_install:
   - npm install -g npm@latest
 install:
-  - nvm install 10.12.0
+  - nvm install 10.13.0
   - nvm alias default node
   - gem install github-pages
   - gem install jekyll-paginate
