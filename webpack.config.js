@@ -17,7 +17,7 @@ module.exports = {
   entry: {
     // BMSPolyfills: './polyfills/polyfills.js', // IF YOU REQUIRE POLYFILLS, uncomment and gt file location for more information
     bundle: './src/js/app.js',
-    css: './src/sass/entry.js'
+    cssHotReload: './src/sass/entry.js'
   },
   
   
@@ -47,12 +47,20 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(css|scss)$/,
+        test: /\.(scss)$/,
         
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
-            
+            loader: 'file-loader',
+            options: {
+              name: '[name].css',
+              context: './',
+              outputPath: '/stylesheets',
+              publicPath: './'
+            }
+          },
+          {
+            loader: 'extract-loader'
           },
           {
             loader: 'css-loader',
@@ -82,20 +90,26 @@ module.exports = {
         loader: 'file-loader',
         options: {
           emitFile: false,
-          name: 'assets/[name].[ext]?[hash]'
+          name: '[path][name].[ext]?[hash]',
+          
+          outputPath: (url) => { // This function modifies [path] in the name above.
+            const strParts = url.split('src/site/');
+            if(!strParts[1]) { // Someone has changed the folder structure and is going to cause webpack to fail. So force it to stop!
+              throw new Error("Webpack failed to build b/c folder structure has since changed!!");
+            }
+            return `/${strParts[1]}`;
+          }
         }
       },
-      
-      
     ],
   },
   
   
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: "stylesheets/[name].css?[hash]"
-    }),
-  ],
+  // plugins: [
+  //   new MiniCssExtractPlugin({
+  //     filename: "stylesheets/[name].css?[hash]"
+  //   }),
+  // ],
   
   optimization: {
     minimizer: [

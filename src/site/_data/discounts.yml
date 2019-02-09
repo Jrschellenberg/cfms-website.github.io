@@ -1,4 +1,4 @@
-    lasik-id: lasik-discount
+lasik-id: lasik-discount
 online-id: online-discounts
 textbook-id: textbook-discounts
 disability-id: disability-discounts
@@ -229,6 +229,7 @@ lasik-discounts:
     discount-title: Laser Vision Correction Discount at LASIK MD
     discount-sub-title:
     discount-img:
+    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
       <p>LASIK MD is Canada’s only national provider of laser vision correction, with more than 30 clinics located across the country. We offer a full range of vision correction procedures best suited for every pair of eyes—including procedures for patients with up-close reading vision loss. Our dedicated team of eye care professionals will assist you at every step of the process and address any questions you may have along the way.</p>
@@ -297,6 +298,7 @@ textbook-discounts:
     discount-title: Wolters Kluwer/Lippincott Resources
     discount-sub-title: Receive a 30% Discount on Wolters Kluwer/Lippincott Resources
     discount-img: wolters-kluwer.png
+    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
       <p>Members of CFMS save 30% and receive FREE shipping on the full
