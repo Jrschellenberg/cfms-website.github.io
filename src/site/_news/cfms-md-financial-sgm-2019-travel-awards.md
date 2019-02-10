@@ -9,7 +9,7 @@ lang: en
 
 Looking for funding to the SGM in Niagra Falls on April 12-13th??
 
-The applications for our CFMS-MD Financial Travel Awards are NOW OPEN. Link to the application is available HERE (English/French). 
+The applications for our CFMS-MD Financial Travel Awards are NOW OPEN. Link to the application is available [HERE](https://docs.google.com/forms/d/1n4sY40iuXF0q1bDa0Ze4uGVWqkVUPNzZAZB2JX4Z4fI/edit) (English/French). 
 
 Applications due FEBRUARY 22nd @ 11:59PM EST.
 
