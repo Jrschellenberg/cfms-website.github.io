@@ -88,7 +88,7 @@ travel-discounts:
     discount-title: CFMS Choice Hotels Discount
     discount-sub-title: Save up to 20% off regular room rates with Choice Hotels!
     discount-img: choice-hotels.png
-    discount-img2: cfms_ad.jpg
+    discount-img2: <img src="/images/discount-images/cfms_ad.jpg">
     discount-need-reverification:
     discount-description: >-
       <p>Choice Hotels is Canada's largest hotel franchisor with ten great
