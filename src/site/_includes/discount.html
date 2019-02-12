@@ -3,7 +3,7 @@
         <h1><strong>{{ discount.discount-title }}</strong></h1>
         <hr>
         {% if discount.discount-img2 != blank %}
-            <img src="/images/discount-images/{{ discount.discount-img2 }}">
+            {{ <img src="/images/discount-images/discount.discount-img2" width="50%"> }}
         {% endif %}
         {% if discount.discount-img != blank %}
             <img class="pic-right" src="/images/discount-images/{{ discount.discount-img }}">
