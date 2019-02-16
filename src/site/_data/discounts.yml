@@ -100,8 +100,7 @@ travel-discounts:
       Collection&copy; in Canada. Plus, CFMS Members can save with discounted
       rates at participating hotels worldwide.
     discount-promotion: >-
-      <b>Instructions for Booking:</b> <a href="/uploads/CFMS_Booking with Choice Hotels 2019.pdf">
-      CFMS_Booking with Choice Hotels 2019.pdf</a>
+      <b>Instructions for Booking:</b> <a target="_blank" href="/uploads/CFMS_Booking with Choice Hotels 2019.pdf" onClick="ga('send', 'event', 'Sponsorships', 'Choice_Hotels_Booking_PDF');">CFMS Booking with Choice Hotels 2019</a>
   - lang: en
     discount-title: CFMS Travel Discounts with Local Hospitality
     discount-sub-title:
@@ -115,8 +114,7 @@ travel-discounts:
       time and money. Let us negotiate the best deals and comparison prices for
       you. Any hotel, any car, anywhere, anytime.</p>
     discount-promotion: >-
-      <ul> <li>Please The following <a
-      href="https://travel.localhospitality.com/cfms/travel-cfms.html">link</a>
+      <ul> <li>Please The following <a target="_blank" href="https://travel.localhospitality.com/cfms/travel-cfms.html" onClick="ga('send', 'event', 'Sponsorships', 'Local_Hospitality');">link</a>
       for your discount.</li> </ul>
   - lang: en
     discount-title: Urban Living Suites
@@ -129,8 +127,7 @@ travel-discounts:
       basic room to condo-style suites. For more information, see the discount
       details below.</p>
     discount-promotion: >-
-      <ul> <li>Visit <a
-      href="http://www.urbanlivingsuites.com">www.urbanlivingsuites.com</a> and
+      <ul> <li>Visit <a target="_blank" href="http://www.urbanlivingsuites.com" onClick="ga('send', 'event', 'Sponsorships', 'Urban_Living_Suites');">this link</a> and
       enter promo code: <strong>NOSM</strong> to receive your discount.</li>
       </ul>
   - lang: fr
@@ -245,10 +242,12 @@ lasik-discounts:
       corporate partners and organizations.</span></p>
       </blockquote>
     discount-promotion: >-
-      <p>Visit <a href='lasik-membership-card.html' target='_blank'>Here</a> To
+      <p>Visit <a target="_blank" href="lasik-membership-card.html" onClick="ga('send', 'event', 'Sponsorships', 'Lasik_Membership_Card');">Here</a>
+ To
       Print off your lasik membership card.
 
-      Visit <a href="http://www.lasikmd.com/corporate/cfms">Lasik MD's website</a> for more information about this offer.</p>
+      Visit <a target="_blank" href="http://www.lasikmd.com/corporate/cfms" onClick="ga('send', 'event', 'Sponsorships', 'Lasikmd_Website');">Lasik MD's website</a>
+ for more information about this offer.</p>
   - lang: fr
     discount-title: >-
       Rabais sur la correction de la vue au laser à LASIK MD pour les membres de
@@ -290,7 +289,8 @@ lasik-discounts:
     discount-promotion: >-
       <p>Visit <a href='lasik-membership-card.html' target='_blank'>Here</a> To Print off your lasik membership card.
 
-      Visit <a href="http://www.lasikmd.com/corporate/cfms">Lasik MD's website</a> for more information about this offer.</p>
+      Visit <a target="_blank" href="http://www.lasikmd.com/corporate/cfms" onClick="ga('send', 'event', 'Sponsorships', 'Lasikmd_Website');">Lasik MD's website</a>
+ for more information about this offer.</p>
 
 textbook-discounts:
   - lang: en
@@ -317,11 +317,10 @@ textbook-discounts:
       tests, treatment and patient consultation techniques, and epidemiological
       information, as well as fundamental scientific principles.</li> </ul>
       </div> </blockquote> <p>Be sure to login to the member's section to see
-      the discount code below. Visit <a
-      href="http://www.lww.com">www.lww.com</a>, select ANY product and use the
+      the discount code below. Visit <a target="_blank" href="http://www.lww.com" onClick="ga('send', 'event', 'Sponsorships', 'Wolters_Kluwer_Lippincott_Website');">www.lww.com</a>, select ANY product and use the
       discount code to save 30%!</p>
     discount-promotion: >-
-      <ul> <li>Visit <a href="http://www.lww.com">www.lww.com</a>, select ANY
+      <ul> <li>Visit <a target="_blank" href="http://www.lww.com" onClick="ga('send', 'event', 'Sponsorships', 'Wolters_Kluwer_Lippincott_Website');">www.lww.com</a>, select ANY
       product and use the discount code: <strong>WZP22JFT</strong> to save 30%!
       Valid until 1 April 2019..</li> </ul>
   - lang: en
@@ -345,8 +344,7 @@ textbook-discounts:
       University of Cincinnati, USA and in the MD/PhD Program at the University
       of Toronto, Canada.</p>-->
     discount-promotion: >-
-      <ul> <li>Visit <a
-      href="https://uoftbookstore.com/shop_product_detail.asp?catalog_group_id=MTMxXFwgNjE&catalog_group_name=TWVkaWNhbFxcIE1lZGljYWwgUmVmZXJlbmNl&catalog_id=979&catalog_name=TWVkaWNhbCBCb29rcyAmIEFjY2Vzc29yaWVz&pf_id=420843&product_name=UGhhcm1hY29sb2d5IFlvdSBTZWU&type=3&target=shop_product_list.asp">UofT Bookstore - textbook</a></li>
+      <ul> <li>Visit <a target="_blank" href="https://uoftbookstore.com/shop_product_detail.asp?catalog_group_id=MTMxXFwgNjE&catalog_group_name=TWVkaWNhbFxcIE1lZGljYWwgUmVmZXJlbmNl&catalog_id=979&catalog_name=TWVkaWNhbCBCb29rcyAmIEFjY2Vzc29yaWVz&pf_id=420843&product_name=UGhhcm1hY29sb2d5IFlvdSBTZWU&type=3&target=shop_product_list.asp" onClick="ga('send', 'event', 'Sponsorships', 'Pharmacology_You_See_UoT_Bookstore_Website');">UofT Bookstore - textbook</a></li>
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2019-CFMS</strong></li> </ul>
   # - lang: en
