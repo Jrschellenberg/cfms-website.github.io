@@ -153,9 +153,9 @@ sitemap:
 			</h1>
 			<div id="sponsor-logo">
 				{% if page.lang == "en" %}
-                    <a href="https://mdm.ca/"><img src="/images/MDFM_EN.jpg"/></a>
+                    <a target="_blank" href="https://mdm.ca/" onClick="ga('send', 'event', 'Sponsorships', 'MDFM_Logo_Home_Page');"><img src="/images/MDFM_EN.jpg"/></a>
 				{% else %}
-                    <a href="https://mdm.ca/"><img src="/images/MDFM_FR.jpg"/></a>
+					<a target="_blank" href="https://mdm.ca/" onClick="ga('send', 'event', 'Sponsorships', 'MDFM_Logo_Home_Page');"><img src="/images/MDFM_FR.jpg"/></a>
 				{% endif %}
 			</div>
 		</div>
