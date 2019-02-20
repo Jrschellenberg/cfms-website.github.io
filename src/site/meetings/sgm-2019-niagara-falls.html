@@ -77,6 +77,37 @@ sitemap:
 				The Spring General Meeting (SGM) is an opportunity for Canadian medical students to get together and discuss important issues pertaining to medical education, advocacy, global health, wellness, and more. Join the conversation, get involved &mdash; we want to hear from you!
 			</p>
 
+			<h2 id="registration-info"><strong>Registration information</strong></h2>
+			<blockquote class="editable" id="registration-container">
+
+				<h4><strong>How can I register? (Deadline: 11:59 PM EST on August 15, 2017)</strong></h4>
+				<ul>
+					<li>Registration is <strong>CLOSED</strong> at this time</li>
+					<li>Please direct any registration inquires to <a href="mailto:office@cfms.org">office@cfms.org</a></li>
+
+					<!--<li>Please click <a href="https://www.surveymonkey.com/r/JPKB3M6" target="_blank">here</a> to register</li>-->
+
+
+					<!-- Change this to automated boolean flag for next AGM code -->
+
+				</ul>
+
+
+				<h5><strong>Pay your fees online</strong></h5>
+				<div class="members-only">
+					<form id="payment-form" payment-id="{{ page.id }}" action="/#" method="POST">
+						<script src="https://payform.beanstream.com/payform/beanstream_payform.js" data-image="https://cfms.org/images/cfms-logo.svg" data-name="CFMS" data-description="{{ page.title }} - Registration" data-amount="{{ page.cost }}" data-currency="cad" data-billingaddress="false" data-submitform="false" data-primarycolor="#BB0A21">
+						</script>
+					</form>
+					<p>
+						By clicking this button you are agreeing to our <strong><a href="/payment-policies.html" target="_blank">payment policies</a></strong>.
+					</p>
+				</div>
+				<div class="non-members">
+					<p>Registration is only available to members. Please login to proceed.</p>
+				</div>
+			</blockquote>
+
 <!-- ------------------------------------------- -->
 		</div>
 	</div>
