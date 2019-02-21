@@ -5,18 +5,18 @@ disability-id: disability-discounts
 travel-id: travel-discounts
 wellness-id: wellness-discounts
 travel-discounts:
-  - lang: en
-    discount-title: Air Canada Discount for CaRMS Season - January 3, 2019 to February 15, 2019
-    discount-sub-title: Save up to 15% off flights!
-    discount-img: aircanada.png
-    discount-need-reverification:
-    discount-description: >-
-      <p>CFMS in partnership with the FMEQ has secured a discount on flights
-      with Air Canada during the Carms Interview Period from January 3rd to February 15th.
-      CFMS members will benefit from 10% off standard fares and 15% off Flex (and up) fares.</p>
-    discount-promotion: >-
-      <p><strong><em>Travel from:</em></strong> <strong>January 3, 2019 to February 15, 2019</strong></p>
-      <p><em>Promo code:</em> <strong>824BVRJ1</strong></p>
+  #- lang: en
+  #  discount-title: Air Canada Discount for CaRMS Season - January 3, 2019 to February 15, 2019
+  #  discount-sub-title: Save up to 15% off flights!
+  #  discount-img: aircanada.png
+  #  discount-need-reverification:
+  #  discount-description: >-
+  #    <p>CFMS in partnership with the FMEQ has secured a discount on flights
+  #    with Air Canada during the Carms Interview Period from January 3rd to February 15th.
+  #    CFMS members will benefit from 10% off standard fares and 15% off Flex (and up) fares.</p>
+  #  discount-promotion: >-
+  #    <p><strong><em>Travel from:</em></strong> <strong>January 3, 2019 to February 15, 2019</strong></p>
+  #    <p><em>Promo code:</em> <strong>824BVRJ1</strong></p>
   - lang: en
     discount-title: 'WestJet Discount: January 5, 2019 – April 10, 2019'
     discount-sub-title:
@@ -88,7 +88,6 @@ travel-discounts:
     discount-title: CFMS Choice Hotels Discount
     discount-sub-title: Save up to 20% off regular room rates with Choice Hotels!
     discount-img: choice-hotels.png
-    discount-img2: <img src="/images/discount-images/cfms_ad.jpg">
     discount-need-reverification:
     discount-description: >-
       <p>Choice Hotels is Canada's largest hotel franchisor with ten great
@@ -227,8 +226,6 @@ lasik-discounts:
   - lang: en
     discount-title: Laser Vision Correction Discount at LASIK MD
     discount-sub-title:
-    discount-img:
-    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
       <p>LASIK MD is Canada’s only national provider of laser vision correction, with more than 30 clinics located across the country. We offer a full range of vision correction procedures best suited for every pair of eyes—including procedures for patients with up-close reading vision loss. Our dedicated team of eye care professionals will assist you at every step of the process and address any questions you may have along the way.</p>
@@ -297,7 +294,6 @@ textbook-discounts:
     discount-title: Wolters Kluwer/Lippincott Resources
     discount-sub-title: Receive a 30% Discount on Wolters Kluwer/Lippincott Resources
     discount-img: wolters-kluwer.png
-    discount-img2: cfms_ad.jpg
     discount-need-reverification:
     discount-description: >-
       <p>Members of CFMS save 30% and receive FREE shipping on the full
@@ -323,7 +319,7 @@ textbook-discounts:
     discount-promotion: >-
       <ul> <li>Visit <a href="http://www.lww.com">www.lww.com</a>, select ANY
       product and use the discount code: <strong>WZP22JFT</strong> to save 30%!
-      Valid until 1 April 2019..</li> </ul>
+      </li> </ul>
   - lang: en
     discount-title: Pharmacology You See
     discount-sub-title: >-
@@ -349,6 +345,25 @@ textbook-discounts:
       href="https://uoftbookstore.com/shop_product_detail.asp?catalog_group_id=MTMxXFwgNjE&catalog_group_name=TWVkaWNhbFxcIE1lZGljYWwgUmVmZXJlbmNl&catalog_id=979&catalog_name=TWVkaWNhbCBCb29rcyAmIEFjY2Vzc29yaWVz&pf_id=420843&product_name=UGhhcm1hY29sb2d5IFlvdSBTZWU&type=3&target=shop_product_list.asp">UofT Bookstore - textbook</a></li>
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2019-CFMS</strong></li> </ul>
+  - lang: en
+    discount-title: Canada Q Bank
+    discount-sub-title:
+    discount-img: cqb-logo.jpg
+    discount-need-reverification:
+    discount-description: >-
+      <p>With over 47,000+ subscribers from 175 countries, CanadaQBank.com is the #1 choice 
+      for medical students and physicians worldwide seeking access to a comprehensive 
+      collection of Multiple Choice Questions, Cases and high yield topics for the medical 
+      licensing exams of Australia, Canada, Saudi Arabia, United Kingdom and the United 
+      States. The QBanks are continuously updated to reflect changing examination content  
+      and testing patterns. CanadaQBank has helped thousands of medical students and 
+      physicians pass the MCCQE Part 1 and MCCQE Part 2 (Canada), AMC CAT (Australia) 
+      PLAB Part 1 (United Kingdom), SMLE (Saudi Arabia) and the USMLE Step 1 (United 
+      States).</p>
+    discount-promotion: >-
+      <ul><li>Visit <a
+      href="https://canadaqbank.com/institutions.php</a> and use the discount code: 
+      <b>institute2019</b> to save 20%! Valid until 1 April 2019</li></ul>
   # - lang: en
   #   discount-title: McGraw-Hill Bookstore
   #   discount-sub-title:
@@ -425,7 +440,7 @@ textbook-discounts:
     discount-promotion: >-
       <ul> <li>Visit <a href="http://www.lww.com">www.lww.com</a>, select ANY
       product and use the discount code: <strong>WZP22JFT</strong> to save 30%!
-      Valid until Feb 28, 2018.</li> </ul>
+      </li> </ul>
   - lang: fr
     discount-title: Pharmacology You See
     discount-sub-title: >-
@@ -455,19 +470,38 @@ textbook-discounts:
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2016-CFMS</strong></li> </ul>
   - lang: fr
-    discount-title: Librairie de McGraw Hill
+    discount-title: Canada Q Bank
     discount-sub-title:
-    discount-img:
+    discount-img: cqb-logo.jpg
     discount-need-reverification:
     discount-description: >-
-      <p>Économisez sur les ressources de McGraw-Hill Medical!Les membres de la
-      FEMC reçoivent un rabais de 25 &#37; sur des ouvrages médicaux
-      choisis!</p>
+      <p>With over 47,000+ subscribers from 175 countries, CanadaQBank.com is the #1 choice 
+      for medical students and physicians worldwide seeking access to a comprehensive 
+      collection of Multiple Choice Questions, Cases and high yield topics for the medical 
+      licensing exams of Australia, Canada, Saudi Arabia, United Kingdom and the United 
+      States. The QBanks are continuously updated to reflect changing examination content  
+      and testing patterns. CanadaQBank has helped thousands of medical students and 
+      physicians pass the MCCQE Part 1 and MCCQE Part 2 (Canada), AMC CAT (Australia) 
+      PLAB Part 1 (United Kingdom), SMLE (Saudi Arabia) and the USMLE Step 1 (United 
+      States).</p>
     discount-promotion: >-
-      <ul> <li>La librairie peut être consultée <a
-      href="http://www.mheducation.ca/professional/microsite/cfms2017/">ici.</a></li>
-      <li>Utilisez le code coupon CFMSPARTNER2017 pour la réduction de
-      25&#37;.</li> </ul>
+      <ul><li>Visit <a
+      href="https://canadaqbank.com/institutions.php</a> and use the discount code: 
+      <b>institute2019</b> to save 20%! Valid until 1 April 2019</li></ul>
+  #- lang: fr
+  #  discount-title: Librairie de McGraw Hill
+  #  discount-sub-title:
+  #  discount-img:
+  #  discount-need-reverification:
+  #  discount-description: >-
+  #    <p>Économisez sur les ressources de McGraw-Hill Medical!Les membres de la
+  #    FEMC reçoivent un rabais de 25 &#37; sur des ouvrages médicaux
+  #    choisis!</p>
+  #  discount-promotion: >-
+  #    <ul> <li>La librairie peut être consultée <a
+  #    href="http://www.mheducation.ca/professional/microsite/cfms2017/">ici.</a></li>
+  #    <li>Utilisez le code coupon CFMSPARTNER2017 pour la réduction de
+  #    25&#37;.</li> </ul>
 online-discounts:
   - lang: en
     discount-title: UpToDate
@@ -505,25 +539,6 @@ online-discounts:
       <ul><li>Use your iPad Air, iPad Air 2, iPad Mini 4 or iPad Pro to access
       the Complete Anatomy Discount <a
       href="http://ca-application.3d4medical.com/discount/5hi0c/">here</a></li></ul>
-  - lang: en
-    discount-title: Canada Q Bank
-    discount-sub-title:
-    discount-img: cqb-logo.jpg
-    discount-need-reverification:
-    discount-description: >-
-      <p>Canada Q Bank, the World’s Most Preferred Portal for the Medical
-      licensing exams of Canada and the only portal to offer high quality,
-      high-yield test questions for MCCEE, MCCQE & USMLE on one platform.
-      CanadaQBankTM has put in years of research & development to create an
-      easy, intuitive & valuable portal that medical students and physicians can
-      use to improve their performance. CanadaQBankTM is updated on a quarterly
-      basis and made sure to include only high yield test questions that cover
-      core concepts.</p>
-    discount-promotion: >-
-      <ul><li>Please visit <a
-      href="http://www.canadaqbank.com">www.canadaqbank.com</a> to get more
-      information and use the following institutional coupon code to obtain your
-      20% discount: <strong>CFMS20</strong></li></ul>
   - lang: en
     discount-title: Skyscape PDA Software
     discount-sub-title: Skyscape Medical References *Now available on the iPhone/iPod-Touch!
