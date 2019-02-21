@@ -362,7 +362,7 @@ textbook-discounts:
       States).</p>
     discount-promotion: >-
       <ul><li>Visit <a
-      href="https://canadaqbank.com/institutions.php</a> and use the discount code: 
+      href="https://canadaqbank.com/institutions.php"</a> and use the discount code: 
       <b>institute2019</b> to save 20%! Valid until 1 April 2019</li></ul>
   # - lang: en
   #   discount-title: McGraw-Hill Bookstore
@@ -486,7 +486,7 @@ textbook-discounts:
       States).</p>
     discount-promotion: >-
       <ul><li>Visit <a
-      href="https://canadaqbank.com/institutions.php</a> and use the discount code: 
+      href="https://canadaqbank.com/institutions.php"</a> and use the discount code: 
       <b>institute2019</b> to save 20%! Valid until 1 April 2019</li></ul>
   #- lang: fr
   #  discount-title: Librairie de McGraw Hill
