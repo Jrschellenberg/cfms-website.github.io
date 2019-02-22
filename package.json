@@ -10,7 +10,7 @@
     "scaffold": "npm run clean && shx mkdir -p serve/js && shx mkdir -p serve/stylesheets",
     "build": "npm run scaffold && cross-env NODE_ENV=production webpack -p --progress && bundle exec jekyll build --source src/site --destination serve",
     "build:debug": "npm run scaffold && webpack --progress -d --verbose && bundle exec jekyll build -t",
-    "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"bgBlue.bold,bgRed.bold,bgCyan.bold\" \"webpack -w\" \"bundle exec jekyll build --watch --incremental --drafts --source src/site --destination serve \" \"browser-sync --port 4000 start -s serve -f serve --extensions html\""
+    "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"yellow.bold,magenta.bold,blue.bold\" \"webpack -w\" \"bundle exec jekyll build --watch --incremental --drafts --source src/site --destination serve \" \"browser-sync --port 4000 start -s serve -f serve --extensions html\""
   },
   "repository": {
     "type": "git",
