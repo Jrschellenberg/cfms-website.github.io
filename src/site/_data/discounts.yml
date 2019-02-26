@@ -431,6 +431,17 @@ education-discounts:
         <li>You can see a summary of the viewed module and quizzes on your <a href="https://medskl.com/member" target="_blank">Account Dashboard</a></li>
       </ol>
       <p><img src="/images/discount-images/medskl-anemia.png"></p>
+  - lang: en
+    discount-title: Littman Stethoscopes from Stethoscopes.ca
+    discount-sub-title:
+    discount-img: stethoscopes.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Receive an additional 5% off of already very competitively priced stethoscopes. This offer includes free laser engraving, for stethoscopes purchased from Stethoscope.ca.</p>
+      <p>To learn more, visit <a href="https://stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw">stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw</a></p>
+    discount-promotion: >-
+      <p><b>Discount Code:</b> CFMS</p>
+      <p><sup>*The offer is valid until Feb. 25, 2020.  Please note, the code cannot be combined with any other offers on the Stethoscope.ca website and is exclusively for Littman stethoscope purchases. This discount will not apply to anything else on the website. As Canada's largest authorized dealer of Littman stethoscopes, Stethoscopes.ca looks forward to supplying medical students across Canada with their beautifully engraved, Littman stethoscopes.</sup></p>
   # - lang: en
   #   discount-title: McGraw-Hill Bookstore
   #   discount-sub-title:
@@ -552,8 +563,7 @@ education-discounts:
       PLAB Part 1 (United Kingdom), SMLE (Saudi Arabia) and the USMLE Step 1 (United 
       States).</p>
     discount-promotion: >-
-      <ul><li>Visit <a
-      href="https://canadaqbank.com/institutions.php"</a> and use the discount code: 
+      <ul><li>Visit <a href="https://canadaqbank.com/institutions.php">https://canadaqbank.com/institutions.php</a> and use the discount code: 
       <b>institute2019</b> to save 20%! Valid until 1 April 2019</li></ul>
   #- lang: fr
   #  discount-title: Librairie de McGraw Hill
