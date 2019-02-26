@@ -1,6 +1,6 @@
 lasik-id: lasik-discount
 online-id: online-discounts
-textbook-id: textbook-discounts
+education-id: education-discounts
 disability-id: disability-discounts
 travel-id: travel-discounts
 wellness-id: wellness-discounts
@@ -292,7 +292,7 @@ lasik-discounts:
 
       Visit <a href="http://www.lasikmd.com/corporate/cfms">Lasik MD's website</a> for more information about this offer.</p>
 
-textbook-discounts:
+education-discounts:
   - lang: en
     discount-title: Wolters Kluwer/Lippincott Resources
     discount-sub-title: Receive a 30% Discount on Wolters Kluwer/Lippincott Resources
