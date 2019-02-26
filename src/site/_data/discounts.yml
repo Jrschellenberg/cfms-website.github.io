@@ -377,39 +377,39 @@ education-discounts:
       <p>medskl.com’s mission is to make medical education more effective and accessible whether you are studying for exams or earning CME credits. The core educational modules at medskl.com are always free. However, accessing the practice questions associated with their modules requires a paid subscription.</p>
       <p><strong>CFMS is excited to be collaborating with medskl.com to provide the CFMS member students with free access to their practice question bank!</strong></p>
     discount-promotion: >-
-        <h1><strong>Free Access Information</strong></h1>
-        <p><strong>Important Notes:</strong></p>
-        <ol>
-          <li>You have to register for the medskl.com account using your medical school email address to gain the free access to the question bank</li>
-          <li>The free access to the question bank available through the link below only works if you click on the link from this page.</li>
-        </ol>
+      <h1><strong>Free Access Information</strong></h1>
+      <p><strong>Important Notes:</strong></p>
+      <ol>
+        <li>You have to register for the medskl.com account using your medical school email address to gain the free access to the question bank</li>
+        <li>The free access to the question bank available through the link below only works if you click on the link from this page.</li>
+      </ol>
 
-        <p><strong>Option 1:</strong> If you <strong>do not have</strong> a medskl.com account with your medical school email address</p>
-        <ol>
-          <li><a target="_blank" href="https://medskl.com/group/join/cfms2018" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_Offer_Page');">Click here</a> to go to the CFMS Program free access offer page</li>
-          <li>Enter your medical school email address and click on “Join”</li>
-          <li>Check your email for the verification email from “service@medskl.com”</li>
-          <li>Click on the “Complete your signup” link in the email</li>
-          <li>Fill in the information requested and click on “Continue”</li>
-          <li>You will see a confirmation page stating that you have joined the CFMS Program</li>
-        </ol>
+      <p><strong>Option 1:</strong> If you <strong>do not have</strong> a medskl.com account with your medical school email address</p>
+      <ol>
+        <li><a target="_blank" href="https://medskl.com/group/join/cfms2018" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_Offer_Page');">Click here</a> to go to the CFMS Program free access offer page</li>
+        <li>Enter your medical school email address and click on “Join”</li>
+        <li>Check your email for the verification email from “service@medskl.com”</li>
+        <li>Click on the “Complete your signup” link in the email</li>
+        <li>Fill in the information requested and click on “Continue”</li>
+        <li>You will see a confirmation page stating that you have joined the CFMS Program</li>
+      </ol>
 
-        <p><strong>Option 2:</strong> If you <strong>already have</strong> a medskl.com account with your medical school email address</p>
-        <ol>
-          <li>Log into your medskl.com account (“Login” button is at the top-right of the <a target="_blank" href="https://medskl.com" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_main_website');">Home Page</a>)</li>
-          <li><a target="_blank" href="https://medskl.com/group/join/cfms2018" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_Offer_Page');">Click here</a> to go to the CFMS Program free access offer page</li>
-          <li>You will see a confirmation page stating that you have joined the CFMS Program </li>
-        </ol>
+      <p><strong>Option 2:</strong> If you <strong>already have</strong> a medskl.com account with your medical school email address</p>
+      <ol>
+        <li>Log into your medskl.com account (“Login” button is at the top-right of the <a target="_blank" href="https://medskl.com" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_main_website');">Home Page</a>)</li>
+        <li><a target="_blank" href="https://medskl.com/group/join/cfms2018" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_Offer_Page');">Click here</a> to go to the CFMS Program free access offer page</li>
+        <li>You will see a confirmation page stating that you have joined the CFMS Program </li>
+      </ol>
 
-        <p><strong>Accessing the Question Bank:</strong></p>
-        <ol>
-          <li>Log into your medskl.com account with which you have joined the CFMS Program</li>
-          <li>Go to the module that you want to take the practice quiz on (all listed on <a href="https://medskl.com/course" target="_blank">Courses Page</a>)</li>
-          <li>If you have successfully joined the CFMS Program, you will see the “Quiz” tab circled below</li>
-          <li>Click on “Start Quiz” to access the Question Bank specific to the module</li>
-          <li>You can see a summary of the viewed module and quizzes on your <a href="https://medskl.com/member" target="_blank">Account Dashboard</a></li>
-        </ol>
-        <p><img src="/images/discount-images/medskl-anemia.png"></p>
+      <p><strong>Accessing the Question Bank:</strong></p>
+      <ol>
+        <li>Log into your medskl.com account with which you have joined the CFMS Program</li>
+        <li>Go to the module that you want to take the practice quiz on (all listed on <a href="https://medskl.com/course" target="_blank">Courses Page</a>)</li>
+        <li>If you have successfully joined the CFMS Program, you will see the “Quiz” tab circled below</li>
+        <li>Click on “Start Quiz” to access the Question Bank specific to the module</li>
+        <li>You can see a summary of the viewed module and quizzes on your <a href="https://medskl.com/member" target="_blank">Account Dashboard</a></li>
+      </ol>
+      <p><img src="/images/discount-images/medskl-anemia.png"></p>
   # - lang: en
   #   discount-title: McGraw-Hill Bookstore
   #   discount-sub-title:
