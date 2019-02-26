@@ -368,6 +368,26 @@ education-discounts:
       href="https://canadaqbank.com/institutions.php"</a> and use the discount code: 
       <b>institute2019</b> to save 20%! Valid until 1 April 2019</li></ul>
   - lang: en
+    discount-title: UWorld
+    discount-sub-title:
+    discount-img: uworld.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Prepare for your USMLE Step 1 and Step 2 CK using discounts on resources from UWorld! 
+      USMLE is an exam required to apply to become a resident in the USA.</p>
+      <p>Discounts include:</p>
+      <ul>
+        <li>Step 1 (180-day) subscription offered at: $359USD (regular price $399)</li>
+        <li>Step 2 CK (180-day) subscription offered at $359USD (regular price $399)</li>
+        <li>Step 2 CK (360-day) subscription offered at $439USD (regular price $499)</li>
+        <li>Step 2 CK (730-day) subscription offered at $649USD (regular price $749)</li>
+      </ul>
+    discount-promotion: >-
+      <ul>
+        <li>To sign up for the discount, visit: <a href="http://info.uworld.com/cfms">http://info.uworld.com/cfms</a></li>
+        <li>You will be contacted by a UWorld representative by email with a discount code that needs to be applied for purchase.</li>
+      </ul>
+  - lang: en
     discount-title: medskl.com Offer
     discount-sub-title: Free Question Bank Access!
     discount-img: medskl-logo.png
