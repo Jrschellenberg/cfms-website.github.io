@@ -215,7 +215,7 @@ sidebar-education:
     student-run-clinics-toolkit: Student Run Clinics Toolkit
     lmcc-prep-link: LMCC Preparation Resources
     reports: Reports
-    motp: MOTP Surge 2018
+    motp: MOTP Surge
     research-ethics: Research Ethics
   - lang: fr
     sidebar-title_1: Éducation
@@ -230,7 +230,7 @@ sidebar-education:
     student-run-clinics-toolkit: Trousse-à-outils pour cliniques dirigées par étudiants
     lmcc-prep-link: Ressources préparatoires pour LCMC
     reports: Rapports
-    motp: MOTP Surge 2018
+    motp: MOTP Surge
     research-ethics: Research Ethics
 sidebar-student-affairs:
   - lang: en
