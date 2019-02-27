@@ -1,7 +1,9 @@
 ---
-title: For Students Unmatched After the R1 iteration
-date:
-description: Please fill in description here.
+title: Resources For Students Unmatched After the R1 iteration
+date: 2019-02-27 18:45:00
+description: >-
+  If you did not match and are a CFMS member, we have listed some steps for you
+  to consider. Please refer to the following resources.
 lang: en
 ---
 
