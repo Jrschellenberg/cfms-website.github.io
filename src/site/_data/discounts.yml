@@ -444,6 +444,27 @@ education-discounts:
       <ul>
         <li>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase with us, with the code:  CFMS (Offer is only for Littmann stethoscopes and cannot be combined with other offers)  Offer valid until Feburary 25, 2020.</li>
       </ul>  
+  - lang: en
+    discount-title: '''Drugs &amp; Drugs'' Pocket Guide: Free Electronic Version'
+    discount-sub-title:
+    discount-img: drugsanddrugs.jpg
+    discount-need-reverification:
+    discount-description: >-
+      <p>The <strong>fourth edition of Drugs &amp; Drugs</strong> is a pocket
+      guide that provides a comprehensive review of what students need to know
+      about commonly prescribed medications in a practical,  concise and
+      organized manner.</p> <blockquote> <ul> <li>Covers over 100 different
+      classes of medications</li> <li>1-2 page concise synopsis of each
+      medication class</li> <li>To-the-point review of mechanism of action,
+      pharmacokinetics, indications/contraindications, and adverse effects</li>
+      <li>Highlights of fundamental principles, pearls and pitfalls of drug
+      use</li> <li>Canadian trade names and content</li> </ul>
+      </blockquote><p>CFMS members receive free access to the online and PDF
+      versions of P. Hamilton &amp; D. Hui's 'Drugs &amp; Drugs', courtesy of
+      the University of Alberta's Department of Medicine.</p>
+    discount-promotion: >-
+      <ul><li>The online version can be found <a
+      href="http://drugsanddrugs.com">here.</a></li><ul>
   # - lang: en
   #   discount-title: McGraw-Hill Bookstore
   #   discount-sub-title:
@@ -491,6 +512,20 @@ education-discounts:
   #     href="http://www.mheducation.ca/professional/microsite/cfms2017/">here</a></li>
   #     <li>Use the coupon code CFMSPARTNER2017 for the 25&#37; discount.</li>
   #     </ul>
+  - lang: fr
+    discount-title: >-
+      Guide de poche « Drugs & Drugs » approuvé par la FEMC : version
+      électronique gratuite
+    discount-sub-title:
+    discount-img: drugsanddrugs.jpg
+    discount-need-reverification:
+    discount-description: >-
+      Les membres de la FEMC ont accès gratuitement aux versions en ligne et PDF
+      de « Drugs & Drugs » de P. Hamilton et D. Hui.
+    discount-promotion: >-
+      <ul> <li>La version en ligne se trouve <a
+      href="http://drugsanddrugs.com">ici.</a></li>
+      </ul>
   - lang: fr
     discount-title: Wolters Kluwer/Lippincott Resources
     discount-sub-title: Receive a 30% Discount on Wolters Kluwer/Lippincott Resources
@@ -550,6 +585,84 @@ education-discounts:
       <li>Please apply the following code to your order to obtain a <strong>10%
       discount: PYS-2016-CFMS</strong></li> </ul>
   - lang: fr
+    discount-title: UWorld
+    discount-sub-title:
+    discount-img: uworld.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Prepare for your USMLE Step 1 and Step 2 CK using discounts on resources from UWorld! 
+      USMLE is an exam required to apply to become a resident in the USA.</p>
+      <p>Discounts include:</p>
+      <ul>
+        <li>Step 1 (180-day) subscription offered at: $359USD (regular price $399)</li>
+        <li>Step 2 CK (180-day) subscription offered at $359USD (regular price $399)</li>
+        <li>Step 2 CK (360-day) subscription offered at $439USD (regular price $499)</li>
+        <li>Step 2 CK (730-day) subscription offered at $649USD (regular price $749)</li>
+      </ul>
+    discount-promotion: >-
+      <ul>
+        <li>To sign up for the discount, visit: <a href="http://info.uworld.com/cfms">http://info.uworld.com/cfms</a></li>
+        <li>You will be contacted by a UWorld representative by email with a discount code that needs to be applied for purchase.</li>
+      </ul>
+  - lang: fr
+    discount-title: medskl.com Offer
+    discount-sub-title: Free Question Bank Access!
+    discount-img: medskl-logo.png
+    discount-need-reverification:
+    discount-description: >-
+      <p><a target="_blank" href="https://medskl.com" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_main_website');">medskl.com</a> has been designed for medical school students and practicing physicians to learn and review the fundamentals of clinical medicine. medskl.com’s library of content comes from over 200 of the best medical school professors from around the world, and they undergo an editorial peer-review process. Their brief but in-depth video modules cover the spectrum of clinical presentations.</p>
+      <p>medskl.com’s mission is to make medical education more effective and accessible whether you are studying for exams or earning CME credits. The core educational modules at medskl.com are always free. However, accessing the practice questions associated with their modules requires a paid subscription.</p>
+      <p><strong>CFMS is excited to be collaborating with medskl.com to provide the CFMS member students with free access to their practice question bank!</strong></p>
+    discount-promotion: >-
+      <h1><strong>Free Access Information</strong></h1>
+      <p><strong>Important Notes:</strong></p>
+      <ol>
+        <li>You have to register for the medskl.com account using your medical school email address to gain the free access to the question bank</li>
+        <li>The free access to the question bank available through the link below only works if you click on the link from this page.</li>
+      </ol>
+
+      <p><strong>Option 1:</strong> If you <strong>do not have</strong> a medskl.com account with your medical school email address</p>
+      <ol>
+        <li><a target="_blank" href="https://medskl.com/group/join/cfms2018" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_Offer_Page');">Click here</a> to go to the CFMS Program free access offer page</li>
+        <li>Enter your medical school email address and click on “Join”</li>
+        <li>Check your email for the verification email from “service@medskl.com”</li>
+        <li>Click on the “Complete your signup” link in the email</li>
+        <li>Fill in the information requested and click on “Continue”</li>
+        <li>You will see a confirmation page stating that you have joined the CFMS Program</li>
+      </ol>
+
+      <p><strong>Option 2:</strong> If you <strong>already have</strong> a medskl.com account with your medical school email address</p>
+      <ol>
+        <li>Log into your medskl.com account (“Login” button is at the top-right of the <a target="_blank" href="https://medskl.com" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_main_website');">Home Page</a>)</li>
+        <li><a target="_blank" href="https://medskl.com/group/join/cfms2018" onClick="ga('send', 'event', 'Sponsorships', 'MEDSKL_Offer_Page');">Click here</a> to go to the CFMS Program free access offer page</li>
+        <li>You will see a confirmation page stating that you have joined the CFMS Program </li>
+      </ol>
+
+      <p><strong>Accessing the Question Bank:</strong></p>
+      <ol>
+        <li>Log into your medskl.com account with which you have joined the CFMS Program</li>
+        <li>Go to the module that you want to take the practice quiz on (all listed on <a href="https://medskl.com/course" target="_blank">Courses Page</a>)</li>
+        <li>If you have successfully joined the CFMS Program, you will see the “Quiz” tab circled below</li>
+        <li>Click on “Start Quiz” to access the Question Bank specific to the module</li>
+        <li>You can see a summary of the viewed module and quizzes on your <a href="https://medskl.com/member" target="_blank">Account Dashboard</a></li>
+      </ol>
+      <p><img src="/images/discount-images/medskl-anemia.png"></p>
+  - lang: fr
+    discount-title: Littman Stethoscopes from Stethoscope.ca
+    discount-sub-title:
+    discount-img: stethoscopes.png
+    discount-need-reverification:
+    discount-description: >-
+      <p><a href="https://stethoscope.ca">Stethoscope.ca</a> is Canada's largest authorized dealer of Littmann stethoscopes and is happy to partner with CFMS to provide you the best in quality, selection, customer service and amongst the best pricing available in Canada.</p>  
+      <p>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase. 
+      We will also offer free laser engraving, for your stethoscope and you will be able to purchase a stethoscope carry case at 50% off, 
+      with the purchase of a stethoscope. <a href="https://stethoscope.ca">Stethoscope.ca</a> also carries a wide range of diagnostic equipment from Welchallyn and American 
+      Diagnostics Corporation. Visit us at: <a href="https://stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw">https://stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw</a> to place your order.</p>
+    discount-promotion: >-
+      <ul>
+        <li>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase with us, with the code:  CFMS (Offer is only for Littmann stethoscopes and cannot be combined with other offers)  Offer valid until Feburary 25, 2020.</li>
+      </ul>  
+  - lang: fr
     discount-title: Canada Q Bank
     discount-sub-title:
     discount-img: cqb-logo.jpg
@@ -566,7 +679,6 @@ education-discounts:
       States).</p>
     discount-promotion: >-
       <ul><li>Visit <a href="https://canadaqbank.com/institutions.php">https://canadaqbank.com/institutions.php</a> and use the discount code: <b>institute2019</b> to save 20%! Valid until 1 April 2019.</li></ul>
-
   #- lang: fr
   #  discount-title: Librairie de McGraw Hill
   #  discount-sub-title:
