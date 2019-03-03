@@ -465,6 +465,28 @@ education-discounts:
     discount-promotion: >-
       <ul><li>The online version can be found <a
       href="http://drugsanddrugs.com">here.</a></li><ul>
+  - lang: en
+    discount-title: Osmosis
+    discount-sub-title:
+    discount-img: osmosis.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Osmosis is a leading and rapidly growing medical education platform used by 
+      more than 900 000 current and future health professionals as well as members of 
+      the public. Osmosis has the mission to empower the world’s clinicians and caregivers 
+      with the best learning experience possible. The Osmosis platform has a growing library 
+      of over 8 000 study questions, 15 000 flashcards and 1 000 videos. To learn more, 
+      visit Osmosis.org or watch the following introductory <a href="https://youtu.be/AqnPPld0bns">video
+      </a></p>.
+      <p>Discounts for Osmosis Prime Include:
+        <ul>
+          <li>4-year subscription offered at: $399 USD (regular price $599)</li>
+          <li2-year subscription offered at: $239 USD (regular price $399)</li>
+          <li1-year subscription offered at: $159 USD (regular price $299)</li>
+        </ul></p>
+    discount-promotion: >-
+      <ul><li>To get access to the discount, please visit the following 
+      <a href="https://www.osmosis.org/deal/CFMS?utm_source=cfms-2019&utm_medium=affiliate&utm_content=website">link</a>.</li></ul>
   # - lang: en
   #   discount-title: McGraw-Hill Bookstore
   #   discount-sub-title:
@@ -679,6 +701,29 @@ education-discounts:
       States).</p>
     discount-promotion: >-
       <ul><li>Visit <a href="https://canadaqbank.com/institutions.php">https://canadaqbank.com/institutions.php</a> and use the discount code: <b>institute2019</b> to save 20%! Valid until 1 April 2019.</li></ul>
+  - lang: fr
+    discount-title: Osmosis
+    discount-sub-title:
+    discount-img: osmosis.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Osmosis is a leading and rapidly growing medical education platform used by 
+      more than 900 000 current and future health professionals as well as members of 
+      the public. Osmosis has the mission to empower the world’s clinicians and caregivers 
+      with the best learning experience possible. The Osmosis platform has a growing library 
+      of over 8 000 study questions, 15 000 flashcards and 1 000 videos. To learn more, 
+      visit Osmosis.org or watch the following introductory <a href="https://youtu.be/AqnPPld0bns">video
+      </a></p>.
+      <p>Discounts for Osmosis Prime Include:
+        <ul>
+          <li>4-year subscription offered at: $399 USD (regular price $599)</li>
+          <li2-year subscription offered at: $239 USD (regular price $399)</li>
+          <li1-year subscription offered at: $159 USD (regular price $299)</li>
+        </ul></p>
+    discount-promotion: >-
+      <ul><li>To get access to the discount, please visit the following 
+      <a href="https://www.osmosis.org/deal/CFMS?utm_source=cfms-2019&utm_medium=affiliate&utm_content=website">link</a>.</li></ul>
+
   #- lang: fr
   #  discount-title: Librairie de McGraw Hill
   #  discount-sub-title:
