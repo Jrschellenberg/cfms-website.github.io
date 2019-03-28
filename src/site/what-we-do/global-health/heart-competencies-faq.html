@@ -1,0 +1,88 @@
+--- title: Competencies sitemap: priority: 0.6 changefreq: monthly role: VP Global Health ---
+
+<!DOCTYPE html>
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+    {% include head.html %}
+
+    <!--Page Specific Stylesheet-->
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css"/>
+    <link rel="stylesheet" href="/stylesheets/who-we-are.css"/>
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+
+<body ng-app="authApp" ng-controller="AuthController">
+    {% include nav.html %}
+
+    <!--Page Specific Formatting-->
+    <script type="text/javascript">
+        document.querySelector("#logo-invert").classList.toggle("hidden");
+        document.querySelector("#what-we-do").classList.toggle("active");
+    </script>
+
+    <div class="content">
+        <!-- Displays the sidebar and emphasizes the active page -->
+        {% include sidebar-global-health.html %}
+        <script type="text/javascript">
+            document.querySelector("#heart-competencies-faq").classList.toggle("sidebar-active");
+        </script>
+        <div class="editable" id="meeting-body">
+            <h1 id="page-title">FAQ on Climate Change and Environmental Health Competencies</h1>
+
+            <p>FAQs written by: Arianne Cohen (University of Toronto), Finola Hackett (University of Alberta)</p>
+
+            <p>1.	What do we mean by planetary health?</p>
+            <p>
+              By planetary health we envision a broad definition that includes more than just traditional environmental and occupational health. This idea was first published in a 2015 Lancet article by the Rockefeller Foundation. They define planetary health as “… the achievement of the highest attainable standard of health, wellbeing, and equity worldwide through judicious attention to the human systems—political, economic, and social—that shape the future of humanity and the Earth’s natural systems that define the safe environmental limits within which humanity can flourish. Put simply, planetary health is the health of human civilisation and the state of the natural systems on which it depends.”
+            </p>
+            <p>
+              In brief, planetary health is holistic. It looks beyond meteorological changes to populations, ecosystems, and the resilience of civilization. It demonstrates the importance of health promotion and protection regardless of social or political situations.
+            </p>
+            <p>
+              Whitmee S, Haines A, Beyrer C, Boltz F, Capon AG, de Souza Dias BF, Ezeh A, Frumkin H, Gong P, Head P, Horton R. Safeguarding human health in the Anthropocene epoch: report of The Rockefeller Foundation–Lancet Commission on planetary health. The Lancet. 2015 Nov 14;386(10007):1973-2028.
+            </p>
+
+            <p>2.	Why should we learn about this if there’s no LMCC objective?</p>
+            <p>
+              Planetary health intersects with medicine in many different and important ways. While not specifically addressed in all medical school curricula, it is important to understand the impacts of environmental issues like climate change for our patients. The health effects of climate change can be both direct (i.e. heat exhaustion, asthma from pollution) and indirect (i.e. PTSD from a natural disaster). It can also be socially mediated (i.e. population displacement from conflict).
+            </p>
+            <p>
+              As future physicians, we need to expect, prevent and manage these changes appropriately. According to the Lancet Commission on Planetary Health, health professionals have an essential role to integrate policies, tackle inequalities and reduce the environmental impacts of health systems while increasing resilience to change. It was also stated in a recent paper that “integrating climate change into medical education offers an opportunity for future doctors to develop skills and insights essential for clinical practice and a public health role in a climate-changing world.” It is therefore important for physicians to be aware of climate and the environment and do our part to provide a safe and sustainable future for all.
+            </p>
+            <p>
+              Note: there is an LMCC objective focused on traditional environmental and occupational health concepts: https://mcc.ca/objectives/expert/key/78-6/. However, note that this does not specifically refer to climate change and does not incorporate the holistic definition of planetary health described above.
+            </p>
+
+            <p>3.	How can I advocate on climate change & environment in my medical school or community?</p>
+            <p>
+              There are several ways to get more involved in your own communities. The first is by joining the HEART Network. This network comprises members of HEART and interested individuals, clubs and groups from medical schools across Canada. We send out a monthly newsletter with initiatives, updated articles and other relevant resources. We can also connect you with local representatives or other Network members at your school. If you would like to take on a more active role in this network, appointed committee positions for our task force are recruited in the fall of each school year through the CFMS.
+            </p>
+            <p>
+              You can sign up for the Network at this link: https://goo.gl/forms/r2CEYiuymbMsGilK2
+              And email heart.cfms@gmail.com if you have any questions!
+            </p>
+            <p>
+              If you have a great idea that you would like to plan yourself, the CFMS has excellent resources for first-time advocates. You can find our Advocacy Toolkits here: https://www.cfms.org/what-we-do/advocacy/advocacy-toolkit/
+              https://www.cfms.org/what-we-do/global-health/advocacy-toolkit.html
+            </p>
+
+            <p>4.	How might planetary health and climate & environment topics actually fit inside a medical school curriculum?</p>
+            <p>
+              There are many ways these topics could fit into a curriculum, and each school’s integration may be unique depending on their existing sessions and teaching structure. For instance, HEART has created a case-based group learning module that will be integrated at the University of Alberta next year. It includes a pre-session survey and preparation that involves watching two short videos, two cases for discussion: one individual patient-based in family medicine setting, and one community-based in a public health consultancy setting, and finishes with a short wrap-up lecture. This is complemented by a separate stand-alone session, a two-hour didactic lecture on the health impacts of climate change.
+            </p>
+            <p>
+              Other options include adding a slide or two to existing sessions: such as links between air pollution and health in a lecture on pulmonary diseases, on climate related displacement and migration in a session on refugee and migrant health, on heat related illnesses or extreme disaster events in emergency medicine teaching… the possibilities are endless. Suggested links to existing topics or courses are highlighted in red within the competencies document.
+            </p>
+
+            <p>5.	What’s already been done at different schools?</p>
+            <p>
+              There are already some schools that either have already started teaching sessions on this topic, are looking to integrate them within the next year. Other schools have created specific portfolios who host non-mandatory student-run extracurricular sessions. Because the current status is so variable, HEART is currently conducting a national survey to publish a ‘report card’ on the current status of each school by April 2019. This is the #1 thing you can help with at this point! One curriculum assessment survey per school is to be completed, and you can work with other students and with faculty at your school in order to provide the most comprehensive and accurate responses.
+            </p>
+        </div>
+    </div>
+    {% include footer.html %}
+</body>

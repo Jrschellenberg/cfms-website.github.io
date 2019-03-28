@@ -141,8 +141,9 @@ sidebar-global-health:
     advocacy-toolkit: Advocacy Toolkit
     indigenous-health: Indigenous Health
     heart: HEART
-    snapvocacy: Snapvocacy
     heart-competencies: Planetary Health Competencies
+    heart-competencies-faq: FAQ Planetary Health Competencies
+    snapvocacy: Snapvocacy
   - lang: fr
     sidebar-title_1: Santé globale
     overview: Aperçu
@@ -159,8 +160,9 @@ sidebar-global-health:
     advocacy-toolkit: Trousse-à-outils pour plaidoirie
     indigenous-health: Santé autochtone
     heart: HEART
+    heart-competencies: Compétences Planétaires en Santé
+    heart-competencies-faq: FAQ Compétences Planétaires en Santé
     snapvocacy: Snapvocacy
-    heart-competencies: Planetary Health Competencies
 sidebar-who-we-are:
   - lang: en
     sidebar-title_1: Who We Are
