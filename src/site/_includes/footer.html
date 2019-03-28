@@ -42,10 +42,10 @@
 					<li><b>{{ contact_us.general_inquiries }}</b>: Rosemary Conliffe<br>
 					    <script>getEmail("office")</script>
 					</li>
-					<li><b>{{ contact_us.media }}</b>: Christina Schweitzer<br>
+					<li><b>{{ contact_us.media }}</b>: Victoria Januszkiewicz<br>
 						<script>getEmail("vpcommunications")</script>
 					</li>
-					<li><b>{{ contact_us.it }}</b>: Pavel Yarmak<br>
+					<li><b>{{ contact_us.it }}</b>: Jason Yao and Jack Luo<br>
 						<script>getEmail("it")</script>
 					</li>
 				</div>
@@ -85,7 +85,7 @@
 				<li>
 					<script>document.write((new Date()).getFullYear())</script>
 					{{ find_us_on.copy }} <a href="http://www.kevan.lu">Kevan Lu</a> & <a href="http://pavel.yarmak.me/">Pavel Yarmak</a>
-				</li>		
+				</li>
 			</div>
 		{% endif %}
 	{% endfor %}
@@ -121,11 +121,11 @@
 		//0:00 = 12 AM
 		if (hour == 0)
 			var time = "12:" + date.getMinutes();
-		else 
+		else
 			time = (hour%12) + ":" + date.getMinutes();
 		if (hour > 0 && hour < 12)
 			time += " AM";
-		else 
+		else
 			time += " PM";
 
 		var month = months[date.getMonth()];
@@ -140,9 +140,9 @@
 <script type="text/javascript">
 $(document).ready(function() {
 	if($(window).width() >= 960){
-	    $('#scroll').scrollToFixed({ 
+	    $('#scroll').scrollToFixed({
 	    	minWidth: 960,
-	    	marginTop: 20, 
+	    	marginTop: 20,
 	    	limit: function() {
 		        var limit = $('#footer').offset().top - $('#scroll').height() - 40;
 		        return limit;
