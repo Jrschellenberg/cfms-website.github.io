@@ -1,13 +1,6 @@
----
-title: Competencies
-sitemap:
-  priority: 0.6
-  changefreq: monthly
-  role: VP Global Health
----
+--- title: Competencies sitemap: priority: 0.6 changefreq: monthly role: VP Global Health ---
 
 <!DOCTYPE html>
-
 
 <!--[if IE 8 ]> <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]> <html class="ie9"> <![endif]-->
@@ -15,47 +8,84 @@ sitemap:
     {% include head.html %}
 
     <!--Page Specific Stylesheet-->
-    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
-    <link rel="stylesheet" href="/stylesheets/who-we-are.css" />
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css"/>
+    <link rel="stylesheet" href="/stylesheets/who-we-are.css"/>
 
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 </head>
+
 <body ng-app="authApp" ng-controller="AuthController">
-	{% include nav.html %}
+    {% include nav.html %}
 
-	<!--Page Specific Formatting-->
-	<script type="text/javascript">
-		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
-		document.querySelector( "#what-we-do" ).classList.toggle("active");
-	</script>
+    <!--Page Specific Formatting-->
+    <script type="text/javascript">
+        document.querySelector("#logo-invert").classList.toggle("hidden");
+        document.querySelector("#what-we-do").classList.toggle("active");
+    </script>
 
-	<div class="content">
-		<!-- Displays the sidebar and emphasizes the active page -->
-		{% include sidebar-global-health.html %}
-		<script type="text/javascript">
-			document.querySelector( "#heart-competencies" ).classList.toggle("sidebar-active");
-		</script>
-		<div class="editable" id="side-content" id="meeting-body">
-			<h1 id="page-title">Climate Change and Environmental Health Competencies</h1>
+    <div class="content">
+        <!-- Displays the sidebar and emphasizes the active page -->
+        {% include sidebar-global-health.html %}
+        <script type="text/javascript">
+            document.querySelector("#heart-competencies").classList.toggle("sidebar-active");
+        </script>
+        <div class="editable" id="meeting-body">
+            <h1 id="page-title">Climate Change and Environmental Health Competencies</h1>
 
-			<p>Climate change is inextricably linked to public health. See these excellent resources from <a href="http://www.who.int/globalchange/en/">WHO</a>, the <a href="http://www.climateandhealthalliance.org/">Global Climate & Health Alliance</a>, and <a href="http://www.lancetcountdown.org/">The Lancet</a>.</p>
-            <p>HEART has been working since its creation to incorporate learning of the crucial links between climate and environmental changes and health in medical curricula, through the creation of a set of core competencies for integration in education nationwide.​ HEART’s aim is to create and incorporate an environmental health curriculum into all Canadian medical schools’ curricula by 2020.</p>
+            <p>Climate change is inextricably linked to public health. See these excellent resources from
+                <a href="http://www.who.int/globalchange/en/">WHO</a>, the
+                <a href="http://www.climateandhealthalliance.org/">Global Climate & Health Alliance</a>, and
+                <a href="http://www.lancetcountdown.org/">The Lancet</a>
+            </p>
+            <p>
+                HEART has been working since its inception to incorporate learning of the crucial links between planetary health and human health into medical curricula at all Canadian medical schools. HEART’s aim is to create and incorporate an environmental
+                health curriculum into all Canadian medical schools’ curricula by 2020.
+            </p>
+            <p>
+                To achieve this goal, HEART has developed a set of “Planetary Health Competencies” which are modelled after the MCC competencies all Canadian medical schools must teach in order to receive accreditation.
+            </p>
 
-            <p>The following steps have been taken since the creation of HEART to meet this goal: Steps 1 & 2 – completed. Steps 3 through 6 – ongoing.</p>
-            <p><img width="700" height="auto" src="/images/page-images/heart/heart1.png"></p>
+            <p>
+                The following steps have been taken since the creation of HEART to meet this goal: Steps 1 & 2 – completed. Steps 3 through 6 – ongoing.
+            </p>
+            <p>
+                <img width="700" height="auto" src="/images/page-images/heart/heart1.png">
+            </p>
 
-			<p>Below is the list of curricular competencies HEART has developed, along with interactive activities and curricular adaptations to give examples of learning sessions for each competency.</p>
-			<p><img src="/images/page-images/heart/heart2.png"></p>
+            <p>
+                The following individuals have been involved in the creation of these curricular competencies:
+            </p>
+            <p>
+                Written by medical student members of HEART, 2017-18: Finola Hackett (University of Alberta), Itai Malkin (University of Ottawa), Blake Hollett Power (Memorial University), Julia Sawatzky (University of Alberta)
+            </p>
+            <p>
+                Edited by medical student members of HEART, 2018-19: Sasha Létourneau (Queen’s University), Natalya O’Neill (University of Toronto), Finola Hackett (University of Alberta), Kira Genise (University of Ottawa), Jacqueline Mincer (Dalhousie University),
+                Kelsey MacQueen (University of Calgary), Tiffany Got (University of Toronto)
+            </p>
 
-            <p>We have received feedback from environmental health and medical education experts regarding these competencies, and updates are being continuously made to ensure adequacy for curricular implementation. Experts who have given feedback so far are:</p>
-			<ul style="list-style-type:circle">
-				<li>Dr. Courtney Howard, CAPE: Board President, Canadian Association of Physicians for the Environment</li>
-				<li>Dr. Laura Muldoon, University of Ottawa: Public Health, Prevention and Population Health</li>
-				<li>Dr. Jim Talbot, University of Alberta: School of Public Health and Faculty of Medicine</li>
-				<li>Dr. Atanu Sarkar, Memorial University: Community Health and Humanities</li>
-			</ul>
-		</div>
-	</div>
-	{% include footer.html %}
+            <p>
+                We have received feedback from environmental health and medical education experts regarding these competencies, and updates are being continuously made to ensure adequacy for curricular implementation. Experts who have given feedback so far are:
+            </p>
+            <ul style="list-style-type:circle">
+                <li>Dr. Courtney Howard (Board President, Canadian Association of Physicians for the Environment)</li>
+                <li>Tibetha Kemble (Director, Indigenous Health Initiatives Program, University of Alberta)</li>
+                <li>Dr. Jim Talbot (University of Alberta Faculty of Medicine, Former Chief Medical Officer of Health for Alberta)</li>
+                <li>Dr. Laura Muldoon (Director of Society, the Individual and Medicine curriculum, University of Ottawa)</li>
+                <li>Dr. Atanu Sarkar (Memorial University, Community Health and Humanities)</li>
+                <li>Dr. Duncan Webster (Division of Infectious Diseases, Dalhousie University)</li>
+                <li>Dr. Curtis Lavoie (Department of Pediatrics, University of Ottawa)</li>
+            </ul>
+
+            <p>
+                Below is the list of curricular competencies HEART has developed, along with interactive activities and curricular adaptations to give examples of learning sessions for each competency.
+            </p>
+            <p><img src="/images/page-images/heart/heart2.png"></p>
+            <p>
+                Please see HEART’s <a href="https://drive.google.com/drive/folders/1FJO9Aj7Q_LmFgzajgsZ5VJk16xB05pjf">CFMS HEART Planetary Health Toolkit</a> for the complete Planetary Health Curricular Competencies document as well as other useful documents, including FAQs on how to talk to medical education Administrators about the Planetary Health
+                Competencies Project.
+            </p>
+        </div>
+    </div>
+    {% include footer.html %}
 </body>

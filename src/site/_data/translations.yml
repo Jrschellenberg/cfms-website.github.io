@@ -142,7 +142,7 @@ sidebar-global-health:
     indigenous-health: Indigenous Health
     heart: HEART
     snapvocacy: Snapvocacy
-    heart-competencies: HEART Competencies
+    heart-competencies: Planetary Health Competencies
   - lang: fr
     sidebar-title_1: Santé globale
     overview: Aperçu
@@ -160,7 +160,7 @@ sidebar-global-health:
     indigenous-health: Santé autochtone
     heart: HEART
     snapvocacy: Snapvocacy
-    heart-competencies: HEART Competencies
+    heart-competencies: Planetary Health Competencies
 sidebar-who-we-are:
   - lang: en
     sidebar-title_1: Who We Are
@@ -248,7 +248,7 @@ sidebar-student-affairs:
     longitudinal-wellness-initiative: Longitudinal Wellness Initiative
     wellness-spotlight-profiles: Wellness Spotlight profiles
     nutrition-wellness: Nutrition Wellness
-    nutrition-wellness-spotlight: Nutrition Wellness 
+    nutrition-wellness-spotlight: Nutrition Wellness
     quick-tips: Quick Tips
     safe-space: Safe Space
     national-contests: National Contests
@@ -273,7 +273,7 @@ sidebar-student-affairs:
     longitudinal-wellness-initiative: Longitudinal Wellness Initiative
     wellness-spotlight-profiles: Wellness Spotlight profiles
     nutrition-wellness: Nutrition Wellness
-    nutrition-wellness-spotlight: Nutrition Wellness 
+    nutrition-wellness-spotlight: Nutrition Wellness
     quick-tips: Quick Tips
     safe-space: Safe Space
     national-contests: National Contests
@@ -345,7 +345,7 @@ sidebar-discounts:
     online-resources: UptoDate
     wellness-discounts: Wellness Discounts
     lasik: LASIK MD Vision Correction
-    discounts-tax: Tax Services 
+    discounts-tax: Tax Services
     medskl: MEDSKL QBank Access
   - lang: fr
     sidebar-title_1: Réductions
@@ -355,7 +355,7 @@ sidebar-discounts:
     online-resources: UptoDate
     lasik: Correction de la vision LASIK MD
     wellness-discounts: Wellness Discounts
-    discounts-tax: Tax Services 
+    discounts-tax: Tax Services
     medskl: MEDSKL QBank Access
 sidebar-databases:
   - lang: en
