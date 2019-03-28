@@ -4,6 +4,7 @@ education-id: education-discounts
 disability-id: disability-discounts
 travel-id: travel-discounts
 wellness-id: wellness-discounts
+cma-id: cma-discounts
 travel-discounts:
   #- lang: en
   #  discount-title: Air Canada Discount for CaRMS Season - January 3, 2019 to February 15, 2019
@@ -26,7 +27,7 @@ travel-discounts:
       <p>The CFMS is proud to present the WestJet Discount!</p> <p>CFMS members
       are eligible for <strong>10% off all fare classes (basic excluded)* for guests travelling Canada
       wide.</strong></p> <p>CFMS members travelling to the SGM or AGM are eligable for <strong>10% off all fare classes (basic excluded)*</strong>
-      into and out of <strong>Toronto or Hamilton. </strong></p> <p>To take advantage of this offer, you will need the discount code listed. 
+      into and out of <strong>Toronto or Hamilton. </strong></p> <p>To take advantage of this offer, you will need the discount code listed.
       Please visit <a href="https://www.westjet.com/conventions">www.westjet.com/conventions</a> to make a booking online. If you have questions about how to
       complete a booking with your discount codes, please check out WestJet's <a
       href="https://www.westjet.com/en-ca/about-us/contact-us/faqs/discount-codes"
@@ -292,7 +293,6 @@ lasik-discounts:
       <p>Visit <a href='lasik-membership-card.html' target='_blank'>Here</a> To Print off your lasik membership card.
 
       Visit <a href="http://www.lasikmd.com/corporate/cfms">Lasik MD's website</a> for more information about this offer.</p>
-
 education-discounts:
   - lang: en
     discount-title: Wolters Kluwer/Lippincott Resources
@@ -355,14 +355,14 @@ education-discounts:
     discount-img: cqb-logo.jpg
     discount-need-reverification:
     discount-description: >-
-      <p>With over 47,000+ subscribers from 175 countries, CanadaQBank.com is the #1 choice 
-      for medical students and physicians worldwide seeking access to a comprehensive 
-      collection of Multiple Choice Questions, Cases and high yield topics for the medical 
-      licensing exams of Australia, Canada, Saudi Arabia, United Kingdom and the United 
-      States. The QBanks are continuously updated to reflect changing examination content  
-      and testing patterns. CanadaQBank has helped thousands of medical students and 
-      physicians pass the MCCQE Part 1 and MCCQE Part 2 (Canada), AMC CAT (Australia) 
-      PLAB Part 1 (United Kingdom), SMLE (Saudi Arabia) and the USMLE Step 1 (United 
+      <p>With over 47,000+ subscribers from 175 countries, CanadaQBank.com is the #1 choice
+      for medical students and physicians worldwide seeking access to a comprehensive
+      collection of Multiple Choice Questions, Cases and high yield topics for the medical
+      licensing exams of Australia, Canada, Saudi Arabia, United Kingdom and the United
+      States. The QBanks are continuously updated to reflect changing examination content
+      and testing patterns. CanadaQBank has helped thousands of medical students and
+      physicians pass the MCCQE Part 1 and MCCQE Part 2 (Canada), AMC CAT (Australia)
+      PLAB Part 1 (United Kingdom), SMLE (Saudi Arabia) and the USMLE Step 1 (United
       States).</p>
     discount-promotion: >-
       <ul><li>Visit <a href="https://canadaqbank.com/institutions.php">https://canadaqbank.com/institutions.php</a> and use the discount code: <b>institute2019</b> to save 20%! Valid until 1 April 2019.</li></ul>
@@ -372,7 +372,7 @@ education-discounts:
     discount-img: uworld.png
     discount-need-reverification:
     discount-description: >-
-      <p>Prepare for your USMLE Step 1 and Step 2 CK using discounts on resources from UWorld! 
+      <p>Prepare for your USMLE Step 1 and Step 2 CK using discounts on resources from UWorld!
       USMLE is an exam required to apply to become a resident in the USA.</p>
       <p>Discounts include:</p>
       <ul>
@@ -435,15 +435,15 @@ education-discounts:
     discount-img: stethoscopes.png
     discount-need-reverification:
     discount-description: >-
-      <p><a href="https://stethoscope.ca">Stethoscope.ca</a> is Canada's largest authorized dealer of Littmann stethoscopes and is happy to partner with CFMS to provide you the best in quality, selection, customer service and amongst the best pricing available in Canada.</p>  
-      <p>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase. 
-      We will also offer free laser engraving, for your stethoscope and you will be able to purchase a stethoscope carry case at 50% off, 
-      with the purchase of a stethoscope. <a href="https://stethoscope.ca">Stethoscope.ca</a> also carries a wide range of diagnostic equipment from Welchallyn and American 
+      <p><a href="https://stethoscope.ca">Stethoscope.ca</a> is Canada's largest authorized dealer of Littmann stethoscopes and is happy to partner with CFMS to provide you the best in quality, selection, customer service and amongst the best pricing available in Canada.</p>
+      <p>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase.
+      We will also offer free laser engraving, for your stethoscope and you will be able to purchase a stethoscope carry case at 50% off,
+      with the purchase of a stethoscope. <a href="https://stethoscope.ca">Stethoscope.ca</a> also carries a wide range of diagnostic equipment from Welchallyn and American
       Diagnostics Corporation. Visit us at: <a href="https://stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw">https://stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw</a> to place your order.</p>
     discount-promotion: >-
       <ul>
         <li>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase with us, with the code:  CFMS (Offer is only for Littmann stethoscopes and cannot be combined with other offers)  Offer valid until Feburary 25, 2020.</li>
-      </ul>  
+      </ul>
   - lang: en
     discount-title: '''Drugs &amp; Drugs'' Pocket Guide: Free Electronic Version'
     discount-sub-title:
@@ -471,11 +471,11 @@ education-discounts:
     discount-img: osmosis.png
     discount-need-reverification:
     discount-description: >-
-      <p>Osmosis is a leading and rapidly growing medical education platform used by 
-      more than 900 000 current and future health professionals as well as members of 
-      the public. Osmosis has the mission to empower the world’s clinicians and caregivers 
-      with the best learning experience possible. The Osmosis platform has a growing library 
-      of over 8 000 study questions, 15 000 flashcards and 1 000 videos. To learn more, 
+      <p>Osmosis is a leading and rapidly growing medical education platform used by
+      more than 900 000 current and future health professionals as well as members of
+      the public. Osmosis has the mission to empower the world’s clinicians and caregivers
+      with the best learning experience possible. The Osmosis platform has a growing library
+      of over 8 000 study questions, 15 000 flashcards and 1 000 videos. To learn more,
       visit Osmosis.org or watch the following introductory <a href="https://youtu.be/AqnPPld0bns">video
       </a></p>.
       <p>Discounts for Osmosis Prime Include:
@@ -485,7 +485,7 @@ education-discounts:
           <li>1-year subscription offered at: $149 USD (regular price $299)</li>
         </ul></p>
     discount-promotion: >-
-      <ul><li>To get access to the discount, please visit the following 
+      <ul><li>To get access to the discount, please visit the following
       <a href="https://www.osmosis.org/deal/CFMS?utm_source=cfms-2019&utm_medium=affiliate&utm_content=website">link</a>.</li></ul>
   # - lang: en
   #   discount-title: McGraw-Hill Bookstore
@@ -612,7 +612,7 @@ education-discounts:
     discount-img: uworld.png
     discount-need-reverification:
     discount-description: >-
-      <p>Prepare for your USMLE Step 1 and Step 2 CK using discounts on resources from UWorld! 
+      <p>Prepare for your USMLE Step 1 and Step 2 CK using discounts on resources from UWorld!
       USMLE is an exam required to apply to become a resident in the USA.</p>
       <p>Discounts include:</p>
       <ul>
@@ -675,29 +675,29 @@ education-discounts:
     discount-img: stethoscopes.png
     discount-need-reverification:
     discount-description: >-
-      <p><a href="https://stethoscope.ca">Stethoscope.ca</a> is Canada's largest authorized dealer of Littmann stethoscopes and is happy to partner with CFMS to provide you the best in quality, selection, customer service and amongst the best pricing available in Canada.</p>  
-      <p>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase. 
-      We will also offer free laser engraving, for your stethoscope and you will be able to purchase a stethoscope carry case at 50% off, 
-      with the purchase of a stethoscope. <a href="https://stethoscope.ca">Stethoscope.ca</a> also carries a wide range of diagnostic equipment from Welchallyn and American 
+      <p><a href="https://stethoscope.ca">Stethoscope.ca</a> is Canada's largest authorized dealer of Littmann stethoscopes and is happy to partner with CFMS to provide you the best in quality, selection, customer service and amongst the best pricing available in Canada.</p>
+      <p>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase.
+      We will also offer free laser engraving, for your stethoscope and you will be able to purchase a stethoscope carry case at 50% off,
+      with the purchase of a stethoscope. <a href="https://stethoscope.ca">Stethoscope.ca</a> also carries a wide range of diagnostic equipment from Welchallyn and American
       Diagnostics Corporation. Visit us at: <a href="https://stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw">https://stethoscope.ca/?gclid=CPu35-i1jbwCFWTnwgodSyMALw</a> to place your order.</p>
     discount-promotion: >-
       <ul>
         <li>We will be offering The Canadian Federation of Medical Students, a further 5% discount off your Littmann stethoscope purchase with us, with the code:  CFMS (Offer is only for Littmann stethoscopes and cannot be combined with other offers)  Offer valid until Feburary 25, 2020.</li>
-      </ul>  
+      </ul>
   - lang: fr
     discount-title: Canada Q Bank
     discount-sub-title:
     discount-img: cqb-logo.jpg
     discount-need-reverification:
     discount-description: >-
-      <p>With over 47,000+ subscribers from 175 countries, CanadaQBank.com is the #1 choice 
-      for medical students and physicians worldwide seeking access to a comprehensive 
-      collection of Multiple Choice Questions, Cases and high yield topics for the medical 
-      licensing exams of Australia, Canada, Saudi Arabia, United Kingdom and the United 
-      States. The QBanks are continuously updated to reflect changing examination content  
-      and testing patterns. CanadaQBank has helped thousands of medical students and 
-      physicians pass the MCCQE Part 1 and MCCQE Part 2 (Canada), AMC CAT (Australia) 
-      PLAB Part 1 (United Kingdom), SMLE (Saudi Arabia) and the USMLE Step 1 (United 
+      <p>With over 47,000+ subscribers from 175 countries, CanadaQBank.com is the #1 choice
+      for medical students and physicians worldwide seeking access to a comprehensive
+      collection of Multiple Choice Questions, Cases and high yield topics for the medical
+      licensing exams of Australia, Canada, Saudi Arabia, United Kingdom and the United
+      States. The QBanks are continuously updated to reflect changing examination content
+      and testing patterns. CanadaQBank has helped thousands of medical students and
+      physicians pass the MCCQE Part 1 and MCCQE Part 2 (Canada), AMC CAT (Australia)
+      PLAB Part 1 (United Kingdom), SMLE (Saudi Arabia) and the USMLE Step 1 (United
       States).</p>
     discount-promotion: >-
       <ul><li>Visit <a href="https://canadaqbank.com/institutions.php">https://canadaqbank.com/institutions.php</a> and use the discount code: <b>institute2019</b> to save 20%! Valid until 1 April 2019.</li></ul>
@@ -707,11 +707,11 @@ education-discounts:
     discount-img: osmosis.png
     discount-need-reverification:
     discount-description: >-
-      <p>Osmosis is a leading and rapidly growing medical education platform used by 
-      more than 900 000 current and future health professionals as well as members of 
-      the public. Osmosis has the mission to empower the world’s clinicians and caregivers 
-      with the best learning experience possible. The Osmosis platform has a growing library 
-      of over 8 000 study questions, 15 000 flashcards and 1 000 videos. To learn more, 
+      <p>Osmosis is a leading and rapidly growing medical education platform used by
+      more than 900 000 current and future health professionals as well as members of
+      the public. Osmosis has the mission to empower the world’s clinicians and caregivers
+      with the best learning experience possible. The Osmosis platform has a growing library
+      of over 8 000 study questions, 15 000 flashcards and 1 000 videos. To learn more,
       visit Osmosis.org or watch the following introductory <a href="https://youtu.be/AqnPPld0bns">video
       </a></p>.
       <p>Discounts for Osmosis Prime Include:
@@ -721,7 +721,7 @@ education-discounts:
           <li1-year subscription offered at: $159 USD (regular price $299)</li>
         </ul></p>
     discount-promotion: >-
-      <ul><li>To get access to the discount, please visit the following 
+      <ul><li>To get access to the discount, please visit the following
       <a href="https://www.osmosis.org/deal/CFMS?utm_source=cfms-2019&utm_medium=affiliate&utm_content=website">link</a>.</li></ul>
 
   #- lang: fr
@@ -1063,3 +1063,175 @@ online-discounts:
       informations, visitez <a href="http://www.mdbriefcase.com/">
       www.mdbriefcase.com </a></li></ul>
 wellness-discounts:
+cma-discounts:
+  - lang: en
+    discount-title: TELUS
+    discount-sub-title:
+    discount-img: cma/telus.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>The CMA is pleased to offer exclusive rates on TELUS services to its members. With TELUS you can get connected and stay connected anytime, anywhere. It’s easy and now more affordable than ever.</p>
+      <p><strong>As a benefit of CMA membership, TELUS is offering you:</strong></span></p>
+      <blockquote>
+      <ul>
+        <li><strong>The latest and greatest mobility devices with preferred rate plans.</strong></span></li>
+        <li><strong>TELUS Business Connect™ - An advanced mobile and office cloud-based phone system for your clinic. (Discounts available to CMA members who are TELUS Health EMR users).</strong></span></li>
+      </ul>
+      </blockquote>
+    discount-promotion: >-
+      <p>Please log in to CMA <a href='https://www.cma.ca/member-benefits-and-discounts' target='_blank'>Here</a> to access this discount.</p>
+  - lang: en
+    discount-title: GoodLife/Énergie Cardio
+    discount-sub-title:
+    discount-img: cma/energie-cardio.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>The CMA knows that your well-being is important, so we partnered with GoodLife/Énergie Cardio to give you access to the benefits of exercise and healthy living. Take advantage of discounted membership rates for CMA members and their families.*</p>
+      <p><strong>Here are the benefits:</strong></span></p>
+      <blockquote>
+      <ul>
+        <li><strong>One-year or no-commitment membership options to GoodLife/Énergie Cardio</strong></span></li>
+        <li><strong>Access to over 280 GoodLife and Énergie Cardio clubs across Canada</strong></span></li>
+        <li><strong>The best strength and cardio equipment</strong></span></li>
+        <li><strong>Personal training, health and nutrition programs (additional fee)</strong></span></li>
+        <li><strong>Child-minding (additional fee)</strong></span></li>
+        <li><strong>Professionally trained, friendly and supportive staff who can help you achieve your goals</strong></span></li>
+        <li><strong>Access to saunas, pools, whirlpools and aqua classes (where applicable)</strong></span></li>
+        <li><strong>Women-only facilities</strong></span></li>
+        <li><strong>Exclusive CMA rates starting at $429 for one year, plus applicable taxes</strong></span></li>
+        <li><strong>By-weekly memberships available as well</strong></span></li>
+      </ul>
+      </blockquote>
+    discount-promotion: >-
+      <p><strong>Enrollment and renewal process</strong></span></p>
+      <p>The first step in your enrollment/renewal process starts here on the CMA website. In order for GoodLife/Énergie Cardio to confirm that you are a CMA member and entitled to the corporate member discount, you will need to provide them with a CMA unique ID number.</p>
+      <p><i>The physician must be enrolled with a GoodLife/Énergie Cardio membership through the online CMA corporate discount program and an active CMA member for the discount to be extended to (up to four) family members. To view GoodLife/Énergie Cardio's policy on minors, please visit the GoodLife/Énergie Cardio FAQ page:  www.goodlifefitness.com/faq/guests.</i></p>
+      <p><i>For any questions regarding the GoodLife/Énergie Cardio online enrollment process, please contact their Member Experience Team at corporateprograms@goodlifefitness.com or 1-800-287-4631.</i></p>
+  - lang: en
+    discount-title: Enterprise Rent-A-Car and National Car Rental
+    discount-sub-title:
+    discount-img: cma/entreprise.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>We're pleased to have Enterprise Rent-A-Car and National Car Rental as preferred rental suppliers for the CMA. This provides significant savings in rental rates and also provides CMA travellers with special recognition and service.</p>
+      <p>National Car Rental has long been favored by frequent renters at airports for speed and vehicle choice. Enterprise will provide the custom attention and service needed for the local market rentals while also serving the needs of airport travellers where Enterprise is available and preferred.</p>
+      <p>When you’re ready to go, Enterprise Rent-A-Car makes it easy with everyday low rates on great cars. With the largest fleet in North America and a wide variety of vehicles, Enterprise has you covered. Plus, they're always nearby with over 6,000 neighborhood and airport locations in North America and offer additional benefits such as:
+      </p>
+      <ul>
+          <li>
+              home city locations
+          </li>
+          <li>
+              free pickup service
+          </li>
+          <li>
+              long-term rentals
+          </li>
+      </ul>
+      <p>
+          At National, we pride ourselves on always providing you with unsurpassed
+          convenience and choice. As an experienced traveler, we know you want to get
+          your way – fast. Go National. Go Like a Pro.
+      </p>
+      <p>
+          CMA travellers are entitled to complimentary membership in the <strong>Emerald Club</strong> frequent renter program for National Car
+          Rental in the US and Canada. Benefits include:
+      </p>
+      <blockquote>
+      <ul type="disc">
+          <li>
+              Bypass the counter and choose your own car from the Emerald Aisle <sup>®</sup> or Emerald Club Executive<sup>®</sup> area.
+          </li>
+          <li>
+              Drop &amp; Go – for express car return through the delivery of
+              e-receipts. There's no need to wait around for a piece of paper when
+              you return your car. Sign up to receive this benefit and we'll
+              automatically email your receipts to you for each returned rental.
+          </li>
+          <li>
+              Choice of rewards, including free days or frequent traveler
+              miles/points.
+          </li>
+          <li>
+              Emerald Alerts<sup>SM</sup> provide arrival and return email alerts
+              with helpful information.
+          </li>
+          <li>
+              Mobile app provides speed, choice and control to frequent travelers.
+          </li>
+          <li>
+              Earn tier and rental rewards when renting at participating Enterprise
+              Rent-A-Car<sup>®</sup> locations*.
+          </li>
+          <li>
+              Increased benefits and rewards at higher tier levels.
+          </li>
+          <li>
+              Status matching – to ensure a smooth transition into our loyalty
+              program.
+          </li>
+      </ul>
+      <p>
+        Use your Emerald Club benefits at Enterprise:
+      </p>
+      <ul type="disc">
+          <li>
+              Access to a network of 8,500 Enterprise locations – in addition to
+              renting from National, Emerald Club<sup>®</sup> members can now rent
+              from the thousands of neighborhood Enterprise locations.
+          </li>
+          <li>
+              Shared profiles – Emerald Club<sup>®</sup> member profiles are
+              automatically available at Enterprise.
+          </li>
+          <li>
+              CMA Emerald Club members can earn Emerald Club rental credits at
+              participating Enterprise Rent-A-Car locations.
+          </li>
+          <li>
+              Qualifying* Enterprise rentals will count toward improving their
+              Emerald Club status and earning Free Rental Days redeemable at National
+              locations.
+          </li>
+      </ul>
+      </blockquote>
+    discount-promotion: >-
+      <p><strong>Enrollment and renewal process</strong></span></p>
+      <p>To learn more, visit www.emeraldclubpromos.com/loyalty. Please remember to update your travel profile with your Emerald Club number to ensure you receive benefits on all your future rentals. Your Emerald Club number is valid at both National Car Rental and Enterprise Rent-A-Car.</p>
+      <p><i>Enterprise service will be provided. For the definition of qualifying rental, a list of non-participating locations, and other important terms and conditions, please review the Emerald Club Master Rental Agreement and Program Rules and Conditions, which can be found at emeraldclub.com.</i></p>
+      <p><i>If you have questions regarding the CMA program provided by Enterprise Rent-A-Car or National Car Rentals, contact the CMA Member Centre at 1-888-855-2555 (weekdays, 8 am to 8 pm ET) or memberservicecentre@cma.ca.</i></p>
+  - lang: en
+    discount-title: VIA Rail
+    discount-sub-title:
+    discount-img: cma/via-rail.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>CMA members receive a 12.5% discount when they book a train ticket. The discount includes VIA 1 class. (Rail passes and BizPack are excluded). The discount applies to both business and leisure trips and can include up to three additional passengers — providing that they're accompanied by a CMA member.</p>
+      <p><strong>VIA Preference Reward Program</strong></p>
+      <p>
+        Accumulate points that can be used towards free trips. There are no membership fees. There are no service charges, no blackout periods and the website is very user friendly. Get your <a href="https://www.viapreference.com/">VIA Preference</a> membership.
+      </p>
+      <p>
+        Please be advised that a valid CMA Identification card or proof of active CMA membership may be required at the time of boarding to validate the discounted rate.
+      </p>
+  - lang: en
+    discount-title: Grand & Toy
+    discount-sub-title:
+    discount-img: cma/grand-toy.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Save 10-20% off the web price of office supplies from Grand & Toy, your single source supplier for one-stop purchasing.</p>
+  - lang: en
+    discount-title: Lenovo
+    discount-sub-title:
+    discount-img: cma/lenovo.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Save up to 30% off the everyday public web price of Lenovo’s entire line of PC products, plus get free ground shipping on all web orders.</p>
+  - lang: en
+    discount-title: UPS
+    discount-sub-title:
+    discount-img: cma/ups.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>Save 40% off small package shipments, imports and more with UPS.</p>
