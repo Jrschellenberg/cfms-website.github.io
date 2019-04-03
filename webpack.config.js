@@ -1,8 +1,4 @@
 'use strict';
-const ImageminPlugin = require('imagemin-webpack-plugin').default;
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const imageminMozjpeg = require('imagemin-mozjpeg');
-
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
@@ -123,13 +119,6 @@ module.exports = {
       },
     ],
   },
-  
-  
-  // plugins: [
-  //   new MiniCssExtractPlugin({
-  //     filename: "stylesheets/[name].css?[hash]"
-  //   }),
-  // ],
   
 
   
