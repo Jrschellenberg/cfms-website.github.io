@@ -144,7 +144,7 @@ role: VP Government Affairs
             Here is where we build the search form. The checkboxes of tags to filter are automatically generated from the position-papers.yml file
             They are under the filter-tags data
         {% endcomment %}
-        <blockquote>
+        <blockquote class="position-paper-select-form">
             <h3 class="editable"><strong>Search Form For Position Papers</strong></h3>
             <br />
 
@@ -155,10 +155,18 @@ role: VP Government Affairs
             <form id="filters" style="display: none;">
                 <fieldset class="textAlignLeft">
                     <legend class="editable">Search By Tag:</legend>
-                    {% for filterData in paperInformation.filter-tags %}
-                        <span class="filter-checkbox-image-wrapper {{filterData.tag | downcase}}">{{filterData.tag | upcase}}</span><input class="filter-checkbox" type="checkbox" id="{{filterData.tag | upcase}}" />{{filterData.tag-name}}
-                        <br />
-                    {% endfor %}
+                    <ul>
+                        {% for filterData in paperInformation.filter-tags %}
+                            <li class="filter-tag-container">
+                                <label className="checkbox-button">
+                                    <span class="filter-checkbox-image-wrapper {{ filterData.tag | downcase }}">{{ filterData.tag | upcase }}</span>
+                                    <input type="checkbox" class="checkbox-button__input" id="{{filterData.tag | upcase}}" />
+                                    <span class="checkbox-button__control"></span>
+                                    <span class="checkbox-button__label">{{filterData.tag-name}}</span>
+                                </label>
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </fieldset>
                 <br />
                 <fieldset>
