@@ -1,7 +1,7 @@
 ---
 title: >-
   CFMS Summer Studentships on Seniors Care and Aging 
-date: 2019-04-07 20:00:00
+date: 2019-04-06 20:00:00
 description: >-
   The Canadian Federation of Medical Students (CFMS) is pleased to offer Summer Studentship opportunities to support 1-2 students to continue the work on seniors care and aging.
 lang: en
