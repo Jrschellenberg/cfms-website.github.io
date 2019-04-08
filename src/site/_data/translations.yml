@@ -349,6 +349,7 @@ sidebar-discounts:
     lasik: LASIK MD Vision Correction
     discounts-tax: Tax Services
     medskl: MEDSKL QBank Access
+    cma-discounts: CMA Discounts
   - lang: fr
     sidebar-title_1: Réductions
     travel-and-accommodations: Réductions sur les Voyages
@@ -359,6 +360,7 @@ sidebar-discounts:
     wellness-discounts: Wellness Discounts
     discounts-tax: Tax Services
     medskl: MEDSKL QBank Access
+    cma-discounts: CMA Discounts
 sidebar-databases:
   - lang: en
     sidebar-title_1: Databases
