@@ -65,18 +65,24 @@ sitemap:
         
         {% for paperInformation in site.data.position-papers.position-papers %}
         {% if paperInformation.lang == page.lang %}
-        
-        <blockquote>
+
+        <blockquote class="position-paper-select-form">
             <h3 class="editable"><strong>Formulaire de recherche pour les documents de position</strong></h3>
             <br />
             
         <form id="filters" style="display: none;">
             <fieldset class="textAlignLeft">
                 <legend class="editable">Recherche par étiquette:</legend>
-                    {% for filterData in paperInformation.filter-tags %}
-                        <span class="filter-checkbox-image-wrapper {{filterData.tag | downcase}}">{{filterData.tag | upcase}}</span><input class="filter-checkbox" type="checkbox" id="{{filterData.tag | upcase}}" />{{filterData.tag-name}}
-                    <br />
-                    {% endfor %}
+                {% for filterData in paperInformation.filter-tags %}
+                    <li class="filter-tag-container">
+                        <label className="checkbox-button">
+                            <span class="filter-checkbox-image-wrapper {{ filterData.tag | downcase }}">{{ filterData.tag | upcase }}</span>
+                            <input type="checkbox" class="checkbox-button__input" id="{{filterData.tag | upcase}}" />
+                            <span class="checkbox-button__control"></span>
+                            <span class="checkbox-button__label">{{filterData.tag-name}}</span>
+                        </label>
+                    </li>
+                {% endfor %}
             </fieldset>
             <br />
             <fieldset>
@@ -99,68 +105,94 @@ sitemap:
         
         
         {% assign index = 1 %} {% comment %} This variable is used to set every single paper a unique id {% endcomment %}
-        
+
         {% for paperCollection in paperInformation.paper-collection %}
-        {% comment %}
-        This first loop grabs the whole paper-collection from the .yml file
-        {% endcomment %}
+            {% comment %}
+                This first loop grabs the whole paper-collection from the .yml file
+            {% endcomment %}
             {% for paperSections in paperCollection.section %}
                 {% comment %}
-                This for loop now populates the page with each section available in the paper-collection from the .yml file
+                    This for loop now populates the page with each section available in the paper-collection from the .yml file
                 {% endcomment %}
                 <blockquote>
                     <h3 class="paper-section-title"><strong>{{paperSections}}</strong></h3>
                     <ul class="paper-section">
                         {% assign sectionPapers = paperCollection.papers | sort: 'paper-publish-date' %}
                         {% for papers in sectionPapers reversed %}
-                        {% comment %}
-                        This loop now grabs all of the papers available to a specific section to populate the section with its papers
-                        {% endcomment %}
-                        
-                        {% comment %}
-                            This logic here is used to Set the data-filters array for each specific paper, assigning the proper tags
-                            From the .yml file. The tags must be organized ie: [A, B, C ,D]
-                        {% endcomment %}
-                        {% assign myArray = "" %}
-                        {% for tags in papers.paper-tags %}
-                            {% if forloop.first %}
-                                {% if tags.tag != "null" and tags.tag != "" %}
-                                    {% assign appendTag = tags.tag | upcase %}
-                                    {% assign myArray = myArray | append: appendTag %} 
+                            {% comment %}
+                                This loop now grabs all of the papers available to a specific section to populate the section with its papers
+                            {% endcomment %}
+
+                            {% comment %}
+                                This logic here is used to Set the data-filters array for each specific paper, assigning the proper tags
+                                From the .yml file. The tags must be organized ie: [A, B, C ,D]
+                            {% endcomment %}
+                            {% assign myArray = "" %}
+                            {% for tags in papers.paper-tags %}
+                                {% if forloop.first %}
+                                    {% if tags.tag != "null" and tags.tag != "" %}
+                                        {% assign myArray = myArray | append: {{tags.tag | upcase}} %}
+                                    {% endif %}
+                                    {% if tags.tag == "null" or tags.tag == "" %}
+                                        {% assign myArray = myArray | append: 'NT' %}
+                                    {% endif %}
                                 {% endif %}
-                                {% if tags.tag == "null" or tags.tag == "" %}
-                                    {% assign myArray = myArray | append: 'NT' %}
-                                {% endif %}
-                            {% endif %}
-                            {% unless forloop.first %}
+                                {% unless forloop.first %}
                                 {% assign myArray = myArray | append: ', ' %}
-                                {% if tags.tag != "null" and tags.tag != "" %}
-                                    {% assign appendTag = tags.tag | upcase %}
-                                    {% assign myArray = myArray | append: appendTag %}
-                                {% endif %}
-                                {% if tags.tag == "null" or tags.tag == "" %}
-                                    {% assign myArray = myArray | append: 'NT' %}
-                                {% endif %}
-                            {% endunless %}
+                                    {% if tags.tag != "null" and tags.tag != "" %}
+                                        {% assign myArray = myArray | append: {{tags.tag | upcase}} %}
+                                    {% endif %}
+                                    {% if tags.tag == "null" or tags.tag == "" %}
+                                        {% assign myArray = myArray | append: 'NT' %}
+                                    {% endif %}
+                                {% endunless %}
+                            {% endfor %}
+
+                            {% comment %}
+                                Here is where we populate each section with the papers available to that section
+                            {% endcomment %}
+                            <li id="paper_{{index}}" class="filtered-content" data-filters="[{{myArray}}]" data-index="{{index}}">
+                                <div class="arrow-down active" id="arrow-down_{{index}}"></div>
+                                {% for tags in papers.paper-tags %}
+                                    {% if tags.tag != "null" and tags.tag != "" %}
+                                        <span class="{{tags.tag | downcase}}">{{tags.tag | upcase}}</span>
+                                    {% endif %}
+                                    {% if tags.tag == "null" or tags.tag == "" %}
+                                        <span class="nt">NT</span>
+                                    {% endif %}
+                                {% endfor %}
+                                <span class="pub-date">{{papers.paper-publish-date}}</span>
+                                <span class="paper-title">{{papers.paper-name}}</span>
+                            </li>
+                            <li id="details_{{index}}" class="paper-details">
+                                <div class="paper-detail-container">
+                                    <div class="left">
+                                        <h2>Summary</h2>
+                                        <p>{{papers.paper-summary}}</p>
+                                        <h2>Status</h2>
+                                        <p>{{papers.paper-status}}</p>
+                                    </div>
+                                    <div class="right">
+                                        <h2>Contact Person(s)</h2>
+                                        <ul class="paper-contacts">
+                                            {% for contact in papers.paper-contacts %}
+                                                <li>{{contact.name}} - <a href="mailto:{{contact.email}}">{{contact.email}}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                        <h2>NOHP(s)</h2>
+                                        <ul class="paper-cohps">
+                                            {% for nohp in papers.paper-nohps %}
+                                                <li>{{nohp.name}} - <a href="mailto:{{nohp.email}}">{{nohp.email}}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                        <p></p>
+                                        <div class="button" style="margin-top:10px;"><a href="{{papers.paper-link}}" style="cursor:pointer"> <strong>Download</strong> </a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            {% assign index = index | plus:1 %}
+
                         {% endfor %}
-                        
-                        {% comment %}
-                            Here is where we populate each section with the papers available to that section
-                        {% endcomment %}
-                       <li id="paper_{{index}}" class="filtered-content" data-filters="[{{myArray}}]">
-                           {% for tags in papers.paper-tags %}
-                           {% if tags.tag != "null" and tags.tag != "" %}
-                           <span class="{{tags.tag | downcase}}">{{tags.tag | upcase}}</span> 
-                           {% endif %}
-                           {% if tags.tag == "null" or tags.tag == "" %}
-                           <span class="nt">NT</span>
-                           {% endif %}
-                           {% endfor %}
-                           <span class="pub-date">{{papers.paper-publish-date}}</span>
-                           <span class="paper-title" onclick="showPaperSummary('{{papers.paper-summary}}', '{{papers.paper-status}}', '{{papers.paper-link}}');">{{papers.paper-name}}</span></li>
-                           {% assign index = index | plus:1 %}
-                    
-                    {% endfor %}
                     </ul>
                 </blockquote>
             {% endfor %}
