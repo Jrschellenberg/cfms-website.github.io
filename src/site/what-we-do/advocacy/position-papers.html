@@ -1,9 +1,9 @@
 ---
 title: Position Papers
 sitemap:
-  priority: 0.7
-  changefreq: monthly
-  role: VP Government Affairs
+priority: 0.7
+changefreq: monthly
+role: VP Government Affairs
 ---
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ sitemap:
 <head>
     {% include head.html %}
     <!--Page Specific Stylesheet-->
-    <link rel="stylesheet" href="/stylesheets/what-we-do.css" />
+    <link rel="stylesheet" href="/stylesheets/what-we-do.css"/>
     <script type="text/javascript" src="/js/resolution.js"></script>
     <!--Page Specific Stylesheet-->
 
@@ -26,84 +26,117 @@ sitemap:
 {% include nav.html %}
 <!--Page Specific Formatting-->
 <script type="text/javascript">
-    document.querySelector( "#logo-invert" ).classList.toggle("hidden");
-    document.querySelector( "#what-we-do" ).classList.toggle("active");
-
-    function escapeHTML(input) {
-        return input.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-    }
-
-    function showPaperSummary(summary, status, link) {
-        summary = (summary) ? summary : 'N/A';
-        status = (status) ? status : 'N/A';
-        vex.dialog.buttons.YES.text = 'Download';
-        vex.dialog.buttons.NO.text = 'Close';
-        var msg = '<h2>Summary</h2>' + escapeHTML(summary) + '<br><h2>Status</h2>' + escapeHTML(status);
-
-        vex.dialog.confirm({
-            message: msg,
-            callback: function (value) {
-                if (value) window.open(link);
-            }
-        });
-    }
+  document.querySelector("#logo-invert").classList.toggle("hidden");
+  document.querySelector("#what-we-do").classList.toggle("active");
+  
+  function escapeHTML(input) {
+    return input.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+  
+  function showPaperSummary(summary, status, link) {
+    summary = (summary) ? summary : 'N/A';
+    status = (status) ? status : 'N/A';
+    vex.dialog.buttons.YES.text = 'Download';
+    vex.dialog.buttons.NO.text = 'Close';
+    var msg = '<h2>Summary</h2>' + escapeHTML(summary) + '<br><h2>Status</h2>' + escapeHTML(status);
+    
+    vex.dialog.confirm({
+      message: msg,
+      callback: function (value) {
+        if (value) window.open(link);
+      }
+    });
+  }
 </script>
 <div class="content">
     <!-- Displays the sidebar and emphasizes the active page -->
     {% include sidebar-advocacy.html %}
     <script type="text/javascript">
-        document.querySelector( "#position-papers" ).classList.toggle("sidebar-active");
+      document.querySelector("#position-papers").classList.toggle("sidebar-active");
     </script>
     <div id="side-content">
         <h1 id="page-title">{{ page.title }}</h1>
         <div class="editable">
-            <div class="pic-wrapper"><img class="pic-right" src="/images/page-images/position-papers.png" /></div>
+            <div class="pic-wrapper"><img class="pic-right" src="/images/page-images/position-papers.png"/></div>
             <h2><strong>What are Position Papers and Policy Documents?&nbsp;</strong></h2>
-            <p>These documents are evidence-based resources that identify the Canadian medical student perspective for a variety of health systems issues. These documents guide our advocacy efforts.</p>
+            <p>These documents are evidence-based resources that identify the Canadian medical student perspective for a
+                variety of health systems issues. These documents guide our advocacy efforts.</p>
             <ul>
-                <li><span class="pp">PP</span><a href="/CFMS Template Position Paper_BriefV1.docx"><strong>Position Papers</strong></a>: These are comprehensive documents that not only explore an issue of importance to the CFMS but outline an official stance of the CFMS membership and include organizational recommendations.</li>
-                <li><span class="ps">PS</span><a href="/CFMS Template Policy Statement_BriefV1.docx"><strong>Policy Statements</strong></a>: These are brief documents that highlight a position of CFMS membership toward an issue of importance but operate primarily through endorsement or rejection of a movement, organization or legislative material.</li>
-                <li><span class="dp">DP</span><a href="/CFMS_Template_DiscussionPaper_BriefV1.docx"><strong>Discussion Papers</strong></a>: These are comprehensive research documents that provide background information on a topic of interest and explore it, particularly from the medical student perspective. These papers are used primarily to serve as an education resource for said topic. They do not hold opinions and in fact, should explore all sides of a matter.</li>
+                <li><span class="pp">PP</span><a href="/CFMS Template Position Paper_BriefV1.docx"><strong>Position
+                            Papers</strong></a>: These are comprehensive documents that not only explore an issue of
+                    importance to the CFMS but outline an official stance of the CFMS membership and include
+                    organizational recommendations.
+                </li>
+                <li><span class="ps">PS</span><a href="/CFMS Template Policy Statement_BriefV1.docx"><strong>Policy
+                            Statements</strong></a>: These are brief documents that highlight a position of CFMS
+                    membership toward an issue of importance but operate primarily through endorsement or rejection of a
+                    movement, organization or legislative material.
+                </li>
+                <li><span class="dp">DP</span><a href="/CFMS_Template_DiscussionPaper_BriefV1.docx"><strong>Discussion
+                            Papers</strong></a>: These are comprehensive research documents that provide background
+                    information on a topic of interest and explore it, particularly from the medical student
+                    perspective. These papers are used primarily to serve as an education resource for said topic. They
+                    do not hold opinions and in fact, should explore all sides of a matter.
+                </li>
             </ul>
-            <p>For more information, please see the <a href="/files/position-papers/CFMS_COHP_TOR.pdf">Committee on Health Policy Terms of Reference</a>.</p>
+            <p>For more information, please see the <a href="/files/position-papers/CFMS_COHP_TOR.pdf">Committee on
+                    Health Policy Terms of Reference</a>.</p>
             <h2><strong>How can I contribute?</strong></h2>
-            <p>Any CFMS member is welcome to submit a Policy Document or Position Statement for approval by the General Assembly.</p>
-            <p><strong>First.</strong> Please review our <a href="/files/position-papers/CFMS-Guiding-Document-Guidelines.pdf">Tools and Guidelines for Position and Policy Paper Development​.</a></p>
-            <p><strong>Second.</strong> Interested in writing something? Take a look at the our existing documents in our <a href="https://docs.google.com/spreadsheets/d/1rRVCkE3jGHfRXJ7thJdL_4oabuRUJ2MAhvSPkuAxzwM">advocacy tracker</a><i> (updated March 29, 2019)</i>. Here you&rsquo;ll see documents that are passed, as well as documents that are currently in-progress. Contacts are available for in-progress papers, in case you want to reach out/get involved.</p>
-            <p><strong>Third.</strong> Have an idea? Check out what the policy paper submission process looks like with this hip infographic, and gauge if this is something that would fuel your initiative.</p>
-            <p><img src="/images/page-images/advocacy-tracker/infographic-submission-process.png" /></p>
-            <p><strong>Fourth.</strong>Set on this path? Submit a <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvQYKBo-psESjKviMf66BW57OBtQRhDc47vX9gn_fKKWkTlA/viewform?usp=sf_link">Statement of Intent</a> with your idea. Got a team? Collectively submit one form, and list names in the form. The Committee of Health Policy and National Officer of Health Policy will contact you in regards to your inquiry.</p>
-            <p><strong>Fifth.</strong>Once we get back to you, feel free to refer back to this site for resources! Check our new templates for each paper here as well.</p>
+            <p>Any CFMS member is welcome to submit a Policy Document or Position Statement for approval by the General
+                Assembly.</p>
+            <p><strong>First.</strong> Please review our <a
+                        href="/files/position-papers/CFMS-Guiding-Document-Guidelines.pdf">Tools and Guidelines for
+                    Position and Policy Paper Development​.</a></p>
+            <p><strong>Second.</strong> Interested in writing something? Take a look at the our existing documents in
+                our <a href="https://docs.google.com/spreadsheets/d/1rRVCkE3jGHfRXJ7thJdL_4oabuRUJ2MAhvSPkuAxzwM">advocacy
+                    tracker</a><i> (updated March 29, 2019)</i>. Here you&rsquo;ll see documents that are passed, as
+                well as documents that are currently in-progress. Contacts are available for in-progress papers, in case
+                you want to reach out/get involved.</p>
+            <p><strong>Third.</strong> Have an idea? Check out what the policy paper submission process looks like with
+                this hip infographic, and gauge if this is something that would fuel your initiative.</p>
+            <p><img src="/images/page-images/advocacy-tracker/infographic-submission-process.png"/></p>
+            <p><strong>Fourth.</strong>Set on this path? Submit a <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfvQYKBo-psESjKviMf66BW57OBtQRhDc47vX9gn_fKKWkTlA/viewform?usp=sf_link">Statement
+                    of Intent</a> with your idea. Got a team? Collectively submit one form, and list names in the form.
+                The Committee of Health Policy and National Officer of Health Policy will contact you in regards to your
+                inquiry.</p>
+            <p><strong>Fifth.</strong>Once we get back to you, feel free to refer back to this site for resources! Check
+                our new templates for each paper here as well.</p>
             <blockquote>
                 <h4>Archived Policy Documents and Position Papers</h4>
-                <p>To view our archived policy documents and position papers, see <a href="archived-position-papers.html">Archived Policy Documents and Position Papers</a></p>
+                <p>To view our archived policy documents and position papers, see <a
+                            href="archived-position-papers.html">Archived Policy Documents and Position Papers</a></p>
             </blockquote>
             <blockquote>
                 <h4><strong>Questions?</strong></h4>
-                <p>For more information please contact our National Officer of Health Policy, David Wiercigroch, at <a href="mailto:nohp@cfms.org">nohp@cfms.org</a> or our Director of Government Affairs, Yipeng Ge, at <a href="mailto:vpgovtaffairs@cfms.org">vpgovtaffairs@cfms.org</a></p>
+                <p>For more information please contact our National Officer of Health Policy, David Wiercigroch, at <a
+                            href="mailto:nohp@cfms.org">nohp@cfms.org</a> or our Director of Government Affairs, Yipeng
+                    Ge, at <a href="mailto:vpgovtaffairs@cfms.org">vpgovtaffairs@cfms.org</a></p>
             </blockquote>
-            <!--
-                                                                                                            <p>Please review our&nbsp;<a href="/files/position-papers/cfms_position_paper_guidelines%202016.pdf">Tools and Guidelines for Position and Policy Paper Development​</a>.</p>
-                                                                                                            <p>For more information please contact our National Officer of Health Policy, Shanza Hashmi, at <a href="mailto:nohp@cfms.org">nohp@cfms.org</a> or our VP Government Affairs, Yipeng Ge, at <a href="mailto:vpgovtaffairs@cfms.org">vpgovtaffairs@cfms.org</a> for more information.</p>
-                                                                                                            <blockquote>
-                                                                                                                <h4><strong>Interested in writing a position paper?</strong></h4>
-                                                                                                                <ul>
-                                                                                                                    <li>
-                                                                                                                        <span class="file-format">DOCX</span>Please see this <a href="/files/position-papers/CFMS_position-paper_template_2013-12-30.docx">Position Paper Template</a>
-                                                                                                                    </li>
-                                                                                                                    <li>
-                                                                                                                        <span class="file-format">PDF</span><a href="/files/position-papers/cfms_position_paper_guidelines%202016.pdf">Position Paper Guidelines</a> (2016)
-                                                                                                                    </li>
-                                                                                                                </ul>
-                                                                                                            </blockquote>
-                                                                                                            <blockquote>
-                                                                                                                <h4>Archived Policy Documents and Position Papers</h4>
-                                                                                                                <p>To view our archived policy documents and position papers, see <a href="archived-position-papers.html">Archived Policy Documents and Position Papers</a></p>
-                                                                                                            </blockquote>
-                                                                                                            -->
-            <h3 style="padding-top: 30px;">All guiding documents are also accessible by the CFMS <a href="https://docs.google.com/spreadsheets/d/1rRVCkE3jGHfRXJ7thJdL_4oabuRUJ2MAhvSPkuAxzwM/edit?usp=sharing">Advocacy Tracker.</a></h3>
+          
+                <p>Please review our&nbsp;<a href="/files/position-papers/cfms_position_paper_guidelines%202016.pdf">Tools and Guidelines for Position and Policy Paper Development​</a>.</p>
+                <p>For more information please contact our National Officer of Health Policy, Shanza Hashmi, at <a href="mailto:nohp@cfms.org">nohp@cfms.org</a> or our VP Government Affairs, Yipeng Ge, at <a href="mailto:vpgovtaffairs@cfms.org">vpgovtaffairs@cfms.org</a> for more information.</p>
+                <blockquote>
+                    <h4><strong>Interested in writing a position paper?</strong></h4>
+                    <ul>
+                        <li>
+                            <span class="file-format">DOCX</span>Please see this <a href="/files/position-papers/CFMS_position-paper_template_2013-12-30.docx">Position Paper Template</a>
+                        </li>
+                        <li>
+                            <span class="file-format">PDF</span><a href="/files/position-papers/cfms_position_paper_guidelines%202016.pdf">Position Paper Guidelines</a> (2016)
+                        </li>
+                    </ul>
+                </blockquote>
+                <blockquote>
+                    <h4>Archived Policy Documents and Position Papers</h4>
+                    <p>To view our archived policy documents and position papers, see <a href="archived-position-papers.html">Archived Policy Documents and Position Papers</a></p>
+                </blockquote>
+               
+            <h3 style="padding-top: 30px;">All guiding documents are also accessible by the CFMS <a
+                        href="https://docs.google.com/spreadsheets/d/1rRVCkE3jGHfRXJ7thJdL_4oabuRUJ2MAhvSPkuAxzwM/edit?usp=sharing">Advocacy
+                    Tracker.</a></h3>
             <h1 style="padding-top:30px;"><strong>Current Policy Documents and Position Statements</strong></h1>
-            <hr />
+            <hr/>
         </div>
 
         <!--Add liquid logic here-->
@@ -111,7 +144,7 @@ sitemap:
             Here is where we build the search form. The checkboxes of tags to filter are automatically generated from the position-papers.yml file
             They are under the filter-tags data
         {% endcomment %}
-        <blockquote>
+        <blockquote class="position-paper-select-form">
             <h3 class="editable"><strong>Search Form For Position Papers</strong></h3>
             <br />
 
@@ -119,27 +152,35 @@ sitemap:
             {% if paperInformation.lang == page.lang %}
 
 
-        <form id="filters" style="display: none;">
-            <fieldset class="textAlignLeft">
-                <legend class="editable">Search By Tag:</legend>
-                    {% for filterData in paperInformation.filter-tags %}
-                        <span class="filter-checkbox-image-wrapper {{filterData.tag | downcase}}">{{filterData.tag | upcase}}</span><input class="filter-checkbox" type="checkbox" id="{{filterData.tag | upcase}}" />{{filterData.tag-name}}
-                    <br />
-                    {% endfor %}
-            </fieldset>
-            <br />
-            <fieldset>
-                <legend class="editable">Search By Section:</legend>
-            <select id="select-box" name="paper-section">
-                <option id="initialSectionSelection" class="editable">All Sections</option>
-                {% for paperSections in paperInformation.paper-collection %}
-                <option>{{paperSections.section}}</option>
-                {% endfor %}
-            </select>
-            </fieldset>
-            <br />
-            <legend class="editable">Search by Title:</legend><input style="display:none;" id="searchFilter" type="text" name="search" placeholder="Search Paper Name with Filters" />
-        </form>
+            <form id="filters" style="display: none;">
+                <fieldset class="textAlignLeft">
+                    <legend class="editable">Search By Tag:</legend>
+                    <ul>
+                        {% for filterData in paperInformation.filter-tags %}
+                            <li class="filter-tag-container">
+                                <label className="checkbox-button">
+                                    <span class="filter-checkbox-image-wrapper {{ filterData.tag | downcase }}">{{ filterData.tag | upcase }}</span>
+                                    <input type="checkbox" class="checkbox-button__input" id="{{filterData.tag | upcase}}" />
+                                    <span class="checkbox-button__control"></span>
+                                    <span class="checkbox-button__label">{{filterData.tag-name}}</span>
+                                </label>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend class="editable">Search By Section:</legend>
+                    <select id="select-box" name="paper-section">
+                        <option id="initialSectionSelection" class="editable">All Sections</option>
+                        {% for paperSections in paperInformation.paper-collection %}
+                            <option>{{paperSections.section}}</option>
+                        {% endfor %}
+                    </select>
+                </fieldset>
+                <br />
+                <legend class="editable">Search by Title:</legend><input style="display:none;" id="searchFilter" type="text" name="search" placeholder="Search Paper Name with Filters" />
+            </form>
         </blockquote>
 
         <blockquote id="noJavaScriptMessage" style="display:block;">
@@ -150,106 +191,104 @@ sitemap:
         {% assign index = 1 %} {% comment %} This variable is used to set every single paper a unique id {% endcomment %}
 
         {% for paperCollection in paperInformation.paper-collection %}
-        {% comment %}
-        This first loop grabs the whole paper-collection from the .yml file
-        {% endcomment %}
+            {% comment %}
+                This first loop grabs the whole paper-collection from the .yml file
+            {% endcomment %}
             {% for paperSections in paperCollection.section %}
                 {% comment %}
-                This for loop now populates the page with each section available in the paper-collection from the .yml file
+                    This for loop now populates the page with each section available in the paper-collection from the .yml file
                 {% endcomment %}
                 <blockquote>
                     <h3 class="paper-section-title"><strong>{{paperSections}}</strong></h3>
                     <ul class="paper-section">
-                    {% assign sectionPapers = paperCollection.papers | sort: 'paper-publish-date' %}
-                    {% for papers in sectionPapers reversed %}
-                        {% comment %}
-                        This loop now grabs all of the papers available to a specific section to populate the section with its papers
-                        {% endcomment %}
+                        {% assign sectionPapers = paperCollection.papers | sort: 'paper-publish-date' %}
+                        {% for papers in sectionPapers reversed %}
+                            {% comment %}
+                                This loop now grabs all of the papers available to a specific section to populate the section with its papers
+                            {% endcomment %}
 
-                        {% comment %}
-                            This logic here is used to Set the data-filters array for each specific paper, assigning the proper tags
-                            From the .yml file. The tags must be organized ie: [A, B, C ,D]
-                        {% endcomment %}
-                        {% assign myArray = "" %}
-                        {% for tags in papers.paper-tags %}
-                            {% if forloop.first %}
-                                {% if tags.tag != "null" and tags.tag != "" %}
-                                    {% assign appendTag = tags.tag | upcase %}
-                                    {% assign myArray = myArray | append: appendTag %}
+                            {% comment %}
+                                This logic here is used to Set the data-filters array for each specific paper, assigning the proper tags
+                                From the .yml file. The tags must be organized ie: [A, B, C ,D]
+                            {% endcomment %}
+                            {% assign myArray = "" %}
+                            {% for tags in papers.paper-tags %}
+                                {% if forloop.first %}
+                                    {% if tags.tag != "null" and tags.tag != "" %}
+                                        {% assign myArray = myArray | append: {{tags.tag | upcase}} %}
+                                    {% endif %}
+                                    {% if tags.tag == "null" or tags.tag == "" %}
+                                        {% assign myArray = myArray | append: 'NT' %}
+                                    {% endif %}
                                 {% endif %}
-                                {% if tags.tag == "null" or tags.tag == "" %}
-                                    {% assign myArray = myArray | append: 'NT' %}
-                                {% endif %}
-                            {% endif %}
-                            {% unless forloop.first %}
+                                {% unless forloop.first %}
                                 {% assign myArray = myArray | append: ', ' %}
-                                {% if tags.tag != "null" and tags.tag != "" %}
-                                    {% assign appendTag = tags.tag | upcase %}
-                                    {% assign myArray = myArray | append: appendTag %}
-                                {% endif %}
-                                {% if tags.tag == "null" or tags.tag == "" %}
-                                    {% assign myArray = myArray | append: 'NT' %}
-                                {% endif %}
-                            {% endunless %}
+                                    {% if tags.tag != "null" and tags.tag != "" %}
+                                        {% assign myArray = myArray | append: {{tags.tag | upcase}} %}
+                                    {% endif %}
+                                    {% if tags.tag == "null" or tags.tag == "" %}
+                                        {% assign myArray = myArray | append: 'NT' %}
+                                    {% endif %}
+                                {% endunless %}
+                            {% endfor %}
+
+                            {% comment %}
+                                Here is where we populate each section with the papers available to that section
+                            {% endcomment %}
+                            <li id="paper_{{index}}" class="filtered-content" data-filters="[{{myArray}}]" data-index="{{index}}">
+                                <div class="arrow-down active" id="arrow-down_{{index}}"></div>
+                                {% for tags in papers.paper-tags %}
+                                    {% if tags.tag != "null" and tags.tag != "" %}
+                                        <span class="{{tags.tag | downcase}}">{{tags.tag | upcase}}</span>
+                                    {% endif %}
+                                    {% if tags.tag == "null" or tags.tag == "" %}
+                                        <span class="nt">NT</span>
+                                    {% endif %}
+                                {% endfor %}
+                                <span class="pub-date">{{papers.paper-publish-date}}</span>
+                                <span class="paper-title">{{papers.paper-name}}</span>
+                                <!--<span class="paper-title" onclick="showPaperSummary('{{papers.paper-summary}}', '{{papers.paper-status}}', '{{papers.paper-link}}');">{{papers.paper-name}}</span>-->
+                            </li>
+                            <li id="details_{{index}}" class="paper-details">
+                                <div class="paper-detail-container">
+                                    <div class="left">
+                                        <h2>Summary</h2>
+                                        <p>{{papers.paper-summary}}</p>
+                                        <h2>Status</h2>
+                                        <p>{{papers.paper-status}}</p>
+                                    </div>
+                                    <div class="right">
+                                        <h2>Contact Person(s)</h2>
+                                        <ul class="paper-contacts">
+                                            {% for contact in papers.paper-contacts %}
+                                                <li>{{contact.name}} - <a href="mailto:{{contact.email}}">{{contact.email}}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                        <h2>NOHP(s)</h2>
+                                        <ul class="paper-cohps">
+                                            {% for nohp in papers.paper-nohps %}
+                                                <li>{{nohp.name}} - <a href="mailto:{{nohp.email}}">{{nohp.email}}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                        <p></p>
+                                        <div class="button" style="margin-top:10px;"><a href="{{papers.paper-link}}" style="cursor:pointer"> <strong>Download</strong> </a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            {% assign index = index | plus:1 %}
+
                         {% endfor %}
-
-                        {% comment %}
-                            Here is where we populate each section with the papers available to that section
-                        {% endcomment %}
-                       <li id="paper_{{index}}" class="filtered-content" data-filters="[{{myArray}}]" data-index="{{index}}">
-                           <div class="arrow-down active" id="arrow-down_{{index}}"></div>
-                           {% for tags in papers.paper-tags %}
-                           {% if tags.tag != "null" and tags.tag != "" %}
-                           <span class="{{tags.tag | downcase}}">{{tags.tag | upcase}}</span>
-                           {% endif %}
-                           {% if tags.tag == "null" or tags.tag == "" %}
-                           <span class="nt">NT</span>
-                           {% endif %}
-                           {% endfor %}
-                           <span class="pub-date">{{papers.paper-publish-date}}</span>
-                           <span class="paper-title">{{papers.paper-name}}</span>
-                           <!--<span class="paper-title" onclick="showPaperSummary('{{papers.paper-summary}}', '{{papers.paper-status}}', '{{papers.paper-link}}');">{{papers.paper-name}}</span>-->
-                       </li>
-                        <li id="details_{{index}}" class="paper-details">
-                            <div class="paper-detail-container">
-                                <div class="left">
-                                    <h2>Summary</h2>
-                                    <p>{{papers.paper-summary}}</p>
-                                    <h2>Status</h2>
-                                    <p>{{papers.paper-status}}</p>
-                                </div>
-                                <div class="right">
-                                    <h2>Contact Person(s)</h2>
-                                    <ul class="paper-contacts">
-                                        {% for contact in papers.paper-contacts %}
-                                        <li>{{contact.name}} - <a href="mailto:{{contact.email}}">{{contact.email}}</a></li>
-                                        {% endfor %}
-                                    </ul>
-                                    <h2>NOHP(s)</h2>
-                                    <ul class="paper-cohps">
-                                        {% for nohp in papers.paper-nohps %}
-                                        <li>{{nohp.name}} - <a href="mailto:{{nohp.email}}">{{nohp.email}}</a></li>
-                                        {% endfor %}
-                                    </ul>
-                                    <p></p>
-                                    <div class="button" style="margin-top:10px;"><a href="{{papers.paper-link}}" style="cursor:pointer"> <strong>Download</strong> </a></div>
-                                </div>
-                            </div>
-                        </li>
-                           {% assign index = index | plus:1 %}
-
-                    {% endfor %}
                     </ul>
                 </blockquote>
             {% endfor %}
         {% endfor %}
 
-                {% comment %} This peice of html is used with front-end logic to display a message if search yielded no results {% endcomment %}
-                <blockquote id="noResultMessage" style="display:none;">
-                    <h3><strong>Nothing was found. Try widening your search criteria </strong></h3>
-                </blockquote>
+        {% comment %} This peice of html is used with front-end logic to display a message if search yielded no results {% endcomment %}
+        <blockquote id="noResultMessage" style="display:none;">
+            <h3><strong>Nothing was found. Try widening your search criteria </strong></h3>
+        </blockquote>
 
-                {% endif %}
+        {% endif %}
         {% endfor %}
 
     </div>
