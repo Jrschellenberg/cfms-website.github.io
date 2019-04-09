@@ -367,15 +367,6 @@ label {
 .ip {
 	background-color: $primary-color
 }
-#searchFilter {
-	width: 130px;
-	-webkit-transition: width 0.4s ease-in-out;
-	transition: width 0.4s ease-in-out;
-
-}
-#searchFilter:focus{
-	width: 55%;
-}
 .textAlignLeft{
 	text-align: left;
 	margin: 0 auto;

@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins.scss';
 
 .content {
   display: flex;
@@ -653,7 +654,7 @@ $number-margin-mobile: 40px;
       outline: 0;
       background-color: transparent;
     }
-
+    
     .checkbox-button__input {
       opacity: 0;
       position: absolute;
@@ -698,8 +699,24 @@ $number-margin-mobile: 40px;
     End checkbox Styles
      */
   }
-}
+  select {
+    width: 228px;
+  }
+  select, #searchFilter {
+    padding: 8px 12px;
+  }
+  #searchFilter {
+    width: 200px;
+    transition: width 0.4s ease-in-out;
 
+    &:focus {
+      width: 55%;
+      @include mobile-only{
+        width: 90%;
+      }
+    }
+  }
+}
 
 .paper-section {
   list-style: none;

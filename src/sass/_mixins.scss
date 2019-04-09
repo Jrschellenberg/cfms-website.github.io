@@ -1,0 +1,13 @@
+@import "variables";
+
+@mixin sm-only{
+  @media(max-width:$sm){
+    @content;
+  }
+}
+
+@mixin  mobile-only{
+  @media(max-width: $md){
+    @content;
+  }
+}
