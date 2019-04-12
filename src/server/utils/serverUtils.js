@@ -6,40 +6,29 @@ class ServerUtils {
       // if an instance does not exist
       this.serverName = process.env.EXPRESS_BASE_API_NAME;
       this.secretCaptcha = process.env.GOOGLE_CAPTCHA_SECRET;
-      this.emailUserName = process.env.SENDER_EMAIL_USERNAME;
-      this.emailPassword = process.env.SENDER_EMAIL_PASSWORD;
-      this.recipientEmailUserName = process.env.RECIPIENT_EMAIL_ADDRESS;
-      this.clientId = process.env.OAUTH_CLIENT_ID;
-      this.secretId = process.env.OAUTH_SECRET_ID;
-      this.refreshToken = process.env.OAUTH_REFRESH_TOKEN;
+      
+      this.twitterCredentials = {
+        subdomain: "api",
+        consumer_key: process.env.TWITTER_CONSUMER_KEY, // from Twitter.
+        consumer_secret: process.env.TWITTER_CONSUMER_SECRET, // from Twitter.
+        access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY, // from your User (oauth_token)
+        access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET, // from your User (oauth_token_secret)
+      };
+
       ServerUtils.instance = this;
     }
     return ServerUtils.instance;
   }
+
   getRoutePath() {
     // Set router base path for local dev
     return process.env.DEV_ENV === 'true' ? `/${this.serverName}` : `/.netlify/functions/${this.serverName}/`;
   }
-  getClientId() {
-    return this.clientId;
-  }
-  getSecretId() {
-    return this.secretId;
-  }
-  getRefreshToken() {
-    return this.refreshToken;
+  getTwitterCredentials() {
+    return this.twitterCredentials;
   }
   getSecretCaptcha() {
     return this.secretCaptcha;
-  }
-  getEmailUserName() {
-    return this.emailUserName;
-  }
-  getEmailPassword() {
-    return this.emailPassword;
-  }
-  getRecipientsEmail() {
-    return this.recipientEmailUserName;
   }
 
   throwError(status, message, next) {
