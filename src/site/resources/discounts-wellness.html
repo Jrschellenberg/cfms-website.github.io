@@ -8,77 +8,109 @@ sitemap:
 
 <!--[if IE 8 ]> <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+
 <head>
-	{% include head.html %}
+  {% include head.html %}
 
-	<!--Page Specific Stylesheet-->
-	<link rel="stylesheet" href="/stylesheets/resources.css">
-	<!-- CodeMirror -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css" />
+  <!--Page Specific Stylesheet-->
+  <link rel="stylesheet" href="/stylesheets/resources.css">
+  <!-- CodeMirror -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css" />
 
-	<!-- Firepad -->
-	<link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css" />
-	<script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+  <!-- Firepad -->
+  <link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css" />
+  <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
 </head>
+
 <body>
-	{% include nav.html %}
+  {% include nav.html %}
 
-	<!--Page Specific Formatting-->
-	<script type="text/javascript">
-		document.querySelector( "#logo-invert" ).classList.toggle("hidden");
-		document.querySelector( "#resources" ).classList.toggle("active");
-	</script>
+  <!--Page Specific Formatting-->
+  <script type="text/javascript">
+    document.querySelector("#logo-invert").classList.toggle("hidden");
+    document.querySelector("#resources").classList.toggle("active");
+  </script>
 
-	<div class="discounts content">
-		<!-- Displays the sidebar and emphasizes the active page -->
-		{% include sidebar-discounts.html %}
-		<script type="text/javascript">
-			document.querySelector( "#wellness-discounts" ).classList.toggle("sidebar-active");
-		</script>
-		<div class="student-discounts-content" class="editable">
-			<h1 id="page-title">Wellness and Other Discounts</h1>
-			<h1><strong>Running Room Discount</strong></h1>
-			<hr>
+  <div class="discounts content">
+    <!-- Displays the sidebar and emphasizes the active page -->
+    {% include sidebar-discounts.html %}
+    <script type="text/javascript">
+      document.querySelector("#wellness-discounts").classList.toggle("sidebar-active");
+    </script>
+    <div class="student-discounts-content" class="editable">
+      <h1 id="page-title">Wellness and Other Discounts</h1>
+      <h1><strong>Running Room Discount</strong></h1>
+      <hr>
 
-			<img class="pic-right" src="/images/discount-images/running-room.jpg" style="width: 250px;">
-			<p>The CFMS Wellness Challenge is happy to offer all CFMS students a 10% discount at the Running Room, until December 31st, 2019.<br></br>Please print the discount coupon, or show the retail clerk the discount on your phone and present your student ID to receive the discount.</p>
+      <img class="pic-right" src="/images/discount-images/running-room.jpg" style="width: 250px;">
+      <p>The CFMS Wellness Challenge is happy to offer all CFMS students a 10% discount at the Running Room, until December 31st, 2019.<br></br>Please print the discount coupon, or show the retail clerk the discount on your phone and present
+        your student ID to receive the discount.</p>
 
-			<blockquote>
-				<h3><strong>Discount Details</strong></h3>
-				<div class="non-members">
-				<ul>
-					<li>Please login in order to access this discount.</li>
-				</ul>
-				</div>
-				<div class="members-only">
-					<p>Sale terms and conditions: 10% off regular priced footwear, apparel and accessories* at Running Room</p>
-					<p><b>Discount code:</b> CFMS10
-				    <p><sup>*Excludes electronics, nutrition, Elliptigo, Proform, Brooks footwear and select Saucony footwear. Show the CFMS discount code in-store to receive your discount. Cannot be combined with any other  promotional offer, coupon, or discount. Valid until December 31, 2019.</p></sup>
-				</div>
-			</blockquote>
+      <blockquote>
+        <h3><strong>Discount Details</strong></h3>
+        <div class="non-members">
+          <ul>
+            <li>Please login in order to access this discount.</li>
+          </ul>
+        </div>
+        <div class="members-only">
+          <p>Sale terms and conditions: 10% off regular priced footwear, apparel and accessories* at Running Room</p>
+          <p><b>Discount code:</b> CFMS10
+            <p><sup>*Excludes electronics, nutrition, Elliptigo, Proform, Brooks footwear and select Saucony footwear. Show the CFMS discount code in-store to receive your discount. Cannot be combined with any other promotional offer,
+                coupon, or discount. Valid until December 31, 2019.</p></sup>
+        </div>
+      </blockquote>
 
-			<h1><strong>Mark's Discount</strong></h1>
-			<hr>
-			<img class="pic-right" src="/images/discount-images/markscommercial.jpg" style="width: 250px;">
-			<p>The CFMS is happy to offer all CFMS students a 10% discount at all Mark's (known as L'Equipeur in Quebec) locations across the country.<br></br>This discount is applicable on all items. Please print the discount coupon, or show the retail clerk the discount on your phone and present your student ID to receive the discount.</p>
+      <h1><strong>Mark's Discount</strong></h1>
+      <hr>
+      <img class="pic-right" src="/images/discount-images/markscommercial.jpg" style="width: 250px;">
+      <p>The CFMS is happy to offer all CFMS students a 10% discount at all Mark's (known as L'Equipeur in Quebec) locations across the country.<br></br>This discount is applicable on all items. Please print the discount coupon, or show the
+        retail clerk the discount on your phone and present your student ID to receive the discount.</p>
 
-			<blockquote>
-				<h3><strong>Discount Details</strong></h3>
-				<div class="non-members">
-				<ul>
-					<li>Please login in order to access this discount.</li>
-				</ul>
-				</div>
-				<div class="members-only">
-					<p>Sale terms and conditions: 10% off regular priced footwear, apparel and accessories* at Running Room</p>
-					<p><b>Coupon Download:</b> <a target="_blank" href="/files/wellness-resources/362848 CFMS ANY UNI FTWR PYG VCHR JAN 2019.pdf" onClick="ga('send', 'event', 'Sponsorships', 'MARKs_Coupon_pdf');">MARK'S CFMS DISCOUNT</a>
-				    <p><sup>*Subject to the terms listed. Cannot be combined with any other promotional offer, coupon, or discount. Valid until December 31, 2019.</p></sup>
-				</div>
-			</blockquote>
+      <blockquote>
+        <h3><strong>Discount Details</strong></h3>
+        <div class="non-members">
+          <ul>
+            <li>Please login in order to access this discount.</li>
+          </ul>
+        </div>
+        <div class="members-only">
+          <p>Sale terms and conditions: 10% off regular priced footwear, apparel and accessories* at Running Room</p>
+          <p><b>Coupon Download:</b> <a target="_blank" href="/files/wellness-resources/362848 CFMS ANY UNI FTWR PYG VCHR JAN 2019.pdf" onClick="ga('send', 'event', 'Sponsorships', 'MARKs_Coupon_pdf');">MARK'S CFMS DISCOUNT</a>
+            <p><sup>*Subject to the terms listed. Cannot be combined with any other promotional offer, coupon, or discount. Valid until December 31, 2019.</p></sup>
+        </div>
+      </blockquote>
 
-		</div>
-	</div>
-	<div>{% include footer.html %}</div>
+      <h1><strong>Medelita</strong></h1>
+      <hr>
+      <img class="pic-right" src="/images/discount-images/markscommercial.jpg" style="width: 250px;">
+      <p>Medelita offers 40% off all of its items including lab coats, scrubs, scrub jackets, tees and stethoscopes. Also, receive complimentary logo digitization and complimentary shipping with your order. Medelita “elevates and upgrades medical apparel through superior fabric technology, modern and professional design, and the best service you’ll find anywhere.” Offer is available until February 20, 2020.</p>
+      <div>
+        <ul>
+          <li>Discount of 40% off all items.</li>
+          <li>Complimentary Logo Digitization.</li>
+          <li>Complimentary Shipping.</li>
+          <li>Offer is valid until February 20, 2020.</li>
+        </ul>
+      </div>
+
+      <blockquote>
+        <h3><strong>Discount Details</strong></h3>
+        <div class="non-members">
+          <ul>
+            <li>Please login in order to access this discount.</li>
+          </ul>
+        </div>
+        <div class="members-only">
+          <p>Sale terms and conditions: 10% off regular priced footwear, apparel and accessories* at Running Room</p>
+          <p><b>Discount code:</b> CFMS40</p>
+        </div>
+      </blockquote>
+
+    </div>
+  </div>
+  <div>{% include footer.html %}</div>
 </body>
+
 </html>
