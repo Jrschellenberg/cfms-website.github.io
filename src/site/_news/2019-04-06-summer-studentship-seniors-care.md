@@ -1,6 +1,6 @@
 ---
 title: >-
-  CFMS Summer Studentships on Seniors Care and Aging 
+  CFMS Summer Studentships on Seniors Care and Aging
 date: 2019-04-06 20:00:00
 description: >-
   The Canadian Federation of Medical Students (CFMS) is pleased to offer Summer Studentship opportunities to support 1-2 students to continue the work on seniors care and aging.
@@ -22,7 +22,8 @@ $4,000 to be paid to each student for a minimum of 8 weeks of research work comm
 ### Project Details
 
 * **TITLE:** An Evidence Informed National Seniors’ Strategy
-* **Supervisor:** Arianne Persaud, Manger of Advocacy, Stakeholders and Government Relations Location: National Institute on Ageing, Ryerson University (Toronto)
+* **Supervisor:** Arianne Persaud, Manger of Advocacy, Stakeholders and Government Relations
+* **Location**: National Institute on Ageing, Ryerson University (Toronto)
 * **Dates:** 8 weeks between June-Aug 2019 (dates flexible)
 
 Students will work with Dr. Samir Sinha and the National Institute on Ageing research team to build on the campaign for a National Seniors Strategy. Students will use research and scoping methods including literature reviews, environmental and jurisdictional scans, as well as engaging stakeholders, to translate evidence through a public policy development lens to promote seniors care and healthy aging.
