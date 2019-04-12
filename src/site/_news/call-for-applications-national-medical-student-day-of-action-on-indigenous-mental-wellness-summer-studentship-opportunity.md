@@ -16,9 +16,12 @@ The National Medical Student Day of Action on Indigenous Mental Wellness Summer 
 
 **Details of the summer studentship opportunity: **
 
-$4,000 to be paid to a medical student for a minimum of 8 weeks of research work commitment, with 35-hour weeks.
+$4,000 to be paid to each student for a minimum of 8 weeks of research work commitment, with 35-hour weeks.
+1-2 positions will be available, depending on available funding.
 
 **Project details:**
+
+Location: Toronto, ON
 
 Assistance with the evaluation of a project based on First Nations, Inuit, Metis wellness that integrates physical and mental health through CAMH (Centre for Addiction and Mental Health) in Toronto with outreach across the province. The project is supervised by Dr. Lisa Richardson (Co-Lead Indigenous Health Education at the Faculty of Medicine at the University of Toronto), and will be based out of Toronto, ON. Previous cultural safety training and knowledge of protocols for working with Indigenous communities are a major asset. Other required skills include: writing, interviewing and project coordination.
 
@@ -27,3 +30,5 @@ Assistance with the evaluation of a project based on First Nations, Inuit, Metis
 **CV and Cover Letter to be sent to Yipeng Ge, CFMS VP Government Affairs at [vpgovtaffairs@cfms.org](mailto:vpgovtaffairs@cfms.org) by June 8th, 2018 at 11:59pm EST.&nbsp;**
 
 Please send any questions or concerns to Yipeng Ge, at [vpgovtaffairs@cfms.org](mailto:vpgovtaffairs@cfms.org).
+
+**Updated April 10, 2019**
