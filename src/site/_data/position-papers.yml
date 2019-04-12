@@ -3,7 +3,7 @@ position-papers:
   filter-tags:
     - tag: "PP"
       tag-name: "Position Papers"
-    - tag: 
+    - tag:
       tag-name: "Policy Statements"
     - tag:
       tag-name: "No Tag"
@@ -77,6 +77,19 @@ position-papers:
         - paper-name: CFMS Position Paper on Responding to Medical Student Suicide
           paper-publish-date: '2019'
           paper-link: /files/position-papers/2019 CFMS Position Paper on Responding to Medical Student Suicide.pdf
+          paper-summary: Summary coming soon
+          paper-status: Status coming soon
+          paper-tags:
+            tag: PP
+          paper-contacts:
+            - name: David Wiercigroch
+              email: nohp@cfms.org
+          paper-nohps:
+            - name: NOHP
+              email: nohp@cfms.org
+        - paper-name: CFMS Position Paper on Housing as a Right
+          paper-publish-date: '2019'
+          paper-link: /files/position-papers/CFMS Policy Statement_Housing as a Right.pdf
           paper-summary: Summary coming soon
           paper-status: Status coming soon
           paper-tags:
