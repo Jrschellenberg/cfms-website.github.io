@@ -3,10 +3,10 @@ require('dotenv').config();
 export default class Utils {
   
   static isTestEnvironment() {
-    return process.env.ENV.toLowerCase() === 'test';
+    return process.env.ENV === 'test';
   }
   static isProductionEnvironment() {
-    return process.env.ENV.toLowerCase() === 'production';
+    return process.env.ENV === 'production';
   }
   
   static getCorsOptions() {

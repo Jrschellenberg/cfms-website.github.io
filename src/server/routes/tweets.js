@@ -6,13 +6,15 @@ const Twitter = require('twitter-lite');
 
 router.get('/',  async(req, res, next) => {
   try {
-    const documents = await db.getPictures();
+    console.log("hit here!");
     
-    return res.status(200).json({ success: true, status: 200, message: 'Success', pictures: documents });
+    return res.status(200).json({ success: true, status: 200, message: 'Success' });
   }
   catch(err){
     next(err);
   }
 });
 
+
+export default router
 

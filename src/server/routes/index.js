@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/tweets', require('./tweets'));
+import tweets from './tweets';
 
-module.exports = router;
+router.use('/tweets', tweets);
+
+
+export default router

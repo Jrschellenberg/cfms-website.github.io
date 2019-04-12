@@ -6,6 +6,7 @@ import bodyParser from 'body-parser';
 import compression from 'compression';
 import customLogger from '../utils/logger';
 import Utils from '../utils/Utils';
+import ServerUtils from '../utils/serverUtils';
 import router from '../routes/';
 
 const expressSanitizer = require('express-sanitizer');
@@ -27,7 +28,7 @@ export default function expressApp() {
   app.use(morgan(customLogger));
   
   // Setup routes
-  app.use(router);
+  app.use(ServerUtils.getRoutePath(), router);
 
   // catch 404 and forward to error handler
   app.use(function(req, res, next) {
