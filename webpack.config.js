@@ -13,7 +13,8 @@ module.exports = {
   entry: {
     // BMSPolyfills: './polyfills/polyfills.js', // IF YOU REQUIRE POLYFILLS, uncomment and gt file location for more information
     bundle: './src/js/app.js',
-    cssHotReload: './src/sass/entry.js'
+    cssHotReload: './src/sass/entry.js',
+    "twitterfeed.bundle": './src/js/bundles/builds/twitter.js'
   },
 
   optimization: {
@@ -65,7 +66,10 @@ module.exports = {
       
       {
         test: /\.(scss)$/,
-
+        include: [
+          path.resolve(__dirname, 'src/sass')
+        ],
+        
         use: [
           {
             loader: 'file-loader',
@@ -100,6 +104,41 @@ module.exports = {
           },
         ],
       },
+  
+      {
+        test: /\.(css|scss)$/,
+        exclude: [
+          path.resolve(__dirname, 'src/sass')
+        ],
+    
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader
+        
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: isDebug,
+            },
+          },
+      
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: isDebug,
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: isDebug,
+            },
+          },
+        ],
+      },
+      
+      
       {
         test: /\.(jpg|jpeg|gif|png|svg|woff|woff2|otf)$/,
         // File loader
@@ -120,6 +159,12 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "[name].css"
+    }),
+  ],
+  
   
   devtool: isDebug ? 'inline-source-map' : false,
 

@@ -12,7 +12,8 @@
     "build:debug": "npm run scaffold && webpack --progress -d --verbose && bundle exec jekyll build -t",
     "start:all": "cross-env DEV_ENV=true npm run scaffold && concurrently -k -n \"NETLIFY,WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"cyan.bold,yellow.bold,magenta.bold,blue.bold\" \"npm run start:lambda\" \"webpack -w\" \"bundle exec jekyll build --watch --incremental --drafts --source src/site --destination serve \" \"wait-on -l ./serve/index.html && browser-sync --port 4000 start -s serve -f serve --extensions html\"", 
     "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"yellow.bold,magenta.bold,blue.bold\" \"webpack -w\" \"bundle exec jekyll build --watch --incremental --drafts --source src/site --destination serve \" \"wait-on -l ./serve/index.html && browser-sync --port 4000 start -s serve -f serve --extensions html\"",
-    "start:lambda": "cross-env DEV_ENV=true netlify-lambda serve src/server"
+    "start:lambda": "cross-env DEV_ENV=true netlify-lambda serve src/server",
+    "watch": "webpack -w"
   },
   "repository": {
     "type": "git",
