@@ -62,6 +62,7 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      
       {
         test: /\.(scss)$/,
 
@@ -119,9 +120,7 @@ module.exports = {
       },
     ],
   },
-
-
-
+  
   devtool: isDebug ? 'inline-source-map' : false,
 
   // Don't attempt to continue if there are any errors.
@@ -138,6 +137,12 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss'],
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat',
+      'create-react-class': 'preact-compat/lib/create-react-class',
+      'react-dom-factories': 'preact-compat/lib/react-dom-factories',
+    },
   },
   output: {
     filename: 'js/[name].js?[hash]',
