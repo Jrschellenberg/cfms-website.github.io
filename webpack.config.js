@@ -15,7 +15,7 @@ module.exports = {
     bundle: './src/js/app.js',
     cssHotReload: './src/sass/entry.js'
   },
-  
+
   optimization: {
     minimizer: [
       ...(isDebug ? [] : [
@@ -27,7 +27,7 @@ module.exports = {
           sourceMap: true // set to true if you want JS source maps
         })
       ]),
-      
+
       ...(isDebug ? [] : [
         // Minimize all Css output of chunks
         // https://github.com/NMFR/optimize-css-assets-webpack-plugin
@@ -35,8 +35,8 @@ module.exports = {
       ]),
     ]
   },
-  
-  
+
+
   module: {
     rules: [
       {
@@ -64,7 +64,7 @@ module.exports = {
       },
       {
         test: /\.(scss)$/,
-        
+
         use: [
           {
             loader: 'file-loader',
@@ -84,7 +84,7 @@ module.exports = {
               sourceMap: isDebug,
             },
           },
-          
+
           {
             loader: 'postcss-loader',
             options: {
@@ -107,7 +107,7 @@ module.exports = {
         options: {
           emitFile: false,
           name: '[path][name].[ext]?[hash]',
-          
+
           outputPath: (url) => { // This function modifies [path] in the name above.
             const strParts = url.split('src/site/');
             if(!strParts[1]) { // Someone has changed the folder structure and is going to cause webpack to fail. So force it to stop!
@@ -119,23 +119,23 @@ module.exports = {
       },
     ],
   },
-  
 
-  
+
+
   devtool: isDebug ? 'inline-source-map' : false,
-  
+
   // Don't attempt to continue if there are any errors.
   // https://webpack.js.org/configuration/other-options/#bail
   bail: !isDebug,
-  
+
   // Cache the generated webpack modules and chunks to improve build speed
   // https://webpack.js.org/configuration/other-options/#cache
   cache: isDebug,
-  
+
   // Precise control of what bundle information gets displayed
   // https://webpack.js.org/configuration/stats/
   stats: isDebug ? 'normal' : 'minimal',
-  
+
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss'],
   },
@@ -143,7 +143,7 @@ module.exports = {
     filename: 'js/[name].js?[hash]',
     path: path.resolve(__dirname, 'serve/'),
   },
-  
+
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.
   // https://webpack.github.io/docs/configuration.html#node
