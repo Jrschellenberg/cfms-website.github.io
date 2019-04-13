@@ -90,8 +90,8 @@
 		{% endif %}
 	{% endfor %}
 </div>
-<script src="/js/twitterFetcher_min.js" type="text/javascript"></script>
-<script type="text/javascript">
+
+<script>
 	window.sr = ScrollReveal();
 	sr.reveal('.animate', { duration: 500, distance: '5px', scale: 1 } );
 
@@ -100,56 +100,7 @@
 		document.querySelector("#top-nav").classList.toggle("active");
 		sr.reveal('#top-nav', {distance: '0px'});
 	});
-
-	//Gets latest tweets
-	var tweetConfig = {
-	  "id": '616581601191833602',
-	  "domId": 'latest-tweets',
-	  "maxTweets": 3,
-	  "enableLinks": true,
-	  "showPermalinks": false,
-	  "showUser": false,
-	  "showInteraction": false,
-	  "dateFunction": dateFormatter
-	};
-
-	//Formats the tweet dates
-	function dateFormatter(date) {
-		var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-		var hour = date.getHours();
-
-		//0:00 = 12 AM
-		if (hour == 0)
-			var time = "12:" + date.getMinutes();
-		else
-			time = (hour%12) + ":" + date.getMinutes();
-		if (hour > 0 && hour < 12)
-			time += " AM";
-		else
-			time += " PM";
-
-		var month = months[date.getMonth()];
-		var day = date.getDate();
-		var year = date.getFullYear();
-		return time + " &ndash; " + month + " " + day + ", " + year;
-	}
-	twitterFetcher.fetch(tweetConfig);
-</script>
-
-<script src="/js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	if($(window).width() >= 960){
-	    $('#scroll').scrollToFixed({
-	    	minWidth: 960,
-	    	marginTop: 20,
-	    	limit: function() {
-		        var limit = $('#footer').offset().top - $('#scroll').height() - 40;
-		        return limit;
-		    }
-	    });
-	}
-});
+	
 </script>
 
 <!-- Modal Dialogs -->
