@@ -109,9 +109,11 @@
 {% if jekyll.environment == "production" %}
 <link rel="stylesheet" href="https://www.cfms.org/stylesheets/vex.css" />
 <link rel="stylesheet" href="https://www.cfms.org/stylesheets/vex-theme-default.css" />
+<link rel="stylesheet" href="https://www.cfms.org/stylesheets/twitterfeed.bundle.css" />
 {% else %}
 <link rel="stylesheet" href="/stylesheets/vex.css" />
 <link rel="stylesheet" href="/stylesheets/vex-theme-default.css" />
+<link rel="stylesheet" href="/stylesheets/twitterfeed.bundle.css" />
 {% endif %}
 <script>
 $('.redirect-modal').click(function(){
@@ -137,6 +139,8 @@ $('.redirect-modal').click(function(){
 </script>
 {% if jekyll.environment == "production" %}
 <script type="text/javascript" src="https://www.cfms.org/js/bundle.js"></script>
+<script defer type="text/javascript" src="https://www.cfms.org/js/twitterfeed.bundle.js"></script>
 {% else %}
 <script type="text/javascript" src="/js/bundle.js"></script>
+<script defer type="text/javascript" src="/js/twitterfeed.bundle.js"></script>
 {% endif %}
