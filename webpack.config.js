@@ -3,6 +3,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CopyPlugin  = require('copy-webpack-plugin');
 
 const isDebug = process.env.NODE_ENV !== 'production';
 const mode = `${isDebug ? "development" : "production"}`;
@@ -137,8 +138,6 @@ module.exports = {
           },
         ],
       },
-      
-      
       {
         test: /\.(jpg|jpeg|gif|png|svg|woff|woff2|otf)$/,
         // File loader
@@ -160,6 +159,22 @@ module.exports = {
     ],
   },
   plugins: [
+    new CopyPlugin([
+    {
+      context: 'src/site/images/',
+      from: '**/*',
+      to: 'images/[path][name].[ext]',
+      toType: 'template'
+    },
+  ]),
+  new CopyPlugin([
+    {
+      context: 'src/site/uploads/',
+      from: '**/*',
+      to: 'uploads/[path][name].[ext]',
+      toType: 'template'
+    },
+  ]),
     new MiniCssExtractPlugin({
       filename: "[name].css"
     }),
@@ -191,7 +206,7 @@ module.exports = {
   },
   output: {
     filename: 'js/[name].js?[hash]',
-    path: path.resolve(__dirname, 'serve/'),
+    path: path.resolve(__dirname, 'serve'),
   },
 
   // Some libraries import Node modules but don't use them in the browser.
