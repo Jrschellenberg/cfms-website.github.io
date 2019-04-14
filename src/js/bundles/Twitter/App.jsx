@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 import BackendClient from '../../services/BackendClient';
+import Settings from '../Settings/Settings';
 import Environment from '../../environment/Environment';
 
 
@@ -14,6 +15,7 @@ class App extends Component {
   }
   
   async componentDidMount() {
+    console.log("Ever hit Here?");
     const initialTweetsArray = [];
     
     for(let i =0; i<3; i++) {
@@ -41,12 +43,19 @@ class App extends Component {
   }
   
   render() {
-    const {loading, initialTweetsArray} = this.state;
+    const {loading, tweets} = this.state;
     
     return (
       <div className="TwitterWidget">
+        <div className="twitterTitle">
+          <h1>{Settings.getInstance().getData().twitterTitle}</h1>
+          <span> : </span>
+          <a href="https://twitter.com/cfmsfemc"><h1>@CFMSFEMC</h1></a>
+        </div>
+        <div className="icon"><i className="fa fa-twitter" /></div>
+        
         <div className="TweetsContainer">
-          {initialTweetsArray.map((tweet, i) => {
+          {tweets.map((tweet, i) => {
             return <h1>Hello World</h1>
           })}
         </div>

@@ -1,0 +1,15 @@
+.TwitterWidget {
+  .twitterTitle {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+   
+    h1 {
+      padding: 0 !important;
+    }
+    span {
+      margin: 0 10px;
+      font-size: 1.5em;
+    }
+  }
+}

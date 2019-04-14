@@ -6,20 +6,7 @@
 	}
 </script>
 <div id="footer">
-	<div class="column">
-		<h1>
-			<div id="twitter-title">
-				{% if page.lang == "en" %}
-					{{ site.data.translations.latest_tweets_en }}
-				{% else %}
-					{{ site.data.translations.latest_tweets_fr }}
-				{% endif %}
-				<span style="opacity:0.3">:</span></div>
-			<div id="twitter-handle"><a href="https://twitter.com/cfmsfemc">@CFMSFEMC</a></div>
-		</h1>
-		<div class="icon"><i class="fa fa-twitter"></i></div>
-		<div id="latest-tweets">
-		</div>
+	<div class="column" id="twitter-widget">
 	</div>
 
 	{% for contact_us in site.data.translations.contact_us %}
@@ -144,3 +131,27 @@ $('.redirect-modal').click(function(){
 <script type="text/javascript" src="/js/bundle.js"></script>
 <script defer type="text/javascript" src="/js/twitterfeed.bundle.js"></script>
 {% endif %}
+
+
+
+{% if page.lang == "en" %}
+	{% assign twitter_title = site.data.translations.latest_tweets_en %}
+{% else %}
+	{% assign twitter_title =  site.data.translations.latest_tweets_fr %}
+{% endif %}
+<script id="twitter_feed_initialization_json" type="application/json">
+	{
+		"twitterTitle": "{{ twitter_title | json }}"
+	}
+</script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		window.CFMS = window.CFMS || {};
+		window.CFMS.BUILDS = window.CFMS.BUILDS || {};
+
+		var twitterSettings = JSON.parse(document.getElementById('twitter_feed_initialization_json').innerHTML);
+		window.CFMS.BUILDS.twitter_feed_initialization(document.querySelector('#twitter-widget'), twitterSettings);
+	});
+
+</script>
