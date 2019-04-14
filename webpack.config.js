@@ -5,6 +5,8 @@ const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const CopyPlugin  = require('copy-webpack-plugin');
 
+const Dotenv = require('dotenv-webpack');
+
 const isDebug = process.env.NODE_ENV !== 'production';
 const mode = `${isDebug ? "development" : "production"}`;
 
@@ -159,6 +161,13 @@ module.exports = {
     ],
   },
   plugins: [
+    new Dotenv({
+      path: './.env', // load this now instead of the ones in '.env'
+      safe: false, // load '.env.example' to verify the '.env' variables are all set. Can also be a string to a different file.
+      systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
+      silent: false, // hide any errors
+      defaults: false, // load '.env.defaults' as the default values if empty.
+    }),
     new CopyPlugin([
     {
       context: 'src/site/images/',
