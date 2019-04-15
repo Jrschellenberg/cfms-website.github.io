@@ -3,6 +3,8 @@ import BackendClient from '../../services/BackendClient';
 import Settings from '../Settings/Settings';
 import Environment from '../../environment/Environment';
 
+import Skeleton, { SkeletonTheme } from "preact-loading-skeleton";
+
 
 import './App.scss';
 
@@ -55,9 +57,11 @@ class App extends Component {
         <div className="icon"><i className="fa fa-twitter" /></div>
         
         <div className="TweetsContainer">
+          <SkeletonTheme  color="#202020" highlightColor="#444" >
           {tweets.map((tweet, i) => {
-            return <h1>Hello World</h1>
+            return <h1><Skeleton /></h1>
           })}
+          </SkeletonTheme>
         </div>
       </div>
     );

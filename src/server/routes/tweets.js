@@ -21,7 +21,6 @@ router.get('/:user',  async(req, res, next) => {
     const twitterFeed = await twitter.get("statuses/user_timeline", {
       count: count || 3,
       exclude_replies: true,
-      trim_user: true,
       screen_name: req.params.user
     });
     
