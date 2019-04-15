@@ -1,8 +1,26 @@
+$twitterLinkColor: rgb(153,153,153);
+
 .TwitterWidget {
   .twitterTitle {
     display: flex;
     align-items: center;
     padding-bottom: 15px;
+    
+    .twitterLink {
+      h1{
+        color: $twitterLinkColor !important;
+      }
+      &:hover {
+        text-decoration: none !important;
+        h1 {
+          color: darken($twitterLinkColor, 10%) !important;
+        }
+      }
+    }
+    
+    .icon {
+      float: none !important;
+    }
    
     h1 {
       padding: 0 !important;

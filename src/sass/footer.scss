@@ -35,6 +35,11 @@
 	a {
 		border-bottom:none;
 		color:$primary-color-bright;
+		
+		&:hover {
+			color: darken($primary-color-bright, 3%);
+			text-decoration: underline;
+		}
 	}
 	.icon{
 		float:left;
