@@ -10,7 +10,10 @@
     "scaffold": "npm run clean && shx mkdir -p serve/js && shx mkdir -p serve/stylesheets",
     "build": "npm run scaffold && cross-env NODE_ENV=production webpack -p --progress && bundle exec jekyll build --source src/site --destination serve",
     "build:debug": "npm run scaffold && webpack --progress -d --verbose && bundle exec jekyll build -t",
-    "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"yellow.bold,magenta.bold,blue.bold\" \"webpack -w\" \"bundle exec jekyll build --watch --incremental --drafts --source src/site --destination serve \" \"wait-on -l ./serve/index.html && browser-sync --port 4000 start -s serve -f serve --extensions html\""
+    "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"yellow.bold,magenta.bold,blue.bold\" \"webpack -w\" \"npm run jekyll\" \"npm run browsersync \"",
+    "watch": "webpack -w",
+    "jekyll": "bundle exec jekyll build --watch --limit_posts 1 --lsi 1 --incremental --drafts --source src/site --destination serve",
+    "browsersync": "wait-on -l ./serve/index.html && browser-sync --port 4000 start -s serve -f serve --extensions html"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
     "Association"
   ],
   "author": "Pavel Yarmak",
+  "contributors": ["Justin Schellenberg"],
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/cfms-website/cfms-website.github.io/issues"
@@ -42,6 +46,7 @@
     "@babel/register": "^7.0.0",
     "autoprefixer": "^9.3.1",
     "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-module-resolver": "^3.1.1",
     "browser-sync": "^2.18.13",
     "chai": "^4.2.0",
     "concurrently": "^4.0.1",
@@ -75,16 +80,22 @@
     "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/runtime-corejs2": "^7.1.5",
     "auth0-js": "^9.10.0",
+    "axios": "^0.18.0",
     "core-js": "^2.5.7",
     "date-fns": "^1.30.1",
+    "dotenv-webpack": "^1.7.0",
     "firebase": "^5.5.7",
     "jquery-bar-rating": "^1.2.2",
     "js-cookie": "^2.2.0",
     "json-style-converter": "^1.0.3",
     "jsonwebtoken": "^8.4.0",
     "page": "^1.11.4",
+    "preact": "^8.3.1",
+    "preact-compat": "^3.18.4",
+    "preact-loading-skeleton": "^1.2.2",
     "request-promise": "^4.2.2",
     "vex-dialog": "^1.0.6",
     "vex-js": "^3.0.0"
-  }
+  },
+  "proxy": "http://localhost:9000"
 }

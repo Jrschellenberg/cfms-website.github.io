@@ -17,7 +17,6 @@ titleFr: "Fédération des étudiants et des étudiantes en médecine du Canada"
 
 repository: cfms-website/cfms-website.github.io
 
-keep_files: ['stylesheets/', 'js/', 'files/', 'images/']
 
 collections:
   news:
@@ -137,3 +136,16 @@ url: "https://cfms.org"
 plugins: [jekyll-paginate, jekyll-paginate-v2]
 
 #plugins_dir: [_plugins]
+
+# Exclude from processing (not moved to `serve/`)
+exclude:
+  - uploads
+  - images
+
+# Make sure the `_site/assets/` is not trashed (webpack output)
+keep_files:
+  - images
+  - stylesheets
+  - js
+  - files
+  - uploads

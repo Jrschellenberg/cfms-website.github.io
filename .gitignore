@@ -11,6 +11,7 @@ serve/
 .idea/
 package-lock\.json
 yarn.lock
+yarn-error.log
 Gemfile.lock
 src/site/images/resource-logos/Thumbs\.db
 .snyk
@@ -22,3 +23,5 @@ Gemfile
 Gemfile
 
 backupServe/
+
+.env

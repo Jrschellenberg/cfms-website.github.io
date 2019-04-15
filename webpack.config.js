@@ -3,6 +3,9 @@ const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CopyPlugin  = require('copy-webpack-plugin');
+
+const Dotenv = require('dotenv-webpack');
 
 const isDebug = process.env.NODE_ENV !== 'production';
 const mode = `${isDebug ? "development" : "production"}`;
@@ -13,7 +16,8 @@ module.exports = {
   entry: {
     // BMSPolyfills: './polyfills/polyfills.js', // IF YOU REQUIRE POLYFILLS, uncomment and gt file location for more information
     bundle: './src/js/app.js',
-    cssHotReload: './src/sass/entry.js'
+    cssHotReload: './src/sass/entry.js',
+    "twitterfeed.bundle": './src/js/bundles/builds/twitter.js'
   },
 
   optimization: {
@@ -62,9 +66,13 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      
       {
         test: /\.(scss)$/,
-
+        include: [
+          path.resolve(__dirname, 'src/sass')
+        ],
+        
         use: [
           {
             loader: 'file-loader',
@@ -99,6 +107,39 @@ module.exports = {
           },
         ],
       },
+  
+      {
+        test: /\.(css|scss)$/,
+        exclude: [
+          path.resolve(__dirname, 'src/sass')
+        ],
+    
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader
+        
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: isDebug,
+            },
+          },
+      
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: isDebug,
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: isDebug,
+            },
+          },
+        ],
+      },
       {
         test: /\.(jpg|jpeg|gif|png|svg|woff|woff2|otf)$/,
         // File loader
@@ -119,9 +160,36 @@ module.exports = {
       },
     ],
   },
-
-
-
+  plugins: [
+    new Dotenv({
+      path: './.env', // load this now instead of the ones in '.env'
+      safe: false, // load '.env.example' to verify the '.env' variables are all set. Can also be a string to a different file.
+      systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
+      silent: false, // hide any errors
+      defaults: false, // load '.env.defaults' as the default values if empty.
+    }),
+    new CopyPlugin([
+    {
+      context: 'src/site/images/',
+      from: '**/*',
+      to: 'images/[path][name].[ext]',
+      toType: 'template'
+    },
+  ]),
+  new CopyPlugin([
+    {
+      context: 'src/site/uploads/',
+      from: '**/*',
+      to: 'uploads/[path][name].[ext]',
+      toType: 'template'
+    },
+  ]),
+    new MiniCssExtractPlugin({
+      filename: "stylesheets/[name].css"
+    }),
+  ],
+  
+  
   devtool: isDebug ? 'inline-source-map' : false,
 
   // Don't attempt to continue if there are any errors.
@@ -138,10 +206,16 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss'],
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat',
+      'create-react-class': 'preact-compat/lib/create-react-class',
+      'react-dom-factories': 'preact-compat/lib/react-dom-factories',
+    },
   },
   output: {
     filename: 'js/[name].js?[hash]',
-    path: path.resolve(__dirname, 'serve/'),
+    path: path.resolve(__dirname, 'serve'),
   },
 
   // Some libraries import Node modules but don't use them in the browser.
