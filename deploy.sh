@@ -8,6 +8,7 @@ function doCompile {
   bundle install
   #Renaming gemfile for build 
   #mv Gemfile notGemfile
+  mv .env.example .env
   npm run build
   #renaming gemfile back after build completes to avoid errors
   #mv notGemfile Gemfile
