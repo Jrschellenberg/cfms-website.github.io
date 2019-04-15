@@ -1,5 +1,5 @@
 ---
-title: Call for Nominations Spring 2019
+title: Call for Nominations Spring 2019/Appel du printemps 2019
 date: 2019-04-15 14:14:00
 description: >-
   Do you want to get involved with a CFMS position? Did you miss our Fall and
