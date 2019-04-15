@@ -1,4 +1,4 @@
-import AxiosService from './axiosService';
+import AxiosService from './AxiosService';
 import Environment from '../environment/Environment';
 
 class BackendClient extends AxiosService {

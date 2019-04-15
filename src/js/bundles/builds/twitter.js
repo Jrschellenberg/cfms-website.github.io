@@ -1,8 +1,7 @@
 import { h, render } from 'preact'
 import Settings from '../Settings/Settings';
-import App from '../twitter/App';
+import App from '../Twitter/App';
 
-import './test.scss';
 
 window.CFMS = window.CFMS || {};
 window.CFMS.BUILDS = window.CFMS.BUILDS || {};
