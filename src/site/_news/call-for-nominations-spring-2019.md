@@ -8,7 +8,7 @@ description: >-
 lang: en
 ---
 
-Do you want to get involved with a CFMS position? Did you miss our Fall and Winter Call for applications? We have positions open again for the Spring\! Applications will open [on](x-apple-data-detectors://1) [**April 15 2019**](x-apple-data-detectors://1)and close [on **May 13 2019**](x-apple-data-detectors://2).
+Do you want to get involved with a CFMS position? Did you miss our Fall and Winter Call for applications? We have positions open again for the Spring\! Applications will open [on](x-apple-data-detectors://1) **[April 15 2019](x-apple-data-detectors://1)&nbsp;**and close [on **May 13 2019**](x-apple-data-detectors://2).
 
 HOW TO APPLY: Please complete the Google Form relevant to the position you wish to apply for. For example, if you wish to apply for positions belonging to the Communications Portfolio, please fill out the Communications Google Form.&nbsp; Unlike previous processes for positions, THIS CALL WILL NOT REQUIRE C.V. FROM APPLICANTS.&nbsp;
 
