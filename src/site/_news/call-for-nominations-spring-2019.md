@@ -1,6 +1,6 @@
 ---
 title: Call for Nominations Spring 2019
-date: 2019-04-14 10:00:00
+date: 2019-04-15 00:00:00
 description: >-
   Do you want to get involved with a CFMS position? Did you miss our Fall and
   Winter Call for applications? We have positions open again for the Spring!
