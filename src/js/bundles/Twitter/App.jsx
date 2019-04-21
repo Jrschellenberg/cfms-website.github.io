@@ -29,6 +29,7 @@ class App extends Component {
     
     try{
       const resp = await backendRequests.getTweets();
+      console.log("Resp is ", resp);
       
       if(resp.status !== 200){
         throw new Error(`Error occured while Retrieving Data from API with status of ${resp.status}`);
