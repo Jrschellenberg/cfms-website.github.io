@@ -3,9 +3,7 @@ import Skeleton from 'preact-loading-skeleton';
 
 import './Tweet.scss';
 
-const delimiter = '…';
-
-export const Tweet = ({loading, user, retweeted_status, id_str, text}) => {
+export const Tweet = ({loading, user, retweeted_status, id_str, text, truncated, entities}) => {
   if(loading){
     return(
       <div className="Tweet skeleton">
@@ -13,16 +11,14 @@ export const Tweet = ({loading, user, retweeted_status, id_str, text}) => {
       </div>
     )
   }
-
+  
   const tweetText = retweeted_status ? retweeted_status.text : text;
-  const parts = tweetText.split(delimiter);
-  const tweet = parts[0].trim() + delimiter;
-  const link = parts[1].trim();
-    
+  const url = entities && entities.urls && entities.urls[0] && entities.urls[0].url ? entities.urls[0].url : 'javascript:void(0)' ;
+
   
   return (
     <div className={`Tweet`}>
-      <a target="_blank" href={link}>{tweet}</a>
+      <a target="_blank" href={url}>{tweetText}</a>
     </div>  
   )
 }
