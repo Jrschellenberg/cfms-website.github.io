@@ -391,53 +391,46 @@ education-discounts:
     discount-promotion: >-
       <ul><li>To get access to the discount, please visit the following
       <a href="https://www.osmosis.org/deal/CFMS?utm_source=cfms-2019&utm_medium=affiliate&utm_content=website">link</a>.</li></ul>
-  # - lang: en
-  #   discount-title: McGraw-Hill Bookstore
-  #   discount-sub-title:
-  #   discount-img:
-  #   discount-need-reverification:
-  #   discount-description: >-
-  #     <p>McGraw-Hill is proud to partner with the Canadian Federation of Medical
-  #     Students and offer its members a <strong>25&#37; Discount</strong> and
-  #     <strong>FREE SHIPPING within Canada</strong> on select McGraw-Hill medical
-  #     titles! Search over 500 applicable titles at <a
-  #     href="http://mheducation.ca">www.mheducation.ca</a>, including the popular
-  #     series <i>Case Files</i> and <i>First Aid,</i> as well as <i>Harrison’s
-  #     Principles of Internal Medicine!</i></p> <p><strong>The landmark guide to
-  #     internal medicine has been updated and streamlined for today's
-  #     students.</strong></p> <p>Through six decades, no resource has matched the
-  #     authority, esteemed scholarship, and scientific rigor of Harrison's
-  #     Principles of Internal Medicine. Capturing the countless advances and
-  #     developments across the full span of medicine, the new 19th edition of
-  #     Harrison's provides a complete update of essential content related to
-  #     disease pathogenesis, clinical trials, current diagnostic methods and
-  #     imaging approaches, evidence-based practice guidelines, and established
-  #     and newly approved treatment methods.</p><blockquote> <p>Here are just a
-  #     few of the outstanding features of the new Nineteenth Edition:</p> <ul>
-  #     <li><strong>Presented in two volumes:</strong> Volume 1 is devoted to
-  #     foundational principles, cardinal manifestations of disease and approach
-  #     to differential diagnosis; Volume 2 covers disease pathogenesis and
-  #     treatment</li> <li><strong>NEW chapters on important topics</strong> such
-  #     as Men's Health, The Impact of Global Warming on Infectious Diseases,
-  #     Fatigue, and many more</li> <li><strong>Critical updates in management and
-  #     therapeutics</strong> in Hepatitis, Coronary Artery Disease, Ebola Virus
-  #     Disease, Multiple Sclerosis, Diabetes, Hypertension, Deep Vein Thrombosis
-  #     and Pulmonary Embolism, Acute and Chronic Kidney Disease, Inflammatory
-  #     Bowel Disease, Lipoprotein Disorders, HIV and AIDS, and more</li>
-  #     <li><strong>Increased number of the popular Harrison's clinical
-  #     algorithms</strong> clinically relevant radiographic examples spanning
-  #     hundreds of diseases; clinical-pathological images in full color; crystal
-  #     clear, full color drawings and illustrations and helpful tables and
-  #     summary lists that make clinical application of the content faster than
-  #     ever</li> <li><strong>Access to outstanding multi-media
-  #     resources</strong>  including practical videos demonstrating essential
-  #     bedside procedures, physical examination techniques, endoscopic findings,
-  #     cardiovascular findings, and more</li> </ul> </blockquote>
-  #   discount-promotion: >-
-  #     <ul> <li>The bookstore can be accessed <a
-  #     href="http://www.mheducation.ca/professional/microsite/cfms2017/">here</a></li>
-  #     <li>Use the coupon code CFMSPARTNER2017 for the 25&#37; discount.</li>
-  #     </ul>
+  - lang: en
+    discount-title: VisualDX
+    discount-sub-title:
+    discount-img: visualdx.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>VisualDx is an award-winning diagnostic clinical decision support system used in over 2,300 hospitals, clinics, and medical schools worldwide. VisualDx is designed to enhance diagnostic accuracy, aid therapeutic decisions, and improve patient safety at the point of care.</p>
+      <p>With VisualDx, clinicians can:
+        <ul>
+          <li>Build a custom differential diagnosis by entering a key finding across general medicine</li>
+          <li>Review the world’s best medical image library to compare variations of disease</li>
+          <li>Access therapy and best tests options</li>
+          <li>Understand medication reactions</li>
+          <li>Recognize infections and travel-related illnesses</li>
+          <li>Share images and information with patients</li>
+        </ul></p>
+      <p>VisualDx is a software that is available on the web, smartphone, and tablet. It can also be integrated into the electronic health record to fit within the clinician’s workflow.</p>
+      <p>The value of VisualDx:</p>
+      <ul>
+      <li><p>Reduce Risk. VisualDx shows variation of diseases to solve complex patient presentations and improve diagnostic accuracy.</p>
+      </li>
+      <li>
+      <p>Clinical Efficiency. Users report saving up to 26 minutes a day by using VisualDx.</p>
+      </li>
+      <li>
+      <p>The Power of Visualization. Combine medical images and exclusive Sympticon™ technology to visualize diseases, symptoms, and drug eruptions.</p>
+      </li>
+      <li>
+      <p>Medicine's Fastest Second Opinion. With VisualDx, get access to specialty level knowledge at the point of care. This can help reduce unnecessary referrals.</p>
+      </li>
+      <li>
+      <p>Enhanced Patient Satisfaction. Share images and disease information with patients to build confidence and strengthen the patient-clinician relationship.</p>
+      </li>
+      </ul>
+    discount-promotion: >-
+      <ul>
+        <li>In order to redeem the code, please start the registration process on the VisualDx website. The list price of $399 will show until the code is entered- the 75% discount will then be applied once the code is entered.</li>
+        <li>Visit <a href="https://www.visualdx.com/purchase/subscriptions.jsf">Here</a></li>
+        <li>Please apply the following code to your order to obtain a <strong>75% discount: CFMS19VDX75OFF</strong></li>
+      </ul>
   - lang: fr
     discount-title: >-
       Guide de poche « Drugs & Drugs » approuvé par la FEMC : version
@@ -627,21 +620,46 @@ education-discounts:
     discount-promotion: >-
       <ul><li>To get access to the discount, please visit the following
       <a href="https://www.osmosis.org/deal/CFMS?utm_source=cfms-2019&utm_medium=affiliate&utm_content=website">link</a>.</li></ul>
-
-  #- lang: fr
-  #  discount-title: Librairie de McGraw Hill
-  #  discount-sub-title:
-  #  discount-img:
-  #  discount-need-reverification:
-  #  discount-description: >-
-  #    <p>Économisez sur les ressources de McGraw-Hill Medical!Les membres de la
-  #    FEMC reçoivent un rabais de 25 &#37; sur des ouvrages médicaux
-  #    choisis!</p>
-  #  discount-promotion: >-
-  #    <ul> <li>La librairie peut être consultée <a
-  #    href="http://www.mheducation.ca/professional/microsite/cfms2017/">ici.</a></li>
-  #    <li>Utilisez le code coupon CFMSPARTNER2017 pour la réduction de
-  #    25&#37;.</li> </ul>
+  - lang: fr
+    discount-title: VisualDX
+    discount-sub-title:
+    discount-img: visualdx.png
+    discount-need-reverification:
+    discount-description: >-
+      <p>VisualDx is an award-winning diagnostic clinical decision support system used in over 2,300 hospitals, clinics, and medical schools worldwide. VisualDx is designed to enhance diagnostic accuracy, aid therapeutic decisions, and improve patient safety at the point of care.</p>
+      <p>With VisualDx, clinicians can:
+        <ul>
+          <li>Build a custom differential diagnosis by entering a key finding across general medicine</li>
+          <li>Review the world’s best medical image library to compare variations of disease</li>
+          <li>Access therapy and best tests options</li>
+          <li>Understand medication reactions</li>
+          <li>Recognize infections and travel-related illnesses</li>
+          <li>Share images and information with patients</li>
+        </ul></p>
+      <p>VisualDx is a software that is available on the web, smartphone, and tablet. It can also be integrated into the electronic health record to fit within the clinician’s workflow.</p>
+      <p>The value of VisualDx:</p>
+      <ul>
+      <li><p>Reduce Risk. VisualDx shows variation of diseases to solve complex patient presentations and improve diagnostic accuracy.</p>
+      </li>
+      <li>
+      <p>Clinical Efficiency. Users report saving up to 26 minutes a day by using VisualDx.</p>
+      </li>
+      <li>
+      <p>The Power of Visualization. Combine medical images and exclusive Sympticon™ technology to visualize diseases, symptoms, and drug eruptions.</p>
+      </li>
+      <li>
+      <p>Medicine's Fastest Second Opinion. With VisualDx, get access to specialty level knowledge at the point of care. This can help reduce unnecessary referrals.</p>
+      </li>
+      <li>
+      <p>Enhanced Patient Satisfaction. Share images and disease information with patients to build confidence and strengthen the patient-clinician relationship.</p>
+      </li>
+      </ul>
+    discount-promotion: >-
+      <ul>
+        <li>In order to redeem the code, please start the registration process on the VisualDx website. The list price of $399 will show until the code is entered- the 75% discount will then be applied once the code is entered.</li>
+        <li>Visit <a href="https://www.visualdx.com/purchase/subscriptions.jsf">Here</a></li>
+        <li>Please apply the following code to your order to obtain a <strong>75% discount: CFMS19VDX75OFF</strong></li>
+      </ul>
 online-discounts:
   - lang: en
     discount-title: UpToDate
