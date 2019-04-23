@@ -996,8 +996,8 @@ cma-discounts:
       <p><strong>As a benefit of CMA membership, TELUS is offering you:</strong></span></p>
       <blockquote>
       <ul>
-        <li><strong>The latest and greatest mobility devices with preferred rate plans.</strong></span></li>
-        <li><strong>TELUS Business Connect™ - An advanced mobile and office cloud-based phone system for your clinic. (Discounts available to CMA members who are TELUS Health EMR users).</strong></span></li>
+        <li>The latest and greatest mobility devices with preferred rate plans.</span></li>
+        <li>TELUS Business Connect™ - An advanced mobile and office cloud-based phone system for your clinic. (Discounts available to CMA members who are TELUS Health EMR users).</span></li>
       </ul>
       </blockquote>
     discount-promotion: >-
@@ -1012,16 +1012,16 @@ cma-discounts:
       <p><strong>Here are the benefits:</strong></span></p>
       <blockquote>
       <ul>
-        <li><strong>One-year or no-commitment membership options to GoodLife/Énergie Cardio</strong></span></li>
-        <li><strong>Access to over 280 GoodLife and Énergie Cardio clubs across Canada</strong></span></li>
-        <li><strong>The best strength and cardio equipment</strong></span></li>
-        <li><strong>Personal training, health and nutrition programs (additional fee)</strong></span></li>
-        <li><strong>Child-minding (additional fee)</strong></span></li>
-        <li><strong>Professionally trained, friendly and supportive staff who can help you achieve your goals</strong></span></li>
-        <li><strong>Access to saunas, pools, whirlpools and aqua classes (where applicable)</strong></span></li>
-        <li><strong>Women-only facilities</strong></span></li>
-        <li><strong>Exclusive CMA rates starting at $429 for one year, plus applicable taxes</strong></span></li>
-        <li><strong>By-weekly memberships available as well</strong></span></li>
+        <li>One-year or no-commitment membership options to GoodLife/Énergie Cardio</span></li>
+        <li>Access to over 280 GoodLife and Énergie Cardio clubs across Canada</span></li>
+        <li>The best strength and cardio equipment</span></li>
+        <li>Personal training, health and nutrition programs (additional fee)</span></li>
+        <li>Child-minding (additional fee)</span></li>
+        <li>Professionally trained, friendly and supportive staff who can help you achieve your goals</span></li>
+        <li>Access to saunas, pools, whirlpools and aqua classes (where applicable)</span></li>
+        <li>Women-only facilities</span></li>
+        <li>Exclusive CMA rates starting at $429 for one year, plus applicable taxes</span></li>
+        <li>By-weekly memberships available as well</span></li>
       </ul>
       </blockquote>
     discount-promotion: >-
@@ -1032,7 +1032,7 @@ cma-discounts:
   - lang: en
     discount-title: Enterprise Rent-A-Car and National Car Rental
     discount-sub-title:
-    discount-img: cma/entreprise.png
+    discount-img: cma/enterprise.png
     discount-need-reverification:
     discount-description: >-
       <p>We're pleased to have Enterprise Rent-A-Car and National Car Rental as preferred rental suppliers for the CMA. This provides significant savings in rental rates and also provides CMA travellers with special recognition and service.</p>
