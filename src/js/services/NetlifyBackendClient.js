@@ -1,17 +1,17 @@
 import AxiosService from './AxiosService';
 import Environment from '../environment/Environment';
 
-class BackendClient extends AxiosService {
+class NetlifyBackendClient extends AxiosService {
   constructor() {
-    const backendStoreURL = Environment.getBackendURL();
+    const backendStoreURL = Environment.getNetlifyBackendURL();
     super({ baseURL: backendStoreURL });
   }
   
   static getInstance = () => {
-    if (!BackendClient.instance) {
-      BackendClient.instance = new BackendClient();
+    if (!NetlifyBackendClient.instance) {
+      NetlifyBackendClient.instance = new NetlifyBackendClient();
     }
-    return BackendClient.instance;
+    return NetlifyBackendClient.instance;
   };
   
   getTweets(handle = 'cfmsfemc', count = 3) {
@@ -19,4 +19,4 @@ class BackendClient extends AxiosService {
   }
 }
 
-export default BackendClient;
+export default NetlifyBackendClient;
