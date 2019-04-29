@@ -3,7 +3,7 @@ import Environment from '../environment/Environment';
 
 class CloudFunctionBackendClient extends AxiosService {
   constructor() {
-    const backendStoreURL = Environment.getNetlifyBackendURL();
+    const backendStoreURL = Environment.getCloudFunctionsBackendURL();
     super({ baseURL: backendStoreURL });
   }
   
@@ -15,7 +15,7 @@ class CloudFunctionBackendClient extends AxiosService {
   };
   
   subscribeUserToMailChimp(payload, headers={}) {
-    return super.post(`/tweets/`, payload, headers);
+    return super.post(`/mailchimp/subscribe/`, payload, headers);
   }
 }
 

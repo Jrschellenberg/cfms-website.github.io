@@ -6,6 +6,8 @@ import UserRepository from '../../repositories/api/user';
 import _ from 'lodash';
 import jwtLib from 'jsonwebtoken';
 
+import CloudFunctionBackendClient from '../../services/CloudFunctionBackendClient';
+
 let instance = null;
 
 export default class AuthenticationService {
@@ -15,6 +17,7 @@ export default class AuthenticationService {
         this.firebase = new FirebaseProvider();
         this.utils = new Utils();
         this.UserRepository = new UserRepository(UserModel);
+        this.cloudFunctionBackendClient = CloudFunctionBackendClient.getInstance();
         this.dispatchUser();
         instance = this;
     }
@@ -89,12 +92,16 @@ export default class AuthenticationService {
         window.dispatchEvent(new CustomEvent('user_updated', { detail: this.user }));
     }
 
-    register(user) {
+    register(user, isSubscribe=false, payload={}) {
         this.auth0.register(user, (err) => {
             if (err) {
                 let desc = err.description || "Please check your authentication code.";
                 return this.utils.showAlert("Something went wrong", desc);
             }
+            if(isSubscribe){
+                this.cloudFunctionBackendClient.subscribeUserToMailChimp(payload); // Asynchronous call to a Backend
+            }
+            
             this.login(user.email, user.password, () => {
                 this.utils.showAlert("Account Successfully Created", "Your account has successfully been created! Click OK to be logged in and redirected to the members area. Welcome to the CFMS!");
                 document.getElementsByClassName('vex-dialog-button-primary')[0].addEventListener('click', (evt) => {
