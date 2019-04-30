@@ -13,7 +13,7 @@ export const Tweet = ({loading, user, retweeted_status, id_str, text, truncated,
   }
   
   const tweetText = retweeted_status ? retweeted_status.text : text;
-  const url = entities && entities.urls && entities.urls[0] && entities.urls[0].url ? entities.urls[0].url : 'javascript:void(0)' ;
+  const url = entities && entities.urls && entities.urls[0] && entities.urls[0].url ? entities.urls[0].url : 'https://twitter.com/CFMSFEMC' ;
 
   
   return (
