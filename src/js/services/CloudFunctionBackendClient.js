@@ -13,9 +13,17 @@ class CloudFunctionBackendClient extends AxiosService {
     }
     return CloudFunctionBackendClient.instance;
   };
-  
+  getMemberInfo(id){
+    return super.get(`/mailchimp/members/${id}`);
+  }
   subscribeUserToMailChimp(payload, headers={}) {
     return super.post(`/mailchimp/subscribe/`, payload, headers);
+  }
+  unsubscribeUserFromMailChimp(id){
+    return super.post(`/mailchimp/update/unsubscribed/${id}`, {}, {});
+  }
+  reSubscribeMailchimpUser(id){
+    return super.post(`/mailchimp/update/pending/${id}`, {}, {});
   }
 }
 
