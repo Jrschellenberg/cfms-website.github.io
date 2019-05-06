@@ -15,12 +15,7 @@ export default class EditProfileController extends MembersController {
     async initWidget() {
         if (this.auth.user) {
             let editProfileWidget = new Auth0EditProfileWidget('editProfileContainer', { domain: this.config.auth0.domain }, [
-                // { label: "Name", type:"text", attribute:"name",
-                //     validation: function(name){
-                //         return (name.length > 10 ? 'The name is too long' : null);
-                //     }
-                // },
-
+              
                 { label: "Medical School", type:"select", attribute:"medical_school",
                     options: [
                         { value: "University of British Columbia", text: "University of British Columbia"},
@@ -63,44 +58,29 @@ export default class EditProfileController extends MembersController {
             ]);
             editProfileWidget.init(this.auth.accessToken);
             
-            
-            console.log("hash is !!!", md5('urist.mcvankab@freddiesjokes.com'));
-  
             let isSubscribe = true;
             const clickFunction = this.debounce(() => {
                isSubscribe = !isSubscribe;
-               console.log(isSubscribe);
             });
             document.querySelector('.checkbox-container').addEventListener('click', clickFunction);
-    
-    
+            
             const email = this.auth.user.email;
-    
             const mailchimpId = email ? md5(email.toLowerCase()) : '';
-    
-            console.log("Email is ", email);
-            console.log("Mailchimp id is ", mailchimpId);
-            
-            console.log(this.auth.user);
-            
+
             
             editProfileWidget.on('save', async(data) => {
                 try{
                     const firstName = data.user_metadata.given_name;
                     const lastName = data.user_metadata.family_name;
-                    
-                    
                     let oldSubscribe;
 
                     const memberInfo = await this.cloudFunctionBackendClient.getMemberInfo(mailchimpId);
                     if(memberInfo && memberInfo.data && memberInfo.data.status && memberInfo.data.status === 200){
                         oldSubscribe = memberInfo.data.data.status;
-                        console.log("TAGS ARE", memberInfo);
                     }
                     else {
                         oldSubscribe = 'notSubscribed'
                     }
-                
                     
                     if(isSubscribe && oldSubscribe === 'notSubscribed'){
                         const payload = {
@@ -111,13 +91,10 @@ export default class EditProfileController extends MembersController {
                         this.cloudFunctionBackendClient.subscribeUserToMailChimp(payload); // Asynchronous call to a Backend
                     }
                     else if(isSubscribe && mailchimpId && (oldSubscribe === "unsubscribed" || oldSubscribe === "pending")){ // ReSubscribe them
-                        console.log("hit resubscribe");
                         this.cloudFunctionBackendClient.reSubscribeMailchimpUser(mailchimpId); // Asynchronous call to a Backend
                     }
                     else if(!isSubscribe && mailchimpId && oldSubscribe === 'subscribed'){ // UnsubScribe Them
-                        console.log('Hit Unsubscribe');
                         this.cloudFunctionBackendClient.unsubscribeUserFromMailChimp(mailchimpId); // Asynchronous call to a Backend
-
                     }
                 }
                 catch(e){
@@ -147,5 +124,4 @@ export default class EditProfileController extends MembersController {
             if (callNow) func.apply(context, args);
         };
     };
-    
 }

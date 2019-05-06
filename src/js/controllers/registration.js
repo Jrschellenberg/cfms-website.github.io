@@ -28,8 +28,6 @@ export default class RegistrationController {
             if (password !== passwordAgain) return utils.showAlert("Passwords do not match", "Please try again.");
             if (email.length < 4) return utils.showAlert("Enter an Email Address", "Please enter an email address.");
             if (password.length < 7) return utils.showAlert("Weak Password", "Please ensure that your password is at least 7 characters.");
-    
-            let mailchimpId;
             
             if(isSubscribe){
                 const payload = {
@@ -37,10 +35,8 @@ export default class RegistrationController {
                     lastName: lastName,
                     email: email
                 };
-                const resp = await this.cloudFunctionBackendClient.subscribeUserToMailChimp(payload); // Asynchronous call to a Backend
-                if(resp && resp.data && resp.data.status && resp.data.status === 200) {
-                    mailchimpId = resp.data.data.id;
-                }
+                this.cloudFunctionBackendClient.subscribeUserToMailChimp(payload); // Asynchronous call to a Backend
+
             }
             
             let profile = {
@@ -51,9 +47,7 @@ export default class RegistrationController {
                     given_name: firstName,
                     family_name: lastName,
                     medicalSchool: document.getElementById('account-medical-school').value,
-                    graduationYear: document.getElementById('account-graduation-year').value,
-                    isSubscribedMailChimp: isSubscribe.toString(),
-                    mailchimpId: mailchimpId
+                    graduationYear: document.getElementById('account-graduation-year').value
                 }
             };
 
