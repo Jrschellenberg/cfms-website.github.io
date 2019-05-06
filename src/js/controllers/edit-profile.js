@@ -1,6 +1,7 @@
 import MembersController from "./members";
 import Utils from '../utils';
 import CloudFunctionBackendClient from '../services/CloudFunctionBackendClient';
+import md5 from 'md5';
 
 export default class EditProfileController extends MembersController {
     constructor(authenticationService, config) {
@@ -50,14 +51,6 @@ export default class EditProfileController extends MembersController {
                         { value: 2024, text:"2024"}
                     ]
                 },
-                { label: "Email", type:"text", attribute:"email",
-                    validation: function(email) {
-                        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-                            return null
-                        }
-                        return "Please check the email address provided."
-                    }
-                },
     
                 { id:"customName", type:"custom", attribute:"is_subscribed_mail_chimp", render: function(value) {
                         return `<label class="checkbox-container">Subscribe email to CFMS Monthly Update?
@@ -69,86 +62,67 @@ export default class EditProfileController extends MembersController {
                 },
             ]);
             editProfileWidget.init(this.auth.accessToken);
-    
-            // TODO: Instead of Storing the Hash, Just do it yourself on this end using md5. Too much Data moving around.
             
+            
+            console.log("hash is !!!", md5('urist.mcvankab@freddiesjokes.com'));
+  
             let isSubscribe = true;
-            
             const clickFunction = this.debounce(() => {
                isSubscribe = !isSubscribe;
                console.log(isSubscribe);
             });
             document.querySelector('.checkbox-container').addEventListener('click', clickFunction);
+    
+    
+            const email = this.auth.user.email;
+    
+            const mailchimpId = email ? md5(email.toLowerCase()) : '';
+    
+            console.log("Email is ", email);
+            console.log("Mailchimp id is ", mailchimpId);
             
-            console.log(this.auth.user.user_metadata);
+            console.log(this.auth.user);
+            
             
             editProfileWidget.on('save', async(data) => {
                 try{
-                    let oldSubscribe;
-                    if(this.auth.user.user_metadata && this.auth.user.user_metadata.mailchimp_id){
-                        const memberInfo = await this.cloudFunctionBackendClient.getMemberInfo(this.auth.user.user_metadata.mailchimp_id);
-                        if(memberInfo && memberInfo.data && memberInfo.data.status && memberInfo.data.status === 200){
-                            oldSubscribe = memberInfo.data.data.status;
-                            console.log("TAGS ARE", memberInfo);
-                        }
-                        else {
-                            oldSubscribe = 'unsubscribed'
-                        }
-                    }
-                    else{
-                        oldSubscribe = 'unsubscribed'
-                    }
-                    
-                    console.log("OLD SUBSCRIBE IS ", oldSubscribe);
-                    
-                    const newSubscribe = isSubscribe.toString();
-                    
                     const firstName = data.user_metadata.given_name;
                     const lastName = data.user_metadata.family_name;
-                    const email = data.user_metadata.email;
-    
-    
-    
-                    if(isSubscribe && !data.user_metadata.mailchimp_id){
+                    
+                    
+                    let oldSubscribe;
+
+                    const memberInfo = await this.cloudFunctionBackendClient.getMemberInfo(mailchimpId);
+                    if(memberInfo && memberInfo.data && memberInfo.data.status && memberInfo.data.status === 200){
+                        oldSubscribe = memberInfo.data.data.status;
+                        console.log("TAGS ARE", memberInfo);
+                    }
+                    else {
+                        oldSubscribe = 'notSubscribed'
+                    }
+                
+                    
+                    if(isSubscribe && oldSubscribe === 'notSubscribed'){
                         const payload = {
                             firstName: firstName,
                             lastName: lastName,
                             email: email
                         };
-                        const resp = await this.cloudFunctionBackendClient.subscribeUserToMailChimp(payload); // Asynchronous call to a Backend
-                        console.log(resp);
-                        if(resp && resp.data && resp.data.status && resp.data.status === 200){
-                            data.user_metadata.mailchimp_id = resp.data.data.id;
-                            data.user_metadata.is_subscribed_mail_chimp = newSubscribe;
-                        }
+                        this.cloudFunctionBackendClient.subscribeUserToMailChimp(payload); // Asynchronous call to a Backend
                     }
-                    else if(isSubscribe && data.user_metadata.mailchimp_id && (oldSubscribe === "unsubscribed" || oldSubscribe === "pending")){ // ReSubscribe them
+                    else if(isSubscribe && mailchimpId && (oldSubscribe === "unsubscribed" || oldSubscribe === "pending")){ // ReSubscribe them
                         console.log("hit resubscribe");
-                        
-                        const resp = await this.cloudFunctionBackendClient.reSubscribeMailchimpUser(data.user_metadata.mailchimp_id); // Asynchronous call to a Backend
-                        if(resp && resp.data && resp.data.status && resp.data.status === 200){
-                            data.user_metadata.is_subscribed_mail_chimp = newSubscribe;
-                        }
-                        
+                        this.cloudFunctionBackendClient.reSubscribeMailchimpUser(mailchimpId); // Asynchronous call to a Backend
                     }
-                    else if(!isSubscribe && data.user_metadata.mailchimp_id && oldSubscribe === 'subscribed'){ // UnsubScribe Them
+                    else if(!isSubscribe && mailchimpId && oldSubscribe === 'subscribed'){ // UnsubScribe Them
                         console.log('Hit Unsubscribe');
-                        
-                        const resp = await this.cloudFunctionBackendClient.unsubscribeUserFromMailChimp(data.user_metadata.mailchimp_id); // Asynchronous call to a Backend
-                        if(resp && resp.data && resp.data.status && resp.data.status === 200){
-                            data.user_metadata.is_subscribed_mail_chimp = newSubscribe;
-                        }
+                        this.cloudFunctionBackendClient.unsubscribeUserFromMailChimp(mailchimpId); // Asynchronous call to a Backend
+
                     }
-    
-                    data.user_metadata.is_subscribed_mail_chimp = "false";
-    
-                    
                 }
                 catch(e){
                     console.error("Error occured while trying to update Mailchimp API!", e);
                 }
-                
-                console.log("data is ", data.user_metadata);
                 this.auth.updateUserMetadata(data.user_metadata);
                 this.utils.showAlert("Profile Updated", "Your profile has been successfully updated.");
             });
