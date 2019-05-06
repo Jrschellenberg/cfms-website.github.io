@@ -29,7 +29,9 @@
     "Association"
   ],
   "author": "Pavel Yarmak",
-  "contributors": ["Justin Schellenberg"],
+  "contributors": [
+    "Justin Schellenberg"
+  ],
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/cfms-website/cfms-website.github.io/issues"
@@ -89,6 +91,7 @@
     "js-cookie": "^2.2.0",
     "json-style-converter": "^1.0.3",
     "jsonwebtoken": "^8.4.0",
+    "md5": "^2.2.1",
     "page": "^1.11.4",
     "preact": "^8.3.1",
     "preact-compat": "^3.18.4",

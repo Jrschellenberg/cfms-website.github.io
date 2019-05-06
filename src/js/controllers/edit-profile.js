@@ -1,23 +1,21 @@
 import MembersController from "./members";
 import Utils from '../utils';
+import CloudFunctionBackendClient from '../services/CloudFunctionBackendClient';
+import md5 from 'md5';
 
 export default class EditProfileController extends MembersController {
     constructor(authenticationService, config) {
         super(authenticationService);
         this.config = config;
         this.utils = new Utils();
+        this.cloudFunctionBackendClient = CloudFunctionBackendClient.getInstance();
         this.initWidget();
     }
 
-    initWidget() {
+    async initWidget() {
         if (this.auth.user) {
             let editProfileWidget = new Auth0EditProfileWidget('editProfileContainer', { domain: this.config.auth0.domain }, [
-                // { label: "Name", type:"text", attribute:"name",
-                //     validation: function(name){
-                //         return (name.length > 10 ? 'The name is too long' : null);
-                //     }
-                // },
-
+              
                 { label: "Medical School", type:"select", attribute:"medical_school",
                     options: [
                         { value: "University of British Columbia", text: "University of British Columbia"},
@@ -48,33 +46,82 @@ export default class EditProfileController extends MembersController {
                         { value: 2024, text:"2024"}
                     ]
                 },
-                { label: "Email", type:"text", attribute:"email",
-                    validation: function(email) {
-                        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-                            return null
-                        }
-                        return "Please check the email address provided."
+    
+                { id:"customName", type:"custom", attribute:"is_subscribed_mail_chimp", render: function(value) {
+                        return `<label class="checkbox-container">Subscribe email to CFMS Monthly Update?
+                                    <input id="account-subscribe-to-email" type="checkbox" ng-model="account-subscribe-to-email" checked="checked"
+                                           name="account-subscribe-to-email"/>
+                                    <span class="checkmark"></span>
+                                </label>`;
+                    },
+                },
+            ]);
+            editProfileWidget.init(this.auth.accessToken);
+            
+            let isSubscribe = true;
+            const clickFunction = this.debounce(() => {
+               isSubscribe = !isSubscribe;
+            });
+            document.querySelector('.checkbox-container').addEventListener('click', clickFunction);
+            
+            const email = this.auth.user.email;
+            const mailchimpId = email ? md5(email.toLowerCase()) : '';
+
+            
+            editProfileWidget.on('save', async(data) => {
+                try{
+                    const firstName = data.user_metadata.given_name;
+                    const lastName = data.user_metadata.family_name;
+                    let oldSubscribe;
+
+                    const memberInfo = await this.cloudFunctionBackendClient.getMemberInfo(mailchimpId);
+                    if(memberInfo && memberInfo.data && memberInfo.data.status && memberInfo.data.status === 200){
+                        oldSubscribe = memberInfo.data.data.status;
+                    }
+                    else {
+                        oldSubscribe = 'notSubscribed'
+                    }
+                    
+                    if(isSubscribe && oldSubscribe === 'notSubscribed'){
+                        const payload = {
+                            firstName: firstName,
+                            lastName: lastName,
+                            email: email
+                        };
+                        this.cloudFunctionBackendClient.subscribeUserToMailChimp(payload); // Asynchronous call to a Backend
+                    }
+                    else if(isSubscribe && mailchimpId && (oldSubscribe === "unsubscribed" || oldSubscribe === "pending")){ // ReSubscribe them
+                        this.cloudFunctionBackendClient.reSubscribeMailchimpUser(mailchimpId); // Asynchronous call to a Backend
+                    }
+                    else if(!isSubscribe && mailchimpId && oldSubscribe === 'subscribed'){ // UnsubScribe Them
+                        this.cloudFunctionBackendClient.unsubscribeUserFromMailChimp(mailchimpId); // Asynchronous call to a Backend
                     }
                 }
-
-                // { label: "BirthDay", type:"date", attribute:"birthday" },
-
-                // { label: "Type", type:"select", attribute:"account_type",
-                //     options:[
-                //         { value: "type_1", text:"Type 1"},
-                //         { value: "type_2", text:"Type 2"},
-                //         { value: "type_3", text:"Type 3"}
-                //     ]
-                // }
-            ]);
-
-            editProfileWidget.init(this.auth.accessToken);
-
-
-            editProfileWidget.on('save', (data) => {
+                catch(e){
+                    console.error("Error occured while trying to update Mailchimp API!", e);
+                }
                 this.auth.updateUserMetadata(data.user_metadata);
                 this.utils.showAlert("Profile Updated", "Your profile has been successfully updated.");
             });
         }
     }
+    
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    debounce(func, wait, immediate) {
+        var timeout;
+        return function() {
+            var context = this, args = arguments;
+            var later = function() {
+                timeout = null;
+                if (!immediate) func.apply(context, args);
+            };
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) func.apply(context, args);
+        };
+    };
 }

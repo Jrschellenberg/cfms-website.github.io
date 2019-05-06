@@ -49,7 +49,6 @@ export default class AuthenticationService {
     }
     
     get storageRef(){
-        console.log("hitting the method");
         return this.user ? this.firebase.meetingMinutes() : null;
     }
 
@@ -95,6 +94,7 @@ export default class AuthenticationService {
                 let desc = err.description || "Please check your authentication code.";
                 return this.utils.showAlert("Something went wrong", desc);
             }
+            
             this.login(user.email, user.password, () => {
                 this.utils.showAlert("Account Successfully Created", "Your account has successfully been created! Click OK to be logged in and redirected to the members area. Welcome to the CFMS!");
                 document.getElementsByClassName('vex-dialog-button-primary')[0].addEventListener('click', (evt) => {

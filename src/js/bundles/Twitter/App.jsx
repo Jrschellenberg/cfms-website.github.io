@@ -1,14 +1,14 @@
 import { h, Component } from 'preact';
 import { SkeletonTheme } from "preact-loading-skeleton";
 
-import BackendClient from '../../services/BackendClient';
+import NetlifyBackendClient from '../../services/NetlifyBackendClient';
 import Settings from '../Settings/Settings';
 import Environment from '../../environment/Environment';
 import { Tweet } from './components';
 
 import './App.scss';
 
-const backendRequests = BackendClient.getInstance();
+const backendRequests = NetlifyBackendClient.getInstance();
 
 class App extends Component {
   state = {
@@ -43,7 +43,7 @@ class App extends Component {
     }
     catch(err){
       console.error(`An Error occured while trying to obtain related products at the following api endpoint \n
-       ${Environment.getBackendURL()}/tweets`, err);
+       ${Environment.getNetlifyBackendURL()}/tweets`, err);
     }
   }
   
