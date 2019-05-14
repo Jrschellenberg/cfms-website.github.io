@@ -10,7 +10,81 @@ position-papers:
     - tag:
       tag-name: "In Progress"
   paper-collection:
-    - section: 'Recently Passed at SGM 2018 - Halifax, NS'
+    - section: 'Recently Passed at SGM 2019 - Niagara Falls, ON'
+      papers:
+        - paper-name: Policy Statement on the National Seniors Strategy and Medical Education Related to Care of the Elderly
+          paper-publish-date: '2019'
+          paper-link: /files/position-papers/1. CFMS Policy Statement on the National Seniors Strategy and Medical Education.pdf
+          paper-summary: Summary coming soon
+          paper-status: Status coming soon
+          paper-tags:
+          paper-contacts:
+            - name: David Wiercigroch
+              email: nohp@cfms.org
+          paper-nohps:
+            - name: NOHP
+              email: nohp@cfms.org
+        - paper-name: CFMS Position Paper on Criminal Justice Reform related to Substance Use
+          paper-publish-date: '2019'
+          paper-link: /files/position-papers/2. CFMS Position Paper on Criminal Justice Reform related to Substance Use.pdf
+          paper-summary: Summary coming soon
+          paper-status: Status coming soon
+          paper-tags:
+          paper-contacts:
+            - name: David Wiercigroch
+              email: nohp@cfms.org
+          paper-nohps:
+            - name: NOHP
+              email: nohp@cfms.org
+        - paper-name: CFMS Position Paper on Medical Education Coverage of Homelessness Within Canadian Curricula
+          paper-publish-date: '2019'
+          paper-link: /files/position-papers/3. CFMS Position Paper on Medical Education Coverage of Homelessness Within Canadian Curricula.pdf
+          paper-summary: Summary coming soon
+          paper-status: Status coming soon
+          paper-tags:
+          paper-contacts:
+            - name: David Wiercigroch
+              email: nohp@cfms.org
+          paper-nohps:
+            - name: NOHP
+              email: nohp@cfms.org
+        - paper-name: CFMS Position Paper on Pan-Canadian Medical Student Perspectives on Pharmacare in Canada
+          paper-publish-date: '2019'
+          paper-link: /files/position-papers/4. CFMS Position Paper on Pan-Canadian Medical Student Perspectives on Pharmacare in Canada.pdf
+          paper-summary: Summary coming soon
+          paper-status: Status coming soon
+          paper-tags:
+          paper-contacts:
+            - name: David Wiercigroch
+              email: nohp@cfms.org
+          paper-nohps:
+            - name: NOHP
+              email: nohp@cfms.org
+        - paper-name: CFMS Position Paper on Support for Medical Students Experiencing Student Mistreatment
+          paper-publish-date: '2019'
+          paper-link: /files/position-papers/5. CFMS Position Paper on Support for Medical Students Experiencing Student Mistreatment.pdf
+          paper-summary: Summary coming soon
+          paper-status: Status coming soon
+          paper-tags:
+          paper-contacts:
+            - name: David Wiercigroch
+              email: nohp@cfms.org
+          paper-nohps:
+            - name: NOHP
+              email: nohp@cfms.org
+        - paper-name: CFMS Position Paper on Workload Policies across Canadian Medical Schools
+          paper-publish-date: '2019'
+          paper-link: /files/position-papers/6. CFMS Position Paper on Workload Policies across Canadian Medical Schools.pdf
+          paper-summary: Summary coming soon
+          paper-status: Status coming soon
+          paper-tags:
+          paper-contacts:
+            - name: David Wiercigroch
+              email: nohp@cfms.org
+          paper-nohps:
+            - name: NOHP
+              email: nohp@cfms.org
+    - section: 'Passed at SGM 2018 - Halifax, NS'
       papers:
         - paper-name: CFMS Policy Statement on Solitary Confinement and Health Delivery
           paper-publish-date: '2019'
