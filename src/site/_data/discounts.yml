@@ -431,6 +431,18 @@ education-discounts:
         <li>Visit <a href="https://www.visualdx.com/purchase/subscriptions.jsf">Here</a></li>
         <li>Please apply the following code to your order to obtain a <strong>75% discount: CFMS19VDX75OFF</strong></li>
       </ul>
+  - lang: en
+    discount-title: 3D4 Medical Complete Anatomy App
+    discount-sub-title:
+    discount-img: 3D 4 Medical.jpg
+    discount-need-reverification:
+    discount-description: >-
+      <p>Prepare to increase your anatomy knowledge with the world’s best-selling 3D Anatomy platform. Complete Anatomy by 3D4 Medical is not only an atlas, it is also a collaborative learning tool featuring over 13 000 interactive structures, real time muscle movement, insertion and origin mapping, bony surface and landmark mapping plus Clinical animations on Cardiology, Orthopedics, Ophthalmology, Dentistry, Fitness and much more! </p>
+    discount-promotion: >-
+      <ul>
+        <li>Use the link below to access your exclusive CFMS discount of 10% from ANY sale price (regularly priced at $74.99 USD per annual subscription).</li>
+        <li>Visit <a href=" https://3d4med.com/cfms-student-plus">Here</a></li>
+      </ul>
   - lang: fr
     discount-title: >-
       Guide de poche « Drugs & Drugs » approuvé par la FEMC : version
@@ -623,7 +635,7 @@ education-discounts:
   - lang: fr
     discount-title: VisualDX
     discount-sub-title:
-    discount-img: visualdx.png
+    discount-img: visualdx.jpg
     discount-need-reverification:
     discount-description: >-
       <p>VisualDx is an award-winning diagnostic clinical decision support system used in over 2,300 hospitals, clinics, and medical schools worldwide. VisualDx is designed to enhance diagnostic accuracy, aid therapeutic decisions, and improve patient safety at the point of care.</p>
@@ -659,6 +671,18 @@ education-discounts:
         <li>In order to redeem the code, please start the registration process on the VisualDx website. The list price of $399 will show until the code is entered- the 75% discount will then be applied once the code is entered.</li>
         <li>Visit <a href="https://www.visualdx.com/purchase/subscriptions.jsf">Here</a></li>
         <li>Please apply the following code to your order to obtain a <strong>75% discount: CFMS19VDX75OFF</strong></li>
+      </ul>
+  - lang: fr
+    discount-title: 3D4 Medical Complete Anatomy App
+    discount-sub-title:
+    discount-img: 3D 4 Medical.jpg
+    discount-need-reverification:
+    discount-description: >-
+      <p>Prepare to increase your anatomy knowledge with the world’s best-selling 3D Anatomy platform. Complete Anatomy by 3D4 Medical is not only an atlas, it is also a collaborative learning tool featuring over 13 000 interactive structures, real time muscle movement, insertion and origin mapping, bony surface and landmark mapping plus Clinical animations on Cardiology, Orthopedics, Ophthalmology, Dentistry, Fitness and much more! </p>
+    discount-promotion: >-
+      <ul>
+        <li>Use the link below to access your exclusive CFMS discount of 10% from ANY sale price (regularly priced at $74.99 USD per annual subscription).</li>
+        <li>Visit <a href=" https://3d4med.com/cfms-student-plus">Here</a></li>
       </ul>
 online-discounts:
   - lang: en
