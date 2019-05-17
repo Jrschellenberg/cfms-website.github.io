@@ -1,58 +1,60 @@
-'use strict';
 const path = require('path');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const CopyPlugin  = require('copy-webpack-plugin');
-
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
+
 const isDebug = process.env.NODE_ENV !== 'production';
-const mode = `${isDebug ? "development" : "production"}`;
+const mode = `${isDebug ? 'development' : 'production'}`;
+
 
 module.exports = {
   mode: mode,
-  
   entry: {
     // BMSPolyfills: './polyfills/polyfills.js', // IF YOU REQUIRE POLYFILLS, uncomment and gt file location for more information
     bundle: './src/js/app.js',
     cssHotReload: './src/sass/entry.js',
-    "twitterfeed.bundle": './src/js/bundles/builds/twitter.js'
+    'twitterfeed.bundle': './src/js/bundles/builds/twitter.js',
   },
-
   optimization: {
     minimizer: [
-      ...(isDebug ? [] : [
-        // Minimize all JavaScript output of chunks
-        // https://webpack.js.org/plugins/uglifyjs-webpack-plugin/
-        new TerserPlugin({
-          cache: true,
-          parallel: true,
-          sourceMap: true // set to true if you want JS source maps
-        })
-      ]),
+      ...(isDebug
+        ? []
+        : [
+            // Minimize all JavaScript output of chunks
+            // https://webpack.js.org/plugins/uglifyjs-webpack-plugin/
+            new TerserPlugin({
+              cache: true,
+              parallel: true,
+              sourceMap: true, // set to true if you want JS source maps
+            }),
+          ]),
 
-      ...(isDebug ? [] : [
-        // Minimize all Css output of chunks
-        // https://github.com/NMFR/optimize-css-assets-webpack-plugin
-        new OptimizeCSSAssetsPlugin({})
-      ]),
-    ]
+      ...(isDebug
+        ? []
+        : [
+            // Minimize all Css output of chunks
+            // https://github.com/NMFR/optimize-css-assets-webpack-plugin
+            new OptimizeCSSAssetsPlugin({}),
+          ]),
+    ],
   },
-
-
   module: {
     rules: [
       {
         test: require.resolve('jquery'),
-        use: [{
-          loader: 'expose-loader',
-          options: 'jQuery'
-        },
+        use: [
           {
             loader: 'expose-loader',
-            options: '$'
-          }]
+            options: 'jQuery',
+          },
+          {
+            loader: 'expose-loader',
+            options: '$',
+          },
+        ],
       },
       {
         test: /\.(js|jsx)$/,
@@ -66,13 +68,9 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
-      
       {
         test: /\.(scss)$/,
-        include: [
-          path.resolve(__dirname, 'src/sass')
-        ],
-        
+        include: [path.resolve(__dirname, 'src/sass')],
         use: [
           {
             loader: 'file-loader',
@@ -80,11 +78,11 @@ module.exports = {
               name: '[name].css',
               context: './',
               outputPath: '/stylesheets',
-              publicPath: './'
-            }
+              publicPath: './',
+            },
           },
           {
-            loader: 'extract-loader'
+            loader: 'extract-loader',
           },
           {
             loader: 'css-loader',
@@ -92,7 +90,6 @@ module.exports = {
               sourceMap: isDebug,
             },
           },
-
           {
             loader: 'postcss-loader',
             options: {
@@ -107,17 +104,12 @@ module.exports = {
           },
         ],
       },
-  
       {
         test: /\.(css|scss)$/,
-        exclude: [
-          path.resolve(__dirname, 'src/sass')
-        ],
-    
+        exclude: [path.resolve(__dirname, 'src/sass')],
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
-        
+            loader: MiniCssExtractPlugin.loader,
           },
           {
             loader: 'css-loader',
@@ -125,7 +117,6 @@ module.exports = {
               sourceMap: isDebug,
             },
           },
-      
           {
             loader: 'postcss-loader',
             options: {
@@ -148,15 +139,16 @@ module.exports = {
         options: {
           emitFile: false,
           name: '[path][name].[ext]?[hash]',
-
-          outputPath: (url) => { // This function modifies [path] in the name above.
+          outputPath: url => {
+            // This function modifies [path] in the name above.
             const strParts = url.split('src/site/');
-            if(!strParts[1]) { // Someone has changed the folder structure and is going to cause webpack to fail. So force it to stop!
-              throw new Error("Webpack failed to build b/c folder structure has since changed!!");
+            if (!strParts[1]) {
+              // Someone has changed the folder structure and is going to cause webpack to fail. So force it to stop!
+              throw new Error('Webpack failed to build b/c folder structure has since changed!!');
             }
             return `/${strParts[1]}`;
-          }
-        }
+          },
+        },
       },
     ],
   },
@@ -169,41 +161,35 @@ module.exports = {
       defaults: false, // load '.env.defaults' as the default values if empty.
     }),
     new CopyPlugin([
-    {
-      context: 'src/site/images/',
-      from: '**/*',
-      to: 'images/[path][name].[ext]',
-      toType: 'template'
-    },
-  ]),
-  new CopyPlugin([
-    {
-      context: 'src/site/uploads/',
-      from: '**/*',
-      to: 'uploads/[path][name].[ext]',
-      toType: 'template'
-    },
-  ]),
+      {
+        context: 'src/site/images/',
+        from: '**/*',
+        to: 'images/[path][name].[ext]',
+        toType: 'template',
+      },
+    ]),
+    new CopyPlugin([
+      {
+        context: 'src/site/uploads/',
+        from: '**/*',
+        to: 'uploads/[path][name].[ext]',
+        toType: 'template',
+      },
+    ]),
     new MiniCssExtractPlugin({
-      filename: "stylesheets/[name].css"
+      filename: 'stylesheets/[name].css',
     }),
   ],
-  
-  
   devtool: isDebug ? 'inline-source-map' : false,
-
   // Don't attempt to continue if there are any errors.
   // https://webpack.js.org/configuration/other-options/#bail
   bail: !isDebug,
-
   // Cache the generated webpack modules and chunks to improve build speed
   // https://webpack.js.org/configuration/other-options/#cache
   cache: isDebug,
-
   // Precise control of what bundle information gets displayed
   // https://webpack.js.org/configuration/stats/
   stats: isDebug ? 'normal' : 'minimal',
-
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss'],
     alias: {
@@ -217,7 +203,6 @@ module.exports = {
     filename: 'js/[name].js?[hash]',
     path: path.resolve(__dirname, 'serve'),
   },
-
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.
   // https://webpack.github.io/docs/configuration.html#node
