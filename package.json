@@ -90,7 +90,7 @@
     "jquery-bar-rating": "^1.2.2",
     "js-cookie": "^2.2.0",
     "json-style-converter": "^1.0.3",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "md5": "^2.2.1",
     "page": "^1.11.4",
     "preact": "^8.3.1",
